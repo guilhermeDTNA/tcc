@@ -1,0 +1,35 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.2 }
+
+\bibitem[Autor1 2014]{Autor1}
+\abntrefinfo{Autor1}{AUTOR1}{2014}
+{AUTOR1, N. do. \textbf{T\'itulo da Obra}. Cidade: Editor, 2014.}
+
+\bibitem[Autor2 e Autor3 2014]{Autor2}
+\abntrefinfo{Autor2 e Autor3}{AUTOR2; AUTOR3}{2014}
+{AUTOR2, N. do; AUTOR3, N. do. \textbf{T\'itulo da Obra}. Cidade: Editor,
+  2014.}
+
+\bibitem[Autor3 et al. 2014]{Autor3}
+\abntrefinfo{Autor3 et al.}{AUTOR3 et al.}{2014}
+{AUTOR3, N. do et al. T\'itulo da obra.
+\textbf{T\'ituto da Revista}, v.~1, n.~1, p. 10--27, 2014.
+ISSN 1234-5678.}
+
+\bibitem[Autor4 2014]{Autor4}
+\abntrefinfo{Autor4}{AUTOR4}{2014}
+{AUTOR4, N. do. T\'itulo da obra.
+\textbf{T\'ituto da Revista}, v.~1, n.~1, p. 10--27, 2014.
+ISSN 91011-121314.}
+
+\bibitem[Gon{\c{c}}alves et al. 2005]{gonccalves2005proposta}
+\abntrefinfo{Gon{\c{c}}alves et al.}{GON{\c{C}}ALVES et al.}{2005}
+{GON{\c{C}}ALVES, R.~F. et al. Uma proposta de processo de produ{\c{c}}{\~a}o
+  de aplica{\c{c}}{\~o}es web.
+\textbf{Production}, SciELO Brasil, v.~15, n.~3, p. 376--389, 2005.}
+
+\end{thebibliography}

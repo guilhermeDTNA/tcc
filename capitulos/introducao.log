@@ -1,0 +1,47 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdftex 2018.10.12)  2 SEP 2019 10:40
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**introducao.tex
+(./introducao.tex
+! Undefined control sequence.
+l.1 \chapter
+            {Introdução.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ç in font cmr10!
+Missing character: There is no ã in font cmr10!
+Missing character: There is no ã in font cmr10!
+Missing character: There is no é in font cmr10!
+! Undefined control sequence.
+l.3 ...ndo virtual, também denominado como \textit
+                                                  {``internet''}, fundamenta...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ç in font cmr10!
+Missing character: There is no ã in font cmr10!
+Missing character: There is no á in font cmr10!
+! Undefined control sequence.
+l.3 ...comunicação entre seus usuários. \citeonlie
+                                                  {gonccalves2005proposta}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+! Emergency stop.
+<*> introducao.tex
+                  
+*** (job aborted, no legal \end found)
+
+!  ==> Fatal error occurred, no output PDF file produced!
