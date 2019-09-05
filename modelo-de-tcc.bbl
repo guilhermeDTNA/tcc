@@ -5,6 +5,19 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
+\bibitem[Almeida 2003]{de2003educaccao}
+\abntrefinfo{Almeida}{ALMEIDA}{2003}
+{ALMEIDA, M. E.~B. de. Educa{\c{c}}{\~a}o a dist{\^a}ncia na internet:
+  abordagens e contribui{\c{c}}{\~o}es dos ambientes digitais de aprendizagem.
+\textbf{Educa{\c{c}}{\~a}o e pesquisa}, SciELO Brasil, v.~29, n.~2, p.
+  327--340, 2003.}
+
+\bibitem[Ara{\'u}jo e Freire 2012]{de2012rede}
+\abntrefinfo{Ara{\'u}jo e Freire}{ARA{\'U}JO; FREIRE}{2012}
+{ARA{\'U}JO, V. M.~H. de; FREIRE, I.~M. A rede internet como canal de
+  comunica{\c{c}}{\~a}o, na perspectiva da ci{\^e}ncia da informa{\c{c}}{\~a}o.
+\textbf{Transinforma{\c{c}}{\~a}o}, v.~8, n.~2, 2012.}
+
 \bibitem[Autor1 2014]{Autor1}
 \abntrefinfo{Autor1}{AUTOR1}{2014}
 {AUTOR1, N. do. \textbf{T\'itulo da Obra}. Cidade: Editor, 2014.}
