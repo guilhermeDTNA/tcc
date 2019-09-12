@@ -1,27 +1,28 @@
 \babel@toc {brazil}{}
 \contentsline {chapter}{1 \MakeUppercase {Introdu\c c\~ao.}}{1}
 \contentsline {section}{\numberline {1.1}Apresenta\c c\~ao}{1}
-\contentsline {section}{\numberline {1.2}Justificativa}{1}
-\contentsline {section}{\numberline {1.3}Objetivos}{2}
-\contentsline {chapter}{2 \MakeUppercase {Revis\~ao de Literatura (ou Referencial Te\'orico).}}{3}
-\contentsline {section}{\numberline {2.1}Primeira se\c c\~ao da Revis\~ao}{3}
-\contentsline {subsection}{\numberline {2.1.1}Exemplo de Subse\c c\~ao.}{3}
-\contentsline {section}{\numberline {2.2}Segunda se\c c\~ao da Revis\~ao.}{4}
-\contentsline {chapter}{3 \MakeUppercase {Material e M\'etodos (ou Metodologia).}}{7}
-\contentsline {section}{\numberline {3.1}Primeira se\c c\~ao da Metodologia}{7}
-\contentsline {section}{\numberline {3.2}Segunda se\c c\~ao da Metodologia.}{7}
-\contentsline {chapter}{4 \MakeUppercase {Resultados.}}{9}
-\contentsline {section}{\numberline {4.1}Primeira se\c c\~ao dos Resultados.}{9}
-\contentsline {section}{\numberline {4.2}Segunda se\c c\~ao dos Resultados.}{9}
-\contentsline {chapter}{5 \MakeUppercase {Discuss\~ao.}}{11}
-\contentsline {section}{\numberline {5.1}Primeira se\c c\~ao da Discuss\~ao.}{11}
-\contentsline {section}{\numberline {5.2}Segunda se\c c\~ao da Discuss\~ao.}{11}
-\contentsline {chapter}{6 \MakeUppercase {Conclus\~ao.}}{13}
-\contentsline {chapter}{7 \MakeUppercase {Considera\c c\~oes Finais (Opcional).}}{15}
-\contentsline {chapter}{REFER\^ENCIAS}{17}
-\contentsline {chapter}{\MakeUppercase {Gloss\'ario}}{19}
-\contentsline {chapter}{AP\^ENDICE A -- \MakeUppercase {Primeiro Ap\^endice}}{21}
-\contentsline {chapter}{AP\^ENDICE B -- \MakeUppercase {Segundo Ap\^endice}}{23}
-\contentsline {chapter}{ANEXO A -- \MakeUppercase {Primeiro Anexo}}{25}
-\contentsline {chapter}{ANEXO B -- \MakeUppercase {Segundo Anexo}}{27}
-\contentsline {chapter}{\'INDICE}{28}
+\contentsline {section}{\numberline {1.2}Sobre a Kuruatuba}{2}
+\contentsline {section}{\numberline {1.3}Justificativa}{2}
+\contentsline {section}{\numberline {1.4}Objetivos}{3}
+\contentsline {chapter}{2 \MakeUppercase {Revis\~ao de Literatura (ou Referencial Te\'orico).}}{5}
+\contentsline {section}{\numberline {2.1}Primeira se\c c\~ao da Revis\~ao}{5}
+\contentsline {subsection}{\numberline {2.1.1}Exemplo de Subse\c c\~ao.}{5}
+\contentsline {section}{\numberline {2.2}Segunda se\c c\~ao da Revis\~ao.}{6}
+\contentsline {chapter}{3 \MakeUppercase {Material e M\'etodos (ou Metodologia).}}{9}
+\contentsline {section}{\numberline {3.1}Primeira se\c c\~ao da Metodologia}{9}
+\contentsline {section}{\numberline {3.2}Segunda se\c c\~ao da Metodologia.}{9}
+\contentsline {chapter}{4 \MakeUppercase {Resultados.}}{11}
+\contentsline {section}{\numberline {4.1}Primeira se\c c\~ao dos Resultados.}{11}
+\contentsline {section}{\numberline {4.2}Segunda se\c c\~ao dos Resultados.}{11}
+\contentsline {chapter}{5 \MakeUppercase {Discuss\~ao.}}{13}
+\contentsline {section}{\numberline {5.1}Primeira se\c c\~ao da Discuss\~ao.}{13}
+\contentsline {section}{\numberline {5.2}Segunda se\c c\~ao da Discuss\~ao.}{13}
+\contentsline {chapter}{6 \MakeUppercase {Conclus\~ao.}}{15}
+\contentsline {chapter}{7 \MakeUppercase {Considera\c c\~oes Finais (Opcional).}}{17}
+\contentsline {chapter}{REFER\^ENCIAS}{19}
+\contentsline {chapter}{\MakeUppercase {Gloss\'ario}}{21}
+\contentsline {chapter}{AP\^ENDICE A -- \MakeUppercase {Primeiro Ap\^endice}}{23}
+\contentsline {chapter}{AP\^ENDICE B -- \MakeUppercase {Segundo Ap\^endice}}{25}
+\contentsline {chapter}{ANEXO A -- \MakeUppercase {Primeiro Anexo}}{27}
+\contentsline {chapter}{ANEXO B -- \MakeUppercase {Segundo Anexo}}{29}
+\contentsline {chapter}{\'INDICE}{30}

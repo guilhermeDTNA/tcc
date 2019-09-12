@@ -39,10 +39,28 @@ ISSN 1234-5678.}
 \textbf{T\'ituto da Revista}, v.~1, n.~1, p. 10--27, 2014.
 ISSN 91011-121314.}
 
+\bibitem[Garrett et al. 2005]{garrett2005ajax}
+\abntrefinfo{Garrett et al.}{GARRETT et al.}{2005}
+{GARRETT, J.~J. et al. Ajax: A new approach to web applications.
+2005.}
+
+\bibitem[Ginige e Murugesan 2001]{ginige2001web}
+\abntrefinfo{Ginige e Murugesan}{GINIGE; MURUGESAN}{2001}
+{GINIGE, A.; MURUGESAN, S. Web engineering: An introduction.
+\textbf{IEEE multimedia}, IEEE, v.~8, n.~1, p. 14--18, 2001.}
+
 \bibitem[Gon{\c{c}}alves et al. 2005]{gonccalves2005proposta}
 \abntrefinfo{Gon{\c{c}}alves et al.}{GON{\c{C}}ALVES et al.}{2005}
 {GON{\c{C}}ALVES, R.~F. et al. Uma proposta de processo de produ{\c{c}}{\~a}o
   de aplica{\c{c}}{\~o}es web.
 \textbf{Production}, SciELO Brasil, v.~15, n.~3, p. 376--389, 2005.}
+
+\bibitem[Othman, Ismail e Raus 2009]{othman2009development}
+\abntrefinfo{Othman, Ismail e Raus}{OTHMAN; ISMAIL; RAUS}{2009}
+{OTHMAN, M.; ISMAIL, S.~N.; RAUS, M. I.~M. The development of the web-based
+  attendance register system (ars) for higher academic institution: From
+  feasibility study to the design phase.
+\textbf{International Journal of Computer Science and Network Security}, v.~9,
+  n.~10, p. 203--208, 2009.}
 
 \end{thebibliography}
