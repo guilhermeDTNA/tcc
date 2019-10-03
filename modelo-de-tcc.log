@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  12 SEP 2019 11:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  3 OCT 2019 09:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -588,6 +588,12 @@ Package xypdf Info: Line width: 0.47987pt on input line 79.
  (./capitulos/introducao.tex
 Cap\'{\i }tulo 1.
 
+Overfull \hbox (12.32066pt too wide) in paragraph at lines 4--5
+\OT1/ptm/m/n/12 seja ela de qual-quer esp[]ecie, ``pres-sup[]oe um pro-cesso de
+ comunica[][]ao'' (ARA[]UJO; FREIRE,
+ []
+
+
 Overfull \hbox (4.16074pt too wide) in paragraph at lines 6--7
 \OT1/ptm/m/n/12 aplica[][]oes de com[]ercio eletr[]onico (\OT1/ptm/m/it/12 E-co
 mmerce\OT1/ptm/m/n/12 ), a educa[][]ao \OT1/ptm/m/it/12 on-line \OT1/ptm/m/n/12
@@ -601,38 +607,44 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
+Overfull \hbox (9.53694pt too wide) in paragraph at lines 20--21
+\OT1/ptm/m/n/12 ber-ga-dos), es-co-las, igre-jas e di-ver-sos seg-men-tos da so
+-ci-e-dade. Em 2003, com uma evid[]encia
+ []
+
 [2]
-Overfull \hbox (9.7643pt too wide) in paragraph at lines 32--33
+Overfull \hbox (9.7643pt too wide) in paragraph at lines 37--38
 \OT1/ptm/m/n/12 ca-paz de au-xi-liar na ger[]encia das informa[][]oes per-ten-c
 en-tes []a associa[][]ao Ku-ru-a-tuba, tamb[]em
  []
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 36.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 41.
+
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
 
-Overfull \hbox (17.21474pt too wide) in paragraph at lines 36--37
+Overfull \hbox (17.21474pt too wide) in paragraph at lines 41--42
 []\OT1/ptm/m/n/12 Oferecer aos seus usu[]arios e vi-si-tan-tes as prin-ci-pais 
 fun-ci-o-na-li-da-des para a manuten[][]ao,
  []
 
 
-Overfull \hbox (12.57198pt too wide) in paragraph at lines 42--43
+Overfull \hbox (12.57198pt too wide) in paragraph at lines 47--48
 []\OT1/ptm/m/n/12 Aprofundar os es-tu-dos so-bre te-mas re-la-ci-o-na-dos a En-
 ge-nha-ria de Soft-ware e seguran[]a
  []
 
-) [3]
+) [4]
 \openout2 = `capitulos/revisao-de-literatura.aux'.
 
- (./capitulos/revisao-de-literatura.tex [4
-
-
-
-]
+ (./capitulos/revisao-de-literatura.tex
 Cap\'{\i }tulo 2.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
@@ -644,7 +656,11 @@ LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7.4> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 60.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 60.
-[5]
+[5
+
+
+
+]
 <figuras/todos-somos-genios.png, id=72, 642.4pt x 481.8pt>
 File: figuras/todos-somos-genios.png Graphic file (type png)
 <use figuras/todos-somos-genios.png>
@@ -756,13 +772,13 @@ Anexo B.
 (./capitulos/consideracoes-finais.aux) (./pos-textual/glossario.aux)
 (./pos-textual/apendice.aux) (./pos-textual/anexo.aux)) ) 
 Here is how much of TeX's memory you used:
- 6914 strings out of 494830
- 91238 string characters out of 6178378
- 208040 words of memory out of 5000000
- 9915 multiletter control sequences out of 15000+600000
+ 6919 strings out of 494830
+ 91340 string characters out of 6178378
+ 208088 words of memory out of 5000000
+ 9920 multiletter control sequences out of 15000+600000
  38931 words of font info for 106 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
- 41i,10n,26p,3224b,280s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,26p,3224b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/te
 xmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
@@ -772,7 +788,7 @@ nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 2.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo-de-tcc.pdf (46 pages, 201893 bytes).
+Output written on modelo-de-tcc.pdf (46 pages, 204571 bytes).
 PDF statistics:
  192 PDF objects out of 1000 (max. 8388607)
  130 compressed objects within 2 object streams
