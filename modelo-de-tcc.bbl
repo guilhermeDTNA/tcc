@@ -18,27 +18,6 @@
   comunica{\c{c}}{\~a}o, na perspectiva da ci{\^e}ncia da informa{\c{c}}{\~a}o.
 \textbf{Transinforma{\c{c}}{\~a}o}, v.~8, n.~2, 2012.}
 
-\bibitem[Autor1 2014]{Autor1}
-\abntrefinfo{Autor1}{AUTOR1}{2014}
-{AUTOR1, N. do. \textbf{T\'itulo da Obra}. Cidade: Editor, 2014.}
-
-\bibitem[Autor2 e Autor3 2014]{Autor2}
-\abntrefinfo{Autor2 e Autor3}{AUTOR2; AUTOR3}{2014}
-{AUTOR2, N. do; AUTOR3, N. do. \textbf{T\'itulo da Obra}. Cidade: Editor,
-  2014.}
-
-\bibitem[Autor3 et al. 2014]{Autor3}
-\abntrefinfo{Autor3 et al.}{AUTOR3 et al.}{2014}
-{AUTOR3, N. do et al. T\'itulo da obra.
-\textbf{T\'ituto da Revista}, v.~1, n.~1, p. 10--27, 2014.
-ISSN 1234-5678.}
-
-\bibitem[Autor4 2014]{Autor4}
-\abntrefinfo{Autor4}{AUTOR4}{2014}
-{AUTOR4, N. do. T\'itulo da obra.
-\textbf{T\'ituto da Revista}, v.~1, n.~1, p. 10--27, 2014.
-ISSN 91011-121314.}
-
 \bibitem[Garrett et al. 2005]{garrett2005ajax}
 \abntrefinfo{Garrett et al.}{GARRETT et al.}{2005}
 {GARRETT, J.~J. et al. Ajax: A new approach to web applications.

@@ -1,7 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: modelo-de-tcc.aux
-A level-1 auxiliary file: pre-textual/errata.aux
 A level-1 auxiliary file: pre-textual/dedicatoria.aux
 A level-1 auxiliary file: pre-textual/agradecimento.aux
 A level-1 auxiliary file: pre-textual/epigrafe.aux
@@ -9,14 +8,7 @@ A level-1 auxiliary file: pre-textual/resumo-ptbr.aux
 A level-1 auxiliary file: pre-textual/resumo-en.aux
 A level-1 auxiliary file: capitulos/introducao.aux
 A level-1 auxiliary file: capitulos/revisao-de-literatura.aux
-A level-1 auxiliary file: capitulos/metodologia.aux
-A level-1 auxiliary file: capitulos/resultados.aux
-A level-1 auxiliary file: capitulos/discussao.aux
-A level-1 auxiliary file: capitulos/conclusao.aux
-A level-1 auxiliary file: capitulos/consideracoes-finais.aux
-A level-1 auxiliary file: pos-textual/glossario.aux
 A level-1 auxiliary file: pos-textual/apendice.aux
-A level-1 auxiliary file: pos-textual/anexo.aux
 The style file: pos-textual/referencias/abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -38,44 +30,44 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 12 entries,
+You've used 8 entries,
             6711 wiz_defined-function locations,
-            1277 strings with 11370 characters,
-and the built_in function-call counts, 10258 in all, are:
-= -- 913
-> -- 328
-< -- 61
-+ -- 201
-- -- 99
-* -- 727
-:= -- 1413
-add.period$ -- 36
-call.type$ -- 12
-change.case$ -- 115
-chr.to.int$ -- 33
-cite$ -- 11
-duplicate$ -- 548
-empty$ -- 671
-format.name$ -- 472
-if$ -- 2349
+            1249 strings with 10915 characters,
+and the built_in function-call counts, 7186 in all, are:
+= -- 690
+> -- 223
+< -- 53
++ -- 163
+- -- 67
+* -- 506
+:= -- 996
+add.period$ -- 22
+call.type$ -- 8
+change.case$ -- 78
+chr.to.int$ -- 23
+cite$ -- 7
+duplicate$ -- 384
+empty$ -- 433
+format.name$ -- 318
+if$ -- 1623
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 206
-newline$ -- 63
-num.names$ -- 55
-pop$ -- 271
+missing$ -- 132
+newline$ -- 43
+num.names$ -- 35
+pop$ -- 182
 preamble$ -- 1
-purify$ -- 46
+purify$ -- 31
 quote$ -- 0
-skip$ -- 627
+skip$ -- 468
 stack$ -- 1
-substring$ -- 447
-swap$ -- 258
-text.length$ -- 21
+substring$ -- 329
+swap$ -- 176
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 87
+while$ -- 57
 width$ -- 0
-write$ -- 186
+write$ -- 122

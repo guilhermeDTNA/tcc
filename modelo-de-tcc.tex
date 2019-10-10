@@ -47,6 +47,9 @@
 %%      pois caso contrário será necessário editá-los.
 \usepackage[alf]{pos-textual/referencias/abntex2cite}
 
+\usepackage{verbatim} %comentar múltiplas linhas
+\usepackage{pdfpages} %incluir PDF
+
 %-----------------------------------------------------------
 %-----------------------------------------------------------
 \theoremstyle{plain}
@@ -165,7 +168,7 @@
 %%Errata (Opcional)
 %%Obs.: * A Errata deve aparecer ANTES do comando \maketitle
 %%      * Se não houver Errata, apenas coloque % na frente da próxima linha.
-\include{pre-textual/errata}
+%\include{pre-textual/errata}
 
 %%Gerar: Capa, Folha de Rosto, Errata (caso \errata seja definido), 
 %%       Ficha Catalográfica (caso \CDU seja definido) e Folha de Aprovação.
@@ -187,11 +190,11 @@
 
 \include{capitulos/introducao}
 \include{capitulos/revisao-de-literatura}
-\include{capitulos/metodologia}
-\include{capitulos/resultados}
-\include{capitulos/discussao}
-\include{capitulos/conclusao}
-\include{capitulos/consideracoes-finais}
+%\include{capitulos/metodologia}
+%\include{capitulos/resultados}
+%\include{capitulos/discussao}
+%\include{capitulos/conclusao}
+%\include{capitulos/consideracoes-finais}
 
 %%---- ELEMENTOS PÓS-TEXTUAIS ----
 
@@ -200,7 +203,7 @@
 \bibliography{pos-textual/referencias/referencias}
 
 %%O Glossário é opcional. Caso não tenha, basta colocar % na frente da próxima linha.
-\include{pos-textual/glossario}
+%\include{pos-textual/glossario}
 
 %%O Apêndice é opcional. Caso não tenha, basta colocar % na frente da próxima linha.
 %%Obs.: antes de incluir o Apêndice, você PRECISA colocar o comando \iniciarapendice. 
@@ -214,7 +217,7 @@
 
 %%O Índice é opcional. 
 %%Obs.: Caso não tenha, basta colocar % na frente da próxima linha.
-\printindex
+%\printindex
 
 %A Autorização para Reprodução é obrigatória.
 \exibirautorizacao
