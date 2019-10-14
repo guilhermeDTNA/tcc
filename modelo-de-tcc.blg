@@ -9,6 +9,7 @@ A level-1 auxiliary file: pre-textual/resumo-en.aux
 A level-1 auxiliary file: capitulos/introducao.aux
 A level-1 auxiliary file: capitulos/revisao-de-literatura.aux
 A level-1 auxiliary file: pos-textual/apendice.aux
+A level-1 auxiliary file: pos-textual/anexo.aux
 The style file: pos-textual/referencias/abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -25,49 +26,52 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+You can't pop an empty literal stack for entry elias
+while executing---line 2230 of file pos-textual/referencias/abntex2-alf.bst
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.2           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 8 entries,
+You've used 9 entries,
             6711 wiz_defined-function locations,
-            1249 strings with 10915 characters,
-and the built_in function-call counts, 7186 in all, are:
-= -- 690
-> -- 223
+            1256 strings with 11213 characters,
+and the built_in function-call counts, 7718 in all, are:
+= -- 728
+> -- 238
 < -- 53
-+ -- 163
-- -- 67
-* -- 506
-:= -- 996
-add.period$ -- 22
-call.type$ -- 8
-change.case$ -- 78
-chr.to.int$ -- 23
-cite$ -- 7
-duplicate$ -- 384
-empty$ -- 433
-format.name$ -- 318
-if$ -- 1623
++ -- 168
+- -- 72
+* -- 541
+:= -- 1079
+add.period$ -- 25
+call.type$ -- 9
+change.case$ -- 84
+chr.to.int$ -- 24
+cite$ -- 8
+duplicate$ -- 410
+empty$ -- 476
+format.name$ -- 341
+if$ -- 1742
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 132
-newline$ -- 43
-num.names$ -- 35
-pop$ -- 182
+missing$ -- 148
+newline$ -- 49
+num.names$ -- 40
+pop$ -- 195
 preamble$ -- 1
-purify$ -- 31
+purify$ -- 34
 quote$ -- 0
-skip$ -- 468
+skip$ -- 498
 stack$ -- 1
-substring$ -- 329
-swap$ -- 176
+substring$ -- 346
+swap$ -- 187
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 5
 warning$ -- 0
-while$ -- 57
+while$ -- 63
 width$ -- 0
-write$ -- 122
+write$ -- 138
+(There was 1 error message)
