@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: modelo-de-tcc.aux
 A level-1 auxiliary file: pre-textual/dedicatoria.aux
 A level-1 auxiliary file: pre-textual/agradecimento.aux
@@ -33,45 +33,45 @@ while executing---line 2230 of file pos-textual/referencias/abntex2-alf.bst
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 9 entries,
+You've used 12 entries,
             6711 wiz_defined-function locations,
-            1256 strings with 11213 characters,
-and the built_in function-call counts, 7718 in all, are:
-= -- 728
-> -- 238
-< -- 53
-+ -- 168
-- -- 72
-* -- 541
-:= -- 1079
-add.period$ -- 25
-call.type$ -- 9
-change.case$ -- 84
-chr.to.int$ -- 24
-cite$ -- 8
-duplicate$ -- 410
-empty$ -- 476
-format.name$ -- 341
-if$ -- 1742
+            1271 strings with 11652 characters,
+and the built_in function-call counts, 10131 in all, are:
+= -- 881
+> -- 357
+< -- 60
++ -- 211
+- -- 107
+* -- 741
+:= -- 1403
+add.period$ -- 34
+call.type$ -- 12
+change.case$ -- 121
+chr.to.int$ -- 33
+cite$ -- 11
+duplicate$ -- 526
+empty$ -- 630
+format.name$ -- 504
+if$ -- 2293
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 148
-newline$ -- 49
-num.names$ -- 40
-pop$ -- 195
+missing$ -- 201
+newline$ -- 64
+num.names$ -- 55
+pop$ -- 265
 preamble$ -- 1
-purify$ -- 34
+purify$ -- 47
 quote$ -- 0
-skip$ -- 498
+skip$ -- 613
 stack$ -- 1
-substring$ -- 346
-swap$ -- 187
-text.length$ -- 15
+substring$ -- 423
+swap$ -- 241
+text.length$ -- 20
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 5
 warning$ -- 0
-while$ -- 63
+while$ -- 84
 width$ -- 0
-write$ -- 138
+write$ -- 187
 (There was 1 error message)

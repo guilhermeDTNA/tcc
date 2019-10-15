@@ -19,13 +19,24 @@
 \textbf{RECONSTRU\c C\~AO DO PORTAL INSTITUCIONAL DA UFVJM: ado\c c\~ao da
   Identidade Digital do Governo Federal e implementa\c c\~ao do PloneGov-BR
   como novo Sistema de Gerenciamento de Conte\'udo} --- Universidade dos Vales
-  do Jequitinhonha e Mucuri, Diamantina, 2017.}
+  do Jequitinhonha e Mucuri, Diamantina, MG, Brasil, 2017.}
 
 \bibitem[Ara{\'u}jo e Freire 2012]{de2012rede}
 \abntrefinfo{Ara{\'u}jo e Freire}{ARA{\'U}JO; FREIRE}{2012}
 {ARA{\'U}JO, V. M.~H. de; FREIRE, I.~M. A rede internet como canal de
   comunica{\c{c}}{\~a}o, na perspectiva da ci{\^e}ncia da informa{\c{c}}{\~a}o.
 \textbf{Transinforma{\c{c}}{\~a}o}, v.~8, n.~2, 2012.}
+
+\bibitem[BOIKO 2001]{boiko}
+\abntrefinfo{BOIKO}{BOIKO}{2001}
+{BOIKO, B. Content management bible.
+John Wiley \& Sons, New York, NY, USA, 2001.}
+
+\bibitem[Chagas, Carvalho e Silva 2018]{chagas2018estudo}
+\abntrefinfo{Chagas, Carvalho e Silva}{CHAGAS; CARVALHO; SILVA}{2018}
+{CHAGAS, F.; CARVALHO, C.~L. de; SILVA, J.~C. da. Um estudo sobre os sistemas
+  de gerenciamento de conte{\'u}do de c{\'o}digo aberto.
+\textbf{Revista Telfract}, v.~1, n.~1, 2018.}
 
 \bibitem[Garrett et al. 2005]{garrett2005ajax}
 \abntrefinfo{Garrett et al.}{GARRETT et al.}{2005}
@@ -47,6 +58,12 @@
 \abntrefinfo{Kuruatuba}{KURUATUBA}{2011}
 {KURUATUBA. \textbf{{Hist{\'{o}}rico da ONG KURUATUBA}}. 2011.
 Dispon{\'\i}vel em: \url{http://ongkuruatuba.blogspot.com/}.}
+
+\bibitem[Meike, Sametinger e Wiesauer 2009]{meike2009security}
+\abntrefinfo{Meike, Sametinger e Wiesauer}{MEIKE; SAMETINGER; WIESAUER}{2009}
+{MEIKE, M.; SAMETINGER, J.; WIESAUER, A. Security in open source web content
+  management systems.
+\textbf{IEEE Security \& Privacy}, IEEE, v.~7, n.~4, p. 44--51, 2009.}
 
 \bibitem[Othman, Ismail e Raus 2009]{othman2009development}
 \abntrefinfo{Othman, Ismail e Raus}{OTHMAN; ISMAIL; RAUS}{2009}

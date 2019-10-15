@@ -1,4 +1,4 @@
-\babel@toc {brazil}{}
+\select@language {brazil}
 \contentsline {chapter}{1 \MakeUppercase {Introdu\c c\~ao.}}{1}
 \contentsline {section}{\numberline {1.1}Apresenta\c c\~ao}{1}
 \contentsline {section}{\numberline {1.2}Sobre a Kuruatuba}{2}
@@ -7,9 +7,10 @@
 \contentsline {chapter}{2 \MakeUppercase {Referencial Te\'orico}}{5}
 \contentsline {section}{\numberline {2.1}Engenharia Web}{5}
 \contentsline {section}{\numberline {2.2}Metodologias \'Ageis}{5}
-\contentsline {section}{\numberline {2.3}Gerenciadores de Conte\'udo (CMS)}{5}
-\contentsline {subsection}{\numberline {2.3.1}Aplica\c c\~ao em institui\c c\~oes p\'ublicas e privadas}{5}
-\contentsline {subsection}{\numberline {2.3.2}Comparativo entre os principais sistemas}{7}
+\contentsline {section}{\numberline {2.3}Sistemas Gerenciadores de Conte\'udo (CMS)}{5}
+\contentsline {subsection}{\numberline {2.3.1}Tipos de CMSs}{6}
+\contentsline {subsection}{\numberline {2.3.2}Aplica\c c\~ao em institui\c c\~oes p\'ublicas e privadas}{6}
+\contentsline {subsection}{\numberline {2.3.3}Comparativo entre os principais sistemas}{7}
 \contentsline {section}{\numberline {2.4}Servidor Virtual Privado (VPS)}{7}
 \contentsline {section}{\numberline {2.5}Testes de Software}{7}
 \contentsline {section}{\numberline {2.6}Ferramentas}{7}
