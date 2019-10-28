@@ -8,7 +8,6 @@ A level-1 auxiliary file: pre-textual/resumo-ptbr.aux
 A level-1 auxiliary file: pre-textual/resumo-en.aux
 A level-1 auxiliary file: capitulos/introducao.aux
 A level-1 auxiliary file: capitulos/revisao-de-literatura.aux
-A level-1 auxiliary file: capitulos/metodologia.aux
 A level-1 auxiliary file: pos-textual/apendice.aux
 A level-1 auxiliary file: pos-textual/anexo.aux
 The style file: pos-textual/referencias/abntex2-alf.bst
@@ -38,45 +37,45 @@ while executing---line 2230 of file pos-textual/referencias/abntex2-alf.bst
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 15 entries,
+You've used 17 entries,
             6711 wiz_defined-function locations,
-            1287 strings with 12117 characters,
-and the built_in function-call counts, 11916 in all, are:
-= -- 992
-> -- 403
-< -- 64
-+ -- 226
-- -- 122
-* -- 855
-:= -- 1660
-add.period$ -- 43
-call.type$ -- 15
-change.case$ -- 141
-chr.to.int$ -- 39
-cite$ -- 14
-duplicate$ -- 631
-empty$ -- 791
-format.name$ -- 573
-if$ -- 2705
+            1296 strings with 12447 characters,
+and the built_in function-call counts, 14993 in all, are:
+= -- 1345
+> -- 469
+< -- 140
++ -- 325
+- -- 142
+* -- 1050
+:= -- 2032
+add.period$ -- 53
+call.type$ -- 17
+change.case$ -- 163
+chr.to.int$ -- 41
+cite$ -- 16
+duplicate$ -- 925
+empty$ -- 929
+format.name$ -- 666
+if$ -- 3336
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 253
-newline$ -- 78
-num.names$ -- 70
-pop$ -- 329
+missing$ -- 288
+newline$ -- 87
+num.names$ -- 80
+pop$ -- 381
 preamble$ -- 1
-purify$ -- 56
+purify$ -- 64
 quote$ -- 0
-skip$ -- 713
+skip$ -- 1020
 stack$ -- 1
-substring$ -- 494
-swap$ -- 283
-text.length$ -- 23
+substring$ -- 619
+swap$ -- 390
+text.length$ -- 25
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 5
 warning$ -- 0
-while$ -- 105
+while$ -- 121
 width$ -- 0
-write$ -- 231
+write$ -- 262
 (There were 2 error messages)

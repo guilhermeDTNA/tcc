@@ -65,6 +65,12 @@ Dispon{\'\i}vel em: \url{http://ongkuruatuba.blogspot.com/}.}
   management systems.
 \textbf{IEEE Security \& Privacy}, IEEE, v.~7, n.~4, p. 44--51, 2009.}
 
+\bibitem[Mirdha, Jain e Shah 2014]{mirdha2014comparative}
+\abntrefinfo{Mirdha, Jain e Shah}{MIRDHA; JAIN; SHAH}{2014}
+{MIRDHA, A.; JAIN, A.; SHAH, K. Comparative analysis of open source content
+  management systems. In:  IEEE. \textbf{2014 IEEE International Conference on
+  Computational Intelligence and Computing Research}. [S.l.], 2014. p.~1--4.}
+
 \bibitem[Othman, Ismail e Raus 2009]{othman2009development}
 \abntrefinfo{Othman, Ismail e Raus}{OTHMAN; ISMAIL; RAUS}{2009}
 {OTHMAN, M.; ISMAIL, S.~N.; RAUS, M. I.~M. The development of the web-based
@@ -90,5 +96,11 @@ Dispon{\'\i}vel em: \url{http://ongkuruatuba.blogspot.com/}.}
 \abntrefinfo{Sommerville}{SOMMERVILLE}{2003}
 {SOMMERVILLE, I. \textbf{Engenharia de Software}. [S.l.]: Addison-Wesley,
   2003.}
+
+\bibitem[Stone 2011]{relatoriocms}
+\abntrefinfo{Stone}{STONE}{2011}
+{STONE, W.~. \textbf{Open Source CMS Market Share}. 2011.
+Dispon{\'\i}vel em:
+  \url{http://www.waterandstone.com/book/2011-open-source-cms-market-share-report}.}
 
 \end{thebibliography}

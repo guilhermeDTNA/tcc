@@ -9,7 +9,7 @@
 \contentsline {section}{\numberline {2.2}Metodologias Tradicionais}{6}
 \contentsline {section}{\numberline {2.3}Metodologias \'Ageis}{6}
 \contentsline {section}{\numberline {2.4}Sistemas Gerenciadores de Conte\'udo (CMS)}{6}
-\contentsline {subsection}{\numberline {2.4.1}Tipos de Gerenciadores de Conte\'udo}{8}
+\contentsline {subsection}{\numberline {2.4.1}Tipos de Sistemas Gerenciadores de Conte\'udo}{8}
 \contentsline {subsection}{\numberline {2.4.2}Comparativos entre os principais sistemas}{8}
 \contentsline {section}{\numberline {2.5}Servidor Virtual Privado (VPS)}{11}
 \contentsline {section}{\numberline {2.6}Testes de Software}{11}
