@@ -73,4 +73,22 @@ Dispon{\'\i}vel em: \url{http://ongkuruatuba.blogspot.com/}.}
 \textbf{International Journal of Computer Science and Network Security}, v.~9,
   n.~10, p. 203--208, 2009.}
 
+\bibitem[SILVEIRA 2010]{dasoluccao}
+\abntrefinfo{SILVEIRA}{SILVEIRA}{2010}
+{SILVEIRA, C.~S. D. Uma solu{\c{c}}{\~a}o para o aux{\'i}lio {\`a}
+  gera{\c{c}}{\~a}o de p{\'a}ginas web acess{\'i}veis com uso de gerenciadores
+  de conte{\'u}do.
+2010.}
+
+\bibitem[Soares 2004]{dos2004comparaccao}
+\abntrefinfo{Soares}{SOARES}{2004}
+{SOARES, M. dos S. Compara{\c{c}}{\~a}o entre metodologias {\'a}geis e
+  tradicionais para o desenvolvimento de software.
+\textbf{INFOCOMP Journal of Computer Science}, v.~3, n.~2, p. 8--13, 2004.}
+
+\bibitem[Sommerville 2003]{Sommerville}
+\abntrefinfo{Sommerville}{SOMMERVILLE}{2003}
+{SOMMERVILLE, I. \textbf{Engenharia de Software}. [S.l.]: Addison-Wesley,
+  2003.}
+
 \end{thebibliography}

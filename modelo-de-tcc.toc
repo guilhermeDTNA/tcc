@@ -1,4 +1,4 @@
-\select@language {brazil}
+\babel@toc {brazil}{}
 \contentsline {chapter}{1 \MakeUppercase {Introdu\c c\~ao.}}{1}
 \contentsline {section}{\numberline {1.1}Apresenta\c c\~ao}{1}
 \contentsline {section}{\numberline {1.2}Sobre a Kuruatuba}{2}
@@ -6,14 +6,14 @@
 \contentsline {section}{\numberline {1.4}Objetivos}{3}
 \contentsline {chapter}{2 \MakeUppercase {Referencial Te\'orico}}{5}
 \contentsline {section}{\numberline {2.1}Engenharia Web}{5}
-\contentsline {section}{\numberline {2.2}Metodologias \'Ageis}{5}
-\contentsline {section}{\numberline {2.3}Sistemas Gerenciadores de Conte\'udo (CMS)}{5}
-\contentsline {subsection}{\numberline {2.3.1}Tipos de CMSs}{6}
-\contentsline {subsection}{\numberline {2.3.2}Aplica\c c\~ao em institui\c c\~oes p\'ublicas e privadas}{6}
-\contentsline {subsection}{\numberline {2.3.3}Comparativo entre os principais sistemas}{7}
-\contentsline {section}{\numberline {2.4}Servidor Virtual Privado (VPS)}{7}
-\contentsline {section}{\numberline {2.5}Testes de Software}{7}
-\contentsline {section}{\numberline {2.6}Ferramentas}{7}
-\contentsline {chapter}{REFER\^ENCIAS}{9}
-\contentsline {chapter}{AP\^ENDICE A -- \MakeUppercase {Pesquisa entre os associados}}{11}
-\contentsline {chapter}{ANEXO A -- \MakeUppercase {Estatuto da Kuruatuba}}{17}
+\contentsline {section}{\numberline {2.2}Metodologias Tradicionais}{6}
+\contentsline {section}{\numberline {2.3}Metodologias \'Ageis}{6}
+\contentsline {section}{\numberline {2.4}Sistemas Gerenciadores de Conte\'udo (CMS)}{6}
+\contentsline {subsection}{\numberline {2.4.1}Tipos de Gerenciadores de Conte\'udo}{8}
+\contentsline {subsection}{\numberline {2.4.2}Comparativos entre os principais sistemas}{8}
+\contentsline {section}{\numberline {2.5}Servidor Virtual Privado (VPS)}{11}
+\contentsline {section}{\numberline {2.6}Testes de Software}{11}
+\contentsline {section}{\numberline {2.7}Ferramentas}{11}
+\contentsline {chapter}{REFER\^ENCIAS}{13}
+\contentsline {chapter}{AP\^ENDICE A -- \MakeUppercase {Pesquisa entre os associados}}{15}
+\contentsline {chapter}{ANEXO A -- \MakeUppercase {Estatuto da Kuruatuba}}{21}
