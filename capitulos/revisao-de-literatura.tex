@@ -12,7 +12,7 @@ Na seção \ref{sec:engenhariaweb} será revisado o significado de engenharia web e
 
 Para facilitar o entendimento, pode-se concluir que a engenharia web se caracteriza pela estipulação de métodos e procedimentos que podem ser adotados por toda a equipe para auxiliar no desenvolvimento do projeto de aplicações web.
 
-As metodologias de desenvolvimento de software, estudadas em subáreas da engenharia de software, podem ser adotadas para organizar todo o projeto de desenvolvimento de um software. Elas podem ser divididas entre tradicionais e ágeis, trazidas a conhecimento nas seções \ref{sec:metodologiatradicional} e \ref{sec:metodologiaagil}, e são operadas para auxiliar na produção de software em processos como a análise de requisitos e a codificação, como mencionado por \citeonline{dos2004comparaccao}. \apudonline[~p.1]{Sommerville}{dos2004comparaccao} definem quatro atividades comuns a todos os processos de desenvolvimento:
+As metodologias de desenvolvimento de software, estudadas em subáreas da engenharia de software, podem ser adotadas para organizar todo o projeto de desenvolvimento de um software. Elas podem ser divididas entre tradicionais e ágeis, trazidas a conhecimento nas seções \ref{sec:metodologiatradicional} e \ref{sec:metodologiaagil}, e são operadas para auxiliar na produção de software em processos como a análise de requisitos e a codificação, como mencionado por \citeonline{dos2004comparaccao}. \apudonline[~p. 1]{Sommerville}{dos2004comparaccao} definem quatro atividades comuns a todos os processos de desenvolvimento:
 
 \begin{itemize}
  \item \textbf{Especificação de Software}: etapa em que ocorre um contato maior da equipe com os clientes, com o intuito de determinar os requisitos e funcionalidades do programa. Para tal, existem diversas formas de coletar essas informações, como por exemplo
@@ -41,18 +41,16 @@ Segundo eles as organizações podem utilizar um gerenciador de conteúdo para cons
 lojas online ou portais, havendo redução de erros de publicação que facilitam o processo de validação e sendo manuseados por muitas
 pessoas sem que seja necessário editar o código-fonte e possuir conhecimento especializado na área de programação.
 
-Outro fator positivo encontrado nesses sistemas é a possibilidade de colaboração entre os desenvolvedores. Porque uma aplicação web desenvolvida em um CMS pode ser gerenciada por diversas pessoas, podendo ter restrições de acesso de cada uma delas a diferentes partes do sistema, ou seja, é possível definir níveis de acesso a usuários para que cada um deles possa administrar um ou mais tipos de conteúdo do mesmo. Para sintetizar, \apud[~p.1]{boiko}{chagas2018estudo} conclui que ``um SGC possibilita a criação, o gerenciamento, a distribuição, a publicação e a recuperação de informações corporativas''.
+Outro fator positivo encontrado nesses sistemas é a possibilidade de colaboração entre os desenvolvedores. Porque uma aplicação web desenvolvida em um CMS pode ser gerenciada por diversas pessoas, podendo ter restrições de acesso de cada uma delas a diferentes partes do sistema, ou seja, é possível definir níveis de acesso a usuários para que cada um deles possa administrar um ou mais tipos de conteúdo do mesmo. Para sintetizar, \apud[~p. 1]{boiko}{chagas2018estudo} conclui que ``um SGC possibilita a criação, o gerenciamento, a distribuição, a publicação e a recuperação de informações corporativas''.
 
-Esses sistemas possuem características próprias que variam de acordo com o tipo de gerenciador. Existem CMSs baseados nas linguagens 
-Python, Java, PHP e Perl, sendo aspectos disjuntos aos sistemas, porém todos eles são capazes de usar linguagens padrão da web e
-bancos de dados relacionais, como visto na figura \ref{figura3}.
+Esses sistemas possuem características próprias que variam de acordo com o tipo de gerenciador. Existem CMSs baseados nas linguagens Python, Java, PHP e Perl, sendo aspectos disjuntos aos sistemas, porém todos eles são capazes de usar linguagens padrão da web e bancos de dados relacionais, como visto na figura \ref{figura3}.
 
 \begin{figure}[htb]
  \centering
  
- \includegraphics[scale=0.5]{figuras/linguagens-cms}
+ \includegraphics[scale=0.5]{figuras/linguagens-cms-1}
  
- \caption{Sistemas de gerenciamento de conteúdo da Web de código aberto e tecnologias relacionadas. Fonte: \citeonline{meike2009security}}
+ \caption{Sistemas de gerenciamento de conteúdo da web de código aberto e tecnologias relacionadas. Fonte: \citeonline{meike2009security}}
  \label{figura3}
 \end{figure}
 
@@ -65,27 +63,40 @@ As próximas subseções foram dedicadas a gerar uma maior compreensão sobre os Sis
 
 \citeonline{dasoluccao} aludi sobre a possibilidade se encontrar centenas de ferramentas de gerenciamento de conteúdo hoje em dia. Ainda segundo ele, as questões que os diferem são diversas, citando-se requisitos do sistema, segurança, suporte, facilidade de uso e desempenho.
 
-No relatório \textit{Open Source CMS Market Share Report} divulgado pela agência digital \citeonline{relatoriocms}, foi possível obter a correlação entre os diferentes CMSs com os principais \textit{sites} encontrados no \textit{Google PageRank}. O \textit{Google PageRank} é ``um método usado pela Google para determinar a importância ou a relevância de uma página. Páginas relevantes têm altos escalões e provavelmente aparecerão no topo nos resultados de pesquisa'' \cite[~p.3, tradução nossa]{mirdha2014comparative}. 
+No relatório \textit{Open Source CMS Market Share Report} divulgado pela agência digital \citeonline{relatoriocms}, foi possível obter a correlação entre os diferentes CMSs com os principais \textit{sites} encontrados no \textit{Google PageRank}. O \textit{Google PageRank} é ``um método usado pela \textit{Google} para determinar a importância ou a relevância de uma página. Páginas relevantes têm altos escalões e provavelmente aparecerão no topo nos resultados de pesquisa'' \cite[~p. 3, tradução nossa]{mirdha2014comparative}. 
 
- Content Management System Page Rank
-a. Joomla 9
-b. Drupal 9
-c. Wordpress 9
-d. Plone 9
-e. Typo3 8
-f. Concrete5 7
-g. DotNetNuke 7
-h. Alfresco 7 
+\newpage
 
+\begin{table}[]
+\scalefont{0.8}
+\centering
+\caption{Ranking das páginas por CMS. Fonte: Adaptado de \apudonline{relatoriocms}{mirdha2014comparative}}
+\begin{tabular}{|c|c|c|}
+\hline
+\multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{ \textit{Content Management System}} & \multicolumn{1}{l|}{ \textit{Page} Rank} \\ \hline
+a.                     & \textit{Joomla!}                                         & 9                              \\ \hline
+b.                     & \textit{Drupal}                                         & 9                              \\ \hline
+c.                     & \textit{WordPress}                                      & 9                              \\ \hline
+d.                     & \textit{Plone}                                          & 9                              \\ \hline
+e.                     & \textit{Typo3}                                          & 8                              \\ \hline
+f.                     & \textit{Concrete5}                                      & 7                              \\ \hline
+g.                     & \textit{DotNetNuke}                                     & 7                              \\ \hline
+h.                     & \textit{Alfresco}                                       & 7                              \\ \hline
+\end{tabular}
+\label{pagerank}
+\end{table}
+
+Por conveniência, os quatro sistemas mais bem colocados serão os escolhidos para dar início ao processo de comparação entre os principais. Tal processo se encontra na subseção \ref{subsec:comparacao}, desenvolvida adiante.
 
 \subsection{Comparativos entre os principais sistemas}
+\label{subsec:comparacao}
 %Tem no TCC do Elias e nesse artigo: https://biblioteca.unilasalle.edu.br/docs_online/tcc/graduacao/ciencia_da_computacao/2010/cssilveira.pdf
 
 %Falar sobre a utilização dos gerenciadores em universidades federais e outros (se for o caso), e dos métodos de comparação (segurança, desempenho, ...)
 
-Nesta subseção, o âmago girará em torno de comparativos entre os principais sistemas de gerenciamento de conteúdo em relação à sua aplicação dos Sistemas Gerenciadores de Conteúdo em instituições públicas e privadas no geral e aos ganhos de cada um em relação a facilidade de uso, desempenho, flexibilidade e itens de suporte. Inicialmente a pesquisa abordará as instituições públicas, representadas por universidades federais, encerrando-se em instituições privadas. 
+Nesta subseção, o âmago girará em torno de comparativos entre os principais Sistemas de Gerenciamento de Conteúdo em relação à sua aplicação em instituições públicas e privadas no geral e aos ganhos de cada um em relação a facilidade de uso, desempenho, flexibilidade e itens de suporte. Inicialmente a pesquisa abordará as instituições públicas, representadas por universidades federais, encerrando-se em instituições privadas. 
 
-Baseando-se nas 63 universidades brasileiras pesquisadas no trabalho de \citeonline{elias}, chega-se à conclusão, a partir do demonstrado na figura \ref{figura1}, que a maioria delas adotaram Sistemas Gerenciadores de Conteúdo como ferramenta para desenvolvimento de seus respectivos portais institucionais. Diante do exposto na figura \ref{figura2}, obtemos que entre essas universidades há a predominância de quatro sistemas: \textit{Drupal, Joomla!, WordPress} e \textit{Plone}.
+Baseando-se nas 63 universidades brasileiras pesquisadas no trabalho de \citeonline{elias}, chega-se à conclusão, a partir do demonstrado na figura \ref{figura1}, que a maioria delas adotaram Sistemas Gerenciadores de Conteúdo como ferramenta para desenvolvimento de seus respectivos portais institucionais. Diante do exposto na figura \ref{figura2}, obtemos que entre nessas universidades há a predominância dos quatro principais sistemas constatados na subseção anterior, sendo eles: \textit{Drupal, Joomla!, WordPress} e \textit{Plone}.
 
 \begin{figure}[htb]
  \centering
@@ -145,6 +156,8 @@ Após as observações anteriores, serão comparados os quatro sistemas predominante
  \label{wordpress}
 \end{figure}
 
+\newpage
+
 \begin{figure}[htb]
  \centering
  
@@ -153,6 +166,10 @@ Após as observações anteriores, serão comparados os quatro sistemas predominante
  \caption{Desempenho geral obtido pelos gerenciadores. Fonte: \citeonline{elias}}
  \label{desempenho-geral}
 \end{figure}
+
+Então pode-se considerar, diante de todas as circunstâncias e os testes executados cujos resultados estão exibidos nas figuras, que o \textit{Plone} é o mais balanceado em termos de aspectos negativos e positivos, fornecendo uma maior confiança aos desenvolvedores de sistemas web que precisam de sistemas que reajam bem a módulos mais robustos, que sejam seguros e com grande comunidade virtual para auxílio ao desenvolvimento.
+
+%FALAR SOBRE O USO NO MERCADO (uma imagem no TCC do Elias e buscar por outra)
 
 \section{Servidor Virtual Privado (VPS)}
 \label{sec:vps}
