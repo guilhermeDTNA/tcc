@@ -65,11 +65,23 @@ Dispon{\'\i}vel em: \url{http://ongkuruatuba.blogspot.com/}.}
   management systems.
 \textbf{IEEE Security \& Privacy}, IEEE, v.~7, n.~4, p. 44--51, 2009.}
 
+\bibitem[Menezes et al. 2016]{menezes2016processo}
+\abntrefinfo{Menezes et al.}{MENEZES et al.}{2016}
+{MENEZES, J. S. S.~d. et al. Processo de avalia{\c{c}}{\~a}o de software
+  aplicado {\`a} sele{\c{c}}{\~a}o de sistemas gerenciadores de conte{\'u}do.
+Universidade Federal de Sergipe, 2016.}
+
 \bibitem[Mirdha, Jain e Shah 2014]{mirdha2014comparative}
 \abntrefinfo{Mirdha, Jain e Shah}{MIRDHA; JAIN; SHAH}{2014}
 {MIRDHA, A.; JAIN, A.; SHAH, K. Comparative analysis of open source content
   management systems. In:  IEEE. \textbf{2014 IEEE International Conference on
   Computational Intelligence and Computing Research}. [S.l.], 2014. p.~1--4.}
+
+\bibitem[Oliveira et al. 2017]{de2017repositorios}
+\abntrefinfo{Oliveira et al.}{OLIVEIRA et al.}{2017}
+{OLIVEIRA, H. P.~C. de et al. Reposit{\'o}rios digitais utilizando wordpress e
+  mysql.
+\textbf{BiblioCanto}, v.~3, n.~1, p. 144--157, 2017.}
 
 \bibitem[Othman, Ismail e Raus 2009]{othman2009development}
 \abntrefinfo{Othman, Ismail e Raus}{OTHMAN; ISMAIL; RAUS}{2009}
@@ -78,6 +90,13 @@ Dispon{\'\i}vel em: \url{http://ongkuruatuba.blogspot.com/}.}
   feasibility study to the design phase.
 \textbf{International Journal of Computer Science and Network Security}, v.~9,
   n.~10, p. 203--208, 2009.}
+
+\bibitem[Patel, Rathod e Prajapati 2011]{patel2011performance}
+\abntrefinfo{Patel, Rathod e Prajapati}{PATEL; RATHOD; PRAJAPATI}{2011}
+{PATEL, S.~K.; RATHOD, V.; PRAJAPATI, J.~B. Performance analysis of content
+  management systems-joomla, drupal and wordpress.
+\textbf{International Journal of Computer Applications}, Citeseer, v.~21, n.~4,
+  p. 39--43, 2011.}
 
 \bibitem[SILVEIRA 2010]{dasoluccao}
 \abntrefinfo{SILVEIRA}{SILVEIRA}{2010}
@@ -102,5 +121,9 @@ Dispon{\'\i}vel em: \url{http://ongkuruatuba.blogspot.com/}.}
 {STONE, W.~. \textbf{Open Source CMS Market Share}. 2011.
 Dispon{\'\i}vel em:
   \url{http://www.waterandstone.com/book/2011-open-source-cms-market-share-report}.}
+
+\bibitem[Tomlinson 2010]{tomlinson2010beginning}
+\abntrefinfo{Tomlinson}{TOMLINSON}{2010}
+{TOMLINSON, T. \textbf{Beginning Drupal 7}. [S.l.]: Apress, 2010.}
 
 \end{thebibliography}

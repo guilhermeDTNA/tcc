@@ -37,45 +37,45 @@ while executing---line 2230 of file pos-textual/referencias/abntex2-alf.bst
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 17 entries,
+You've used 21 entries,
             6711 wiz_defined-function locations,
-            1296 strings with 12447 characters,
-and the built_in function-call counts, 14993 in all, are:
-= -- 1345
-> -- 469
-< -- 140
-+ -- 325
-- -- 142
-* -- 1050
-:= -- 2032
-add.period$ -- 53
-call.type$ -- 17
-change.case$ -- 163
-chr.to.int$ -- 41
-cite$ -- 16
-duplicate$ -- 925
-empty$ -- 929
-format.name$ -- 666
-if$ -- 3336
+            1317 strings with 13171 characters,
+and the built_in function-call counts, 18299 in all, are:
+= -- 1573
+> -- 610
+< -- 148
++ -- 377
+- -- 184
+* -- 1306
+:= -- 2474
+add.period$ -- 65
+call.type$ -- 21
+change.case$ -- 209
+chr.to.int$ -- 51
+cite$ -- 20
+duplicate$ -- 1089
+empty$ -- 1158
+format.name$ -- 867
+if$ -- 4109
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 288
-newline$ -- 87
-num.names$ -- 80
-pop$ -- 381
+missing$ -- 361
+newline$ -- 106
+num.names$ -- 100
+pop$ -- 476
 preamble$ -- 1
-purify$ -- 64
+purify$ -- 81
 quote$ -- 0
-skip$ -- 1020
+skip$ -- 1186
 stack$ -- 1
-substring$ -- 619
-swap$ -- 390
-text.length$ -- 25
+substring$ -- 745
+swap$ -- 469
+text.length$ -- 31
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 5
 warning$ -- 0
-while$ -- 121
+while$ -- 151
 width$ -- 0
-write$ -- 262
+write$ -- 325
 (There were 2 error messages)
