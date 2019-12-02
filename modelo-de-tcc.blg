@@ -26,6 +26,7 @@ Repeated entry---line 109 of file pos-textual/referencias/referencias.bib
  : @article{ginige2001web
  :                       ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Idealware"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -39,7 +40,7 @@ while executing---line 2230 of file pos-textual/referencias/abntex2-alf.bst
 +---------------------------------------------------------+
 You've used 22 entries,
             6711 wiz_defined-function locations,
-            1322 strings with 13285 characters,
+            1324 strings with 13303 characters,
 and the built_in function-call counts, 19830 in all, are:
 = -- 1766
 > -- 625
