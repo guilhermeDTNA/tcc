@@ -126,4 +126,9 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Tomlinson}{TOMLINSON}{2010}
 {TOMLINSON, T. \textbf{Beginning Drupal 7}. [S.l.]: Apress, 2010.}
 
+\bibitem[w3techs 2019]{plonemercado}
+\abntrefinfo{w3techs}{W3TECHS}{2019}
+{W3TECHS. \textbf{Usage Statistics and Market Share of Plone}. 2019.
+Dispon{\'\i}vel em: \url{https://w3techs.com/technologies/details/cm-plone}.}
+
 \end{thebibliography}
