@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: modelo-de-tcc.aux
 A level-1 auxiliary file: pre-textual/dedicatoria.aux
 A level-1 auxiliary file: pre-textual/agradecimento.aux
@@ -26,7 +26,6 @@ Repeated entry---line 109 of file pos-textual/referencias/referencias.bib
  : @article{ginige2001web
  :                       ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Idealware"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -38,45 +37,45 @@ while executing---line 2230 of file pos-textual/referencias/abntex2-alf.bst
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 22 entries,
+You've used 23 entries,
             6711 wiz_defined-function locations,
-            1324 strings with 13303 characters,
-and the built_in function-call counts, 19830 in all, are:
-= -- 1766
-> -- 625
+            1325 strings with 13430 characters,
+and the built_in function-call counts, 20333 in all, are:
+= -- 1791
+> -- 640
 < -- 198
-+ -- 432
-- -- 189
-* -- 1391
-:= -- 2662
-add.period$ -- 69
-call.type$ -- 22
-change.case$ -- 215
-chr.to.int$ -- 52
-cite$ -- 21
-duplicate$ -- 1263
-empty$ -- 1215
-format.name$ -- 890
-if$ -- 4401
++ -- 437
+- -- 194
+* -- 1421
+:= -- 2740
+add.period$ -- 72
+call.type$ -- 23
+change.case$ -- 222
+chr.to.int$ -- 53
+cite$ -- 22
+duplicate$ -- 1292
+empty$ -- 1260
+format.name$ -- 913
+if$ -- 4512
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 377
-newline$ -- 111
-num.names$ -- 105
-pop$ -- 497
+missing$ -- 393
+newline$ -- 116
+num.names$ -- 110
+pop$ -- 519
 preamble$ -- 1
-purify$ -- 84
+purify$ -- 87
 quote$ -- 0
-skip$ -- 1368
+skip$ -- 1398
 stack$ -- 1
-substring$ -- 813
-swap$ -- 528
+substring$ -- 830
+swap$ -- 535
 text.length$ -- 32
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 5
 warning$ -- 0
-while$ -- 158
+while$ -- 164
 width$ -- 0
-write$ -- 339
+write$ -- 352
 (There were 2 error messages)

@@ -61,7 +61,7 @@ As próximas subseções foram dedicadas a gerar uma maior compreensão sobre os Sis
 
 \citeonline{dasoluccao} aludi sobre a possibilidade se encontrar centenas de ferramentas de gerenciamento de conteúdo hoje em dia. Ainda segundo ele, as questões que os diferem são diversas, citando-se requisitos do sistema, segurança, suporte, facilidade de uso e desempenho.
 
-No relatório \textit{Open Source CMS Market Share Report} divulgado pela agência digital \citeonline{relatoriocms}, foi possível obter a correlação entre os diferentes CMSs com os principais \textit{sites} encontrados no \textit{Google PageRank}. O \textit{Google PageRank} é ``um método usado pela \textit{Google} para determinar a importância ou a relevância de uma página. Páginas relevantes têm altos escalões e provavelmente aparecerão no topo nos resultados de pesquisa'' \cite[~p. 3, tradução nossa]{mirdha2014comparative}. 
+No relatório \textit{Open Source CMS Market Share Report} divulgado pela agência digital \citeonline{relatoriocms}, foi possível obter a correlação entre os diferentes CMSs com os principais sites encontrados no \textit{Google PageRank}. O \textit{Google PageRank} é ``um método usado pela \textit{Google} para determinar a importância ou a relevância de uma página. Páginas relevantes têm altos escalões e provavelmente aparecerão no topo nos resultados de pesquisa'' \cite[~p. 3, tradução nossa]{mirdha2014comparative}. 
 
 \newpage
 
@@ -104,7 +104,7 @@ Por conveniência, os quatro sistemas mais bem colocados serão os escolhidos para
 
 %Falar sobre a utilização dos gerenciadores em universidades federais e outros (se for o caso), e dos métodos de comparação (segurança, desempenho, ...)
 
-Nesta subseção, o âmago girará em torno de comparativos entre os principais Sistemas de Gerenciamento de Conteúdo em relação à sua aplicação em instituições públicas e privadas no geral e aos ganhos de cada um em relação a facilidade de uso, desempenho, flexibilidade e itens de suporte. Inicialmente a pesquisa abordará as instituições públicas, representadas por universidades federais, encerrando-se em instituições privadas. 
+Nesta subseção, o âmago girará em torno de comparativos entre os principais Sistemas de Gerenciamento de Conteúdo em relação à sua aplicação em instituições públicas e no mercado em geral, e aos ganhos de cada um em relação a facilidade de uso, desempenho, flexibilidade e itens de suporte. Inicialmente a pesquisa abordará as instituições públicas brasileiras, representadas por universidades federais, encerrando-se com uma análise no cenário mundial, destacando seus pontos fortes, fracos e sua utilização no mercado. 
 
 Baseando-se nas 63 universidades brasileiras pesquisadas no trabalho de \citeonline{elias}, chega-se à conclusão, a partir do demonstrado na figura \ref{figura1}, que a maioria delas adotaram Sistemas Gerenciadores de Conteúdo como ferramenta para desenvolvimento de seus respectivos portais institucionais. Diante do exposto na figura \ref{figura2}, obtemos que entre nessas universidades há a predominância dos quatro principais sistemas constatados na subseção anterior, sendo eles: \textit{Drupal, Joomla!, WordPress} e \textit{Plone}.
 
@@ -179,7 +179,7 @@ Após as observações anteriores, serão comparados os quatro sistemas predominante
 
 Então pode-se considerar, diante de todas as circunstâncias e os testes executados cujos resultados estão exibidos nas figuras, que o \textit{Plone} é o mais balanceado em termos de aspectos negativos e positivos, fornecendo uma maior confiança aos desenvolvedores de sistemas web que precisam de sistemas que reajam bem a módulos mais robustos, que sejam seguros e com grande comunidade virtual para auxílio ao desenvolvimento.
 
-A imagem abaixo mostra uma análise de posicionamento de mercado dos CMSs mais usados no mundo:
+A imagem \ref{uso-plone-mercado} mostra uma análise de posicionamento de mercado dos CMSs mais usados no mundo:
 
 \begin{figure}[htb]
  \centering
@@ -192,10 +192,42 @@ Através dela percebemos que o \textit{Plone} é muito preferido em situações que 
 Outro fator importante a se destacar é a baixa adesão das pessoas a esse gerenciador de conteúdo. Pela imagem percebe-se que o \textit{WordPress}
 é disparadamente o gerenciador mais utilizado, e o \textit{Plone}, o que está em menor número de sites.
 
-O \citeonline{Idealware}, um site que tem o propósito de ajudar organizações sem fins lucrativos a tomar decisões inteligentes sobre tecnologia, segundo
-seu próprio site, publicou o artigo: \textit{Consumers Guide to Open Source Content Management Systems for Nonprofits: Comparing WordPress, Drupal, and Plone},
-detalhando todos os três sistemas. 
+O Idealware, um site que tem o propósito de ajudar organizações sem fins lucrativos a tomar decisões inteligentes sobre tecnologia, publicou o seguinte artigo: \textit{Consumers Guide to Open Source Content Management Systems for Nonprofits: Comparing WordPress, Drupal, and Plone}, detalhando todos estes três sistemas.
 
+Para a comparação, houve a criação da tabela \ref{nivel-cms} contendo 15 atributos, na qual está atribuído o nível dos softwares para cada um deles, sendo 1 significando um nível ruim de satisfação, 2 significando um nível médio e 3, por sua vez, determinando que o gerenciador cobre muito bem tal aspecto.
+
+\newpage
+
+\begin{table}[]
+\caption{Nível de satisfação do CMS por requisito. Fonte: Adaptado de \citeonline{idealware-cms}}
+\scalefont{0.8}
+\centering
+\begin{tabular}{|l|c|c|c|}
+\hline
+                                                      & \multicolumn{1}{l|}{Drupal} & Plone & WordPress \\ \hline
+Facilidade de hospedagem e instalação                 & 3                           & 1     & 3         \\ \hline
+Facilidade de configurar um site simples              & 3                           & 3     & 3         \\ \hline
+Curva de aprendizado para configurar um site complexo & 2                           & 1     & 3         \\ \hline
+Facilidade de edição de conteúdo                      & 3                           & 3     & 3         \\ \hline
+Facilidade de gerenciar um site                       & 2                           & 2     & 3         \\ \hline
+Flexibilidade estrutural                              & 3                           & 3     & 2         \\ \hline
+Flexibilidade gráfica                                 & 3                           & 3     & 3         \\ \hline
+Facilidade de suporte móvel                           & 3                           & 3     & 3         \\ \hline
+Integração com dados constituintes                    & 2                           & 2     & 1         \\ \hline
+Funções de usuário e fluxo de trabalho                & 2                           & 3     & 2         \\ \hline
+Comunidade/funcionalidade na Web 2.0                   & 3                           & 2     & 3         \\ \hline
+Acessibilidade                                        & 3                           & 3     & 2         \\ \hline
+Otimização para mecanismos de pesquisa                & 2                           & 3     & 2         \\ \hline
+Estendendo além da funcionalidade existente           & 3                           & 3     & 3         \\ \hline
+Apoio e força da comunidade                           & 3                           & 3     & 3         \\ \hline
+\end{tabular}
+\label{nivel-cms}
+\end{table}
+
+
+A tabela acima expressa uma informação importante: o \textit{Plone} proporciona pouca facilidade para hospedagem, instalação e uma baixa curva de aprendizado por parte do desenvolvedor ao se deparar com a construção de um site complexo. Tais fatores associados à baixa popularidade do mesmo em relação ao outros gerenciadores o torna menos acessível aos usuários, impactando diretamente no número de sites que o utilizam.
+
+Essas desvantagens se tornam pouco relevantes ao se considerar que a pessoa responsável pela implantação do sistema é capacitada para desempenhar a tarefa, além de que a aplicação poderá ou não ser complexa. Logo, é necessária a realização de um estudo de caso para avaliar se realmente compensa a utilização do \textit{Plone} para a construção de um sistema web, observando as vantagens e desvantagens anteriormente mencionadas. 
 
 %FALAR SOBRE O USO NO MERCADO (uma imagem no TCC do Elias e buscar por outra)
 

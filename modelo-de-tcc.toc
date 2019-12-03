@@ -1,4 +1,4 @@
-\select@language {brazil}
+\babel@toc {brazil}{}
 \contentsline {chapter}{1 \MakeUppercase {Introdu\c c\~ao.}}{1}
 \contentsline {section}{\numberline {1.1}Apresenta\c c\~ao}{1}
 \contentsline {section}{\numberline {1.2}Sobre a Kuruatuba}{2}
@@ -11,9 +11,9 @@
 \contentsline {section}{\numberline {2.4}Sistemas Gerenciadores de Conte\'udo (CMS)}{6}
 \contentsline {subsection}{\numberline {2.4.1}Tipos de Sistemas Gerenciadores de Conte\'udo}{8}
 \contentsline {subsection}{\numberline {2.4.2}Comparativos entre os principais sistemas}{10}
-\contentsline {section}{\numberline {2.5}Servidor Virtual Privado (VPS)}{16}
-\contentsline {section}{\numberline {2.6}Testes de Software}{16}
-\contentsline {section}{\numberline {2.7}Ferramentas}{16}
-\contentsline {chapter}{REFER\^ENCIAS}{17}
-\contentsline {chapter}{AP\^ENDICE A -- \MakeUppercase {Pesquisa entre os associados}}{19}
-\contentsline {chapter}{ANEXO A -- \MakeUppercase {Estatuto da Kuruatuba}}{25}
+\contentsline {section}{\numberline {2.5}Servidor Virtual Privado (VPS)}{18}
+\contentsline {section}{\numberline {2.6}Testes de Software}{18}
+\contentsline {section}{\numberline {2.7}Ferramentas}{18}
+\contentsline {chapter}{REFER\^ENCIAS}{19}
+\contentsline {chapter}{AP\^ENDICE A -- \MakeUppercase {Pesquisa entre os associados}}{21}
+\contentsline {chapter}{ANEXO A -- \MakeUppercase {Estatuto da Kuruatuba}}{27}
