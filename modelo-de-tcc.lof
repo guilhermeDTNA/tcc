@@ -1,4 +1,4 @@
-\babel@toc {brazil}{}
+\select@language {brazil}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {Figura\nobreakspace 2.1}{\ignorespaces Sistemas de gerenciamento de conte\'udo da web de c\'odigo aberto e tecnologias relacionadas. Fonte: \citeonline {meike2009security}}}{7}
@@ -11,5 +11,6 @@
 \contentsline {figure}{\numberline {Figura\nobreakspace 2.8}{\ignorespaces Desempenho geral obtido pelos gerenciadores. Fonte: \citeonline {elias}}}{15}
 \contentsline {figure}{\numberline {Figura\nobreakspace 2.9}{\ignorespaces An\'alise de posicionamento de mercado com destaque para o \textit {Plone}. Fonte: \apud {plonemercado}{elias} }}{15}
 \contentsline {figure}{\numberline {Figura\nobreakspace 2.10}{\ignorespaces Esquema explicativo da estrutura de \textit {containers}. Fonte: \cite {prada4docker} }}{19}
+\contentsline {figure}{\numberline {Figura\nobreakspace 2.11}{\ignorespaces Tela inicial do \textit {Apache JMeter}. Fonte: Autor}}{20}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

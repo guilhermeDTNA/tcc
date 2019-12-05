@@ -32,6 +32,12 @@
 {BOIKO, B. Content management bible.
 John Wiley \& Sons, New York, NY, USA, 2001.}
 
+\bibitem[Chacon e Straub 2010]{chacon2010pro}
+\abntrefinfo{Chacon e Straub}{CHACON; STRAUB}{2010}
+{CHACON, S.; STRAUB, B. Pro git.
+\textbf{Recuperado de: http://labs. kernelconcepts. de/downloads/books/Pro\%
+  20Git}, 2010.}
+
 \bibitem[Chagas, Carvalho e Silva 2018]{chagas2018estudo}
 \abntrefinfo{Chagas, Carvalho e Silva}{CHAGAS; CARVALHO; SILVA}{2018}
 {CHAGAS, F.; CARVALHO, C.~L. de; SILVA, J.~C. da. Um estudo sobre os sistemas
@@ -60,6 +66,12 @@ Tese (Doutorado) --- Universidad de Guayaquil Facultad de Ciencias
 \abntrefinfo{Garrett et al.}{GARRETT et al.}{2005}
 {GARRETT, J.~J. et al. Ajax: A new approach to web applications.
 2005.}
+
+\bibitem[Ghezzi 2015]{ghezzi2015api}
+\abntrefinfo{Ghezzi}{GHEZZI}{2015}
+{GHEZZI, A.~P. Api para aux{\'\i}lio de minera{\c{c}}{\~a}o de reposit{\'o}rios
+  git e svn.
+2015.}
 
 \bibitem[Ginige e Murugesan 2001]{ginige2001web}
 \abntrefinfo{Ginige e Murugesan}{GINIGE; MURUGESAN}{2001}
@@ -101,6 +113,11 @@ Universidade Federal de Sergipe, 2016.}
   management systems. In:  IEEE. \textbf{2014 IEEE International Conference on
   Computational Intelligence and Computing Research}. [S.l.], 2014. p.~1--4.}
 
+\bibitem[Nevedrov 2006]{nevedrov2006using}
+\abntrefinfo{Nevedrov}{NEVEDROV}{2006}
+{NEVEDROV, D. Using jmeter to performance test web services.
+\textbf{Published on dev2dev}, 2006.}
+
 \bibitem[Oliveira et al. 2017]{de2017repositorios}
 \abntrefinfo{Oliveira et al.}{OLIVEIRA et al.}{2017}
 {OLIVEIRA, H. P.~C. de et al. Reposit{\'o}rios digitais utilizando wordpress e
@@ -114,6 +131,12 @@ Universidade Federal de Sergipe, 2016.}
   feasibility study to the design phase.
 \textbf{International Journal of Computer Science and Network Security}, v.~9,
   n.~10, p. 203--208, 2009.}
+
+\bibitem[Palestino 2015]{palestinoestudo}
+\abntrefinfo{Palestino}{PALESTINO}{2015}
+{PALESTINO, C. M.~C. Estudo de tecnologias de controle de vers{\~o}es de
+  software.
+2015.}
 
 \bibitem[Patel, Rathod e Prajapati 2011]{patel2011performance}
 \abntrefinfo{Patel, Rathod e Prajapati}{PATEL; RATHOD; PRAJAPATI}{2011}

@@ -1,4 +1,4 @@
-\babel@toc {brazil}{}
+\select@language {brazil}
 \contentsline {chapter}{1 \MakeUppercase {Introdu\c c\~ao.}}{1}
 \contentsline {section}{\numberline {1.1}Apresenta\c c\~ao}{1}
 \contentsline {section}{\numberline {1.2}Sobre a Kuruatuba}{2}
