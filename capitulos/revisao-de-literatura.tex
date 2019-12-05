@@ -246,9 +246,24 @@ Esse tipo de serviço requer maior responsabilidade e conhecimento do administrad
 
 \section{Ferramentas}
 \label{sec:ferramentas}
-%Seção: ferramentas
+
+Nesta seção, o objetivo será a junção e uma explicação sucinta das ferramentas utilizadas no processo de desenvolvimento e avaliação do sistema web.  
+
+
 %Plone
-%Docker
+\textbf{\textit{Docker}}: é uma tecnologia ligada à infraestrutura de máquinas. Surgiu em 2013 após a mudança do nome \textit{dotCloud} para o atual. O \textit{Docker} usa a ideia de ``camadas'' e \textit{containers}. \textit{Containers} são aplicações que utilizam o mesmo \textit{kernel} do sistema operacional onde está rodando. Essa aplicação pode ser praticamente qualquer software, inclusive outro sistema operacional, desde que tenha uma ``imagem'' para ela, porque um \textit{container} é executado a partir de uma imagem. Alguns podem confundí-lo com Máquinas Virtuais (VMs), mas no livro \citeonline{vitalino2016descomplicando}, os autores deixam claro as suas diferenças. Na Máquina Virtual, o sistema operacional a ser virtualizado é inicializado carregando todo o seu hardware e mais recursos que os da máquina \textit{host}, diferentemente dos \textit{containers}, que utilizam os mesmos recursos da máquina hospedeira, havendo, assim, um ganho em desempenho em relação à VM.
+
+Compreender o conceito de \textit{containers} é fundamental para entender o conceito de camadas, isto porque eles são formados por \textit{layers} (camadas). Essa ideia parte do princípio de compartilhamento e reutilização, visto que vários \textit{containers} podem compartilhar camadas subjacentes, diminuindo o uso de recursos \citeonline{prada4docker}. A figura \ref{containers} esquematiza a estrutura da arquitetura de \textit{containers} e camadas.
+
+\begin{figure}[htb]
+ \centering
+ \includegraphics[scale=0.5]{figuras/containers}
+ \caption{Esquema explicativo da estrutura de \textit{containers}. Fonte: \cite{prada4docker} }
+ \label{containers}
+\end{figure}
+
+\textbf{\textit{Apache JMeter}}: ``é uma aplicação desktop projetada para a realização de testes de desempenho e estresse em aplicações cliente/servidor, tais como aplicações web ''.
+
 %JMetter
 %Git
 %Gitkraken

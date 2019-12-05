@@ -122,6 +122,15 @@ Universidade Federal de Sergipe, 2016.}
 \textbf{International Journal of Computer Applications}, Citeseer, v.~21, n.~4,
   p. 39--43, 2011.}
 
+\bibitem[Prada et al. 2017]{prada4docker}
+\abntrefinfo{Prada et al.}{PRADA et al.}{2017}
+{PRADA, D.~L. et al. Docker--apresenta{\c{c}}{\~a}o da ferramenta. In:
+  \textbf{C749 Congresso Catarinense de Ci{\^e}ncia da Computa{\c{c}}{\~a}o
+  (4.: 2017: Rio do Sul, SC). Anais do IV Congresso Catarinense de Ci{\^e}ncia
+  da Computa{\c{c}}{\~a}o. Rio do Sul, Santa Catarina, Junho 12-14; 20-21,
+  2017./Organizador: Wesley dos Reis Bezerra.-Rio do Sul, SC, 2017.} [S.l.:
+  s.n.], 2017. p.~46.}
+
 \bibitem[SILVEIRA 2010]{dasoluccao}
 \abntrefinfo{SILVEIRA}{SILVEIRA}{2010}
 {SILVEIRA, C.~S. D. Uma solu{\c{c}}{\~a}o para o aux{\'i}lio {\`a}
@@ -149,6 +158,11 @@ Dispon{\'\i}vel em:
 \bibitem[Tomlinson 2010]{tomlinson2010beginning}
 \abntrefinfo{Tomlinson}{TOMLINSON}{2010}
 {TOMLINSON, T. \textbf{Beginning Drupal 7}. [S.l.]: Apress, 2010.}
+
+\bibitem[Vitalino e Castro 2016]{vitalino2016descomplicando}
+\abntrefinfo{Vitalino e Castro}{VITALINO; CASTRO}{2016}
+{VITALINO, J. F.~N.; CASTRO, M. A.~N. \textbf{Descomplicando o Docker}. [S.l.]:
+  Brasport, 2016.}
 
 \bibitem[w3techs 2019]{plonemercado}
 \abntrefinfo{w3techs}{W3TECHS}{2019}
