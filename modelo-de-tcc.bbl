@@ -93,7 +93,8 @@ Tese (Doutorado) --- Universidad de Guayaquil Facultad de Ciencias
 \bibitem[Kuruatuba 2011]{Kuruatuba2011}
 \abntrefinfo{Kuruatuba}{KURUATUBA}{2011}
 {KURUATUBA. \textbf{{Hist{\'{o}}rico da ONG KURUATUBA}}. 2011.
-Dispon{\'\i}vel em: \url{http://ongkuruatuba.blogspot.com/}.}
+Dispon{\'\i}vel em: \url{http://ongkuruatuba.blogspot.com/}. Acesso em:
+  03-10-2019.}
 
 \bibitem[Meike, Sametinger e Wiesauer 2009]{meike2009security}
 \abntrefinfo{Meike, Sametinger e Wiesauer}{MEIKE; SAMETINGER; WIESAUER}{2009}
@@ -145,6 +146,12 @@ Universidade Federal de Sergipe, 2016.}
 \textbf{International Journal of Computer Applications}, Citeseer, v.~21, n.~4,
   p. 39--43, 2011.}
 
+\bibitem[P{\'e}rez 2018]{perez2018desarrollo}
+\abntrefinfo{P{\'e}rez}{P{\'E}REZ}{2018}
+{P{\'E}REZ, R. P. Desarrollo de una aplicaci{\'o}n de mensajer{\'\i}a en
+  android.
+ETSI\_Sistemas\_Infor, 2018.}
+
 \bibitem[Prada et al. 2017]{prada4docker}
 \abntrefinfo{Prada et al.}{PRADA et al.}{2017}
 {PRADA, D.~L. et al. Docker--apresenta{\c{c}}{\~a}o da ferramenta. In:
@@ -176,7 +183,8 @@ Universidade Federal de Sergipe, 2016.}
 \abntrefinfo{Stone}{STONE}{2011}
 {STONE, W.~. \textbf{Open Source CMS Market Share}. 2011.
 Dispon{\'\i}vel em:
-  \url{http://www.waterandstone.com/book/2011-open-source-cms-market-share-report}.}
+  \url{http://www.waterandstone.com/book/2011-open-source-cms-market-share-report}.
+  Acesso em: 28-10-2019.}
 
 \bibitem[Tomlinson 2010]{tomlinson2010beginning}
 \abntrefinfo{Tomlinson}{TOMLINSON}{2010}
@@ -190,6 +198,7 @@ Dispon{\'\i}vel em:
 \bibitem[w3techs 2019]{plonemercado}
 \abntrefinfo{w3techs}{W3TECHS}{2019}
 {W3TECHS. \textbf{Usage Statistics and Market Share of Plone}. 2019.
-Dispon{\'\i}vel em: \url{https://w3techs.com/technologies/details/cm-plone}.}
+Dispon{\'\i}vel em: \url{https://w3techs.com/technologies/details/cm-plone}.
+  Acesso em: 02-12-2019.}
 
 \end{thebibliography}
