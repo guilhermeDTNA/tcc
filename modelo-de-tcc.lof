@@ -1,16 +1,17 @@
 \babel@toc {brazil}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {Figura\nobreakspace 2.1}{\ignorespaces Sistemas de gerenciamento de conte\'udo da web de c\'odigo aberto e tecnologias relacionadas. Fonte: \citeonline {meike2009security}}}{7}
-\contentsline {figure}{\numberline {Figura\nobreakspace 2.2}{\ignorespaces Taxa de op\c c\~ao por CMS entre as universidades p\'ublicas federais. Fonte: \citeonline {elias}}}{11}
-\contentsline {figure}{\numberline {Figura\nobreakspace 2.3}{\ignorespaces Tipos de CMSs adotados pelas universidades federais. Fonte: \citeonline {elias}}}{11}
-\contentsline {figure}{\numberline {Figura\nobreakspace 2.4}{\ignorespaces Desempenho obtido pelo \textit {Drupal}. Fonte: \citeonline {elias}}}{12}
-\contentsline {figure}{\numberline {Figura\nobreakspace 2.5}{\ignorespaces Desempenho obtido pelo \textit {Joomla!}. Fonte: \citeonline {elias}}}{13}
-\contentsline {figure}{\numberline {Figura\nobreakspace 2.6}{\ignorespaces Desempenho obtido pelo \textit {Plone}. Fonte: \citeonline {elias}}}{13}
-\contentsline {figure}{\numberline {Figura\nobreakspace 2.7}{\ignorespaces Desempenho obtido pelo \textit {WordPress}. Fonte: \citeonline {elias}}}{14}
-\contentsline {figure}{\numberline {Figura\nobreakspace 2.8}{\ignorespaces Desempenho geral obtido pelos gerenciadores. Fonte: \citeonline {elias}}}{15}
-\contentsline {figure}{\numberline {Figura\nobreakspace 2.9}{\ignorespaces An\'alise de posicionamento de mercado com destaque para o \textit {Plone}. Fonte: \apud {plonemercado}{elias} }}{15}
-\contentsline {figure}{\numberline {Figura\nobreakspace 2.10}{\ignorespaces Esquema explicativo da estrutura de \textit {containers}. Fonte: \cite {prada4docker} }}{19}
-\contentsline {figure}{\numberline {Figura\nobreakspace 2.11}{\ignorespaces Tela inicial do \textit {Apache JMeter}. Fonte: Autor}}{20}
+\contentsline {figure}{\numberline {Figura\nobreakspace 2.1}{\ignorespaces Compara\c c\~ao entre as metodologias tradicionais e \'ageis. Fonte: Adaptado de \cite {dos2013metodologias}}}{8}
+\contentsline {figure}{\numberline {Figura\nobreakspace 2.2}{\ignorespaces Sistemas de gerenciamento de conte\'udo da web de c\'odigo aberto e tecnologias relacionadas. Fonte: \citeonline {meike2009security}}}{9}
+\contentsline {figure}{\numberline {Figura\nobreakspace 2.3}{\ignorespaces Taxa de op\c c\~ao por CMS entre as universidades p\'ublicas federais. Fonte: \citeonline {elias}}}{13}
+\contentsline {figure}{\numberline {Figura\nobreakspace 2.4}{\ignorespaces Tipos de CMSs adotados pelas universidades federais. Fonte: \citeonline {elias}}}{13}
+\contentsline {figure}{\numberline {Figura\nobreakspace 2.5}{\ignorespaces Desempenho obtido pelo \textit {Drupal}. Fonte: \citeonline {elias}}}{14}
+\contentsline {figure}{\numberline {Figura\nobreakspace 2.6}{\ignorespaces Desempenho obtido pelo \textit {Joomla!}. Fonte: \citeonline {elias}}}{15}
+\contentsline {figure}{\numberline {Figura\nobreakspace 2.7}{\ignorespaces Desempenho obtido pelo \textit {Plone}. Fonte: \citeonline {elias}}}{15}
+\contentsline {figure}{\numberline {Figura\nobreakspace 2.8}{\ignorespaces Desempenho obtido pelo \textit {WordPress}. Fonte: \citeonline {elias}}}{16}
+\contentsline {figure}{\numberline {Figura\nobreakspace 2.9}{\ignorespaces Desempenho geral obtido pelos gerenciadores. Fonte: \citeonline {elias}}}{17}
+\contentsline {figure}{\numberline {Figura\nobreakspace 2.10}{\ignorespaces An\'alise de posicionamento de mercado com destaque para o \textit {Plone}. Fonte: \apud {plonemercado}{elias} }}{17}
+\contentsline {figure}{\numberline {Figura\nobreakspace 2.11}{\ignorespaces Esquema explicativo da estrutura de \textit {containers}. Fonte: \cite {prada4docker} }}{21}
+\contentsline {figure}{\numberline {Figura\nobreakspace 2.12}{\ignorespaces Tela inicial do \textit {Apache JMeter}. Fonte: Autor}}{22}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
