@@ -34,26 +34,37 @@ Segundo citeonline{conforto2009gerenciamento}, a assinatura do manifesto ágil, d
 A título de conhecimento dos diferentes métodos ágeis, o artigo de \citeonline{sato2007uso} emerge sobre os seguintes métodos:
 
 \begin{itemize}
- \item \textit{Scrum}
- \item \textit{Lean Software Development}
- \item Metodologia da família \textit{Crystal}
- \item \textit{Feature Driven Development} (FDD)
- \item \textit{Adaptive Software Development}
- \item \textit{Dynamic systems development method} (DSDM)
- \item \textit{Extreme programming} (XP)
+ \item \textbf{\textit{Scrum}}: desenvolvido nas décadas de 80 e 90. Este modelo propõe interações (\textit{sprints}) de 2 semanas a um mês com acompanhamento de reuniões em pé. O líder da equipe é denominado \textit{Scrum master} e as tarefas e funcionalidades, que são incluídas em uma lista, são chamadas de ``\textit{Product Backlog}'';   
+ \item \textbf{\textit{Lean Software Development}}: baseado no sistema de produção da \textit{Toyota}, este método revolucionou a manufatura, o desenvolvimento de produtos e o gerenciamento da cadeia de suprimentos. Sustentado sobre sete princípios: ``Elimine Desperdícios'', ``Inclua a Qualidade no Processo'', ``Crie Conhecimento'', ``Adie comprometimentos'', ``Entregue rápido'', ``Respeite as pessoas'' e ``Otimize o Todo'' \cite{sato2007uso};
+ \item \textbf{Metodologia da família \textit{Crystal}}: possui uma peculiaridade, a ``habitabilidade'', que significa ``o mínimo de processo necessário para que a equipe consiga ter sucesso'' \cite{sato2007uso}. Além disso, seus métodos compartilham propriedades como: entrega frequente, reflexão e comunicação;
+ \item \textbf{\textit{Feature Driven Development} (FDD)}: criada na década de 90, ele se aproveita de diagramas UML para representar classes de diferentes responsabilidades e é constituído por duas fases: a de concepção e planejamento e a iterativa de construção, compostas por 5 processos internos ao todo.
+ \item \textbf{\textit{Adaptive Software Development}}: método que propõe três fases possivelmente sobrepostas: especulação, colaboração e aprendizado. Aqui, o conhecimento sobre falhas, oriundas de falsas premissas, é adquirido por meio de curtas iterações, sendo corrigidas vagarosamente.
+ \item \textbf{\textit{Dynamic systems development method} (DSDM)}: seu desenvolvimento se iniciou em 1994 e possui duas fases primárias, uma de viabilidade, cujo objetivo é verificar se é viável a execução deste método na situação decorrente, e um estudo de negócio para definir os requisitos iniciais e a arquitetura de software. No decorrer do processo ainda são previstas etapas para prototipação, construção do sistema e entrega do produto. O DSDM ainda possui princípios básicos relacionados à frequência de entregas e de testes, e participação direta do usuário durante todo o processo. 
+ \item \textbf{\textit{Extreme programming} (XP)}: juntamente com o \textit{Scrum} é o mais utilizado. Busca ``a excelência no desenvolvimento de software, visando baixo custo, poucos defeitos, alta produtividade e alto retorno de investimento'' \cite{sato2007uso}.
 \end{itemize}
 
+Concluindo o tema, é aconselhável exibir as diferenças entre os dois tipos de metodologias, para isso a tabela \ref{metodologias} foi criada. 
 \newpage
-\begin{figure}[htb]
- \centering
- 
- \includegraphics[scale=0.7]{figuras/agil-tradicional}
- 
- \caption{Comparação entre as metodologias tradicionais e ágeis. Fonte: Adaptado de \cite{dos2013metodologias}}
- \label{tradicionais-ageis}
-\end{figure}
 
-
+\begin{table}[]
+\label{metodologias}
+\scalefont{0.5}
+\caption{Diferenças básicas entre as metodologias tradicionais e ágeis. Fonte: Adaptado de \citeonline{dos2013metodologias}}
+\centering
+\begin{tabular}{|l|c|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Características}}                    & \textbf{Gerenciamento Tradicional}                                                                         & \textbf{Gerenciamento Ágil}                                                                                                                                                       \\ \hline
+Ter definido a priori                                             & Escopo                                                                                                     & Tempo (\textit{sprints})                                                                                                                                                                   \\ \hline
+Responsável pela organização para atingir os objetivos do projeto & Gerente de projeto                                                                                         & \textit{Scrum master}                                                                                                                                                             \\ \hline
+Frequência de reuniões de status                                  & \begin{tabular}[c]{@{}c@{}}Dependendo da complexidade/necessidade do projeto\end{tabular}               & Diárias                                                                                                                                                                           \\ \hline
+Escopo                                                            & Bem definido nas fases iniciais do projeto                                                                 & \begin{tabular}[c]{@{}c@{}}Definido em alto nível e os requisitos\\  são priorizados e definidos de forma\\ iterativa. Necessita de maior controle\\ de planejamento\end{tabular} \\ \hline
+Tempo                                                             & \begin{tabular}[c]{@{}c@{}}Cronograma detalhado para realização\\ de todo o projeto\end{tabular}           & \begin{tabular}[c]{@{}c@{}}Cronograma orientado a produto com\\ entregas incrementais de 2-4 semanas\end{tabular}                                                                 \\ \hline
+Custo                                                             & \begin{tabular}[c]{@{}c@{}}Monitoração das alterações para que não\\ altere o custo planejado\end{tabular} & \begin{tabular}[c]{@{}c@{}}Maior controle em função da rapidez\\ na incorporação de alterações\end{tabular}                                                                       \\ \hline
+Qualidade                                                         & \begin{tabular}[c]{@{}c@{}}Processo de verificação, validação e plano\\ de testes\end{tabular}             & \begin{tabular}[c]{@{}c@{}}Programação em pares, testes incrementais\\ e refatoração\end{tabular}                                                                                 \\ \hline
+Riscos                                                            & \begin{tabular}[c]{@{}c@{}}Análise de riscos durante todo o ciclo de \\ vida do projeto\end{tabular}       & \begin{tabular}[c]{@{}c@{}}Aplica-se o mesmo conceito do gerenciamento\\ tradicional\end{tabular}                                                                                 \\ \hline
+Comunicação                                                       & Documentação e formal                                                                                      & Implícita, interpessoal e colaborativa                                                                                                                                            \\ \hline
+\end{tabular}
+\end{table}
 
 \section{Sistemas Gerenciadores de Conteúdo (CMS)}
 \label{sec:cms}
