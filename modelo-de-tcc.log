@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  7 DEC 2019 23:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  11 DEC 2019 11:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -653,55 +653,36 @@ Overfull \hbox (5.99672pt too wide) in paragraph at lines 4--4
  (./capitulos/introducao.tex
 Cap\'{\i }tulo 1.
 
-Overfull \hbox (12.32066pt too wide) in paragraph at lines 4--5
-\OT1/ptm/m/n/12 seja ela de qual-quer esp[]ecie, ``pres-sup[]oe um pro-cesso de
- comunica[][]ao'' (ARA[]UJO; FREIRE,
- []
-
-
-Overfull \hbox (4.16074pt too wide) in paragraph at lines 6--8
-\OT1/ptm/m/n/12 aplica[][]oes de com[]ercio eletr[]onico (\OT1/ptm/m/it/12 E-co
-mmerce\OT1/ptm/m/n/12 ), a educa[][]ao \OT1/ptm/m/it/12 on-line \OT1/ptm/m/n/12
- e a \OT1/ptm/m/it/12 E-Learning \OT1/ptm/m/n/12 (apren-
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 
 ]
-Overfull \hbox (9.53694pt too wide) in paragraph at lines 21--22
+Overfull \hbox (9.53694pt too wide) in paragraph at lines 24--25
 \OT1/ptm/m/n/12 ber-ga-dos), es-co-las, igre-jas e di-ver-sos seg-men-tos da so
 -ci-e-dade. Em 2003, com uma evid[]encia
  []
 
 [2]
-Overfull \hbox (9.7643pt too wide) in paragraph at lines 38--39
-\OT1/ptm/m/n/12 ca-paz de au-xi-liar na ger[]encia das informa[][]oes per-ten-c
-en-tes []a associa[][]ao Ku-ru-a-tuba, tamb[]em
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 42.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 45.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
 
-Overfull \hbox (17.21474pt too wide) in paragraph at lines 42--43
+Overfull \hbox (17.21474pt too wide) in paragraph at lines 45--46
 []\OT1/ptm/m/n/12 Oferecer aos seus usu[]arios e vi-si-tan-tes as prin-ci-pais 
 fun-ci-o-na-li-da-des para a manuten[][]ao,
  []
 
 
-Overfull \hbox (12.57198pt too wide) in paragraph at lines 48--49
+Overfull \hbox (12.57198pt too wide) in paragraph at lines 49--50
 []\OT1/ptm/m/n/12 Aprofundar os es-tu-dos so-bre te-mas re-la-ci-o-na-dos a En-
 ge-nha-ria de Soft-ware e seguran[]a
  []
@@ -718,10 +699,6 @@ s ci-ent[]^^Pficas para de-sen-vol-ver princ[]^^Ppios
  []
 
 
-LaTeX Warning: Reference `sec:metodologiatradicional' on page 5 undefined on in
-put line 15.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5
@@ -729,6 +706,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
+Overfull \hbox (87.05447pt too wide) in paragraph at lines 30--31
+[]\OT1/ptm/m/n/12 Segundo Con-forto (2009), a as-si-na-tura do ma-ni-festo []ag
+il, dis-pon[]^^Pvel em: \OT1/cmss/m/n/12 http://agilemanifesto.org/\OT1/ptm/m/n
+/12 ,
+ []
+
 [6] [7] [8]
 
 LaTeX Warning: No positions in optional float specifier.
@@ -859,18 +842,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <figuras/containers.png, id=148, 565.11125pt x 289.08pt>
 File: figuras/containers.png Graphic file (type png)
 <use figuras/containers.png>
-Package pdftex.def Info: figuras/containers.png  used on input line 296.
+Package pdftex.def Info: figuras/containers.png  used on input line 299.
 (pdftex.def)             Requested size: 282.55493pt x 144.53964pt.
-
-Underfull \vbox (badness 7099) has occurred while \output is active []
-
- [22 <./figuras/containers.png>]
-<figuras/jmeter.png, id=153, 1092.08pt x 610.28pt>
+<figuras/jmeter.png, id=149, 1092.08pt x 610.28pt>
 File: figuras/jmeter.png Graphic file (type png)
 <use figuras/jmeter.png>
-Package pdftex.def Info: figuras/jmeter.png  used on input line 309.
+Package pdftex.def Info: figuras/jmeter.png  used on input line 312.
 (pdftex.def)             Requested size: 327.62653pt x 183.0854pt.
- [23 <./figuras/jmeter.png>]) [24] (./modelo-de-tcc.bbl
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+Overfull \hbox (0.22287pt too wide) in paragraph at lines 323--325
+[]\OT1/ptm/m/n/12 Para hos-pe-dar c[]odigos do \OT1/ptm/m/it/12 Git \OT1/ptm/m/
+n/12 exis-tem di-ver-sos si-tes, por[]em o mais usado e tamb[]em
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23 <./figuras/containers.png> <./figuras/jmeter.png>]) [24] (./modelo-de-tcc.
+bbl
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -1210,26 +1202,23 @@ Package pdftex.def Info: pos-textual/Estatuto.pdf , page8 used on input line 4.
 (./pre-textual/epigrafe.aux) (./pre-textual/resumo-ptbr.aux)
 (./pre-textual/resumo-en.aux) (./capitulos/introducao.aux)
 (./capitulos/revisao-de-literatura.aux) (./pos-textual/apendice.aux)
-(./pos-textual/anexo.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(./pos-textual/anexo.aux)) ) 
 Here is how much of TeX's memory you used:
  8330 strings out of 494830
- 114654 string characters out of 6178378
- 233615 words of memory out of 5000000
+ 114678 string characters out of 6178378
+ 233626 words of memory out of 5000000
  11334 multiletter control sequences out of 15000+600000
  48992 words of font info for 118 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
  44i,18n,48p,3224b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo-de-tcc.pdf (62 pages, 5481874 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base
+/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on modelo-de-tcc.pdf (62 pages, 5481103 bytes).
 PDF statistics:
  314 PDF objects out of 1000 (max. 8388607)
  183 compressed objects within 2 object streams

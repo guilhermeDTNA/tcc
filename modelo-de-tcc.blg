@@ -39,43 +39,43 @@ while executing---line 2230 of file pos-textual/referencias/abntex2-alf.bst
 +---------------------------------------------------------+
 You've used 34 entries,
             6711 wiz_defined-function locations,
-            1379 strings with 15833 characters,
-and the built_in function-call counts, 28106 in all, are:
-= -- 2303
+            1378 strings with 15925 characters,
+and the built_in function-call counts, 28113 in all, are:
+= -- 2311
 > -- 957
 < -- 209
 + -- 552
 - -- 291
-* -- 2002
-:= -- 3822
+* -- 2004
+:= -- 3825
 add.period$ -- 110
 call.type$ -- 34
-change.case$ -- 332
+change.case$ -- 331
 chr.to.int$ -- 73
 cite$ -- 33
-duplicate$ -- 1681
-empty$ -- 1832
+duplicate$ -- 1677
+empty$ -- 1829
 format.name$ -- 1370
-if$ -- 6305
+if$ -- 6307
 int.to.chr$ -- 0
 int.to.str$ -- 0
 missing$ -- 583
-newline$ -- 170
+newline$ -- 171
 num.names$ -- 165
-pop$ -- 765
+pop$ -- 759
 preamble$ -- 1
 purify$ -- 129
 quote$ -- 0
 skip$ -- 1805
 stack$ -- 1
 substring$ -- 1080
-swap$ -- 698
+swap$ -- 700
 text.length$ -- 40
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
+type$ -- 10
 warning$ -- 0
 while$ -- 237
 width$ -- 0
-write$ -- 518
+write$ -- 519
 (There were 2 error messages)

@@ -12,7 +12,7 @@ Na seção \ref{sec:engenhariaweb} será revisado o significado de Engenharia Web e
 
 Para facilitar o entendimento, pode-se concluir que a Engenharia Web se caracteriza pela estipulação de métodos e procedimentos que podem ser adotados por toda a equipe para auxiliar no desenvolvimento do projeto de aplicações web.
 
-As metodologias de desenvolvimento de software, estudadas em subáreas da engenharia de software, podem ser adotadas para organizar todo o projeto de desenvolvimento de um software. Elas podem ser divididas entre tradicionais e ágeis, trazidas a conhecimento nas seções \ref{sec:metodologiatradicional} e \ref{sec:metodologiaagil}, e são operadas para auxiliar na produção de software em processos como a análise de requisitos e a codificação, como mencionado por \citeonline{dos2004comparaccao}. \apudonline[~p. 1]{Sommerville}{dos2004comparaccao} define quatro atividades comuns a todos os processos de desenvolvimento:
+As metodologias de desenvolvimento de software, estudadas em subáreas da engenharia de software, podem ser adotadas para organizar todo o projeto de desenvolvimento de um software. Elas podem ser divididas entre tradicionais e ágeis, e são operadas para auxiliar na produção de software em processos como a análise de requisitos e a codificação, como mencionado por \citeonline{dos2004comparaccao}. \apudonline[~p. 1]{Sommerville}{dos2004comparaccao} define quatro atividades comuns a todos os processos de desenvolvimento:
 
 \begin{itemize}
  \item \textbf{Especificação de Software}: etapa em que ocorre um contato maior da equipe com os clientes, com o intuito de determinar os requisitos e funcionalidades do programa. Para tal, existem diversas formas de coletar essas informações, como por exemplo realização de entrevistas, questionários, observação naturalista, entre outras.
@@ -25,9 +25,9 @@ As metodologias de desenvolvimento de software, estudadas em subáreas da engenha
 \label{sec:metodologiaagil}
 %metodologia ágil
 
-\citeonline{sato2007uso} afirma que os métodos ágeis surgiram na década de 90 para alterar a mentalidade das equipes de desenvolvimento da época, contradizendo os métodos tradicionais eliminando gasto com documentação excessiva, enfatizando a comunicação e aumentando a proximidade com o cliente para produzir software de qualidade.
+Os métodos ágeis surgiram na década de 90 para alterar a mentalidade das equipes de desenvolvimento da época, contradizendo os métodos tradicionais eliminando gasto com documentação excessiva, enfatizando a comunicação e aumentando a proximidade com o cliente para produzir software de qualidade. \citeonline{sato2007uso}.
 
-Segundo citeonline{conforto2009gerenciamento}, a assinatura do manifesto ágil, disponível em: \textsf{http://agilemanifesto.org/}, foi um marco para o nascimento das Metodologias Ágeis. O manifesto se trata de um documento em que a eficácia das metodologias tradicionais é questionada em cenários que envolvam incertezas e constantes mudanças no ambiente empresarial. 
+Segundo \citeonline{conforto2009gerenciamento}, a assinatura do manifesto ágil, disponível em: \textsf{http://agilemanifesto.org/}, foi um marco para o nascimento das Metodologias Ágeis. O manifesto se trata de um documento em que a eficácia das metodologias tradicionais é questionada em cenários que envolvam incertezas e constantes mudanças no ambiente empresarial. 
 
 É importante ressaltar que tais metodologias podem ser aplicadas tanto em equipes menores, de desenvolvimento, por exemplo, quanto em projetos inteiros através do Gerenciamento Ágil de Projetos (GAP), constituídos por várias equipes. Também é interessante saber que um dos fundamentos do processo ágil é a construção de ciclos, cujo objetivo é adaptar e avaliar constantemente o produto antes que chegue no estado final, objetivando atribuí-lo qualidade perante os requisitos estipulados e a satisfação do cliente.
 
@@ -95,7 +95,7 @@ As próximas subseções foram dedicadas a gerar uma maior compreensão sobre os Sis
 
 \subsection{Tipos de Sistemas Gerenciadores de Conteúdo}
 
-\citeonline{dasoluccao} aludi sobre a possibilidade se encontrar centenas de ferramentas de gerenciamento de conteúdo hoje em dia. Ainda segundo ele, as questões que os diferem são diversas, citando-se requisitos do sistema, segurança, suporte, facilidade de uso e desempenho.
+É possível encontrar centenas de ferramentas de gerenciamento de conteúdo hoje em dia, sendo que, as questões que os diferem são diversas, citando-se requisitos do sistema, segurança, suporte, facilidade de uso e desempenho. \citeonline{dasoluccao}.
 
 No relatório \textit{Open Source CMS Market Share Report} divulgado pela agência digital \citeonline{relatoriocms}, foi possível obter a correlação entre os diferentes CMSs com os principais sites encontrados no \textit{Google PageRank}. O \textit{Google PageRank} é ``um método usado pela \textit{Google} para determinar a importância ou a relevância de uma página. Páginas relevantes têm altos escalões e provavelmente aparecerão no topo nos resultados de pesquisa'' \cite[~p. 3, tradução nossa]{mirdha2014comparative}. 
 
@@ -236,6 +236,7 @@ Para a comparação, houve a criação da tabela \ref{nivel-cms} contendo 15 atribut
 
 \begin{table}[]
 \caption{Nível de satisfação do CMS por requisito. Fonte: Adaptado de \citeonline{idealware-cms}}
+\label{satisfacao}
 \scalefont{0.8}
 \centering
 \begin{tabular}{|l|c|c|c|}
@@ -261,7 +262,7 @@ Apoio e força da comunidade                           & 3                       
 \end{table}
 
 
-A tabela acima expressa uma informação importante: o \textit{Plone} proporciona pouca facilidade para hospedagem, instalação e uma baixa curva de aprendizado por parte do desenvolvedor ao se deparar com a construção de um site complexo. Tais fatores associados à baixa popularidade do mesmo em relação ao outros gerenciadores o torna menos acessível aos usuários, impactando diretamente no número de sites que o utilizam.
+A tabela \ref{satisfacao} expressa uma informação importante: o \textit{Plone} proporciona pouca facilidade para hospedagem, instalação e uma baixa curva de aprendizado por parte do desenvolvedor ao se deparar com a construção de um site complexo. Tais fatores associados à baixa popularidade do mesmo em relação ao outros gerenciadores o torna menos acessível aos usuários, impactando diretamente no número de sites que o utilizam.
 
 Essas desvantagens se tornam pouco relevantes ao se considerar que a pessoa responsável pela implantação do sistema é capacitada para desempenhar a tarefa, além de que a aplicação poderá ou não ser complexa. Logo, é necessária a realização de um estudo de caso para avaliar se realmente compensa a utilização do \textit{Plone} para a construção de um sistema web, observando as vantagens e desvantagens anteriormente mencionadas. 
 
@@ -287,7 +288,9 @@ Nesta seção, o objetivo será a junção e uma explicação sucinta das ferramentas u
 
 
 %Plone
-\textbf{\textit{Docker}}: é uma tecnologia ligada à infraestrutura de máquinas. Surgiu em 2013 após a mudança do nome \textit{dotCloud} para o atual. O \textit{Docker} usa a ideia de ``camadas'' e \textit{containers}. \textit{Containers} são aplicações que utilizam o mesmo \textit{kernel} do sistema operacional onde está rodando. Essa aplicação pode ser praticamente qualquer software, inclusive outro sistema operacional, desde que tenha uma ``imagem'' para ela, porque um \textit{container} é executado a partir de uma imagem. Alguns podem confundí-lo com Máquinas Virtuais (VMs), mas no livro \citeonline{vitalino2016descomplicando}, os autores deixam claro as suas diferenças. Na Máquina Virtual, o sistema operacional a ser virtualizado é inicializado carregando todo o seu hardware e mais recursos que os da máquina \textit{host}, diferentemente dos \textit{containers}, que utilizam os mesmos recursos da máquina hospedeira, havendo, assim, um ganho em desempenho em relação à VM.
+\textbf{\textit{Docker}}: é uma tecnologia ligada à infraestrutura de máquinas. Surgiu em 2013 após a mudança do nome \textit{dotCloud} para o atual. O \textit{Docker} usa a ideia de ``camadas'' e \textit{containers}. \textit{Containers} são aplicações que utilizam o mesmo \textit{kernel} do sistema operacional onde está rodando. Essa aplicação pode ser praticamente qualquer software, inclusive outro sistema operacional, desde que tenha uma ``imagem'' para ela, porque um \textit{container} é executado a partir de uma imagem.
+
+Alguns podem confundí-lo com Máquinas Virtuais (VMs), mas no livro \citeonline{vitalino2016descomplicando}, os autores deixam claro as suas diferenças. Na Máquina Virtual, o sistema operacional a ser virtualizado é inicializado carregando todo o seu hardware e mais recursos que os da máquina \textit{host}, diferentemente dos \textit{containers}, que utilizam os mesmos recursos da máquina hospedeira, havendo, assim, um ganho em desempenho em relação à VM.
 
 Compreender o conceito de \textit{containers} é fundamental para entender o conceito de camadas, isto porque eles são formados por \textit{layers} (camadas). Essa ideia parte do princípio de compartilhamento e reutilização, visto que vários \textit{containers} podem compartilhar camadas subjacentes, diminuindo o uso de recursos \citeonline{prada4docker}. A figura \ref{containers} esquematiza a estrutura da arquitetura de \textit{containers} e camadas.
 
@@ -301,7 +304,7 @@ Compreender o conceito de \textit{containers} é fundamental para entender o conc
 %JMetter
 
 \textbf{\textit{Apache JMeter}}: é uma ferramenta capaz de realizar testes em aplicações web. Por ser desenvolvido em Java, 
-ela é também multiplataforma, ou seja, pode ser executada em vário sistemas operacionais. Segundo \citeonline{nevedrov2006using} um teste típico com o \textit{JMeter} envolve o envio
+ela é também multiplataforma, ou seja, pode ser executada em vário sistemas operacionais. Um teste típico com o \textit{JMeter} envolve o envio
 de requisições a uma aplicação através de um \textit{loop}, cujo limite de laços e número de requisições são definidos pelo usuário.
 
 \begin{figure}[htb]
@@ -317,8 +320,8 @@ software sem alterar a versão principal, restaurar uma determinada versão anteri
 \citeonline{palestinoestudo}. ``O Git possui uma ênfase em velocidade, integridade dos dados e suporte para \textit{workflows} não lineares e distribuídos''
 \cite[p. 10]{ghezzi2015api}.
 
-Conforme \citeonline{chacon2010pro}, para hospedar códigos do \textit{Git} existem diversos sites, porém o mais usado e também um dos poucos que oferecem opções de hospedagem pública e
-privada é o \textit{GitHub}, que em 2019, inclusive, tornou possível aos usuários a criação de repositórios privados gratuitamente, o que antes era uma funcionalidade paga. 
+Para hospedar códigos do \textit{Git} existem diversos sites, porém o mais usado e também um dos poucos que oferecem opções de hospedagem pública e
+privada é o \textit{GitHub}, que em 2019, inclusive, tornou possível aos usuários a criação de repositórios privados gratuitamente, o que antes era uma funcionalidade paga \citeonline{chacon2010pro}. 
 
 %Gitkraken
 \textbf{\textit{Gitkraken}}: segundo \citeonline{perez2018desarrollo}, ele é usado para manejar repositórios do \textit{Git} de forma simples, sendo possível observar mudanças e o histórico de \textit{commits}, ou versões, de um projeto de maneira fácil.
