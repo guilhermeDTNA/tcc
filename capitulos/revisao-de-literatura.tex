@@ -1,357 +1,444 @@
-\chapter{Referencial TeÛrico}
+\chapter{Referencial Te√≥rico}
 
-Este capÌtulo objetiva a apresentar os principais conceitos que ser„o utilizados na metodologia. Tais conceitos s„o referentes ao desenvolvimento web e ser„o cruciais para o entendimento do trabalho essencialmente porque tais informaÁıes servir„o de bases fundamentais para o disposto no capÌtulo 3.%\ref{ch:metodologia}.
+\hspace{2.5cm}
 
-Na seÁ„o \ref{sec:engenhariaweb} ser· revisado o significado de Engenharia Web e sua import‚ncia. Na seÁ„o \ref{sec:metodologiaagil} o conte˙do ter· enfoque nas metodologias ·geis, ocorrendo, posteriormente, uma breve comparaÁ„o entre as mais conhecidas. A \ref{sec:cms}, por sua vez, ir· explanar sobre a utilizaÁ„o de Sistemas Gerenciadores de Conte˙do na construÁ„o de aplicaÁıes na internet. A seÁ„o \ref{sec:vps} far· uma sucinto resumo sobre os Servidores Virtuais Privados e os benefÌcios do seu emprego. Ainda na revis„o bibliogr·fica, mais precisamente na seÁ„o \ref{sec:testessoftware}, ser„o dispostos alguns dos tipos de testes de software e seu destaque no desenvolvimento dos mesmos. Por fim, conceitos referentes ‡s ferramentas e tecnologias empregadas entre os materiais e mÈtodos do trabalho ser„o tratados na seÁ„o \ref{sec:ferramentas}, a fim de proporcionar ao leitor uma compreens„o antecipada sobre tais assuntos. 
+Este cap√≠tulo objetiva a apresentar os principais conceitos que ser√£o utilizados na metodologia. Tais conceitos s√£o referentes ao desenvolvimento web e ser√£o cruciais para o entendimento do trabalho essencialmente porque tais informa√ß√µes servir√£o de bases fundamentais para o disposto no cap√≠tulo 3.%\ref{ch:metodologia}.
+
+Na se√ß√£o \ref{sec:engenhariaweb} ser√° revisado o significado de Engenharia Web e sua import√¢ncia. Na se√ß√£o \ref{sec:metodologiaagil} o conte√∫do ter√° enfoque nas metodologias √°geis, ocorrendo, posteriormente, uma breve compara√ß√£o entre as mais conhecidas. A \ref{sec:cms}, por sua vez, ir√° explanar sobre a utiliza√ß√£o de Sistemas Gerenciadores de Conte√∫do na constru√ß√£o de aplica√ß√µes na internet. A se√ß√£o \ref{sec:vps} far√° uma sucinto resumo sobre os Servidores Virtuais Privados e os benef√≠cios do seu emprego. Ainda na revis√£o bibliogr√°fica, mais precisamente na se√ß√£o \ref{sec:testessoftware}, ser√£o dispostos alguns dos tipos de testes de software e seu destaque no desenvolvimento dos mesmos. Por fim, conceitos referentes √†s ferramentas e tecnologias empregadas entre os materiais e m√©todos do trabalho ser√£o tratados na se√ß√£o \ref{sec:ferramentas}, a fim de proporcionar ao leitor uma compreens√£o antecipada sobre tais assuntos. 
+
+\hspace{2.5cm}
 
 \section{Engenharia Web}
 \label{sec:engenhariaweb}
-%SeÁ„o: Engenharia Web 
+%Se√ß√£o: Engenharia Web 
+\hspace{2.5cm}
 
-\citeonline{ginige2001web} classifica a Engenharia Web como um conjunto de tÈcnicas que propıe o estabelecimento de informaÁıes cientÌficas para desenvolver princÌpios e abordagens disciplinadas para a conquista do sucesso no desenvolvimento. 
+\citeonline{ginige2001web} classifica a Engenharia Web como um conjunto de t√©cnicas que prop√µe o estabelecimento de informa√ß√µes cient√≠ficas para desenvolver princ√≠pios e abordagens disciplinadas para a conquista do sucesso no desenvolvimento. 
 
-Para facilitar o entendimento, pode-se concluir que a Engenharia Web se caracteriza pela estipulaÁ„o de mÈtodos e procedimentos que podem ser adotados por toda a equipe para auxiliar no desenvolvimento do projeto de aplicaÁıes web.
+Para facilitar o entendimento, pode-se concluir que a Engenharia Web se caracteriza pela estipula√ß√£o de m√©todos e procedimentos que podem ser adotados por toda a equipe para auxiliar no desenvolvimento do projeto de aplica√ß√µes web.
 
-As metodologias de desenvolvimento de software, estudadas em sub·reas da engenharia de software, podem ser adotadas para organizar todo o projeto de desenvolvimento de um software. Elas podem ser divididas entre tradicionais e ·geis, e s„o operadas para auxiliar na produÁ„o de software em processos como a an·lise de requisitos e a codificaÁ„o, como mencionado por \citeonline{dos2004comparaccao}. \apudonline[~p. 1]{Sommerville}{dos2004comparaccao} define quatro atividades comuns a todos os processos de desenvolvimento:
+As metodologias de desenvolvimento de software, estudadas em sub√°reas da engenharia de software, podem ser adotadas para organizar todo o projeto de desenvolvimento de um software. Elas podem ser divididas entre tradicionais e √°geis, e s√£o operadas para auxiliar na produ√ß√£o de software em processos como a an√°lise de requisitos e a codifica√ß√£o, como mencionado por \citeonline{dos2004comparaccao}. \apudonline[~p. 1]{Sommerville}{dos2004comparaccao} define quatro atividades comuns a todos os processos de desenvolvimento:
 
 \begin{itemize}
- \item \textbf{EspecificaÁ„o de Software}: etapa em que ocorre um contato maior da equipe com os clientes, com o intuito de determinar os requisitos e funcionalidades do programa. Para tal, existem diversas formas de coletar essas informaÁıes, como por exemplo realizaÁ„o de entrevistas, question·rios, observaÁ„o naturalista, entre outras.
- \item \textbf{Projeto e ImplementaÁ„o de Software}: etapa de construÁ„o de diagramas para gerar modelos que ser„o posteriormente implementados.
- \item \textbf{ValidaÁ„o de Software}: È a fase de verificaÁ„o dos requisitos. Nesta etapa acontece uma an·lise de requisitos atendidos e n„o atendidos.
- \item \textbf{EvoluÁ„o do Software}: diferentemente das demais, esta fase È posterior ‡ entrega do produto ao cliente. Ela corresponde basicamente ‡s manutenÁıes e atualizaÁıes de software que ser„o produzidas com o passar do tempo para que ele possa continuar sendo utilizado pelos usu·rios.
+ \item \textbf{Especifica√ß√£o de Software}: etapa em que ocorre um contato maior da equipe com os clientes, com o intuito de determinar os requisitos e funcionalidades do programa. Para tal, existem diversas formas de coletar essas informa√ß√µes, como por exemplo realiza√ß√£o de entrevistas, question√°rios, observa√ß√£o naturalista, entre outras.
+ \item \textbf{Projeto e Implementa√ß√£o de Software}: etapa de constru√ß√£o de diagramas para gerar modelos que ser√£o posteriormente implementados.
+ \item \textbf{Valida√ß√£o de Software}: √© a fase de verifica√ß√£o dos requisitos. Nesta etapa acontece uma an√°lise de requisitos atendidos e n√£o atendidos.
+ \item \textbf{Evolu√ß√£o do Software}: diferentemente das demais, esta fase √© posterior √† entrega do produto ao cliente. Ela corresponde basicamente √†s manuten√ß√µes e atualiza√ß√µes de software que ser√£o produzidas com o passar do tempo para que ele possa continuar sendo utilizado pelos usu√°rios.
 \end{itemize}
 
-\section{Metodologias ¡geis}
+\hspace{2.5cm}
+
+\section{Metodologias √Ågeis}
 \label{sec:metodologiaagil}
-%metodologia ·gil
+%metodologia √°gil
+\hspace{2.5cm}
 
-Os mÈtodos ·geis surgiram na dÈcada de 90 para alterar a mentalidade das equipes de desenvolvimento da Època, contradizendo os mÈtodos tradicionais eliminando gasto com documentaÁ„o excessiva, enfatizando a comunicaÁ„o e aumentando a proximidade com o cliente para produzir software de qualidade. \citeonline{sato2007uso}.
+Os m√©todos √°geis surgiram na d√©cada de 90 para alterar a mentalidade das equipes de desenvolvimento da √©poca, contradizendo os m√©todos tradicionais eliminando gasto com documenta√ß√£o excessiva, enfatizando a comunica√ß√£o e aumentando a proximidade com o cliente para produzir software de qualidade. \citeonline{sato2007uso}.
 
-Segundo \citeonline{conforto2009gerenciamento}, a assinatura do manifesto ·gil, disponÌvel em: \textsf{http://agilemanifesto.org/}, foi um marco para o nascimento das Metodologias ¡geis. O manifesto se trata de um documento em que a efic·cia das metodologias tradicionais È questionada em cen·rios que envolvam incertezas e constantes mudanÁas no ambiente empresarial. 
+Segundo \citeonline{conforto2009gerenciamento}, a assinatura do manifesto √°gil, dispon√≠vel em: \textsf{http://agilemanifesto.org/}, foi um marco para o nascimento das Metodologias √Ågeis. O manifesto se trata de um documento em que a efic√°cia das metodologias tradicionais √© questionada em cen√°rios que envolvam incertezas e constantes mudan√ßas no ambiente empresarial. 
 
-… importante ressaltar que tais metodologias podem ser aplicadas tanto em equipes menores, de desenvolvimento, por exemplo, quanto em projetos inteiros atravÈs do Gerenciamento ¡gil de Projetos (GAP), constituÌdos por v·rias equipes. TambÈm È interessante saber que um dos fundamentos do processo ·gil È a construÁ„o de ciclos, cujo objetivo È adaptar e avaliar constantemente o produto antes que chegue no estado final, objetivando atribuÌ-lo qualidade perante os requisitos estipulados e a satisfaÁ„o do cliente.
+√â importante ressaltar que tais metodologias podem ser aplicadas tanto em equipes menores, de desenvolvimento, por exemplo, quanto em projetos inteiros atrav√©s do Gerenciamento √Ågil de Projetos (GAP), constitu√≠dos por v√°rias equipes. Tamb√©m √© interessante saber que um dos fundamentos do processo √°gil √© a constru√ß√£o de ciclos, cujo objetivo √© adaptar e avaliar constantemente o produto antes que chegue no estado final, objetivando atribu√≠-lo qualidade perante os requisitos estipulados e a satisfa√ß√£o do cliente.
 
-A tÌtulo de conhecimento dos diferentes mÈtodos ·geis, o artigo de \citeonline{sato2007uso} emerge sobre os seguintes mÈtodos:
+A t√≠tulo de conhecimento dos diferentes m√©todos √°geis, o artigo de \citeonline{sato2007uso} emerge sobre os seguintes m√©todos:
 
 \begin{itemize}
- \item \textbf{\textit{Scrum}}: desenvolvido nas dÈcadas de 80 e 90. Este modelo propıe interaÁıes (\textit{sprints}) de 2 semanas a um mÍs com acompanhamento de reuniıes em pÈ. O lÌder da equipe È denominado \textit{Scrum master} e as tarefas e funcionalidades, que s„o incluÌdas em uma lista, s„o chamadas de ``\textit{Product Backlog}'';   
- \item \textbf{\textit{Lean Software Development}}: baseado no sistema de produÁ„o da \textit{Toyota}, este mÈtodo revolucionou a manufatura, o desenvolvimento de produtos e o gerenciamento da cadeia de suprimentos. Sustentado sobre sete princÌpios: ``Elimine DesperdÌcios'', ``Inclua a Qualidade no Processo'', ``Crie Conhecimento'', ``Adie comprometimentos'', ``Entregue r·pido'', ``Respeite as pessoas'' e ``Otimize o Todo'' \cite{sato2007uso};
- \item \textbf{Metodologia da famÌlia \textit{Crystal}}: possui uma peculiaridade, a ``habitabilidade'', que significa ``o mÌnimo de processo necess·rio para que a equipe consiga ter sucesso'' \cite{sato2007uso}. AlÈm disso, seus mÈtodos compartilham propriedades como: entrega frequente, reflex„o e comunicaÁ„o;
- \item \textbf{\textit{Feature Driven Development} (FDD)}: criada na dÈcada de 90, ele se aproveita de diagramas UML para representar classes de diferentes responsabilidades e È constituÌdo por duas fases: a de concepÁ„o e planejamento e a iterativa de construÁ„o, compostas por 5 processos internos ao todo.
- \item \textbf{\textit{Adaptive Software Development}}: mÈtodo que propıe trÍs fases possivelmente sobrepostas: especulaÁ„o, colaboraÁ„o e aprendizado. Aqui, o conhecimento sobre falhas, oriundas de falsas premissas, È adquirido por meio de curtas iteraÁıes, sendo corrigidas vagarosamente.
- \item \textbf{\textit{Dynamic systems development method} (DSDM)}: seu desenvolvimento se iniciou em 1994 e possui duas fases prim·rias, uma de viabilidade, cujo objetivo È verificar se È vi·vel a execuÁ„o deste mÈtodo na situaÁ„o decorrente, e um estudo de negÛcio para definir os requisitos iniciais e a arquitetura de software. No decorrer do processo ainda s„o previstas etapas para prototipaÁ„o, construÁ„o do sistema e entrega do produto. O DSDM ainda possui princÌpios b·sicos relacionados ‡ frequÍncia de entregas e de testes, e participaÁ„o direta do usu·rio durante todo o processo. 
- \item \textbf{\textit{Extreme programming} (XP)}: juntamente com o \textit{Scrum} È o mais utilizado. Busca ``a excelÍncia no desenvolvimento de software, visando baixo custo, poucos defeitos, alta produtividade e alto retorno de investimento'' \cite{sato2007uso}.
+ \item \textbf{\textit{Scrum}}: desenvolvido nas d√©cadas de 80 e 90. Este modelo prop√µe intera√ß√µes (\textit{sprints}) de 2 semanas a um m√™s com acompanhamento de reuni√µes em p√©. O l√≠der da equipe √© denominado \textit{Scrum master} e as tarefas e funcionalidades, que s√£o inclu√≠das em uma lista, s√£o chamadas de ``\textit{Product Backlog}'';   
+ \item \textbf{\textit{Lean Software Development}}: baseado no sistema de produ√ß√£o da \textit{Toyota}, este m√©todo revolucionou a manufatura, o desenvolvimento de produtos e o gerenciamento da cadeia de suprimentos. Sustentado sobre sete princ√≠pios: ``Elimine Desperd√≠cios'', ``Inclua a Qualidade no Processo'', ``Crie Conhecimento'', ``Adie comprometimentos'', ``Entregue r√°pido'', ``Respeite as pessoas'' e ``Otimize o Todo'' \cite{sato2007uso};
+ \item \textbf{Metodologia da fam√≠lia \textit{Crystal}}: possui uma peculiaridade, a ``habitabilidade'', que significa ``o m√≠nimo de processo necess√°rio para que a equipe consiga ter sucesso'' \cite{sato2007uso}. Al√©m disso, seus m√©todos compartilham propriedades como: entrega frequente, reflex√£o e comunica√ß√£o;
+ \item \textbf{\textit{Feature Driven Development} (FDD)}: criada na d√©cada de 90, ele se aproveita de diagramas UML para representar classes de diferentes responsabilidades e √© constitu√≠do por duas fases: a de concep√ß√£o e planejamento e a iterativa de constru√ß√£o, compostas por 5 processos internos ao todo.
+ \item \textbf{\textit{Adaptive Software Development}}: m√©todo que prop√µe tr√™s fases possivelmente sobrepostas: especula√ß√£o, colabora√ß√£o e aprendizado. Aqui, o conhecimento sobre falhas, oriundas de falsas premissas, √© adquirido por meio de curtas itera√ß√µes, sendo corrigidas vagarosamente.
+ \item \textbf{\textit{Dynamic systems development method} (DSDM)}: seu desenvolvimento se iniciou em 1994 e possui duas fases prim√°rias, uma de viabilidade, cujo objetivo √© verificar se √© vi√°vel a execu√ß√£o deste m√©todo na situa√ß√£o decorrente, e um estudo de neg√≥cio para definir os requisitos iniciais e a arquitetura de software. No decorrer do processo ainda s√£o previstas etapas para prototipa√ß√£o, constru√ß√£o do sistema e entrega do produto. O DSDM ainda possui princ√≠pios b√°sicos relacionados √† frequ√™ncia de entregas e de testes, e participa√ß√£o direta do usu√°rio durante todo o processo. 
+ \item \textbf{\textit{Extreme programming} (XP)}: juntamente com o \textit{Scrum} √© o mais utilizado. Busca ``a excel√™ncia no desenvolvimento de software, visando baixo custo, poucos defeitos, alta produtividade e alto retorno de investimento'' \cite{sato2007uso}.
 \end{itemize}
 
-Concluindo o tema, È aconselh·vel exibir as diferenÁas entre os dois tipos de metodologias, para isso a tabela \ref{metodologias} foi criada. 
+Concluindo o tema, √© aconselh√°vel exibir as diferen√ßas entre os dois tipos de metodologias, para isso as tabelas \ref{metodologia-tradicional} e \ref{metodologia-agil} foram criadas. 
 \newpage
 
-\begin{table}[]
-\label{metodologias}
-\scalefont{0.5}
-\caption{DiferenÁas b·sicas entre as metodologias tradicionais e ·geis. Fonte: Adaptado de \citeonline{dos2013metodologias}}
+\begin{quadro}[h]
 \centering
-\begin{tabular}{|l|c|c|}
+\scalefont{0.8}
+\caption{Diferen√ßas b√°sicas entre as metodologias tradicionais e √°geis - Gerenciamento Tradicional}
+\vspace{0.5cm}
+\begin{tabular}{c|c}
+ 
+\textbf{Caracter√≠sticas} & \textbf{Gerenciamento Tradicional} \\ % Note a separa√ß√£o de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+Ter definido a priori & Escopo \\
+Respons√°vel pela organiza√ß√£o para atingir os objetivos do projeto & Gerente de projeto \\
+Frequ√™ncia de reuni√µes de status & Dependendo da complexidade/necessidade do projeto \\
+Escopo & Bem definido nas fases iniciais do projeto \\
+Tempo & Cronograma detalhado para realiza√ß√£o de todo o projeto \\          % n√£o √© preciso quebrar a √∫ltima linha
+Custo & Monitora√ß√£o das altera√ß√µes para que n√£o altere o custo planejado \\
+Qualidade & Processo de verifica√ß√£o, valida√ß√£o e plano de testes \\
+Riscos & An√°lise de riscos durante todo o ciclo de vida do projeto \\
+Comunica√ß√£o & Documenta√ß√£o e formal \\
 \hline
-\multicolumn{1}{|c|}{\textbf{CaracterÌsticas}}                    & \textbf{Gerenciamento Tradicional}                                                                         & \textbf{Gerenciamento ¡gil}                                                                                                                                                       \\ \hline
-Ter definido a priori                                             & Escopo                                                                                                     & Tempo (\textit{sprints})                                                                                                                                                                   \\ \hline
-Respons·vel pela organizaÁ„o para atingir os objetivos do projeto & Gerente de projeto                                                                                         & \textit{Scrum master}                                                                                                                                                             \\ \hline
-FrequÍncia de reuniıes de status                                  & \begin{tabular}[c]{@{}c@{}}Dependendo da complexidade/necessidade do projeto\end{tabular}               & Di·rias                                                                                                                                                                           \\ \hline
-Escopo                                                            & Bem definido nas fases iniciais do projeto                                                                 & \begin{tabular}[c]{@{}c@{}}Definido em alto nÌvel e os requisitos\\  s„o priorizados e definidos de forma\\ iterativa. Necessita de maior controle\\ de planejamento\end{tabular} \\ \hline
-Tempo                                                             & \begin{tabular}[c]{@{}c@{}}Cronograma detalhado para realizaÁ„o\\ de todo o projeto\end{tabular}           & \begin{tabular}[c]{@{}c@{}}Cronograma orientado a produto com\\ entregas incrementais de 2-4 semanas\end{tabular}                                                                 \\ \hline
-Custo                                                             & \begin{tabular}[c]{@{}c@{}}MonitoraÁ„o das alteraÁıes para que n„o\\ altere o custo planejado\end{tabular} & \begin{tabular}[c]{@{}c@{}}Maior controle em funÁ„o da rapidez\\ na incorporaÁ„o de alteraÁıes\end{tabular}                                                                       \\ \hline
-Qualidade                                                         & \begin{tabular}[c]{@{}c@{}}Processo de verificaÁ„o, validaÁ„o e plano\\ de testes\end{tabular}             & \begin{tabular}[c]{@{}c@{}}ProgramaÁ„o em pares, testes incrementais\\ e refatoraÁ„o\end{tabular}                                                                                 \\ \hline
-Riscos                                                            & \begin{tabular}[c]{@{}c@{}}An·lise de riscos durante todo o ciclo de \\ vida do projeto\end{tabular}       & \begin{tabular}[c]{@{}c@{}}Aplica-se o mesmo conceito do gerenciamento\\ tradicional\end{tabular}                                                                                 \\ \hline
-ComunicaÁ„o                                                       & DocumentaÁ„o e formal                                                                                      & ImplÌcita, interpessoal e colaborativa                                                                                                                                            \\ \hline
 \end{tabular}
-\end{table}
+\fonte{\citeonline{dos2013metodologias}. Adaptado.}
+\label{metodologia-tradicional}
+\end{quadro}
 
-\section{Sistemas Gerenciadores de Conte˙do (CMS)}
+\hspace{1.5cm}
+
+\begin{quadro}[h]
+\centering
+\scalefont{0.8}
+\caption{Diferen√ßas b√°sicas entre as metodologias tradicionais e √°geis - Gerenciamento √Ågil}
+\vspace{0.5cm}
+\begin{tabular}{c|c}
+ 
+\textbf{Caracter√≠sticas} & \textbf{Gerenciamento √Ågil} \\ % Note a separa√ß√£o de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+Ter definido a priori & Tempo (\textit{sprints}) \\
+Respons√°vel pela organiza√ß√£o para atingir os objetivos do projeto & \textit{Scrum master} \\
+Frequ√™ncia de reuni√µes de status & Di√°rias \\
+Escopo & Definido em alto n√≠vel e os requisitos definidos de forma iterativa \\
+Tempo & Cronograma orientado a produto com entregas incrementais \\          % n√£o √© preciso quebrar a √∫ltima linha
+Custo & Maior controle em fun√ß√£o da rapidez em altera√ß√µes \\
+Qualidade & Programa√ß√£o em pares, testes incrementais e refatora√ß√£o \\
+Riscos & Aplica-se o mesmo conceito do gerenciamento tradicional \\
+Comunica√ß√£o & Impl√≠cita, interpessoal e colaborativa \\
+\hline
+\end{tabular}
+\fonte{\citeonline{dos2013metodologias}. Adaptado.}
+\label{metodologia-agil}
+\end{quadro}
+
+\hspace{2.5cm}
+
+\section{Sistemas Gerenciadores de Conte√∫do (CMS)}
 \label{sec:cms}
 %CMS
+\hspace{2.5cm}
 
-O \textit{Content Management System} (CMS), ou Sistema de Gerenciamento de Conte˙do (SGC), em portuguÍs, surgiu, segundo \cite{chagas2018estudo},
-no final da dÈcada de 90 com o intuito de melhorar a gest„o do conte˙do dos \textit{websites} das organizaÁıes da Època.  
+O \textit{Content Management System} (CMS), ou Sistema de Gerenciamento de Conte√∫do (SGC), em portugu√™s, surgiu, segundo \cite{chagas2018estudo},
+no final da d√©cada de 90 com o intuito de melhorar a gest√£o do conte√∫do dos \textit{websites} das organiza√ß√µes da √©poca.  
 
 \citeonline{meike2009security} e \citeonline{chagas2018estudo} citam qualidades proporcionadas aos desenvolvedores que os utilizam.
-Segundo eles as organizaÁıes podem utilizar um gerenciador de conte˙do para construir \textit{websites},
-lojas online ou portais, havendo reduÁ„o de erros de publicaÁ„o que facilitam o processo de validaÁ„o e sendo manuseados por muitas
-pessoas sem que seja necess·rio editar o cÛdigo-fonte e possuir conhecimento especializado na ·rea de programaÁ„o.
+Segundo eles as organiza√ß√µes podem utilizar um gerenciador de conte√∫do para construir \textit{websites},
+lojas online ou portais, havendo redu√ß√£o de erros de publica√ß√£o que facilitam o processo de valida√ß√£o e sendo manuseados por muitas
+pessoas sem que seja necess√°rio editar o c√≥digo-fonte e possuir conhecimento especializado na √°rea de programa√ß√£o.
 
-Outro fator positivo encontrado nesses sistemas È a possibilidade de colaboraÁ„o entre os desenvolvedores. Porque uma aplicaÁ„o web desenvolvida em um CMS pode ser gerenciada por diversas pessoas, podendo ter restriÁıes de acesso de cada uma delas a diferentes partes do sistema, ou seja, È possÌvel definir nÌveis de acesso a usu·rios para que cada um deles possa administrar um ou mais tipos de conte˙do do mesmo. Para sintetizar, \apud[~p. 1]{boiko}{chagas2018estudo} conclui que ``um SGC possibilita a criaÁ„o, o gerenciamento, a distribuiÁ„o, a publicaÁ„o e a recuperaÁ„o de informaÁıes corporativas''.
+Outro fator positivo encontrado nesses sistemas √© a possibilidade de colabora√ß√£o entre os desenvolvedores. Porque uma aplica√ß√£o web desenvolvida em um CMS pode ser gerenciada por diversas pessoas, podendo ter restri√ß√µes de acesso de cada uma delas a diferentes partes do sistema, ou seja, √© poss√≠vel definir n√≠veis de acesso a usu√°rios para que cada um deles possa administrar um ou mais tipos de conte√∫do do mesmo. Para sintetizar, \apud[~p. 1]{boiko}{chagas2018estudo} conclui que ``um SGC possibilita a cria√ß√£o, o gerenciamento, a distribui√ß√£o, a publica√ß√£o e a recupera√ß√£o de informa√ß√µes corporativas''.
 
-Esses sistemas possuem caracterÌsticas prÛprias que variam de acordo com o tipo de gerenciador. Existem CMSs baseados nas linguagens Python, Java, PHP e Perl, sendo aspectos disjuntos aos sistemas, porÈm todos eles s„o capazes de usar linguagens padr„o da web e bancos de dados relacionais, como visto na figura \ref{figura3}.
+Esses sistemas possuem caracter√≠sticas pr√≥prias que variam de acordo com o tipo de gerenciador. Existem CMSs baseados nas linguagens Python, Java, PHP e Perl, sendo aspectos disjuntos aos sistemas, por√©m todos eles s√£o capazes de usar linguagens padr√£o da web e bancos de dados relacionais, como visto na figura \ref{figura3}.
 
 \begin{figure}[htb]
  \centering
- 
- \includegraphics[scale=0.5]{figuras/linguagens-cms-1}
- 
- \caption{Sistemas de gerenciamento de conte˙do da web de cÛdigo aberto e tecnologias relacionadas. Fonte: \citeonline{meike2009security}}
+ \caption{Sistemas de gerenciamento de conte√∫do da web de c√≥digo aberto e tecnologias relacionadas}
+ \includegraphics[width=0.7\textwidth]{figuras/linguagens-cms-1}
+ \fonte{\citeonline{meike2009security}.}
  \label{figura3}
 \end{figure}
 
-As prÛximas subseÁıes foram dedicadas a gerar uma maior compreens„o sobre os Sistemas Gerenciadores de Conte˙do e sua utilizaÁ„o em ‚mbito institucional. AtravÈs delas ser· possÌvel assimilar os diferentes tipos de gerenciadores e seus principais atributos, estabelecendo ainda um comparativo entre eles no que diz respeito ‡ suas caracterÌsticas e utilizaÁ„o em meio corporativo.
+As pr√≥ximas subse√ß√µes foram dedicadas a gerar uma maior compreens√£o sobre os Sistemas Gerenciadores de Conte√∫do e sua utiliza√ß√£o em √¢mbito institucional. Atrav√©s delas ser√° poss√≠vel assimilar os diferentes tipos de gerenciadores e seus principais atributos, estabelecendo ainda um comparativo entre eles no que diz respeito √† suas caracter√≠sticas e utiliza√ß√£o em meio corporativo.
 
-\subsection{Tipos de Sistemas Gerenciadores de Conte˙do}
+\hspace{2.5cm}
 
-… possÌvel encontrar centenas de ferramentas de gerenciamento de conte˙do hoje em dia, sendo que, as questıes que os diferem s„o diversas, citando-se requisitos do sistema, seguranÁa, suporte, facilidade de uso e desempenho. \citeonline{dasoluccao}.
+\subsection{Tipos de Sistemas Gerenciadores de Conte√∫do}
 
-No relatÛrio \textit{Open Source CMS Market Share Report} divulgado pela agÍncia digital \citeonline{relatoriocms}, foi possÌvel obter a correlaÁ„o entre os diferentes CMSs com os principais sites encontrados no \textit{Google PageRank}. O \textit{Google PageRank} È ``um mÈtodo usado pela \textit{Google} para determinar a import‚ncia ou a relev‚ncia de uma p·gina. P·ginas relevantes tÍm altos escalıes e provavelmente aparecer„o no topo nos resultados de pesquisa'' \cite[~p. 3, traduÁ„o nossa]{mirdha2014comparative}. 
+\hspace{2.5cm}
 
-\newpage
+√â poss√≠vel encontrar centenas de ferramentas de gerenciamento de conte√∫do hoje em dia, sendo que, as quest√µes que os diferem s√£o diversas, citando-se requisitos do sistema, seguran√ßa, suporte, facilidade de uso e desempenho. \citeonline{dasoluccao}.
 
-\begin{table}[]
-\scalefont{0.8}
+No relat√≥rio \textit{Open Source CMS Market Share Report} divulgado pela ag√™ncia digital \citeonline{relatoriocms}, foi poss√≠vel obter a correla√ß√£o entre os diferentes CMSs com os principais sites encontrados no \textit{Google PageRank}. O \textit{Google PageRank} √© ``um m√©todo usado pela \textit{Google} para determinar a import√¢ncia ou a relev√¢ncia de uma p√°gina. P√°ginas relevantes t√™m altos escal√µes e provavelmente aparecer√£o no topo nos resultados de pesquisa'' \cite[~p. 3, tradu√ß√£o nossa]{mirdha2014comparative}. 
+
+\begin{table}[h]
 \centering
-\caption{Ranking das p·ginas por CMS. Fonte: Adaptado de \apudonline{relatoriocms}{mirdha2014comparative}}
-\begin{tabular}{|c|c|c|}
+\scalefont{1.2}
+\caption{Ranking das p√°ginas por CMS}
+\vspace{0.5cm}
+\begin{tabular}{c|c}
+ 
+\textbf{\textit{Content Management System}} & \textbf{\textit{Page Rank}} \\ % Note a separa√ß√£o de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+\textit{Joomla!} & 9 \\
+\textit{Drupal}  & 9 \\
+\textit{WordPress} & 9 \\
+\textit{Plone} & 9 \\
+\textit{Typo3} & 8  \\          % n√£o √© preciso quebrar a √∫ltima linha
+\textit{Concrete5} & 7 \\
+\textit{DotNetNuke} & 7 \\
+\textit{Alfresco} & 7 \\
 \hline
-\multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{ \textit{Content Management System}} & \multicolumn{1}{l|}{ \textit{Page Rank}} \\ \hline
-a.                     & \textit{Joomla!}                                         & 9                              \\ \hline
-b.                     & \textit{Drupal}                                         & 9                              \\ \hline
-c.                     & \textit{WordPress}                                      & 9                              \\ \hline
-d.                     & \textit{Plone}                                          & 9                              \\ \hline
-e.                     & \textit{Typo3}                                          & 8                              \\ \hline
-f.                     & \textit{Concrete5}                                      & 7                              \\ \hline
-g.                     & \textit{DotNetNuke}                                     & 7                              \\ \hline
-h.                     & \textit{Alfresco}                                       & 7                              \\ \hline
 \end{tabular}
+\fonte{\apudonline{relatoriocms}{mirdha2014comparative}. Adaptado.}
 \label{pagerank}
 \end{table}
 
-A relev‚ncia das p·ginas È proporcional ao ranking e indica que quanto maior ele seja, mais chance a p·gina tem de aparecer
+A relev√¢ncia das p√°ginas √© proporcional ao ranking e indica que quanto maior ele seja, mais chance a p√°gina tem de aparecer
 no topo da lista dos resultados de uma pesquisa do mecanismo de busca da \textit{Google}.
 
-Por conveniÍncia, os quatro sistemas mais bem colocados ser„o os escolhidos para dar inÌcio ao processo de comparaÁ„o entre os principais. Tal processo se encontra na subseÁ„o \ref{subsec:comparacao}, desenvolvida adiante. PorÈm, antes de inici·-la, È importante haver uma apresentaÁ„o dos sistemas escolhidos para deixar claro as distinÁıes b·sicas entre eles antes de adentrar em seus detalhes e especificidades.
+Por conveni√™ncia, os quatro sistemas mais bem colocados ser√£o os escolhidos para dar in√≠cio ao processo de compara√ß√£o entre os principais. Tal processo se encontra na subse√ß√£o \ref{subsec:comparacao}, desenvolvida adiante. Por√©m, antes de inici√°-la, √© importante haver uma apresenta√ß√£o dos sistemas escolhidos para deixar claro as distin√ß√µes b√°sicas entre eles antes de adentrar em seus detalhes e especificidades.
 
-\textbf{\textit{Drupal}}: o CMS È derivado de um projeto escrito por um universit·rio holandÍs que tinha como objetivo fornecer meios de compartilhar notÌcias e eventos. \citeonline{menezes2016processo}. Seu projeto foi considerado \textit{open source} (cÛdigo aberto) em 2001 e baseou-se na linguagem PHP. Para empreg·-lo È necess·rio possui uma m·quina que suporte um servidor web do PHP com vers„o de 5.2 ou superior, exemplos: \textit{Apache, nginx} e \textit{IIS}, alÈm de um banco de dados, exemplos: \textit{MySQL, SQLite} e \textit{PostgreSQL} \citeonline{tomlinson2010beginning}. 
+\textbf{\textit{Drupal}}: o CMS √© derivado de um projeto escrito por um universit√°rio holand√™s que tinha como objetivo fornecer meios de compartilhar not√≠cias e eventos. \citeonline{menezes2016processo}. Seu projeto foi considerado \textit{open source} (c√≥digo aberto) em 2001 e baseou-se na linguagem PHP. Para empreg√°-lo √© necess√°rio possui uma m√°quina que suporte um servidor web do PHP com vers√£o de 5.2 ou superior, exemplos: \textit{Apache, nginx} e \textit{IIS}, al√©m de um banco de dados, exemplos: \textit{MySQL, SQLite} e \textit{PostgreSQL} \citeonline{tomlinson2010beginning}. 
 
-\textbf{\textit{Joomla!}}: segundo \citeonline{menezes2016processo} o \textit{Joomla!} foi desenvolvido em 2005 apÛs a separaÁ„o entre a equipe de desenvolvedores do \textit{Mambo}; um gerenciador de conte˙do de software livre e cÛdigo aberto, desenvolvido em PHP e que utiliza o \textit{MySQL} como banco de dados \citeonline{dasoluccao}; e a empresa \textit{Miro}. \citeonline{patel2011performance}, em seu artigo, salienta que sua aplicaÁ„o È recomendada para criaÁ„o de web sites em um curto tempo, dividindo a preferÍncia dos usu·rios com o \textit{WordPress} no quesito de criaÁ„o de portais, blogs e aplicaÁıes \textit{E-commerce}.
+\textbf{\textit{Joomla!}}: segundo \citeonline{menezes2016processo} o \textit{Joomla!} foi desenvolvido em 2005 ap√≥s a separa√ß√£o entre a equipe de desenvolvedores do \textit{Mambo}; um gerenciador de conte√∫do de software livre e c√≥digo aberto, desenvolvido em PHP e que utiliza o \textit{MySQL} como banco de dados \citeonline{dasoluccao}; e a empresa \textit{Miro}. \citeonline{patel2011performance}, em seu artigo, salienta que sua aplica√ß√£o √© recomendada para cria√ß√£o de web sites em um curto tempo, dividindo a prefer√™ncia dos usu√°rios com o \textit{WordPress} no quesito de cria√ß√£o de portais, blogs e aplica√ß√µes \textit{E-commerce}.
 
-\textbf{\textit{Plone}}: o Plone È um CMS usado amplamente e principalmente por Ûrg„os do governo. … livre e de cÛdigo aberto, sendo executado sobre o \textit{Zope}, um sistema operacional construÌdo em \textit{Python} para aplicaÁıes web, e utiliza o banco de dados \textit{ZODB}. O projeto \textit{Plone} teve inÌcio no ano de 1999 e sua primeira vers„o foi lanÁada em 2001 \citeonline{menezes2016processo}, \citeonline{elias} e \citeonline{dasoluccao}.
+\textbf{\textit{Plone}}: o Plone √© um CMS usado amplamente e principalmente por √≥rg√£os do governo. √â livre e de c√≥digo aberto, sendo executado sobre o \textit{Zope}, um sistema operacional constru√≠do em \textit{Python} para aplica√ß√µes web, e utiliza o banco de dados \textit{ZODB}. O projeto \textit{Plone} teve in√≠cio no ano de 1999 e sua primeira vers√£o foi lan√ßada em 2001 \citeonline{menezes2016processo}, \citeonline{elias} e \citeonline{dasoluccao}.
 
 
-\textbf{\textit{WordPress}}: o \textit{WordPress} È um CMS disponibilizado em 2003 que tem seu uso facilitado por n„o exigir ao desenvolvedor qualquer conhecimento especÌfico na ·rea de programaÁ„o. Por conta de sua intuitividade, comunicabilidade e usabilidade, ele È usado atualmente em milhıes de sites, assim como mantido por uma grande comunidade de desenvolvedores e usu·rios. Vale a pena ressaltar que ele consiste em um sistema extremamente personaliz·vel e completo, visto que possui milhares de \textit{widgets, plugins} e \textit{temas} que podem ser manipulados de acordo com as necessidades do usu·rio \citeonline{de2017repositorios}. Para concluir, ele È desenvolvido em PHP, assim como o \textit{Drupal} e o \textit{Joomla!}, e integrado ao banco de dados \textit{MySQL}. 
+\textbf{\textit{WordPress}}: o \textit{WordPress} √© um CMS disponibilizado em 2003 que tem seu uso facilitado por n√£o exigir ao desenvolvedor qualquer conhecimento espec√≠fico na √°rea de programa√ß√£o. Por conta de sua intuitividade, comunicabilidade e usabilidade, ele √© usado atualmente em milh√µes de sites, assim como mantido por uma grande comunidade de desenvolvedores e usu√°rios. Vale a pena ressaltar que ele consiste em um sistema extremamente personaliz√°vel e completo, visto que possui milhares de \textit{widgets, plugins} e \textit{temas} que podem ser manipulados de acordo com as necessidades do usu√°rio \citeonline{de2017repositorios}. Para concluir, ele √© desenvolvido em PHP, assim como o \textit{Drupal} e o \textit{Joomla!}, e integrado ao banco de dados \textit{MySQL}. 
+
+\hspace{2.5cm}
 
 \subsection{Comparativos entre os principais sistemas}
 \label{subsec:comparacao}
+
+\hspace{2.5cm}
 %Tem no TCC do Elias e nesse artigo: https://biblioteca.unilasalle.edu.br/docs_online/tcc/graduacao/ciencia_da_computacao/2010/cssilveira.pdf
 
-%Falar sobre a utilizaÁ„o dos gerenciadores em universidades federais e outros (se for o caso), e dos mÈtodos de comparaÁ„o (seguranÁa, desempenho, ...)
+%Falar sobre a utiliza√ß√£o dos gerenciadores em universidades federais e outros (se for o caso), e dos m√©todos de compara√ß√£o (seguran√ßa, desempenho, ...)
 
-Nesta subseÁ„o, o ‚mago girar· em torno de comparativos entre os principais Sistemas de Gerenciamento de Conte˙do em relaÁ„o ‡ sua aplicaÁ„o em instituiÁıes p˙blicas e no mercado em geral, e aos ganhos de cada um em relaÁ„o a facilidade de uso, desempenho, flexibilidade e itens de suporte. Inicialmente a pesquisa abordar· as instituiÁıes p˙blicas brasileiras, representadas por universidades federais, encerrando-se com uma an·lise no cen·rio mundial, destacando seus pontos fortes, fracos e sua utilizaÁ„o no mercado. 
+Nesta subse√ß√£o, o √¢mago girar√° em torno de comparativos entre os principais Sistemas de Gerenciamento de Conte√∫do em rela√ß√£o √† sua aplica√ß√£o em institui√ß√µes p√∫blicas e no mercado em geral, e aos ganhos de cada um em rela√ß√£o a facilidade de uso, desempenho, flexibilidade e itens de suporte. Inicialmente a pesquisa abordar√° as institui√ß√µes p√∫blicas brasileiras, representadas por universidades federais, encerrando-se com uma an√°lise no cen√°rio mundial, destacando seus pontos fortes, fracos e sua utiliza√ß√£o no mercado. 
 
-Baseando-se nas 63 universidades brasileiras pesquisadas no trabalho de \citeonline{elias}, chega-se ‡ conclus„o, a partir do demonstrado na figura \ref{figura1}, que a maioria delas adotaram Sistemas Gerenciadores de Conte˙do como ferramenta para desenvolvimento de seus respectivos portais institucionais. Diante do exposto na figura \ref{figura2}, obtemos que entre nessas universidades h· a predomin‚ncia dos quatro principais sistemas constatados na subseÁ„o anterior, sendo eles: \textit{Drupal, Joomla!, WordPress} e \textit{Plone}.
+Baseando-se nas 63 universidades brasileiras pesquisadas no trabalho de \citeonline{elias}, chega-se √† conclus√£o, a partir do demonstrado na figura \ref{figura1}, que a maioria delas adotaram Sistemas Gerenciadores de Conte√∫do como ferramenta para desenvolvimento de seus respectivos portais institucionais. Diante do exposto na figura \ref{figura2}, obtemos que entre nessas universidades h√° a predomin√¢ncia dos quatro principais sistemas constatados na subse√ß√£o anterior, sendo eles: \textit{Drupal, Joomla!, WordPress} e \textit{Plone}.
 
 \begin{figure}[htb]
  \centering
+ \caption{Taxa de op√ß√£o por CMS entre as universidades p√∫blicas federais}
+ \includegraphics[width=0.7\textwidth]{figuras/adocao-de-cms}
  
- \includegraphics[scale=0.4]{figuras/adocao-de-cms}
- 
- \caption{Taxa de opÁ„o por CMS entre as universidades p˙blicas federais. Fonte: \citeonline{elias}}
  \label{figura1}
+ \fonte{\citeonline{elias}.}
 \end{figure}
 
 \begin{figure}[htb]
  \centering
+ \caption{Tipos de CMSs adotados pelas universidades federais}
+ \includegraphics[width=0.7\textwidth]{figuras/tipos-de-cms}
  
- \includegraphics[scale=0.4]{figuras/tipos-de-cms}
  
- \caption{Tipos de CMSs adotados pelas universidades federais. Fonte: \citeonline{elias}}
+ \fonte{\citeonline{elias}.}
  \label{figura2}
 \end{figure}
 
 \newpage
-ApÛs as observaÁıes anteriores, ser„o comparados os quatro sistemas predominantes com o objetivo de avali·-los e determinar qual deles possui o melhor resultado geral diante das seguintes mÈtricas: desempenho geral, comÈrcio eletrÙnico, aplicaÁıes integradas, flexibilidade, interoperabilidade, gerenciamento, performance, facilidade de uso, suporte e seguranÁa. As figuras \ref{drupal}, \ref{joomla}, \ref{plone} e \ref{wordpress} referem-se ao desempenho obtido pelo respectivo sistema para cada uma das mÈtricas propostas. Por fim, a figura \ref{desempenho-geral} demonstra o desempenho geral obtido por cada um.
-
+Ap√≥s as observa√ß√µes anteriores, ser√£o comparados os quatro sistemas predominantes com o objetivo de avali√°-los e determinar qual deles possui o melhor resultado geral diante das seguintes m√©tricas: desempenho geral, com√©rcio eletr√¥nico, aplica√ß√µes integradas, flexibilidade, interoperabilidade, gerenciamento, performance, facilidade de uso, suporte e seguran√ßa. As figuras \ref{drupal}, \ref{joomla}, \ref{plone} e \ref{wordpress} referem-se ao desempenho obtido pelo respectivo sistema para cada uma das m√©tricas propostas. Por fim, a figura \ref{desempenho-geral} demonstra o desempenho geral obtido por cada um.
+\newpage
 
 \begin{figure}[htb]
  \centering
- 
- \includegraphics[scale=0.3]{figuras/desempenho-drupal}
- 
- \caption{Desempenho obtido pelo \textit{Drupal}. Fonte: \citeonline{elias}}
+ \caption{Desempenho obtido pelo \textit{Drupal}}
+ \includegraphics[width=0.7\textwidth]{figuras/desempenho-drupal}
  \label{drupal}
+ \fonte{\citeonline{elias}.}
 \end{figure}
 \newpage
+
 \begin{figure}[htb]
  \centering
- 
- \includegraphics[scale=0.3]{figuras/desempenho-joomla}
- 
- \caption{Desempenho obtido pelo \textit{Joomla!}. Fonte: \citeonline{elias}}
+ \caption{Desempenho obtido pelo \textit{Joomla!}}
+ \includegraphics[width=0.7\textwidth]{figuras/desempenho-joomla}
  \label{joomla}
+ \fonte{\citeonline{elias}.}
 \end{figure}
-
+\newpage
 \begin{figure}[htb]
  \centering
- 
- \includegraphics[scale=0.3]{figuras/desempenho-plone}
- 
- \caption{Desempenho obtido pelo \textit{Plone}. Fonte: \citeonline{elias}}
+ \caption{Desempenho obtido pelo \textit{Plone}}
+ \includegraphics[width=0.7\textwidth]{figuras/desempenho-plone}
  \label{plone}
+ \fonte{\citeonline{elias}.}
 \end{figure}
 \newpage
+
 \begin{figure}[htb]
  \centering
- 
- \includegraphics[scale=0.3]{figuras/desempenho-wordpress}
- 
- \caption{Desempenho obtido pelo \textit{WordPress}. Fonte: \citeonline{elias}}
+ \caption{Desempenho obtido pelo \textit{WordPress}}
+ \includegraphics[width=0.7\textwidth]{figuras/desempenho-wordpress}
  \label{wordpress}
+ \fonte{\citeonline{elias}.}
 \end{figure}
 
 \newpage
 
 \begin{figure}[htb]
  \centering
- 
- \includegraphics[scale=0.4]{figuras/desempenho-geral-cms}
- 
- \caption{Desempenho geral obtido pelos gerenciadores. Fonte: \citeonline{elias}}
+ \caption{Desempenho geral obtido pelos gerenciadores}
+ \includegraphics[width=0.7\textwidth]{figuras/desempenho-geral-cms}
  \label{desempenho-geral}
+ \fonte{\citeonline{elias}.}
 \end{figure}
 
-Ent„o pode-se considerar, diante de todas as circunst‚ncias e os testes executados cujos resultados est„o exibidos nas figuras, que o \textit{Plone} È o mais balanceado em termos de aspectos negativos e positivos, fornecendo uma maior confianÁa aos desenvolvedores de sistemas web que precisam de sistemas que reajam bem a mÛdulos mais robustos, que sejam seguros e com grande comunidade virtual para auxÌlio ao desenvolvimento.
 
-A imagem \ref{uso-plone-mercado} mostra uma an·lise de posicionamento de mercado dos CMSs mais usados no mundo:
+Ent√£o pode-se considerar, diante de todas as circunst√¢ncias e os testes executados cujos resultados est√£o exibidos nas figuras, que o \textit{Plone} √© o mais balanceado em termos de aspectos negativos e positivos, fornecendo uma maior confian√ßa aos desenvolvedores de sistemas web que precisam de sistemas que reajam bem a m√≥dulos mais robustos, que sejam seguros e com grande comunidade virtual para aux√≠lio ao desenvolvimento.
+
+A imagem \ref{uso-plone-mercado} mostra uma an√°lise de posicionamento de mercado dos CMSs mais usados no mundo:
 
 \begin{figure}[htb]
  \centering
- \includegraphics[scale=0.4]{figuras/cms_mercado}
- \caption{An·lise de posicionamento de mercado com destaque para o \textit{Plone}. Fonte: \apud{plonemercado}{elias} }
+ \caption{An√°lise de posicionamento de mercado com destaque para o \textit{Plone}}
+ \includegraphics[width=0.7\textwidth]{figuras/cms_mercado}
+ 
  \label{uso-plone-mercado}
+ \fonte{\apud{plonemercado}{elias}.}
 \end{figure}
-
-AtravÈs dela percebemos que o \textit{Plone} È muito preferido em situaÁıes que envolvem sistemas que receber„o grande n˙mero de requisiÁıes de visitantes e usu·rios.
-Outro fator importante a se destacar È a baixa ades„o das pessoas a esse gerenciador de conte˙do. Pela imagem percebe-se que o \textit{WordPress}
-È disparadamente o gerenciador mais utilizado, e o \textit{Plone}, o que est· em menor n˙mero de sites.
-
-O Idealware, um site que tem o propÛsito de ajudar organizaÁıes sem fins lucrativos a tomar decisıes inteligentes sobre tecnologia, publicou o seguinte artigo: \textit{Consumers Guide to Open Source Content Management Systems for Nonprofits: Comparing WordPress, Drupal, and Plone}, detalhando todos estes trÍs sistemas.
-
-Para a comparaÁ„o, houve a criaÁ„o da tabela \ref{nivel-cms} contendo 15 atributos, na qual est· atribuÌdo o nÌvel dos softwares para cada um deles, sendo 1 significando um nÌvel ruim de satisfaÁ„o, 2 significando um nÌvel mÈdio e 3, por sua vez, determinando que o gerenciador cobre muito bem tal aspecto.
 
 \newpage
 
-\begin{table}[]
-\caption{NÌvel de satisfaÁ„o do CMS por requisito. Fonte: Adaptado de \citeonline{idealware-cms}}
-\label{satisfacao}
-\scalefont{0.8}
+Atrav√©s dela percebemos que o \textit{Plone} √© muito preferido em situa√ß√µes que envolvem sistemas que receber√£o grande n√∫mero de requisi√ß√µes de visitantes e usu√°rios.
+Outro fator importante a se destacar √© a baixa ades√£o das pessoas a esse gerenciador de conte√∫do. Pela imagem percebe-se que o \textit{WordPress}
+√© disparadamente o gerenciador mais utilizado, e o \textit{Plone}, o que est√° em menor n√∫mero de sites.
+
+O \textit{Idealware}, um site que tem o prop√≥sito de ajudar organiza√ß√µes sem fins lucrativos a tomar decis√µes inteligentes sobre tecnologia, publicou o seguinte artigo: \textit{Consumers Guide to Open Source Content Management Systems for Nonprofits: Comparing WordPress, Drupal, and Plone}, detalhando todos estes tr√™s sistemas.
+
+Para a compara√ß√£o, houve a cria√ß√£o da tabela \ref{nivel-cms} contendo 15 atributos, na qual est√° atribu√≠do o n√≠vel dos softwares para cada um deles, sendo 1 significando um n√≠vel ruim de satisfa√ß√£o, 2 significando um n√≠vel m√©dio e 3, por sua vez, determinando que o gerenciador cobre muito bem tal aspecto.
+
+\newpage
+
+\begin{table}[h]
 \centering
-\begin{tabular}{|l|c|c|c|}
-\hline
-                                                      & \multicolumn{1}{l|}{Drupal} & Plone & WordPress \\ \hline
-Facilidade de hospedagem e instalaÁ„o                 & 3                           & 1     & 3         \\ \hline
-Facilidade de configurar um site simples              & 3                           & 3     & 3         \\ \hline
-Curva de aprendizado para configurar um site complexo & 2                           & 1     & 3         \\ \hline
-Facilidade de ediÁ„o de conte˙do                      & 3                           & 3     & 3         \\ \hline
-Facilidade de gerenciar um site                       & 2                           & 2     & 3         \\ \hline
-Flexibilidade estrutural                              & 3                           & 3     & 2         \\ \hline
-Flexibilidade gr·fica                                 & 3                           & 3     & 3         \\ \hline
-Facilidade de suporte mÛvel                           & 3                           & 3     & 3         \\ \hline
-IntegraÁ„o com dados constituintes                    & 2                           & 2     & 1         \\ \hline
-FunÁıes de usu·rio e fluxo de trabalho                & 2                           & 3     & 2         \\ \hline
-Comunidade/funcionalidade na Web 2.0                   & 3                           & 2     & 3         \\ \hline
-Acessibilidade                                        & 3                           & 3     & 2         \\ \hline
-OtimizaÁ„o para mecanismos de pesquisa                & 2                           & 3     & 2         \\ \hline
-Estendendo alÈm da funcionalidade existente           & 3                           & 3     & 3         \\ \hline
-Apoio e forÁa da comunidade                           & 3                           & 3     & 3         \\ \hline
+\scalefont{1.1}
+\caption{N√≠vel de satisfa√ß√£o do CMS por requisito}
+\vspace{0.5cm}
+\begin{tabular}{l|c|c|c}
+ 
+\textbf{Requisito} & \textbf{\textit{Drupal}} & \textbf{\textit{Plone}} & \textbf{\textit{WordPress}} \\ % Note a separa√ß√£o de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+Facilidade de hospedagem e instala√ß√£o & 3 & 1 & 3 \\
+Facilidade de configurar um site simples & 3 & 3 & 3 \\
+Curva de aprendizado para configurar um site complexo & 2 & 1 & 3 \\
+Facilidade edi√ß√£o de conte√∫do & 3 & 3 & 3 \\
+Facilidade de gerenciar um site & 2 & 2 & 3 \\
+Flexibilidade estrutural & 3 & 3 & 2 \\
+Flexibilidade gr√°fica & 3 & 3 & 3 \\
+Flexibilidade de suporte m√≥vel & 3 & 3 & 3 \\
+Integra√ß√£o com dados constituintes & 2 & 2 & 1 \\
+Fun√ß√µes de usu√°rio e fluxo de trabalho & 2 & 3 & 2 \\
+Comunidade/Funcionalidade na Web 2.0 & 3 & 2 & 3 \\
+Acessibilidade & 3 & 3 & 2 \\
+Otimiza√ß√£o para mecanismos de pesquisa & 2 & 3 & 2 \\
+Estendendo al√©m da funcionalidade existente & 3 & 3 & 3 \\
+Apoio e for√ßa da comunidade & 3 & 3 & 3 \\
+\hline   
 \end{tabular}
+\fonte{\citeonline{idealware-cms}. Adaptado.}
 \label{nivel-cms}
 \end{table}
 
 
-A tabela \ref{satisfacao} expressa uma informaÁ„o importante: o \textit{Plone} proporciona pouca facilidade para hospedagem, instalaÁ„o e uma baixa curva de aprendizado por parte do desenvolvedor ao se deparar com a construÁ„o de um site complexo. Tais fatores associados ‡ baixa popularidade do mesmo em relaÁ„o ao outros gerenciadores o torna menos acessÌvel aos usu·rios, impactando diretamente no n˙mero de sites que o utilizam.
+A tabela \ref{nivel-cms} expressa uma informa√ß√£o importante: o \textit{Plone} proporciona pouca facilidade para hospedagem, instala√ß√£o e uma baixa curva de aprendizado por parte do desenvolvedor ao se deparar com a constru√ß√£o de um site complexo. Tais fatores associados √† baixa popularidade do mesmo em rela√ß√£o ao outros gerenciadores o torna menos acess√≠vel aos usu√°rios, impactando diretamente no n√∫mero de sites que o utilizam.
 
-Essas desvantagens se tornam pouco relevantes ao se considerar que a pessoa respons·vel pela implantaÁ„o do sistema È capacitada para desempenhar a tarefa, alÈm de que a aplicaÁ„o poder· ou n„o ser complexa. Logo, È necess·ria a realizaÁ„o de um estudo de caso para avaliar se realmente compensa a utilizaÁ„o do \textit{Plone} para a construÁ„o de um sistema web, observando as vantagens e desvantagens anteriormente mencionadas. 
+Essas desvantagens se tornam pouco relevantes ao se considerar que a pessoa respons√°vel pela implanta√ß√£o do sistema √© capacitada para desempenhar a tarefa, al√©m de que a aplica√ß√£o poder√° ou n√£o ser complexa. Logo, √© necess√°ria a realiza√ß√£o de um estudo de caso para avaliar se realmente compensa a utiliza√ß√£o do \textit{Plone} para a constru√ß√£o de um sistema web, observando as vantagens e desvantagens anteriormente mencionadas. 
 
-%FALAR SOBRE O USO NO MERCADO (uma imagem no TCC do Elias e buscar por outra)
+\hspace{2.5cm}
 
 \section{Servidor Virtual Privado (VPS)}
 \label{sec:vps}
 
-Os Servidores Virtuais Privados surgiram em decorrÍncia da continuaÁ„o do processo de virtualizaÁ„o de m·quinas. Com a VPS È possÌvel ter sua prÛpria m·quina hospedada na nuvem, porÈm, assim como na M·quina Virtual (VM), o seu respons·vel n„o possui acesso direto ao hardware, somente ao software.
+\hspace{2.5cm}
 
-Segundo \citeonline{chuchuca2016implementacion} a hospedagem VPS È ideal para quem possui demandas que podem ser satisfeitas de forma compartilhada, mas desejando pagar menos que na contrataÁ„o de um servidor dedicado. Uma curiosidade sobre a VPS È a permiss„o de gerenciar o software de uma m·quina inteira, inclusive no que diz respeito a configuraÁ„o de servidores locais. 
+Os Servidores Virtuais Privados surgiram em decorr√™ncia da continua√ß√£o do processo de virtualiza√ß√£o de m√°quinas. Com a VPS √© poss√≠vel ter sua pr√≥pria m√°quina hospedada na nuvem, por√©m, assim como na M√°quina Virtual (VM), o seu respons√°vel n√£o possui acesso direto ao hardware, somente ao software.
 
-Esse tipo de serviÁo requer maior responsabilidade e conhecimento do administrador da m·quina, pois ele deve entender o funcionamento e divis„o da mesma dependendo de seu sistema operacional, e ainda seus detalhes tÈcnicos e comandos de configuraÁ„o e conex„o via SSH. Em relaÁ„o ‡ seguranÁa, \cite{elizabeth2017diseno} revela este ser um fator positivo para os Servidores Privados Virtuais. Para isso, ela faz menÁ„o aos sistemas VoIP e ‡s m·quinas fÌsicas, que s„o mais propensos a ataques, ameaÁas e riscos principalmente no caso de m·quinas fÌsicas, que est„o sujeitas a blecautes, curto-circuitos, dano no dispositivo ou ainda a roubo de informaÁıes. Um outro problema em relaÁ„o aos servidores fÌsicos est· na compatibilidade entre hardware e software, pois todos os equipamentos da m·quina devem ser compatÌveis. Esses transtornos n„o s„o encontrados na VPS, visto que a prÛpria empresa que oferece o serviÁo de hospedagem j· È respons·vel por manter a compatibilidade dos elementos e a seguranÁa da m·quina.  
+Segundo \citeonline{chuchuca2016implementacion} a hospedagem VPS √© ideal para quem possui demandas que podem ser satisfeitas de forma compartilhada, mas desejando pagar menos que na contrata√ß√£o de um servidor dedicado. Uma curiosidade sobre a VPS √© a permiss√£o de gerenciar o software de uma m√°quina inteira, inclusive no que diz respeito a configura√ß√£o de servidores locais. 
+
+Esse tipo de servi√ßo requer maior responsabilidade e conhecimento do administrador da m√°quina, pois ele deve entender o funcionamento e divis√£o da mesma dependendo de seu sistema operacional, e ainda seus detalhes t√©cnicos e comandos de configura√ß√£o e conex√£o via SSH. Em rela√ß√£o √† seguran√ßa, \cite{elizabeth2017diseno} revela este ser um fator positivo para os Servidores Privados Virtuais. Para isso, ela faz men√ß√£o aos sistemas VoIP e √†s m√°quinas f√≠sicas, que s√£o mais propensos a ataques, amea√ßas e riscos principalmente no caso de m√°quinas f√≠sicas, que est√£o sujeitas a blecautes, curto-circuitos, dano no dispositivo ou ainda a roubo de informa√ß√µes. Um outro problema em rela√ß√£o aos servidores f√≠sicos est√° na compatibilidade entre hardware e software, pois todos os equipamentos da m√°quina devem ser compat√≠veis. Esses transtornos n√£o s√£o encontrados na VPS, visto que a pr√≥pria empresa que oferece o servi√ßo de hospedagem j√° √© respons√°vel por manter a compatibilidade dos elementos e a seguran√ßa da m√°quina.  
+
+\hspace{2.5cm}
 
 \section{Testes de Software}
 \label{sec:testessoftware}
 %Testes de software
 
+\hspace{2.5cm}
+
 \section{Ferramentas}
 \label{sec:ferramentas}
 
-Nesta seÁ„o, o objetivo ser· a junÁ„o e uma explicaÁ„o sucinta das ferramentas utilizadas no processo de desenvolvimento e avaliaÁ„o do sistema web.  
+\hspace{2.5cm}
+
+Nesta se√ß√£o, o objetivo ser√° a jun√ß√£o e uma explica√ß√£o sucinta das ferramentas utilizadas no processo de desenvolvimento e avalia√ß√£o do sistema web.  
 
 
 %Plone
-\textbf{\textit{Docker}}: È uma tecnologia ligada ‡ infraestrutura de m·quinas. Surgiu em 2013 apÛs a mudanÁa do nome \textit{dotCloud} para o atual. O \textit{Docker} usa a ideia de ``camadas'' e \textit{containers}. \textit{Containers} s„o aplicaÁıes que utilizam o mesmo \textit{kernel} do sistema operacional onde est· rodando. Essa aplicaÁ„o pode ser praticamente qualquer software, inclusive outro sistema operacional, desde que tenha uma ``imagem'' para ela, porque um \textit{container} È executado a partir de uma imagem.
+\textbf{\textit{Docker}}: √© uma tecnologia ligada √† infraestrutura de m√°quinas. Surgiu em 2013 ap√≥s a mudan√ßa do nome \textit{dotCloud} para o atual. O \textit{Docker} usa a ideia de ``camadas'' e \textit{containers}. \textit{Containers} s√£o aplica√ß√µes que utilizam o mesmo \textit{kernel} do sistema operacional onde est√° rodando. Essa aplica√ß√£o pode ser praticamente qualquer software, inclusive outro sistema operacional, desde que tenha uma ``imagem'' para ela, porque um \textit{container} √© executado a partir de uma imagem.
 
-Alguns podem confundÌ-lo com M·quinas Virtuais (VMs), mas no livro \citeonline{vitalino2016descomplicando}, os autores deixam claro as suas diferenÁas. Na M·quina Virtual, o sistema operacional a ser virtualizado È inicializado carregando todo o seu hardware e mais recursos que os da m·quina \textit{host}, diferentemente dos \textit{containers}, que utilizam os mesmos recursos da m·quina hospedeira, havendo, assim, um ganho em desempenho em relaÁ„o ‡ VM.
+Alguns podem confund√≠-lo com M√°quinas Virtuais (VMs), mas no livro \citeonline{vitalino2016descomplicando}, os autores deixam claro as suas diferen√ßas. Na M√°quina Virtual, o sistema operacional a ser virtualizado √© inicializado carregando todo o seu hardware e mais recursos que os da m√°quina \textit{host}, diferentemente dos \textit{containers}, que utilizam os mesmos recursos da m√°quina hospedeira, havendo, assim, um ganho em desempenho em rela√ß√£o √† VM.
 
-Compreender o conceito de \textit{containers} È fundamental para entender o conceito de camadas, isto porque eles s„o formados por \textit{layers} (camadas). Essa ideia parte do princÌpio de compartilhamento e reutilizaÁ„o, visto que v·rios \textit{containers} podem compartilhar camadas subjacentes, diminuindo o uso de recursos \citeonline{prada4docker}. A figura \ref{containers} esquematiza a estrutura da arquitetura de \textit{containers} e camadas.
+Compreender o conceito de \textit{containers} √© fundamental para entender o conceito de camadas, isto porque eles s√£o formados por \textit{layers} (camadas). Essa ideia parte do princ√≠pio de compartilhamento e reutiliza√ß√£o, visto que v√°rios \textit{containers} podem compartilhar camadas subjacentes, diminuindo o uso de recursos \citeonline{prada4docker}. A figura \ref{containers} esquematiza a estrutura da arquitetura de \textit{containers} e camadas.
 
 \begin{figure}[htb]
  \centering
+ \caption{Esquema explicativo da estrutura de \textit{containers}}
  \includegraphics[scale=0.5]{figuras/containers}
- \caption{Esquema explicativo da estrutura de \textit{containers}. Fonte: \cite{prada4docker} }
+ 
  \label{containers}
+ \fonte{\cite{prada4docker}.}
 \end{figure}
 
 %JMetter
 
-\textbf{\textit{Apache JMeter}}: È uma ferramenta capaz de realizar testes em aplicaÁıes web. Por ser desenvolvido em Java, 
-ela È tambÈm multiplataforma, ou seja, pode ser executada em v·rio sistemas operacionais. Um teste tÌpico com o \textit{JMeter} envolve o envio
-de requisiÁıes a uma aplicaÁ„o atravÈs de um \textit{loop}, cujo limite de laÁos e n˙mero de requisiÁıes s„o definidos pelo usu·rio.
+\textbf{\textit{Apache JMeter}}: √© uma ferramenta capaz de realizar testes em aplica√ß√µes web. Por ser desenvolvido em Java, 
+ela √© tamb√©m multiplataforma, ou seja, pode ser executada em v√°rio sistemas operacionais. Um teste t√≠pico com o \textit{JMeter} envolve o envio
+de requisi√ß√µes a uma aplica√ß√£o atrav√©s de um \textit{loop}, cujo limite de la√ßos e n√∫mero de requisi√ß√µes s√£o definidos pelo usu√°rio.
 
 \begin{figure}[htb]
  \centering
- \includegraphics[scale=0.3]{figuras/jmeter}
- \caption{Tela inicial do \textit{Apache JMeter}. Fonte: Autor}
+ \caption{Tela inicial do \textit{Apache JMeter}}
+ \includegraphics[width=0.7\textwidth]{figuras/jmeter}
+ 
  \label{jmeter}
+ \fonte{Autor.}
 \end{figure}
 
 %Git
-\textbf{\textit{Git}}: È um sistema de versionamento de cÛdigo lanÁado em 2005. O controle de vers„o possibilita acompanhar o desenvolvimento de um
-software sem alterar a vers„o principal, restaurar uma determinada vers„o anterior e atÈ compartilhar o mesmo cÛdigo com outros desenvolvedores 
-\citeonline{palestinoestudo}. ``O Git possui uma Ínfase em velocidade, integridade dos dados e suporte para \textit{workflows} n„o lineares e distribuÌdos''
+\textbf{\textit{Git}}: √© um sistema de versionamento de c√≥digo lan√ßado em 2005. O controle de vers√£o possibilita acompanhar o desenvolvimento de um
+software sem alterar a vers√£o principal, restaurar uma determinada vers√£o anterior e at√© compartilhar o mesmo c√≥digo com outros desenvolvedores 
+\citeonline{palestinoestudo}. ``O Git possui uma √™nfase em velocidade, integridade dos dados e suporte para \textit{workflows} n√£o lineares e distribu√≠dos''
 \cite[p. 10]{ghezzi2015api}.
 
-Para hospedar cÛdigos do \textit{Git} existem diversos sites, porÈm o mais usado e tambÈm um dos poucos que oferecem opÁıes de hospedagem p˙blica e
-privada È o \textit{GitHub}, que em 2019, inclusive, tornou possÌvel aos usu·rios a criaÁ„o de repositÛrios privados gratuitamente, o que antes era uma funcionalidade paga \citeonline{chacon2010pro}. 
+Para hospedar c√≥digos do \textit{Git} existem diversos sites, por√©m o mais usado e tamb√©m um dos poucos que oferecem op√ß√µes de hospedagem p√∫blica e
+privada √© o \textit{GitHub}, que em 2019, inclusive, tornou poss√≠vel aos usu√°rios a cria√ß√£o de reposit√≥rios privados gratuitamente, o que antes era uma funcionalidade paga \citeonline{chacon2010pro}. 
 
 %Gitkraken
-\textbf{\textit{Gitkraken}}: segundo \citeonline{perez2018desarrollo}, ele È usado para manejar repositÛrios do \textit{Git} de forma simples, sendo possÌvel observar mudanÁas e o histÛrico de \textit{commits}, ou versıes, de um projeto de maneira f·cil.
+\textbf{\textit{Gitkraken}}: segundo \citeonline{perez2018desarrollo}, ele √© usado para manejar reposit√≥rios do \textit{Git} de forma simples, sendo poss√≠vel observar mudan√ßas e o hist√≥rico de \textit{commits}, ou vers√µes, de um projeto de maneira f√°cil.
 
 %Analytics
-\textbf{\textit{Google Analytics}}: È uma ferramenta da \textit{Google} utilizada para obtenÁ„o de relatÛrios sobre n˙mero, origem, tempo de duraÁ„o e muitas outras informaÁıes sobre as visitas que um sistema recebe. Com ela È possÌvel identificar padrıes relacionados a essas visitas, taxa de aumento ou diminuiÁ„o no n˙mero de visitantes, p·ginas da aplicaÁ„o mais acessadas, entre outros dados. 
+\textbf{\textit{Google Analytics}}: √© uma ferramenta da \textit{Google} utilizada para obten√ß√£o de relat√≥rios sobre n√∫mero, origem, tempo de dura√ß√£o e muitas outras informa√ß√µes sobre as visitas que um sistema recebe. Com ela √© poss√≠vel identificar padr√µes relacionados a essas visitas, taxa de aumento ou diminui√ß√£o no n√∫mero de visitantes, p√°ginas da aplica√ß√£o mais acessadas, entre outros dados. 
+
+\hspace{2.5cm}
+
+\begin{table}[h]
+\centering
+\caption{Um nome qualquer}
+\vspace{0.5cm}
+\begin{tabular}{r|lr}
+ 
+Posi{\c c}{\~a}o & Pa√≠s & IDH \\ % Note a separa√ß√£o de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+1 & Noruega        & .955 \\
+2 & Austr{\'a}lia  & .938 \\
+3 & EUA            & .937 \\
+4 & Holanda        & .921 \\
+5 & Alemanha       & .920            % n√£o √© preciso quebrar a √∫ltima linha
+ 
+\end{tabular}
+\end{table}
 
 \begin{comment}
-\section{Primeira seÁ„o da Revis„o}
+\section{Primeira se√ß√£o da Revis√£o}
 
-Para incluir uma referÍncia em seu trabalho, como por exemplo \cite{Autor1}, use o comando \verb!\cite{<rÛtulo>}!, 
-onde \verb!<rÛtulo>! indica uma referÍncia que vocÍ criou no arquivo \verb!referencias.bib! (que est· na pasta \verb!pos-textual/referencias!). 
-Um outro exemplo de referÍncia com mais de trÍs autores \cite{Autor3}.
+Para incluir uma refer√™ncia em seu trabalho, como por exemplo \cite{Autor1}, use o comando \verb!\cite{<r√≥tulo>}!, 
+onde \verb!<r√≥tulo>! indica uma refer√™ncia que voc√™ criou no arquivo \verb!referencias.bib! (que est√° na pasta \verb!pos-textual/referencias!). 
+Um outro exemplo de refer√™ncia com mais de tr√™s autores \cite{Autor3}.
 
-Se vocÍ quiser fazer uma citaÁ„o com mais de trÍs linhas, use o ambiente \verb!citacao!. Veja um exemplo abaixo.
+Se voc√™ quiser fazer uma cita√ß√£o com mais de tr√™s linhas, use o ambiente \verb!citacao!. Veja um exemplo abaixo.
 
 \begin{citacao}
-A citaÁ„o com mais de trÍs linhas tem fonte com tamanho 10 pt, espaÁo simples entre 
-linhas e recuo de 4 cm da margem esquerda. A citaÁ„o com mais de trÍs linhas tem fonte 
-com tamanho 10 pt, espaÁo simples entre linhas e recuo de 4 cm da margem esquerda. 
-A citaÁ„o com mais de trÍs linhas tem fonte com tamanho 10 pt, espaÁo simples entre 
-linhas e recuo de 4 cm da margem esquerda. A citaÁ„o com mais de trÍs linhas tem fonte 
-com tamanho 10 pt, espaÁo simples entre linhas e recuo de 4 cm da margem esquerda \cite[p. 11]{Autor2}. 
-(ObservaÁ„o: para indicar a p·gina na referÍncia, como ``p. 11'' nesse exemplo, use o 
-comando \verb!\cite[p. 11]{<rÛtulo>}!.)
+A cita√ß√£o com mais de tr√™s linhas tem fonte com tamanho 10 pt, espa√ßo simples entre 
+linhas e recuo de 4 cm da margem esquerda. A cita√ß√£o com mais de tr√™s linhas tem fonte 
+com tamanho 10 pt, espa√ßo simples entre linhas e recuo de 4 cm da margem esquerda. 
+A cita√ß√£o com mais de tr√™s linhas tem fonte com tamanho 10 pt, espa√ßo simples entre 
+linhas e recuo de 4 cm da margem esquerda. A cita√ß√£o com mais de tr√™s linhas tem fonte 
+com tamanho 10 pt, espa√ßo simples entre linhas e recuo de 4 cm da margem esquerda \cite[p. 11]{Autor2}. 
+(Observa√ß√£o: para indicar a p√°gina na refer√™ncia, como ``p. 11'' nesse exemplo, use o 
+comando \verb!\cite[p. 11]{<r√≥tulo>}!.)
 \end{citacao}
 
-A Tabela~\ref{tabelateste1} È um exemplo de como ficar· uma tabela no seu texto. Note que a 
-legenda fica na parte superior e tem fonte com tamanho 10 pt (alÈm de espaÁo simples entre linhas, como 
-vocÍ pode notar na Tabela~\ref{tabelateste2}).
+A Tabela~\ref{tabelateste1} √© um exemplo de como ficar√° uma tabela no seu texto. Note que a 
+legenda fica na parte superior e tem fonte com tamanho 10 pt (al√©m de espa√ßo simples entre linhas, como 
+voc√™ pode notar na Tabela~\ref{tabelateste2}).
 
 \begin{table}[htb]
  \centering
@@ -368,7 +455,7 @@ vocÍ pode notar na Tabela~\ref{tabelateste2}).
 
 \begin{table}[htb]
  \centering
- \caption[Legenda mais curta.]{Esse È um exemplo de tabela com legenda muito grande, que tem por objetivo mostrar como o espaÁo entre linhas ser· simples.}
+ \caption[Legenda mais curta.]{Esse √© um exemplo de tabela com legenda muito grande, que tem por objetivo mostrar como o espa√ßo entre linhas ser√° simples.}
  \begin{tabular}{|c|c|c|c|}
   \hline
   Teste 1 & Teste 2 & Teste 3 & Teste 4\\ \hline
@@ -379,18 +466,18 @@ vocÍ pode notar na Tabela~\ref{tabelateste2}).
  \label{tabelateste2}
 \end{table}
 
-\subsection{Exemplo de SubseÁ„o.}
+\subsection{Exemplo de Subse√ß√£o.}
 
-Esse È um exemplo de subseÁ„o.
+Esse √© um exemplo de subse√ß√£o.
 
-E aqui temos um exemplo de nota de rodapÈ \footnote{As notas no rodapÈ 
-tem fonte com tamanho 10 pt e espaÁo simples entre linhas. O filete (linha) que separa as notas do resto 
+E aqui temos um exemplo de nota de rodap√© \footnote{As notas no rodap√© 
+tem fonte com tamanho 10 pt e espa√ßo simples entre linhas. O filete (linha) que separa as notas do resto 
 do texto tem tamanho de 3 cm.}.
 
-A Figura~\ref{figurateste1} È um exemplo de como ficar· uma figura no seu texto\index{exemplo de figura}. Note que a 
-legenda fica na parte inferior e tem fonte com tamanho 10 pt (alÈm de espaÁo simples entre linhas, como 
-vocÍ pode notar na Figura~\ref{figurateste2})
-%Note que o comando \index È usado para inserir "exemplo de figura" no Õndice.
+A Figura~\ref{figurateste1} √© um exemplo de como ficar√° uma figura no seu texto\index{exemplo de figura}. Note que a 
+legenda fica na parte inferior e tem fonte com tamanho 10 pt (al√©m de espa√ßo simples entre linhas, como 
+voc√™ pode notar na Figura~\ref{figurateste2})
+%Note que o comando \index √© usado para inserir "exemplo de figura" no √çndice.
 
 
 \begin{figure}[htb]
@@ -403,15 +490,15 @@ vocÍ pode notar na Figura~\ref{figurateste2})
 \begin{figure}[htb]
  \centering
   \includegraphics[scale=0.8]{figuras/tux}
-  \caption[Legenda mais curta.]{Esse È um exemplo de figura com legenda muito grande, que tem por objetivo mostrar como o espaÁo entre linhas ser· simples.}
+  \caption[Legenda mais curta.]{Esse √© um exemplo de figura com legenda muito grande, que tem por objetivo mostrar como o espa√ßo entre linhas ser√° simples.}
   \label{figurateste2}
 \end{figure}
 
-\section{Segunda seÁ„o da Revis„o.}
+\section{Segunda se√ß√£o da Revis√£o.}
 
-Em \eqref{equacao1} temos um exemplo de texto matem·tico com numeraÁ„o\index{equaÁ„o com numeraÁ„o}. E logo depois 
-temos um exemplo de texto matem·tico sem numeraÁ„o.
-%Note que o comando \index È usado para inserir "equaÁ„o com numeraÁ„o" no Õndice.
+Em \eqref{equacao1} temos um exemplo de texto matem√°tico com numera√ß√£o\index{equa√ß√£o com numera√ß√£o}. E logo depois 
+temos um exemplo de texto matem√°tico sem numera√ß√£o.
+%Note que o comando \index √© usado para inserir "equa√ß√£o com numera√ß√£o" no √çndice.
 
 \begin{equation}\label{equacao1}
  \int_a^b f'(x)\,dx = f(b) - f(a)
@@ -421,6 +508,6 @@ temos um exemplo de texto matem·tico sem numeraÁ„o.
  \int_a^b f'(x)\,dx = f(b) - f(a)
 \end{equation}
 
-Aqui est· mais outro exemplo de referÍncia \cite{Autor4}.
+Aqui est√° mais outro exemplo de refer√™ncia \cite{Autor4}.
 
 \end{comment}
