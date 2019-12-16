@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  15 DEC 2019 22:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  16 DEC 2019 16:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1912,13 +1912,13 @@ Overfull \hbox (19.14609pt too wide) in paragraph at lines 295--316
 <figuras/containers.png, id=444, 565.11125pt x 289.08pt>
 File: figuras/containers.png Graphic file (type png)
 <use figuras/containers.png>
-Package pdftex.def Info: figuras/containers.png  used on input line 364.
+Package pdftex.def Info: figuras/containers.png  used on input line 366.
 (pdftex.def)             Requested size: 282.55493pt x 144.53964pt.
  [40]
 <figuras/jmeter.png, id=455, 1092.08pt x 610.28pt>
 File: figuras/jmeter.png Graphic file (type png)
 <use figuras/jmeter.png>
-Package pdftex.def Info: figuras/jmeter.png  used on input line 379.
+Package pdftex.def Info: figuras/jmeter.png  used on input line 381.
 (pdftex.def)             Requested size: 318.49861pt x 177.98238pt.
  [41 <./figuras/containers.png> <./figuras/jmeter.png>])
 (./ArquivoPrincipal.bbl [42]
@@ -2283,7 +2283,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ArquivoPrincipal.pdf (63 pages, 5501353 bytes).
+Output written on ArquivoPrincipal.pdf (63 pages, 5501644 bytes).
 PDF statistics:
  770 PDF objects out of 1000 (max. 8388607)
  633 compressed objects within 7 object streams
