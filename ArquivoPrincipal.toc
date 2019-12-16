@@ -27,7 +27,7 @@
 \contentsline {section}{\numberline {2.5}Testes de Software}{40}{section.2.5}
 \contentsline {section}{\numberline {2.6}Ferramentas}{40}{section.2.6}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{43}{section*.26}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{43}{section*.25}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
