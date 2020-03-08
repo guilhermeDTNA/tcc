@@ -116,7 +116,7 @@ no final da década de 90 com o intuito de melhorar a gestão do conteúdo dos \
 
 \citeonline{meike2009security} e \citeonline{chagas2018estudo} citam qualidades proporcionadas aos desenvolvedores que os utilizam.
 Segundo eles as organizações podem utilizar um gerenciador de conteúdo para construir \textit{websites},
-lojas online ou portais, havendo redução de erros de publicação que facilitam o processo de validação e sendo manuseados por muitas
+lojas on-line ou portais, havendo redução de erros de publicação que facilitam o processo de validação e sendo manuseados por muitas
 pessoas sem que seja necessário editar o código-fonte e possuir conhecimento especializado na área de programação.
 
 Outro fator positivo encontrado nesses sistemas é a possibilidade de colaboração entre os desenvolvedores. Porque uma aplicação web desenvolvida em um CMS pode ser gerenciada por diversas pessoas, podendo ter restrições de acesso de cada uma delas a diferentes partes do sistema, ou seja, é possível definir níveis de acesso a usuários para que cada um deles possa administrar um ou mais tipos de conteúdo do mesmo. Para sintetizar, \apud[~p. 1]{boiko}{chagas2018estudo} conclui que ``um SGC possibilita a criação, o gerenciamento, a distribuição, a publicação e a recuperação de informações corporativas''.
@@ -353,6 +353,21 @@ Esse tipo de serviço requer maior responsabilidade e conhecimento do administra
 Nesta seção, o objetivo será a junção e uma explicação sucinta das ferramentas utilizadas no processo de desenvolvimento e avaliação do sistema web.  
 
 
+%JMetter
+
+\textbf{\textit{Apache JMeter}}: é uma ferramenta capaz de realizar testes em aplicações web. Por ser desenvolvido em Java, 
+ela é também multiplataforma, ou seja, pode ser executada em vário sistemas operacionais. Um teste típico com o \textit{JMeter} envolve o envio
+de requisições a uma aplicação através de um \textit{loop}, cujo limite de laços e número de requisições são definidos pelo usuário.
+
+% \begin{figure}[htb]
+%  \centering
+%  \caption{Tela inicial do \textit{Apache JMeter}}
+%  \includegraphics[width=0.7\textwidth]{figuras/jmeter}
+%  
+%  \label{jmeter}
+%  \fonte{Autor.}
+% \end{figure}
+
 %Plone
 \textbf{\textit{Docker}}: é uma tecnologia ligada à infraestrutura de máquinas. Surgiu em 2013 após a mudança do nome \textit{dotCloud} para o atual. O \textit{Docker} usa a ideia de ``camadas'' e \textit{containers}. \textit{Containers} são aplicações que utilizam o mesmo \textit{kernel} do sistema operacional onde está rodando. Essa aplicação pode ser praticamente qualquer software, inclusive outro sistema operacional, desde que tenha uma ``imagem'' para ela, porque um \textit{container} é executado a partir de uma imagem.
 
@@ -369,20 +384,11 @@ Compreender o conceito de \textit{containers} é fundamental para entender o con
  \fonte{\cite{prada4docker}.}
 \end{figure}
 
-%JMetter
+Entre as diversas vantagens que o \textit{Docker} proporciona podemos citar a teoria da escalabilidade, que corresponde à segmentação de todo um sistema, sua divisão em partes realiza o carregamento parcial dos \textit{websites} contribuindo para a diminuição do tempo de acesso do visitante à página web. Tal modularização também auxilia na manutenção e disponibilidade das partes, isto porque, dependendo da situação, \textit{containers} podem estar funcionando normalmente mesmo que um deles esteja em manutenção ou tenha sido derrubado, possibilitando ao usuário acessar um componente desde que o mesmo não dependa do inacessível. 
 
-\textbf{\textit{Apache JMeter}}: é uma ferramenta capaz de realizar testes em aplicações web. Por ser desenvolvido em Java, 
-ela é também multiplataforma, ou seja, pode ser executada em vário sistemas operacionais. Um teste típico com o \textit{JMeter} envolve o envio
-de requisições a uma aplicação através de um \textit{loop}, cujo limite de laços e número de requisições são definidos pelo usuário.
+Também é importante mencionar que com a correta orquestração dos \textit{containers}, os mesmos poderão ser inseridos em uma imagem, através do recurso do \textit{Docker Compose}, e carregados em qualquer ambiente, desde que ele possua o \textit{Docker}. Esta funcionalidade garante o princípio de portabilidade e faz com que um sistema inteiro funcione em várias máquinas e sistemas operacionais com apenas os comandos de importar a imagem e iniciar um \textit{container} da mesma.
 
-\begin{figure}[htb]
- \centering
- \caption{Tela inicial do \textit{Apache JMeter}}
- \includegraphics[width=0.7\textwidth]{figuras/jmeter}
- 
- \label{jmeter}
- \fonte{Autor.}
-\end{figure}
+Ainda pelo \textit{Docker} é possível verificar o comportamento e eventuais problemas relacionados aos \textit{containers} através de seus \textit{logs}.
 
 %Git
 \textbf{\textit{Git}}: é um sistema de versionamento de código lançado em 2005. O controle de versão possibilita acompanhar o desenvolvimento de um

@@ -26,16 +26,26 @@
 \contentsline {section}{\numberline {2.4}Servidor Virtual Privado (VPS)}{39}{section.2.4}
 \contentsline {section}{\numberline {2.5}Testes de Software}{40}{section.2.5}
 \contentsline {section}{\numberline {2.6}Ferramentas}{40}{section.2.6}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{43}{chapter.3}
+\contentsline {section}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~a}o do tipo de metodologia \IeC {\'a}gil de desenvolvimento}{43}{section.3.1}
+\contentsline {section}{\numberline {3.2}Defini\IeC {\c c}\IeC {\~a}o do gerenciador de conte\IeC {\'u}do}{43}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Sobre o \textit {Plone}}{43}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Desenvolvimento}{43}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Coleta de requisitos e elabora\IeC {\c c}\IeC {\~a}o de hist\IeC {\'o}rias de usu\IeC {\'a}rio}{43}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Defini\IeC {\c c}\IeC {\~a}o das \textit {sprints}}{44}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Casos de uso e fluxos alternativos}{44}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Apresenta\IeC {\c c}\IeC {\~a}o das telas}{44}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Estrutura de \textit {containers} do sistema}{44}{subsection.3.3.5}
+\contentsline {section}{\numberline {3.4}Execu\IeC {\c c}\IeC {\~a}o de testes de desempenho}{44}{section.3.4}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{43}{section*.25}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{45}{section*.24}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Pesquisa entre pessoas da comunidade}}{47}{appendix.A}
-\cftinsert {AAA}
-\renewcommand *{\cftappendixname }{ANEXO \space }
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Pesquisa entre pessoas da comunidade}}{49}{appendix.A}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Estatuto da Kuruatuba}}{53}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Coleta de requisitos para o sistema}}{55}{appendix.B}

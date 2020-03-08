@@ -1,14 +1,80 @@
-\chapter{Material e Métodos (ou Metodologia).}
+\chapter{Metodologia}
 \label{ch:metodologia}
 %Falar porquê do Scrum
 %Falar o porquê do Plone
 
-Como você realizou seu trabalho?
+\hspace{2.5cm}
 
-\section{Primeira seção da Metodologia}
+No capítulo de metodologia, o objetivo é descrever como ocorreu o processo de construção do sistema, desde a justificativa dos métodos de desenvolvimento escolhidos até a completa entrega do software ao cliente. 
 
-Texto da primeira seção.
+O capítulo está dividido no seguinte escopo: as seções \ref{sec:defMetodologia} e \ref{sec:defCMS}, que justificam a escolha da metodologia e do gerenciador de conteúdo para a implementação do sistema; a seção \ref{sec:desenvolvimento} apresenta como todas as etapas de implementação e reuniões com o cliente foram estabelecidas; e, por último, a seção \ref{sec:testes} aborda como os testes de software foram feitos e o desempenho obtido pela aplicação web.
 
-\section{Segunda seção da Metodologia.}
+\hspace{2.5cm}
 
-Texto da segunda seção.
+\section{Definição do tipo de metodologia ágil de desenvolvimento}
+\label{sec:defMetodologia}
+
+\hspace{2.5cm}
+
+%Apresentar mais detalhadamento o Scrum
+
+\section{Definição do gerenciador de conteúdo}
+\label{sec:defCMS}
+
+\hspace{2.5cm}
+
+Analisando as informações extraídas na subseção 2.3.2, no capítulo 2, o gerenciador de conteúdo escolhido pelo autor foi o \textit{Plone}. Os principais fatores que influenciaram nesta decisão estão atrelados ao desempenho e segurança de \textit{websites} construídos com esse CMS. Também é importante destacar que o \textit{Plone} é bastante usado para criação de portais, por exemplo o portal da UFVJM, que possuem características semelhantes ao sistema da Kuruatuba, como a publicação de notícias e eventos. 
+
+O \textit{Plone} possui ferramentas personalizadas e de fácil manipulação que facilitam o gerenciamento de notícias e eventos, primeiramente por possuir campos e opções já pré definidos para o tipo de conteúdo que o usuário irá inserir, e por último por inserir automaticamente o conteúdo criado na lista de conteúdos, devido a uma configuração realizada somente uma vez ao criar o sistema. Sendo assim, basta que o usuário preencha os dados relacionados ao tipo de conteúdo (notícia ou evento) para que ele seja criado e já exibido na página web.
+
+Um dos pontos positivos do \textit{Plone} se consiste, ainda, que sua utilização não necessita da instalação de \textit{plug-ins}, extensões ou complementos, podendo ter seus elementos estáticos, como rodapé e cabeçalho, personalizados via \textit{Portlets}, que segundo \citeonline{UFRGS2012}, são aplicativos e ferramentas prontas para uso em qualquer instalação padrão, podendo ser usadas para calendário, notícias, eventos, menu de busca, enquetes, etc. 
+
+\hspace{2.5cm}
+%Apresentar mais detalhadamento o Plone
+\subsection{Sobre o \textit{Plone}}
+
+
+\hspace{2.5cm}
+
+\section{Desenvolvimento}
+\label{sec:desenvolvimento}
+
+\hspace{2.5cm}
+%Definir as etapas 
+%Levantamento de requisitos (histórias de usuário) - construção das sprints - Casos de uso e fluxos alternativos
+
+
+\subsection{Coleta de requisitos e elaboração de histórias de usuário}
+
+\hspace{2.5cm}
+
+\subsection{Definição das \textit{sprints}}
+
+\hspace{2.5cm}
+
+\subsection{Casos de uso e fluxos alternativos}
+
+\hspace{2.5cm}
+
+\subsection{Apresentação das telas}
+
+\hspace{2.5cm}
+
+\subsection{Estrutura de \textit{containers} do sistema}
+
+\hspace{2.5cm}
+
+Como o sistema deve gerenciar dois tipos de público, um de associados e outro de usuários, resolveu-se criar 3 \textit{containers}: um responsável pelo \textit{Plone} que, por sua vez, apresenta o \textit{website} da Kuruatuba para os visitantes; um \textit{container} responsável por comportar o sistema de gerenciamento de associados, desenvolvido na linguagem PHP, que é conhecida como uma linguagem de programação da era da Web 2.0 que permite o desenvolvimento ágil de software do lado do servidor \citeonline{suzumura2008performance}; e um \textit{container} abrigando o banco de dados, construído com a ferramenta \textit{MySQL}, que possui as informações relacionadas aos associados e onde são realizadas as consultas por parte do sistema escrito em PHP.
+
+O relacionamento dos \textit{containers} acima estão representados na figura  \textbf{colocar aqui a figura dos containers} :
+
+
+A criação e comunicação dos \textit{containers} compactua com as vantagens descritas na seção 2.6 do capítulo 2, principalmente no que diz respeito à portabilidade e disponibilidade dos recursos. Tais benefícios também se aplicam à segurança, visto que para uma possível invasão ao sistema, é necessário que o invasor conheça o IP e porta de cada \textit{container} e ainda os dados de acesso tanto ao \textit{website} no \textit{Plone} quanto à aplicação destinada a armazenar os dados sobre os associados.   
+
+Outra justificativa para a divisão das aplicações web está na complexidade de manipulação dos SGBDs - Sistema de Gerenciamento de Banco de Dados - não relacionais. Como já explicado na subseção 2.3.1, no capítulo 2, o \textit{Plone} utiliza o banco de dados não relacional \textit{ZODB}, e o mesmo é bastante complexo quando o desenvolvedor necessita realizar consultas ou inserções a seus objetos, sendo inviável a criação de páginas ou elementos para tal tarefa.  
+
+\hspace{2.5cm}
+\section{Execução de testes de desempenho}
+\label{sec:testes}
+\hspace{2.5cm}
+
