@@ -21,11 +21,24 @@
   como novo Sistema de Gerenciamento de Conte\'udo} --- Universidade dos Vales
   do Jequitinhonha e Mucuri, Diamantina, MG, Brasil, 2017.}
 
+\bibitem[Anwer \emph{et al.} 2017]{anwer2017comparative}
+\abntrefinfo{Anwer \emph{et al.}}{ANWER \emph{et al.}}{2017}
+{ANWER, F.; AFTAB, S.; SHAH, S.~M.; WAHEED, U. Comparative analysis of two
+  popular agile process models: Extreme programming and scrum.
+\textbf{International Journal of Computer Science and Telecommunications},
+  v.~8, n.~2, p.~1--7, 2017.}
+
 \bibitem[Ara{\'u}jo e Freire 2012]{de2012rede}
 \abntrefinfo{Ara{\'u}jo e Freire}{ARA{\'U}JO; FREIRE}{2012}
 {ARA{\'U}JO, V. M.~H. de; FREIRE, I.~M. A rede internet como canal de
   comunica{\c{c}}{\~a}o, na perspectiva da ci{\^e}ncia da informa{\c{c}}{\~a}o.
 \textbf{Transinforma{\c{c}}{\~a}o}, v.~8, n.~2, 2012.}
+
+\bibitem[Awad 2005]{awad2005comparison}
+\abntrefinfo{Awad}{AWAD}{2005}
+{AWAD, M. A comparison between agile and traditional software development
+  methodologies.
+\textbf{University of Western Australia}, v.~30, 2005.}
 
 \bibitem[BOIKO 2001]{boiko}
 \abntrefinfo{BOIKO}{BOIKO}{2001}
@@ -59,6 +72,12 @@ Tese (Doutorado) --- Universidad de Guayaquil Facultad de Ciencias
 \textbf{Gerenciamento {\'a}gil de projetos: proposta e avalia{\c{c}}{\~a}o de
   m{\'e}todo para gest{\~a}o de escopo e tempo}.
 Tese (Doutorado) --- Universidade de S{\~a}o Paulo, 2009.}
+
+\bibitem[Dings{\o}yr \emph{et al.} 2012]{dingsoyr2012decade}
+\abntrefinfo{Dings{\o}yr \emph{et al.}}{DINGS{\O}YR \emph{et al.}}{2012}
+{DINGS{\O}YR, T.; NERUR, S.; BALIJEPALLY, V.; MOE, N.~B. \textbf{A decade of
+  agile methodologies: Towards explaining agile software development}. [S.l.]:
+  Elsevier, 2012.}
 
 \bibitem[Elizabeth, Duque e Ram{\'\i}rez 2017]{elizabeth2017diseno}
 \abntrefinfo{Elizabeth, Duque e Ram{\'\i}rez}{ELIZABETH; DUQUE;
@@ -105,6 +124,19 @@ Tese (Doutorado) --- Universidade de S{\~a}o Paulo, 2009.}
 Dispon{\'\i}vel em: \url{http://ongkuruatuba.blogspot.com/}. Acesso em:
   03-10-2019.}
 
+\bibitem[Mann e Maurer 2005]{mann2005case}
+\abntrefinfo{Mann e Maurer}{MANN; MAURER}{2005}
+{MANN, C.; MAURER, F. A case study on the impact of scrum on overtime and
+  customer satisfaction. In:  IEEE. \textbf{Agile Development Conference
+  (ADC'05)}. [S.l.], 2005. p. 70--79.}
+
+\bibitem[Matharu \emph{et al.} 2015]{matharu2015empirical}
+\abntrefinfo{Matharu \emph{et al.}}{MATHARU \emph{et al.}}{2015}
+{MATHARU, G.~S.; MISHRA, A.; SINGH, H.; UPADHYAY, P. Empirical study of agile
+  software development methodologies: A comparative analysis.
+\textbf{ACM SIGSOFT Software Engineering Notes}, ACM New York, NY, USA, v.~40,
+  n.~1, p.~1--6, 2015.}
+
 \bibitem[Meike, Sametinger e Wiesauer 2009]{meike2009security}
 \abntrefinfo{Meike, Sametinger e Wiesauer}{MEIKE; SAMETINGER; WIESAUER}{2009}
 {MEIKE, M.; SAMETINGER, J.; WIESAUER, A. Security in open source web content
@@ -137,6 +169,13 @@ Universidade Federal de Sergipe, 2016.}
 \textbf{International Journal of Computer Science and Network Security}, v.~9,
   n.~10, p. 203--208, 2009.}
 
+\bibitem[Painka$^1$ e Marchi$^1$ 2013]{painka12013utilizaccao}
+\abntrefinfo{Painka$^1$ e Marchi$^1$}{PAINKA$^1$; MARCHI$^1$}{2013}
+{PAINKA$^1$, M. A.~L.; MARCHI$^1$, K.~R. da C. Utiliza{\c{c}}{\~a}o das
+  metodologias {\'a}geis xp e scrum para o desenvolvimento r{\'a}pido de
+  aplica{\c{c}}{\~o}es.
+2013.}
+
 \bibitem[Palestino 2015]{palestinoestudo}
 \abntrefinfo{Palestino}{PALESTINO}{2015}
 {PALESTINO, C. M.~C. Estudo de tecnologias de controle de vers{\~o}es de
@@ -165,6 +204,12 @@ ETSI\_Sistemas\_Infor, 2018.}
   Computa{\c{c}}{\~a}o. Rio do Sul, Santa Catarina, Junho 12-14; 20-21,
   2017./Organizador: Wesley dos Reis Bezerra.-Rio do Sul, SC, 2017.} [S.l.:
   s.n.], 2017. p.~46.}
+
+\bibitem[Sanders 2007]{sanders2007using}
+\abntrefinfo{Sanders}{SANDERS}{2007}
+{SANDERS, D. Using scrum to manage student projects.
+\textbf{Journal of Computing Sciences in Colleges}, Consortium for Computing
+  Sciences in Colleges, v.~23, n.~1, p. 79--79, 2007.}
 
 \bibitem[Sato 2007]{sato2007uso}
 \abntrefinfo{Sato}{SATO}{2007}
@@ -206,6 +251,23 @@ Dispon{\'\i}vel em:
   \url{http://www.waterandstone.com/book/2011-open-source-cms-market-share-report}.
   Acesso em: 28-10-2019.}
 
+\bibitem[Sulaiman, Barton e Blackburn 2006]{sulaiman2006agileevm}
+\abntrefinfo{Sulaiman, Barton e Blackburn}{SULAIMAN; BARTON; BLACKBURN}{2006}
+{SULAIMAN, T.; BARTON, B.; BLACKBURN, T. Agileevm-earned value management in
+  scrum projects. In:  IEEE. \textbf{AGILE 2006 (AGILE'06)}. [S.l.], 2006. p.
+  10--pp.}
+
+\bibitem[Sutherland \emph{et al.} 2008]{sutherland2008fully}
+\abntrefinfo{Sutherland \emph{et al.}}{SUTHERLAND \emph{et al.}}{2008}
+{SUTHERLAND, J.; SCHOONHEIM, G.; RUSTENBURG, E.; RIJK, M. Fully distributed
+  scrum: The secret sauce for hyperproductive offshored development teams. In:
+  IEEE. \textbf{Agile 2008 Conference}. [S.l.], 2008. p. 339--344.}
+
+\bibitem[Sutherland e Schwaber 2007]{sutherland2007scrum}
+\abntrefinfo{Sutherland e Schwaber}{SUTHERLAND; SCHWABER}{2007}
+{SUTHERLAND, J.; SCHWABER, K. The scrum papers.
+\textbf{Nuts, Bolts and Origins of an Agile Process}, 2007.}
+
 \bibitem[Suzumura \emph{et al.} 2008]{suzumura2008performance}
 \abntrefinfo{Suzumura \emph{et al.}}{SUZUMURA \emph{et al.}}{2008}
 {SUZUMURA, T.; TRENT, S.; TATSUBORI, M.; TOZAWA, A.; ONODERA, T. Performance
@@ -221,6 +283,17 @@ Dispon{\'\i}vel em:
 {UFRGS. \textbf{{Portlets — Tutorial Plone 4}}. 2012.
 Dispon{\'\i}vel em:
   \url{http://www.ufrgs.br/tutorial-plone4/posicionamento-e-estrutura/portlets}.}
+
+\bibitem[Vasconcelos \emph{et al.} 2015]{Vasconcelos2015}
+\abntrefinfo{Vasconcelos \emph{et al.}}{VASCONCELOS \emph{et al.}}{2015}
+{VASCONCELOS, B.; CARVALHO, D.; HENRIQUE, C.; MELLO, P. {Implementation of
+  scrum agile methodology in software product project in a small
+  technology-based company M{\'{E}}TRICAS E INDICADORES DE
+  INOVA{\c{C}}{\~{A}}O: PROPOSTA DE DESENVOLVIMENTO DE SISTEMA DE
+  MEDI{\c{C}}{\~{A}}O DE DESEMPENHO DA INOVA{\c{C}}{\~{A}}O ABERTA EM CENTROS
+  DE TECNOLOGIA View project Product development View project}.
+2015.
+Dispon{\'\i}vel em: \url{https://www.researchgate.net/publication/262656547}.}
 
 \bibitem[Vitalino e Castro 2016]{vitalino2016descomplicando}
 \abntrefinfo{Vitalino e Castro}{VITALINO; CASTRO}{2016}
