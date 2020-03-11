@@ -21,6 +21,12 @@
   como novo Sistema de Gerenciamento de Conte\'udo} --- Universidade dos Vales
   do Jequitinhonha e Mucuri, Diamantina, MG, Brasil, 2017.}
 
+\bibitem[Annual State Of Agile Report 2019]{relatorioAnual2019}
+\abntrefinfo{Annual\ldots}{ANNUAL\ldots}{2019}
+{ANNUAL State Of Agile Report. 2019.
+Dispon{\'\i}vel em:
+  \url{https://explore.versionone.com/state-of-agile/13th-annual-state-of-agile-report}.}
+
 \bibitem[Anwer \emph{et al.} 2017]{anwer2017comparative}
 \abntrefinfo{Anwer \emph{et al.}}{ANWER \emph{et al.}}{2017}
 {ANWER, F.; AFTAB, S.; SHAH, S.~M.; WAHEED, U. Comparative analysis of two
@@ -39,6 +45,13 @@
 {AWAD, M. A comparison between agile and traditional software development
   methodologies.
 \textbf{University of Western Australia}, v.~30, 2005.}
+
+\bibitem[Begel e Nagappan 2007]{begel2007usage}
+\abntrefinfo{Begel e Nagappan}{BEGEL; NAGAPPAN}{2007}
+{BEGEL, A.; NAGAPPAN, N. Usage and perceptions of agile software development in
+  an industrial context: An exploratory study. In:  IEEE. \textbf{First
+  International Symposium on Empirical Software Engineering and Measurement
+  (ESEM 2007)}. [S.l.], 2007. p. 255--264.}
 
 \bibitem[BOIKO 2001]{boiko}
 \abntrefinfo{BOIKO}{BOIKO}{2001}
