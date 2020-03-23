@@ -5,6 +5,13 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Agile 2019]{relatorioAnual2019}
+\abntrefinfo{Agile}{AGILE}{2019}
+{AGILE, S. of. \textbf{Annual State Of Agile Report}. 2019.
+Dispon{\'\i}vel em:
+  \url{https://explore.versionone.com/state-of-agile/13th-annual-state-of-agile-report}.
+  Acesso em: 11-3-2020.}
+
 \bibitem[Almeida 2003]{de2003educaccao}
 \abntrefinfo{Almeida}{ALMEIDA}{2003}
 {ALMEIDA, M. E.~B. de. Educa{\c{c}}{\~a}o a dist{\^a}ncia na internet:
@@ -20,12 +27,6 @@
   Identidade Digital do Governo Federal e implementa\c c\~ao do PloneGov-BR
   como novo Sistema de Gerenciamento de Conte\'udo} --- Universidade dos Vales
   do Jequitinhonha e Mucuri, Diamantina, MG, Brasil, 2017.}
-
-\bibitem[Annual State Of Agile Report 2019]{relatorioAnual2019}
-\abntrefinfo{Annual\ldots}{ANNUAL\ldots}{2019}
-{ANNUAL State Of Agile Report. 2019.
-Dispon{\'\i}vel em:
-  \url{https://explore.versionone.com/state-of-agile/13th-annual-state-of-agile-report}.}
 
 \bibitem[Anwer \emph{et al.} 2017]{anwer2017comparative}
 \abntrefinfo{Anwer \emph{et al.}}{ANWER \emph{et al.}}{2017}

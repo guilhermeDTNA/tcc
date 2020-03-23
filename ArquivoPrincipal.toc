@@ -38,6 +38,7 @@
 \contentsline {subsection}{\numberline {3.3.4}Apresenta\IeC {\c c}\IeC {\~a}o das telas}{48}{subsection.3.3.4}
 \contentsline {subsection}{\numberline {3.3.5}Estrutura de \textit {containers} do sistema}{48}{subsection.3.3.5}
 \contentsline {section}{\numberline {3.4}Execu\IeC {\c c}\IeC {\~a}o de testes de desempenho}{49}{section.3.4}
+\contentsline {section}{\numberline {3.5}Trabalhos correlatos}{49}{section.3.5}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{\uppercase {Refer\^encias}}{51}{section*.26}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }

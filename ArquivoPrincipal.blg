@@ -31,43 +31,43 @@ Warning--campo title vazio em vitalino2016descomplicando
 +---------------------------------------------------------+
 You've used 54 entries,
             6714 wiz_defined-function locations,
-            1458 strings with 18922 characters,
-and the built_in function-call counts, 47502 in all, are:
-= -- 4044
-> -- 1547
+            1460 strings with 18945 characters,
+and the built_in function-call counts, 47297 in all, are:
+= -- 3973
+> -- 1562
 < -- 438
-+ -- 1008
-- -- 466
++ -- 999
+- -- 471
 * -- 3338
-:= -- 6174
-add.period$ -- 174
+:= -- 6169
+add.period$ -- 176
 call.type$ -- 56
-change.case$ -- 546
+change.case$ -- 547
 chr.to.int$ -- 116
 cite$ -- 50
-duplicate$ -- 2960
-empty$ -- 3085
-format.name$ -- 2250
-if$ -- 10737
+duplicate$ -- 2965
+empty$ -- 3077
+format.name$ -- 2273
+if$ -- 10651
 int.to.chr$ -- 4
 int.to.str$ -- 3
-missing$ -- 923
+missing$ -- 924
 newline$ -- 246
-num.names$ -- 240
-pop$ -- 1153
+num.names$ -- 245
+pop$ -- 1151
 preamble$ -- 1
 purify$ -- 208
 quote$ -- 0
-skip$ -- 3467
+skip$ -- 3398
 stack$ -- 1
-substring$ -- 1826
-swap$ -- 1231
+substring$ -- 1811
+swap$ -- 1236
 text.length$ -- 61
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 17
+type$ -- 10
 warning$ -- 1
-while$ -- 360
+while$ -- 363
 width$ -- 0
-write$ -- 771
+write$ -- 773
 (There were 2 error messages)
