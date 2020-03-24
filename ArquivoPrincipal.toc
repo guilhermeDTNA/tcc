@@ -33,12 +33,12 @@
 \contentsline {section}{\numberline {3.2}Defini\IeC {\c c}\IeC {\~a}o do gerenciador de conte\IeC {\'u}do}{47}{section.3.2}
 \contentsline {section}{\numberline {3.3}Desenvolvimento}{48}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Coleta de requisitos e elabora\IeC {\c c}\IeC {\~a}o de hist\IeC {\'o}rias de usu\IeC {\'a}rio}{48}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Defini\IeC {\c c}\IeC {\~a}o das \textit {sprints}}{48}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Casos de uso e fluxos alternativos}{48}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Apresenta\IeC {\c c}\IeC {\~a}o das telas}{48}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Estrutura de \textit {containers} do sistema}{48}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.2}Casos de uso e fluxos alternativos}{49}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Defini\IeC {\c c}\IeC {\~a}o das \textit {sprints}}{49}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Apresenta\IeC {\c c}\IeC {\~a}o das telas}{49}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Estrutura de \textit {containers} do sistema}{49}{subsection.3.3.5}
 \contentsline {section}{\numberline {3.4}Execu\IeC {\c c}\IeC {\~a}o de testes de desempenho}{49}{section.3.4}
-\contentsline {section}{\numberline {3.5}Trabalhos correlatos}{49}{section.3.5}
+\contentsline {section}{\numberline {3.5}Trabalhos correlatos}{50}{section.3.5}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{\uppercase {Refer\^encias}}{51}{section*.26}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }

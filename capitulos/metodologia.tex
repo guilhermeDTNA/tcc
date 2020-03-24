@@ -88,25 +88,36 @@ Outro ponto positivo do \textit{Plone} é que sua utilização não necessita da
 %Definir as etapas 
 %Levantamento de requisitos (histórias de usuário) - construção das sprints - Casos de uso e fluxos alternativos
 
+A seção de desenvolvimento sinaliza o início, de fato, da realização das tarefas e demais atividades relacionadas à construção do sistema da Kuruatuba. É a partir desse momento que serão informados dados como domínio, hospedagem, requisitos, versões das tecnologias utilizadas e descrição das atividades desempenhadas.
+
+Para o projeto a VPS contratada é de posse da empresa \textit{Hostinger}, encontrada pelo endereço eletrônico \textsf{https://www.hostinger.com.br/}, com o sistema operacional \textbf{COLOCAR AQUI O SO DA VPS} e o seguinte domínio: \textsf{http://www.kuruatuba.org}. Também usadas as seguintes ferramentas e suas respectivas versões: \textit{Plone} 5.2.1, PHP 7.4.2, \textit{MySQL} 5.7, \textit{Docker} 19.03.5 e \textit{Git} 2.17.1, este utilizado para o versionamento de código do sistema para cadastro de associados uma vez que ele poderá ser necessário, futuramente, a outro desenvolvedor para atualizações. 
+
+A seguir, no decorrer da seção, os temas levantados serão os que se seguem: a subseção \ref{subsec:requisitos} tratará da coleta de requisitos e da elaboração das histórias de usuário, a subseção \ref{subsec:usecase} apresentará os casos de uso e fluxos alternativos do sistema como forma de auxiliar no entendimento de seu funcionamento, a subseção \ref{subsec:sprints} apresentará como ficaram os elementos do \textit{Scrum} aplicados ao contexto do presente trabalho, algumas telas do software ficarão disponíveis na subseção \ref{subsec:telas} e de mesma maneira a estrutura de \textit{containers} do \textit{Docker} será ilustrada na subseção \ref{subsec:docker}.
 
 \subsection{Coleta de requisitos e elaboração de histórias de usuário}
+\label{subsec:requisitos}
+\hspace{2.5cm}
 
+Uma etapa extremamente importante no desenvolvimento de produtos é a coleta de requisitos, pois é com base nela que artefato será construído, tendo em vista que este é o momento em que o cliente tenta exprimir o que deseja que o software tenha e seja capaz de processar envolvendo também a abstração dessas informações pela equipe responsável por passá-las para o desenvolvimento. 
+
+Para que tudo ocorra da melhor maneira a qualidade na comunicação é essencial e uma abordagem superficial das ideias deve ser evitada a fim de eliminar falsas convicções, ideias distintas entre cliente e desenvolvedor e desperdício de tempo e demais recursos. Para isso existem as maneiras de extrair os requisitos de sistema do cliente e usuário, como explanado no tópico de especificação de software, na seção 2.1. Dentre as opções lá citadas, a coleta de requisitos para a aplicação web da Kuruatuba consistiu-se em um formulário e em curtas reuniões com o atual presidente da associação, o professor Erinaldo. 
+
+O formulário foi acessível para os futuros utilizadores do sistema para que opinassem sobre o que deveria e o que não deveria estar no produto final, além do grau de importância de cada requisito de acordo com suas exigências e necessidades. 
+
+\subsection{Casos de uso e fluxos alternativos}
+\label{subsec:usecase}
 \hspace{2.5cm}
 
 \subsection{Definição das \textit{sprints}}
-
-\hspace{2.5cm}
-
-\subsection{Casos de uso e fluxos alternativos}
-
+\label{subsec:sprints}
 \hspace{2.5cm}
 
 \subsection{Apresentação das telas}
-
+\label{subsec:telas}
 \hspace{2.5cm}
 
 \subsection{Estrutura de \textit{containers} do sistema}
-
+\label{subsec:docker}
 \hspace{2.5cm}
 
 Como o sistema deve gerenciar dois tipos de público, um de associados e outro de usuários, resolveu-se criar 3 \textit{containers}: um responsável pelo \textit{Plone} que, por sua vez, apresenta o \textit{website} da Kuruatuba para os visitantes; um \textit{container} responsável por comportar o sistema de gerenciamento de associados, desenvolvido na linguagem PHP, que é conhecida como uma linguagem de programação da era da Web 2.0 que permite o desenvolvimento ágil de software do lado do servidor \citeonline{suzumura2008performance}; e um \textit{container} abrigando o banco de dados, construído com a ferramenta \textit{MySQL}, que possui as informações relacionadas aos associados e onde são realizadas as consultas por parte do sistema escrito em PHP.
