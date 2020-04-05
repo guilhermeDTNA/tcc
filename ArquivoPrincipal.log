@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.1.6)  24 MAR 2020 16:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.1.6)  4 APR 2020 23:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1939,11 +1939,11 @@ Package pdftex.def Info: figuras/containers.png  used on input line 408.
 [43] [44
 
 ] [45] [46]
-<figuras/diferentes-metodologias.png, id=587, 1199.48125pt x 852.18375pt>
+<figuras/diferentes-metodologias.png, id=592, 1199.48125pt x 852.18375pt>
 File: figuras/diferentes-metodologias.png Graphic file (type png)
 <use figuras/diferentes-metodologias.png>
 Package pdftex.def Info: figuras/diferentes-metodologias.png  used on input lin
-e 64.
+e 68.
 (pdftex.def)             Requested size: 364.00139pt x 258.60883pt.
  [47 <./figuras/diferentes-metodologias.png>] [48] [49])
 (./ArquivoPrincipal.bbl [50]
@@ -1955,7 +1955,7 @@ bibitemlist
 [51
 
 ] [52] [53]) (./pos-textual/apendice.tex [54]
-<pos-textual/Pesquisa.pdf, id=652, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=665, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf  used on input line 4.
@@ -1964,7 +1964,7 @@ File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf  used on input line 4.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
-<pos-textual/Pesquisa.pdf, id=655, page=1, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=668, page=1, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf, page 1>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf , page1 used on input line 4.
@@ -1999,7 +1999,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
 >]
-<pos-textual/Pesquisa.pdf, id=687, page=2, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=700, page=2, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf, page 2>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf , page2 used on input line 4.
@@ -2021,7 +2021,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
 >]
-<pos-textual/Pesquisa.pdf, id=692, page=3, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=705, page=3, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf, page 3>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf , page3 used on input line 4.
@@ -2043,7 +2043,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
 >]
-<pos-textual/Pesquisa.pdf, id=697, page=4, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=710, page=4, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf, page 4>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf , page4 used on input line 4.
@@ -2065,7 +2065,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
 >]
-<pos-textual/Pesquisa.pdf, id=703, page=5, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=716, page=5, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf, page 5>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf , page5 used on input line 4.
@@ -2087,7 +2087,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
 >]
-<pos-textual/coleta-requisitos.pdf, id=710, 597.19106pt x 845.07718pt>
+<pos-textual/coleta-requisitos.pdf, id=723, 597.19106pt x 845.07718pt>
 File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos.pdf>
 Package pdftex.def Info: pos-textual/coleta-requisitos.pdf  used on input line 
@@ -2098,7 +2098,7 @@ File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 Package pdftex.def Info: pos-textual/coleta-requisitos.pdf  used on input line 
 9.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
-<pos-textual/coleta-requisitos.pdf, id=713, page=1, 597.19106pt x 845.07718pt>
+<pos-textual/coleta-requisitos.pdf, id=726, page=1, 597.19106pt x 845.07718pt>
 File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos.pdf, page 1>
 Package pdftex.def Info: pos-textual/coleta-requisitos.pdf , page1 used on inpu
@@ -2128,7 +2128,7 @@ Package pdftex.def Info: pos-textual/coleta-requisitos.pdf , page1 used on inpu
 t line 9.
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
  [62 <./pos-textual/coleta-requisitos.pdf>]
-<pos-textual/coleta-requisitos.pdf, id=751, page=2, 597.19106pt x 845.07718pt>
+<pos-textual/coleta-requisitos.pdf, id=764, page=2, 597.19106pt x 845.07718pt>
 File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos.pdf, page 2>
 Package pdftex.def Info: pos-textual/coleta-requisitos.pdf , page2 used on inpu
@@ -2194,23 +2194,23 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
  ) 
 Here is how much of TeX's memory you used:
- 21225 strings out of 494830
- 320677 string characters out of 6178380
- 512537 words of memory out of 5000000
- 23524 multiletter control sequences out of 15000+600000
- 98297 words of font info for 345 fonts, out of 8000000 for 9000
+ 21237 strings out of 494830
+ 320810 string characters out of 6178380
+ 512675 words of memory out of 5000000
+ 23529 multiletter control sequences out of 15000+600000
+ 98163 words of font info for 344 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
- 46i,18n,53p,1144b,629s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,18n,53p,1144b,630s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ArquivoPrincipal.pdf (65 pages, 639372 bytes).
+Output written on ArquivoPrincipal.pdf (65 pages, 643174 bytes).
 PDF statistics:
- 960 PDF objects out of 1000 (max. 8388607)
- 816 compressed objects within 9 object streams
- 182 named destinations out of 1000 (max. 500000)
+ 974 PDF objects out of 1000 (max. 8388607)
+ 830 compressed objects within 9 object streams
+ 190 named destinations out of 1000 (max. 500000)
  51129 words of extra memory for PDF output out of 51595 (max. 10000000)
 

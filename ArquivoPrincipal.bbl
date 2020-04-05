@@ -163,11 +163,19 @@ Dispon{\'\i}vel em: \url{http://ongkuruatuba.blogspot.com/}. Acesso em:
   aplicado {\`a} sele{\c{c}}{\~a}o de sistemas gerenciadores de conte{\'u}do.
 Universidade Federal de Sergipe, 2016.}
 
+\bibitem[Milani 2007]{milani2007mysql}
+\abntrefinfo{Milani}{MILANI}{2007}
+{MILANI, A. \textbf{MySQL-guia do programador}. [S.l.]: Novatec Editora, 2007.}
+
 \bibitem[Mirdha, Jain e Shah 2014]{mirdha2014comparative}
 \abntrefinfo{Mirdha, Jain e Shah}{MIRDHA; JAIN; SHAH}{2014}
 {MIRDHA, A.; JAIN, A.; SHAH, K. Comparative analysis of open source content
   management systems. In:  IEEE. \textbf{2014 IEEE International Conference on
   Computational Intelligence and Computing Research}. [S.l.], 2014. p.~1--4.}
+
+\bibitem[MySQL 2001]{mysql2001mysql}
+\abntrefinfo{MySQL}{MYSQL}{2001}
+{MYSQL, A. \textbf{MySQL}. 2001.}
 
 \bibitem[Oliveira \emph{et al.} 2017]{de2017repositorios}
 \abntrefinfo{Oliveira \emph{et al.}}{OLIVEIRA \emph{et al.}}{2017}
@@ -202,12 +210,6 @@ Universidade Federal de Sergipe, 2016.}
   management systems-joomla, drupal and wordpress.
 \textbf{International Journal of Computer Applications}, Citeseer, v.~21, n.~4,
   p. 39--43, 2011.}
-
-\bibitem[P{\'e}rez 2018]{perez2018desarrollo}
-\abntrefinfo{P{\'e}rez}{P{\'E}REZ}{2018}
-{P{\'E}REZ, R. P. Desarrollo de una aplicaci{\'o}n de mensajer{\'\i}a en
-  android.
-ETSI\_Sistemas\_Infor, 2018.}
 
 \bibitem[Prada \emph{et al.} 2017]{prada4docker}
 \abntrefinfo{Prada \emph{et al.}}{PRADA \emph{et al.}}{2017}

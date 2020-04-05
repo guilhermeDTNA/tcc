@@ -29,15 +29,15 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{45}{chapter.3}
 \contentsline {section}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~a}o do tipo de metodologia \IeC {\'a}gil de desenvolvimento}{45}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Sobre o \textit {Scrum}}{45}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Defini\IeC {\c c}\IeC {\~a}o do gerenciador de conte\IeC {\'u}do}{47}{section.3.2}
+\contentsline {subsection}{\numberline {3.1.1}Sobre o \textit {Scrum}}{46}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Defini\IeC {\c c}\IeC {\~a}o do gerenciador de conte\IeC {\'u}do}{48}{section.3.2}
 \contentsline {section}{\numberline {3.3}Desenvolvimento}{48}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Coleta de requisitos e elabora\IeC {\c c}\IeC {\~a}o de hist\IeC {\'o}rias de usu\IeC {\'a}rio}{48}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}Coleta de requisitos e elabora\IeC {\c c}\IeC {\~a}o de hist\IeC {\'o}rias de usu\IeC {\'a}rio}{49}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Casos de uso e fluxos alternativos}{49}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Defini\IeC {\c c}\IeC {\~a}o das \textit {sprints}}{49}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Apresenta\IeC {\c c}\IeC {\~a}o das telas}{49}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Estrutura de \textit {containers} do sistema}{49}{subsection.3.3.5}
-\contentsline {section}{\numberline {3.4}Execu\IeC {\c c}\IeC {\~a}o de testes de desempenho}{49}{section.3.4}
+\contentsline {subsection}{\numberline {3.3.4}Apresenta\IeC {\c c}\IeC {\~a}o das telas}{50}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Estrutura de \textit {containers} do sistema}{50}{subsection.3.3.5}
+\contentsline {section}{\numberline {3.4}Execu\IeC {\c c}\IeC {\~a}o de testes de desempenho}{50}{section.3.4}
 \contentsline {section}{\numberline {3.5}Trabalhos correlatos}{50}{section.3.5}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{\uppercase {Refer\^encias}}{51}{section*.26}

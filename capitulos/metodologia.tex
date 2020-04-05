@@ -16,12 +16,16 @@ O capítulo está dividido no seguinte escopo: as seções \ref{sec:defMetodolog
 
 \hspace{2.5cm}
 
-Vários são os motivos para a escolha do \textit{Scrum} como metodologia de desenvolvimento e \citeonline[~p. 560]{Vasconcelos2015} divulga diversos deles em seu trabalho. Pode-se citar a diminuição de reclamações \apud{mann2005case}{Vasconcelos2015}, o aumento do retorno do investimento em projetos de novos produtos \apud{sulaiman2006agileevm}{Vasconcelos2015}, a melhoria da qualidade do produto produzido e diminuição dos custos de produção \apud{sutherland2008fully}{Vasconcelos2015} e a diminuição no tempo gasto para terminar projetos de desenvolvimento de novos produtos \apud{sanders2007using}{Vasconcelos2015}.
+A definição de uma metodologia ágil de desenvolvimento para o atual projeto é consequência das informações apresentadas na seção 2.2, principalmente em relação às informações levantadas nos quadros 1 e 2, que dizem respeito a características das metodologias ágeis e tradicionais, principalmente relativas a tempo, comunicação e riscos tendo em vista a baixa complexidade do projeto, o curto tempo para desenvolvimento e produção da documentação.
+
+Após a certificação de que uma metodologia ágil deve ser empregada, pode-se dizer que vários são os motivos para a escolha do \textit{Scrum} como metodologia de desenvolvimento e \citeonline[~p. 560]{Vasconcelos2015} divulga diversos deles em seu trabalho. Pode-se citar a diminuição de reclamações \apud{mann2005case}{Vasconcelos2015}, o aumento do retorno do investimento em projetos de novos produtos \apud{sulaiman2006agileevm}{Vasconcelos2015}, a melhoria da qualidade do produto produzido e diminuição dos custos de produção \apud{sutherland2008fully}{Vasconcelos2015} e a diminuição no tempo gasto para terminar projetos de desenvolvimento de novos produtos \apud{sanders2007using}{Vasconcelos2015}.
 
 Três características pertencentes ao \textit{Scrum} são a leveza, a simplicidade de entender e a dificuldade de se dominá-lo \apud{sutherland2007scrum}{painka12013utilizaccao}, isto porque é fácil entender suas etapas e o papel de cada um no projeto, mas para adequar essa metodologia à realidade da empresa é necessário experiência e conhecimento.
 
 Assim, às vezes pode ser conveniente alterar prazos, papéis e etapas da metodologia, visando torná-la uma ferramenta de auxílio customizada, e fatores como a disponibilidade de clientes, curtos prazos ou complexidade das tarefas devem interferir em decisões dessa espécie, por isso cada projeto utiliza o \textit{Scrum} de uma maneira, ficando a critério das equipes, em especial o \textit{Scrum Master}, quando e onde remodelar.
 
+Outros fatores que contribuiram para definição do \textit{Scrum} como metodologia de desenvolvimento para o projeto atual estão esclarecidos na tabela 1 e são alusivos ao tamanho da equipe, que corresponde a uma única pessoa, e à elicitação de requisitos, que, por sua vez, não possui uma única forma de ser elaborada. Também contribui para o processo de definição a familiaridade do autor com a metodologia mencionada, já tendo sido estudada e colocada em prática em situações ocorridas durante o curso de Sistemas de Informação.
+ 
 \hspace{2.5cm}
 \subsection{Sobre o \textit{Scrum}}
 \hspace{2.5cm}
@@ -90,10 +94,11 @@ Outro ponto positivo do \textit{Plone} é que sua utilização não necessita da
 
 A seção de desenvolvimento sinaliza o início, de fato, da realização das tarefas e demais atividades relacionadas à construção do sistema da Kuruatuba. É a partir desse momento que serão informados dados como domínio, hospedagem, requisitos, versões das tecnologias utilizadas e descrição das atividades desempenhadas.
 
-Para o projeto a VPS contratada é de posse da empresa \textit{Hostinger}, encontrada pelo endereço eletrônico \textsf{https://www.hostinger.com.br/}, com o sistema operacional \textbf{COLOCAR AQUI O SO DA VPS} e o seguinte domínio: \textsf{http://www.kuruatuba.org}. Também usadas as seguintes ferramentas e suas respectivas versões: \textit{Plone} 5.2.1, PHP 7.4.2, \textit{MySQL} 5.7, \textit{Docker} 19.03.5 e \textit{Git} 2.17.1, este utilizado para o versionamento de código do sistema para cadastro de associados uma vez que ele poderá ser necessário, futuramente, a outro desenvolvedor para atualizações. 
+Para o projeto a VPS contratada é de posse da empresa \textit{Hostinger}, encontrada pelo endereço eletrônico \textsf{https://www.hostinger.com.br/}, com o sistema operacional \textit{Ubuntu} 16.04 e o seguinte domínio: \textsf{http://www.kuruatuba.org}. Também usadas as seguintes ferramentas e suas respectivas versões: \textit{Plone} 5.2.1, PHP 7.4.2, \textit{MySQL} 5.7, \textit{Docker} 19.03.5 e \textit{Git} 2.17.1, este utilizado para o versionamento de código do sistema para cadastro de associados uma vez que ele poderá ser necessário, futuramente, a outro desenvolvedor para atualizações. 
 
 A seguir, no decorrer da seção, os temas levantados serão os que se seguem: a subseção \ref{subsec:requisitos} tratará da coleta de requisitos e da elaboração das histórias de usuário, a subseção \ref{subsec:usecase} apresentará os casos de uso e fluxos alternativos do sistema como forma de auxiliar no entendimento de seu funcionamento, a subseção \ref{subsec:sprints} apresentará como ficaram os elementos do \textit{Scrum} aplicados ao contexto do presente trabalho, algumas telas do software ficarão disponíveis na subseção \ref{subsec:telas} e de mesma maneira a estrutura de \textit{containers} do \textit{Docker} será ilustrada na subseção \ref{subsec:docker}.
 
+\hspace{2.5cm}
 \subsection{Coleta de requisitos e elaboração de histórias de usuário}
 \label{subsec:requisitos}
 \hspace{2.5cm}
@@ -102,28 +107,53 @@ Uma etapa extremamente importante no desenvolvimento de produtos é a coleta de 
 
 Para que tudo ocorra da melhor maneira a qualidade na comunicação é essencial e uma abordagem superficial das ideias deve ser evitada a fim de eliminar falsas convicções, ideias distintas entre cliente e desenvolvedor e desperdício de tempo e demais recursos. Para isso existem as maneiras de extrair os requisitos de sistema do cliente e usuário, como explanado no tópico de especificação de software, na seção 2.1. Dentre as opções lá citadas, a coleta de requisitos para a aplicação web da Kuruatuba consistiu-se em um formulário e em curtas reuniões com o atual presidente da associação, o professor Erinaldo. 
 
-O formulário foi acessível para os futuros utilizadores do sistema para que opinassem sobre o que deveria e o que não deveria estar no produto final, além do grau de importância de cada requisito de acordo com suas exigências e necessidades. 
+O formulário foi acessível para os futuros utilizadores do sistema para que opinassem sobre o que deveria e o que não deveria estar no produto final, além do grau de importância de cada requisito de acordo com suas exigências e necessidades. De acordo com as respostas registradas no formulário e das reuniões anteriormente mencionadas, obteve-se os seguintes requisitos de sistema:
 
+\begin{enumerate}
+ \item Sistema de login e cadastro para os usuários;
+ \item Publicação de notícias sobre a associação;
+ \item Cadastro, atualização e remoção de associados;
+ \item Sistema para gerar carteirinha para associados;
+ \item Formulário para receber mensagens dos visitantes;
+ \item Publicação de eventos organizados pela associação;
+ \item Link para baixar o estatuto da Kuruatuba.
+\end{enumerate}
+
+
+
+\hspace{2.5cm}
 \subsection{Casos de uso e fluxos alternativos}
 \label{subsec:usecase}
 \hspace{2.5cm}
 
+\hspace{2.5cm}
 \subsection{Definição das \textit{sprints}}
 \label{subsec:sprints}
 \hspace{2.5cm}
 
+A presente subseção irá apresentar os ciclos de desenvolvimento, cada um deles possui as funcionalidades a serem desenvolvidas, requisitos atendidos (vide a subseção \ref{subsec:requisitos}), seu nível de prioridade e o prazo para desenvolvê-las. É relevante saber que grande parte do desenvolvimento foi feita em máquina local para só depois ocorrer a migração da aplicação, mesmo que incompleta, para o servidor virtual.
+
+%apresentação da interface -> prioridade: 5 -> prazo: 30 dias
+%criação das páginas de notícias e eventos -> prioridade: 4 -> prazo: 7 dias
+%alimentação das páginas que contêm informações sobre a associação -> prioridade: 2 -> prazo: 7 dias
+%implementação da geração de carteirinha, criação e conexão com o banco de dados -> prioridade: 5 -> prazo: 7 dias
+%criação da tabela de associados e implementação do CRUD no PHP -> prioridade: 4 -> prazo: 10 dias
+%criação do design do sistema de associados -> prioridade: 5 -> prazo: 14 dias
+%criação da página de contato -> prioridade: 3 -> prazo: 6 dias
+%criação do sistema de login na aplicação para associados -> prioridade: 4 -> prazo: 11 dias
+%testes de desempenho e segurança em todo o sistema -> prioridade: 5 -> prazo: 14 dias
+
+\hspace{2.5cm}
 \subsection{Apresentação das telas}
 \label{subsec:telas}
 \hspace{2.5cm}
 
+\hspace{2.5cm}
 \subsection{Estrutura de \textit{containers} do sistema}
 \label{subsec:docker}
 \hspace{2.5cm}
 
-Como o sistema deve gerenciar dois tipos de público, um de associados e outro de usuários, resolveu-se criar 3 \textit{containers}: um responsável pelo \textit{Plone} que, por sua vez, apresenta o \textit{website} da Kuruatuba para os visitantes; um \textit{container} responsável por comportar o sistema de gerenciamento de associados, desenvolvido na linguagem PHP, que é conhecida como uma linguagem de programação da era da Web 2.0 que permite o desenvolvimento ágil de software do lado do servidor \citeonline{suzumura2008performance}; e um \textit{container} abrigando o banco de dados, construído com a ferramenta \textit{MySQL}, que possui as informações relacionadas aos associados e onde são realizadas as consultas por parte do sistema escrito em PHP.
-
-O relacionamento dos \textit{containers} acima estão representados na figura  \textbf{colocar aqui a figura dos containers}:
-
+Como o sistema deve gerenciar dois tipos de público, um de associados e outro de usuários, resolveu-se criar três \textit{containers}: um responsável pelo \textit{Plone} que, por sua vez, apresenta o \textit{website} da Kuruatuba para os visitantes; um \textit{container} responsável por comportar o sistema de gerenciamento de associados, desenvolvido na linguagem PHP, que é conhecida como uma linguagem de programação da era da Web 2.0 que permite o desenvolvimento ágil de software do lado do servidor \citeonline{suzumura2008performance}; e um \textit{container} abrigando o banco de dados, construído com a ferramenta \textit{MySQL}, que possui as informações relacionadas aos associados e onde são realizadas as consultas por parte do sistema escrito em PHP.
 
 A criação e comunicação dos \textit{containers} compactua com as vantagens descritas na seção 2.6 do capítulo 2, principalmente no que diz respeito à portabilidade e disponibilidade dos recursos. Tais benefícios também se aplicam à segurança, visto que para uma possível invasão ao sistema, é necessário que o invasor conheça o IP e porta de cada \textit{container} e ainda os dados de acesso tanto ao \textit{website} no \textit{Plone} quanto à aplicação destinada a armazenar os dados sobre os associados.   
 
