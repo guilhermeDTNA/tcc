@@ -96,10 +96,10 @@ A seção de desenvolvimento sinaliza o início, de fato, da realização das ta
 
 Para o projeto a VPS contratada é de posse da empresa \textit{Hostinger}, encontrada pelo endereço eletrônico \textsf{https://www.hostinger.com.br/}, com o sistema operacional \textit{Ubuntu} 16.04 e o seguinte domínio: \textsf{http://www.kuruatuba.org}. Também usadas as seguintes ferramentas e suas respectivas versões: \textit{Plone} 5.2.1, PHP 7.4.2, \textit{MySQL} 5.7, \textit{Docker} 19.03.5 e \textit{Git} 2.17.1, este utilizado para o versionamento de código do sistema para cadastro de associados uma vez que ele poderá ser necessário, futuramente, a outro desenvolvedor para atualizações. 
 
-A seguir, no decorrer da seção, os temas levantados serão os que se seguem: a subseção \ref{subsec:requisitos} tratará da coleta de requisitos e da elaboração das histórias de usuário, a subseção \ref{subsec:usecase} apresentará os casos de uso e fluxos alternativos do sistema como forma de auxiliar no entendimento de seu funcionamento, a subseção \ref{subsec:sprints} apresentará como ficaram os elementos do \textit{Scrum} aplicados ao contexto do presente trabalho, algumas telas do software ficarão disponíveis na subseção \ref{subsec:telas} e de mesma maneira a estrutura de \textit{containers} do \textit{Docker} será ilustrada na subseção \ref{subsec:docker}.
+A seguir, no decorrer da seção, os temas levantados serão os que se seguem: as subseções \ref{subsec:requisitos} e \ref{subsec:historias} tratarão da coleta de requisitos e da elaboração das histórias de usuário, respectivamente, a subseção \ref{subsec:usecase} apresentará os casos de uso e fluxos alternativos do sistema como forma de auxiliar no entendimento de seu funcionamento, a subseção \ref{subsec:sprints} apresentará como ficaram os elementos do \textit{Scrum} aplicados ao contexto do presente trabalho, algumas telas do software ficarão disponíveis na subseção \ref{subsec:telas} e de mesma maneira a estrutura de \textit{containers} do \textit{Docker} será ilustrada na subseção \ref{subsec:docker}.
 
 \hspace{2.5cm}
-\subsection{Coleta de requisitos e elaboração de histórias de usuário}
+\subsection{Coleta de requisitos}
 \label{subsec:requisitos}
 \hspace{2.5cm}
 
@@ -119,6 +119,31 @@ O formulário foi acessível para os futuros utilizadores do sistema para que op
  \item Link para baixar o estatuto da Kuruatuba.
 \end{enumerate}
 
+\hspace{2.5cm}
+\subsection{Histórias de usuário}
+\label{subsec:historias}
+\hspace{2.5cm}
+
+Segundo \citeonline{longo2014utilizaccao} as histórias de usuário são muito importantes tanto para a criação de requisitos nos métodos ágeis \textit{Extreme Programming} e \textit{Scrum} quanto para provocar o envolvimento do cliente, porém não poderão substituir a comunicação entre clientes e equipe \citeonline{carvalho2014proposta}.
+
+Cada história de usuário deve conter três expressões: ``como um... '', que identifica o papel do usuário na história; ``eu quero...'', funcionalidades requisitadas; e ``de modo que...'', benefício conquistado ao realizar a tarefa \apud{cohn2004user}{longo2014utilizaccao}; além de seis atributos indispensáveis identificados pelo acrônimo inglês INVEST (\textit{Independent, Negotiable, Valuable to users or customers, Estimatable, Small and Testable}) \cite{cohn2004user} e explicados em \citeonline{carvalho2014proposta}:
+
+\begin{itemize}
+ \item Independente: uma história deve poder ser desenvolvida, testada e entregue de forma isolada, uma não depende de outras;
+ 
+ \item Negociável: através das histórias é possível discutir requisitos, e por elas ainda deve haver possibilidade de mudanças de funcionalidades e datas de entrega; 
+ 
+ \item Valoroso: assim como os métodos ágeis as histórias de usuário devem proporcionar valor para o cliente, através delas é importante que sinta satisfação e sentimento de realização com as informações discutidas;
+ 
+ \item Estimável: uma equipe deve ser capaz de definir o nível de complexidade, a mão de obra necessária e o tempo para conseguir implementar uma história de usuário. Caso isso não seja possível a história deve ser dividida em histórias menores até que a estimativa seja validada.
+ 
+ \item Tamanho pequeno: as histórias devem ser pequenas para prover maior agilidade na implementação.
+ 
+ \item Testável: testes devem ser realizados em cada história criada pois além dos conteúdos ficarem mais organizados a equipe também conseguirá codificar cada uma caso os testes sejam aceitos.
+ 
+\end{itemize}
+
+A seguir estão as histórias de usuário para o trabalho em questão já testadas e validadas junto ao cliente.
 
 
 \hspace{2.5cm}
@@ -131,7 +156,7 @@ O formulário foi acessível para os futuros utilizadores do sistema para que op
 \label{subsec:sprints}
 \hspace{2.5cm}
 
-A presente subseção irá apresentar os ciclos de desenvolvimento, cada um deles possui as funcionalidades a serem desenvolvidas, requisitos atendidos (vide a subseção \ref{subsec:requisitos}), seu nível de prioridade e o prazo para desenvolvê-las. É relevante saber que grande parte do desenvolvimento foi feita em máquina local para só depois ocorrer a migração da aplicação, mesmo que incompleta, para o servidor virtual.
+A presente subseção irá apresentar os ciclos de desenvolvimento, cada um deles possui as funcionalidades a serem desenvolvidas, requisitos atendidos (vide a subseção \ref{subsec:requisitos}), seu nível de prioridade e o prazo para desenvolvê-las. É relevante saber que grande parte do desenvolvimento foi feita em máquina local para só depois ocorrer a migração da aplicação, mesmo que incompleta, para o servidor virtual. Considera-se o nível de prioridade em uma escala de 1 a 5, onde 1 representa pouquíssima prioridade e 5 altíssima prioridade. 
 
 %apresentação da interface -> prioridade: 5 -> prazo: 30 dias
 %criação das páginas de notícias e eventos -> prioridade: 4 -> prazo: 7 dias
@@ -142,6 +167,23 @@ A presente subseção irá apresentar os ciclos de desenvolvimento, cada um dele
 %criação da página de contato -> prioridade: 3 -> prazo: 6 dias
 %criação do sistema de login na aplicação para associados -> prioridade: 4 -> prazo: 11 dias
 %testes de desempenho e segurança em todo o sistema -> prioridade: 5 -> prazo: 14 dias
+
+\begin{table}[h]
+\centering
+\scalefont{0.9}
+\caption{\textit{Sprint} 1}
+\vspace{0.5cm}
+\begin{tabular}{l|c|c|c}
+ 
+\textbf{Nome} & \textbf{Prioridade} & \textbf{Prazo (dias)} & \textbf{Requisitos atendidos}  \\ % Note a separação de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+- & - & - & - \\
+- & - & - & - \\
+\hline
+\end{tabular}
+\fonte{Autor.}
+\label{sprint1}
+\end{table}
 
 \hspace{2.5cm}
 \subsection{Apresentação das telas}
