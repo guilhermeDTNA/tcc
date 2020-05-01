@@ -32,14 +32,14 @@
 \contentsline {subsection}{\numberline {3.1.1}Sobre o \textit {Scrum}}{46}{subsection.3.1.1}
 \contentsline {section}{\numberline {3.2}Defini\IeC {\c c}\IeC {\~a}o do gerenciador de conte\IeC {\'u}do}{48}{section.3.2}
 \contentsline {section}{\numberline {3.3}Desenvolvimento}{48}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Coleta de requisitos}{49}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Hist\IeC {\'o}rias de usu\IeC {\'a}rio}{49}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Casos de uso e fluxos alternativos}{50}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Defini\IeC {\c c}\IeC {\~a}o das \textit {sprints}}{50}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.1}Hist\IeC {\'o}rias de usu\IeC {\'a}rio}{49}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Coleta de requisitos}{50}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Casos de uso e fluxos alternativos}{51}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Defini\IeC {\c c}\IeC {\~a}o das \textit {sprints}}{51}{subsection.3.3.4}
 \contentsline {subsection}{\numberline {3.3.5}Apresenta\IeC {\c c}\IeC {\~a}o das telas}{51}{subsection.3.3.5}
 \contentsline {subsection}{\numberline {3.3.6}Estrutura de \textit {containers} do sistema}{51}{subsection.3.3.6}
-\contentsline {section}{\numberline {3.4}Execu\IeC {\c c}\IeC {\~a}o de testes de desempenho}{51}{section.3.4}
-\contentsline {section}{\numberline {3.5}Trabalhos correlatos}{51}{section.3.5}
+\contentsline {section}{\numberline {3.4}Execu\IeC {\c c}\IeC {\~a}o de testes de desempenho}{52}{section.3.4}
+\contentsline {section}{\numberline {3.5}Trabalhos correlatos}{52}{section.3.5}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{\uppercase {Refer\^encias}}{53}{section*.27}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }

@@ -96,28 +96,7 @@ A seção de desenvolvimento sinaliza o início, de fato, da realização das ta
 
 Para o projeto a VPS contratada é de posse da empresa \textit{Hostinger}, encontrada pelo endereço eletrônico \textsf{https://www.hostinger.com.br/}, com o sistema operacional \textit{Ubuntu} 16.04 e o seguinte domínio: \textsf{http://www.kuruatuba.org}. Também usadas as seguintes ferramentas e suas respectivas versões: \textit{Plone} 5.2.1, PHP 7.4.2, \textit{MySQL} 5.7, \textit{Docker} 19.03.5 e \textit{Git} 2.17.1, este utilizado para o versionamento de código do sistema para cadastro de associados uma vez que ele poderá ser necessário, futuramente, a outro desenvolvedor para atualizações. 
 
-A seguir, no decorrer da seção, os temas levantados serão os que se seguem: as subseções \ref{subsec:requisitos} e \ref{subsec:historias} tratarão da coleta de requisitos e da elaboração das histórias de usuário, respectivamente, a subseção \ref{subsec:usecase} apresentará os casos de uso e fluxos alternativos do sistema como forma de auxiliar no entendimento de seu funcionamento, a subseção \ref{subsec:sprints} apresentará como ficaram os elementos do \textit{Scrum} aplicados ao contexto do presente trabalho, algumas telas do software ficarão disponíveis na subseção \ref{subsec:telas} e de mesma maneira a estrutura de \textit{containers} do \textit{Docker} será ilustrada na subseção \ref{subsec:docker}.
-
-\hspace{2.5cm}
-\subsection{Coleta de requisitos}
-\label{subsec:requisitos}
-\hspace{2.5cm}
-
-Uma etapa extremamente importante no desenvolvimento de produtos é a coleta de requisitos, pois é com base nela que artefato será construído, tendo em vista que este é o momento em que o cliente tenta exprimir o que deseja que o software tenha e seja capaz de processar envolvendo também a abstração dessas informações pela equipe responsável por passá-las para o desenvolvimento. 
-
-Para que tudo ocorra da melhor maneira a qualidade na comunicação é essencial e uma abordagem superficial das ideias deve ser evitada a fim de eliminar falsas convicções, ideias distintas entre cliente e desenvolvedor e desperdício de tempo e demais recursos. Para isso existem as maneiras de extrair os requisitos de sistema do cliente e usuário, como explanado no tópico de especificação de software, na seção 2.1. Dentre as opções lá citadas, a coleta de requisitos para a aplicação web da Kuruatuba consistiu-se em um formulário e em curtas reuniões com o atual presidente da associação, o professor Erinaldo. 
-
-O formulário foi acessível para os futuros utilizadores do sistema para que opinassem sobre o que deveria e o que não deveria estar no produto final, além do grau de importância de cada requisito de acordo com suas exigências e necessidades. De acordo com as respostas registradas no formulário e das reuniões anteriormente mencionadas, obteve-se os seguintes requisitos de sistema:
-
-\begin{enumerate}
- \item Sistema de login e cadastro para os usuários;
- \item Publicação de notícias sobre a associação;
- \item Cadastro, atualização e remoção de associados;
- \item Sistema para gerar carteirinha para associados;
- \item Formulário para receber mensagens dos visitantes;
- \item Publicação de eventos organizados pela associação;
- \item Link para baixar o estatuto da Kuruatuba.
-\end{enumerate}
+A seguir, no decorrer da seção, os temas levantados serão os que se seguem: as subseções \ref{subsec:historias} e \ref{subsec:requisitos} tratarão da elaboração das histórias de usuário e da coleta de requisitos, respectivamente, a subseção \ref{subsec:usecase} apresentará os casos de uso e fluxos alternativos do sistema como forma de auxiliar no entendimento de seu funcionamento, a subseção \ref{subsec:sprints} apresentará como ficaram os elementos do \textit{Scrum} aplicados ao contexto do presente trabalho, algumas telas do software ficarão disponíveis na subseção \ref{subsec:telas} e de mesma maneira a estrutura de \textit{containers} do \textit{Docker} será ilustrada na subseção \ref{subsec:docker}.
 
 \hspace{2.5cm}
 \subsection{Histórias de usuário}
@@ -143,7 +122,38 @@ Cada história de usuário deve conter três expressões: ``como um... '', que i
  
 \end{itemize}
 
-A seguir estão as histórias de usuário para o trabalho em questão já testadas e validadas junto ao cliente.
+A seguir estão as histórias de usuário para o trabalho em questão já testadas e validadas junto ao cliente, uma observação a ser feita corresponde ao fato de que os nomes utilizados nas histórias são fictícios, não fazendo alusão ou referência a nenhum dos envolvidos.
+
+\textbf{História 1}: Como o presidente da associação, João deseja cadastrar e remover, via computador ou \textit{smartphone}, usuários do sistema que vão contribuir nas divulgações e no gerenciamento de associados, de modo a estabelecer possíveis trocas de contribuidores.
+
+\textbf{História 2}: Como presidente da associação, João também deseja publicar, via computador ou \textit{smartphone}, eventos e notícias e alterar o conteúdo estático das páginas quando for necessário, com o objetivo de executar tais tarefas sem necessitar de outro encarregado a prestar tais serviços.
+
+\textbf{História 3}: Como presidente da associação, João precisa gerenciar, via computador ou \textit{smartphone}, o cadastramento de associados, possibilitando o cadastro, a edição, a remoção, a pesquisa e o fornecimento de carteirinha associativa aos mesmos, com o objetivo de adiantar a realização de tarefas sem necessitar de seus subordinados ou responder à solicitação de colaboradores ou visitantes.
+
+\textbf{História 4}: Como um secretário da associação, Paulo pretende publicar, via computador ou \textit{smartphone}, eventos e notícias e alterar o conteúdo de páginas conforme solicitação de seu superior. 
+
+\textbf{História 5}: Como uma secretária da associação, Maria pretende gerenciar, via computador ou \textit{smartphone}, o cadastramento de associados, possibilitando o cadastro, a edição, a remoção, a pesquisa e o fornecimento de carteirinha associativa aos mesmos de acordo com as solicitações vindas do presidente ou dos próprios associados, no âmbito da geração da carteirinha.
+
+\hspace{2.5cm}
+\subsection{Coleta de requisitos}
+\label{subsec:requisitos}
+\hspace{2.5cm}
+
+Uma etapa extremamente importante no desenvolvimento de produtos é a coleta de requisitos, pois é com base nela que artefato será construído, tendo em vista que este é o momento em que o cliente tenta exprimir o que deseja que o software tenha e seja capaz de processar, envolvendo também a abstração dessas informações pela equipe responsável por passá-las para o desenvolvimento. 
+
+Para que tudo ocorra da melhor maneira a qualidade na comunicação é essencial e uma abordagem superficial das ideias deve ser evitada a fim de eliminar falsas convicções, ideias distintas entre cliente e desenvolvedor e desperdício de tempo e demais recursos. Para isso existem as maneiras de extrair os requisitos de sistema do cliente e usuário, como explanado no tópico de especificação de software, na seção 2.1. Dentre as opções lá citadas e as histórias de usuário particularizadas na subseção \ref{subsec:historias}, a coleta de requisitos para a aplicação web da Kuruatuba consistiu-se em um formulário e em curtas reuniões com o atual presidente da associação, o professor Erinaldo. 
+
+O formulário, disponibilizado no apêndice \ref{ch:coleta-requisitos}, foi acessível para os futuros utilizadores do sistema para que opinassem sobre o que deveria e o que não deveria estar no produto final, além do grau de importância de cada requisito de acordo com suas exigências e necessidades. De acordo com as respostas registradas no formulário, com reuniões anteriormente mencionadas e com as histórias de usuário descritas obteve-se os seguintes requisitos de sistema:
+
+\begin{enumerate}
+ \item Sistema de login e cadastro para os usuários;
+ \item Publicação de notícias sobre a associação;
+ \item Cadastro, atualização e remoção de associados;
+ \item Sistema para gerar carteirinha para associados;
+ \item Formulário para receber mensagens dos visitantes;
+ \item Publicação de eventos organizados pela associação;
+ \item \textit{Link} para baixar o estatuto da Kuruatuba.
+\end{enumerate}
 
 
 \hspace{2.5cm}
