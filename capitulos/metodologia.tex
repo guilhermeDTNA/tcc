@@ -147,7 +147,7 @@ O formulário, disponibilizado no apêndice \ref{ch:coleta-requisitos}, foi aces
 
 \begin{enumerate}
  \item Sistema de login e cadastro para os usuários;
- \item Publicação de notícias sobre a associação;
+ \item Publicação de notícias, eventos e mais informações sobre a associação;
  \item Cadastro, atualização e remoção de associados;
  \item Sistema para gerar carteirinha para associados;
  \item Formulário para receber mensagens dos visitantes;
@@ -157,9 +157,58 @@ O formulário, disponibilizado no apêndice \ref{ch:coleta-requisitos}, foi aces
 
 
 \hspace{2.5cm}
-\subsection{Casos de uso e fluxos alternativos}
+\subsection{Casos de uso e fluxos de eventos}
 \label{subsec:usecase}
 \hspace{2.5cm}
+
+A presente subseção está dividida em duas partes: a primeira, exposta em \ref{subsubsec:casos-uso}, aborda de maneira geral sobre diagramas de casos de uso e apresenta o diagrama associado ao trabalho em desenvolvimento; e a segunda, encontrada em \ref{subsubsec:fluxos}, demonstra a versão final dos fluxos de eventos dos casos de uso.
+
+\hspace{2.5cm}
+\subsubsection{Diagrama de casos de uso}
+\label{subsubsec:casos-uso}
+\hspace{2.5cm}
+
+O diagrama de casos de uso pertence à Linguagem de Modelagem Unificada (UML) e é comumente utilizado para documentar requisitos de sistema, modelando seu contexto e facilitando seu entendimento por exibí-lo externamente aos desenvolvedores \citeonline{de2001diagramas}.
+
+Em geral, os diagramas de casos de uso apresentam os seguintes elementos \citeonline{zapata2007conversion}:
+
+\begin{itemize}
+ \item Casos de uso: ações realizadas pelos atores associados que descrevem do início ao fim do processo;
+ \item Atores: são os usuários, sendo humanos ou outros sistemas, que poderão realizar os casos de uso e as funcionalidades do sistema;
+ \item Relacionamentos: são interações entre dois casos de uso, dois atores ou um caso de uso e um ator. Elas podem der divididas em quatro tipos:
+ 
+ \begin{enumerate}
+  \item Associação: estabelece relação entre um ator e um caso de uso;
+  \item \textit{include}: inclui o comportamento de um caso de uso em outro, ou seja, ao realizar um caso de uso o outro ligado por meio do \textit{include} também será realizado;
+  \item \textit{extend}: a presença do \textit{extend} ligando um caso de uso A a um caso de uso B significa que através de A o \textit{use case} B poderá ser realizado também. Diferentemente do relacionamento anterior, um caso de uso não é obrigatoriamente executado quando o outro for, tal ocorrência se dará por meio de condições;
+  \item Herança: este relacionamento simboliza o compartilhamento das especificações de um ator a outro, ou seja, um ator irá herdar todas as permissões em realizar os casos de uso do outro relacionado.
+ \end{enumerate}
+ 
+\item Cenário: uma sequência de ações que ilustra um comportamento. São usados para ilustrar a interação ou execução de uma instância a um caso de uso \cite[~p. 239, tradução nossa]{zapata2007conversion}. 
+
+\end{itemize}
+
+Após a breve explicação sobre os diagramas de casos de uso, sua importância e seus elementos, fica representado na figura \ref{use-case} o diagrama referente ao sistema da associação Kuruatuba.
+
+\begin{figure}[htb]
+ \centering
+ \caption{Diagrama de casos de uso do sistema da Kuruatuba}
+ \includegraphics[width=0.8\textwidth]{figuras/use-case.png}
+ 
+ \label{use-case}
+ \fonte{Autor.}
+\end{figure}
+
+\newpage
+
+\hspace{2.5cm}
+\subsubsection{Fluxos de eventos}
+\label{subsubsec:fluxos}
+\hspace{2.5cm}
+
+A seguir estão os fluxos de eventos para os casos de uso definidos anteriormente. Tais fluxos auxiliam ainda mais na compreensão de como o sistema se comportará após cada requisição do usuário e quais possibilidades de interação com a interface do software este terá ao navegar pelas telas.
+
+
 
 \hspace{2.5cm}
 \subsection{Definição das \textit{sprints}}

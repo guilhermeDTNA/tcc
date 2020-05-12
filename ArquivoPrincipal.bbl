@@ -327,6 +327,11 @@ Dispon{\'\i}vel em:
   \url{http://www.ufrgs.br/tutorial-plone4/posicionamento-e-estrutura/portlets}.
   Acesso em: 8-3-2020.}
 
+\bibitem[Uso 2001]{de2001diagramas}
+\abntrefinfo{Uso}{USO}{2001}
+{USO, D. d.~C. de. Diagramas de casos de uso.
+\textbf{URL: http://www. vico. org/MuestrarioDiagCU. pdf}, 2001.}
+
 \bibitem[Vasconcelos \emph{et al.} 2015]{Vasconcelos2015}
 \abntrefinfo{Vasconcelos \emph{et al.}}{VASCONCELOS \emph{et al.}}{2015}
 {VASCONCELOS, B.; CARVALHO, D.; HENRIQUE, C.; MELLO, P. {Implementation of
@@ -348,5 +353,12 @@ Dispon{\'\i}vel em: \url{https://www.researchgate.net/publication/262656547}.
 {W3TECHS. \textbf{Usage Statistics and Market Share of Plone}. 2019.
 Dispon{\'\i}vel em: \url{https://w3techs.com/technologies/details/cm-plone}.
   Acesso em: 2-12-2019.}
+
+\bibitem[ZAPATA \emph{et al.} 2007]{zapata2007conversion}
+\abntrefinfo{ZAPATA \emph{et al.}}{ZAPATA \emph{et al.}}{2007}
+{ZAPATA, C.~M.; TAMAYO, P.~A.; ARANGO, F. \emph{et al.} Conversi{\'o}n de
+  esquemas preconceptuales a diagrama de casos de uso empleando atom3.
+\textbf{Dyna}, Universidad Nacional de Colombia, v.~74, n.~153, p. 237--251,
+  2007.}
 
 \end{thebibliography}
