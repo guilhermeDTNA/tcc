@@ -37,19 +37,19 @@
 \contentsline {subsection}{\numberline {3.3.3}Casos de uso e fluxos de eventos}{51}{subsection.3.3.3}
 \contentsline {subsubsection}{\numberline {3.3.3.1}Diagrama de casos de uso}{51}{subsubsection.3.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.3.2}Fluxos de eventos}{53}{subsubsection.3.3.3.2}
-\contentsline {subsection}{\numberline {3.3.4}Defini\IeC {\c c}\IeC {\~a}o das \textit {sprints}}{53}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Apresenta\IeC {\c c}\IeC {\~a}o das telas}{53}{subsection.3.3.5}
-\contentsline {subsection}{\numberline {3.3.6}Estrutura de \textit {containers} do sistema}{53}{subsection.3.3.6}
-\contentsline {section}{\numberline {3.4}Execu\IeC {\c c}\IeC {\~a}o de testes de desempenho}{54}{section.3.4}
-\contentsline {section}{\numberline {3.5}Trabalhos correlatos}{54}{section.3.5}
+\contentsline {subsection}{\numberline {3.3.4}Defini\IeC {\c c}\IeC {\~a}o das \textit {sprints}}{60}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Apresenta\IeC {\c c}\IeC {\~a}o das telas}{60}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Estrutura de \textit {containers} do sistema}{60}{subsection.3.3.6}
+\contentsline {section}{\numberline {3.4}Execu\IeC {\c c}\IeC {\~a}o de testes de desempenho}{61}{section.3.4}
+\contentsline {section}{\numberline {3.5}Trabalhos correlatos}{61}{section.3.5}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{55}{section*.28}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{63}{section*.28}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Pesquisa entre pessoas da comunidade}}{59}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Pesquisa entre pessoas da comunidade}}{67}{appendix.A}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Coleta de requisitos para o sistema}}{65}{appendix.B}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Coleta de requisitos para o sistema}}{73}{appendix.B}

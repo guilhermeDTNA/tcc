@@ -146,7 +146,7 @@ Para que tudo ocorra da melhor maneira a qualidade na comunicação é essencial
 O formulário, disponibilizado no apêndice \ref{ch:coleta-requisitos}, foi acessível para os futuros utilizadores do sistema para que opinassem sobre o que deveria e o que não deveria estar no produto final, além do grau de importância de cada requisito de acordo com suas exigências e necessidades. De acordo com as respostas registradas no formulário, com reuniões anteriormente mencionadas e com as histórias de usuário descritas obteve-se os seguintes requisitos de sistema:
 
 \begin{enumerate}
- \item Sistema de login e cadastro para os usuários;
+ \item Sistema de \textit{login} e cadastro para os usuários;
  \item Publicação de notícias, eventos e mais informações sobre a associação;
  \item Cadastro, atualização e remoção de associados;
  \item Sistema para gerar carteirinha para associados;
@@ -193,7 +193,7 @@ Após a breve explicação sobre os diagramas de casos de uso, sua importância 
 \begin{figure}[htb]
  \centering
  \caption{Diagrama de casos de uso do sistema da Kuruatuba}
- \includegraphics[width=0.8\textwidth]{figuras/use-case.png}
+ \includegraphics[width=0.8\textwidth]{figuras/use-case-2.png}
  
  \label{use-case}
  \fonte{Autor.}
@@ -208,8 +208,502 @@ Após a breve explicação sobre os diagramas de casos de uso, sua importância 
 
 A seguir estão os fluxos de eventos para os casos de uso definidos anteriormente. Tais fluxos auxiliam ainda mais na compreensão de como o sistema se comportará após cada requisição do usuário e quais possibilidades de interação com a interface do software este terá ao navegar pelas telas.
 
+%login portal
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Efetuar \textit{login} no portal.}
+
+\noindent \textit{Pré-condição}: Inserir o e-mail ou nome de usuário e a senha.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Ir em ``Acessar'';
+    \item inserir os dados de \textit{login};
+    \item selecionar o botão ``Acessar'';
+    \item O sistema verificará os dados de acesso;
+    \item As opções exclusivas ao usuário serão habilitadas.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Usuário não encontrado.
+
+\noindent \textit{Pré-condição}: dados de \textit{login} inválidos.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item O sistema informa que o usuário ou senha não estão corretos.
+\end{enumerate}
 
 
+%alterar conteúdo das páginas
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Alterar conteúdo das páginas.}
+
+\noindent \textit{Pré-condição}: selecionar a página.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Selecionar no menu o item ``Conteúdo'';
+    \item selecionar a página;
+    \item selecionar no menu o item ``Edição'';
+    \item após realizar as alterações, ir em salvar.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento de alterações.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Cancelar'';
+    \item o sistema retorna a mensagem: ``Edição cancelada''.
+\end{enumerate}
+
+
+
+%consultar notícias
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Consultar notícias.}
+
+\noindent \textit{Pré-condição}: preencher o campo ``filtrar notícia''.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Selecionar no menu o item ``Conteúdo'';
+    \item selecionar a pasta notícias;
+    \item selecionar a pasta do ano da notícia;
+    \item pesquisar por notícia pelo campo ``filtrar notícia''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não se aplica.
+
+
+%cadastrar notícia
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Publicar notícia.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de salvar a notícia.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Selecionar no menu o item ``Conteúdo'';
+    \item selecionar a pasta notícias;
+    \item selecionar a pasta do ano da notícia;
+    \item selecionar no menu o item ``Adicionar item'';
+    \item selecionar o item ``Notícia'';
+    \item preencher obrigatoriamente o título;
+    \item selecionar a opção ``Salvar'';
+    \item selecionar no menu o item ``Estado'';
+    \item selecionar a opção ``Publicar''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento do cadastro.
+
+\noindent \textit{Pré-condição}:  usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Cancelar'';
+    \item o sistema retorna a mensagem: ``Adicionar Novo Item operação cancelada''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não preenchimento do título.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Salvar'' sem ter inserido o título da notícia.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Salvar'';
+    \item o sistema retorna a mensagem: ``Existem alguns erros'';
+    \item o campo de título apresenta a seguinte mensagem: ``Dado obrigatório não informado''.
+\end{enumerate}
+
+
+
+
+%editar notícia
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Alterar notícia.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de salvar a notícia.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Selecionar no menu o item ``Conteúdo'';
+    \item selecionar a pasta notícias;
+    \item selecionar a pasta do ano da notícia;
+    \item selecionar a notícia;
+    \item selecionar no menu o item ``Edição''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento da edição.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Cancelar'';
+    \item o sistema retorna a mensagem: ``Edição cancelada''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não preenchimento do título.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Salvar'' sem ter inserido o título da notícia.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Salvar'';
+    \item o sistema retorna a mensagem: ``Existem alguns erros'';
+    \item o campo de título apresenta a seguinte mensagem: ``Dado obrigatório não informado''.
+\end{enumerate}
+
+
+
+
+%excluir notícia
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Excluir notícia.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de excluir a notícia.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Selecionar no menu o item ``Conteúdo'';
+    \item selecionar a pasta notícias;
+    \item selecionar a pasta do ano da notícia;
+    \item selecionar a notícia;
+    \item selecionar no menu o item ``Ações'';
+    \item ir em ``Excluir'';
+    \item o sistema emitirá a mensagem: ``Você realmente quer apagar este item?'';
+    \item selecionar a opção de excluir.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento da exclusão.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Cancelar''.
+\end{enumerate}
+
+
+
+
+%consultar eventos
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Consultar eventos.}
+
+\noindent \textit{Pré-condição}: preencher o campo ``filtrar eventos''.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Selecionar no menu o item ``Conteúdo'';
+    \item selecionar a pasta eventos;
+    \item selecionar a pasta do ano do evento;
+    \item pesquisar por evento pelo campo ``filtrar evento''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não se aplica.
+
+
+
+%cadastrar evento
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Publicar evento.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de salvar o evento.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Selecionar no menu o item ``Conteúdo'';
+    \item selecionar a pasta eventos;
+    \item selecionar a pasta do ano do evento;
+    \item selecionar no menu o item ``Adicionar item'';
+    \item selecionar o item ``Evento'';
+    \item preencher obrigatoriamente o título;
+    \item selecionar a opção ``Salvar'';
+    \item selecionar no menu o item ``Estado'';
+    \item selecionar a opção ``Publicar''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento do cadastro.
+
+\noindent \textit{Pré-condição}:  usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Cancelar'';
+    \item o sistema retorna a mensagem: ``Adicionar Novo Item operação cancelada''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não preenchimento do título.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Salvar'' sem ter inserido o título do evento.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Salvar'';
+    \item o sistema retorna a mensagem: ``Existem alguns erros'';
+    \item o campo de título apresenta a seguinte mensagem: ``Dado obrigatório não informado''.
+\end{enumerate}
+
+
+
+%editar evento
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Alterar evento.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de salvar o evento.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Selecionar no menu o item ``Conteúdo'';
+    \item selecionar a pasta eventos;
+    \item selecionar a pasta do ano do evento;
+    \item selecionar o evento;
+    \item selecionar no menu o item ``Edição''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento da edição.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Cancelar'';
+    \item o sistema retorna a mensagem: ``Edição cancelada''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não preenchimento do título.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Salvar'' sem ter inserido o título do evento.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Salvar'';
+    \item o sistema retorna a mensagem: ``Existem alguns erros'';
+    \item o campo de título apresenta a seguinte mensagem: ``Dado obrigatório não informado''.
+\end{enumerate}
+
+
+
+%excluir evento
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Excluir evento.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de excluir o evento.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Selecionar no menu o item ``Conteúdo'';
+    \item selecionar a pasta eventos;
+    \item selecionar a pasta do ano do evento;
+    \item selecionar o evento;
+    \item selecionar no menu o item ``Ações'';
+    \item ir em ``Excluir'';
+    \item o sistema emitirá a mensagem: ``Você realmente quer apagar este item?'';
+    \item selecionar a opção de excluir.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento da exclusão.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Cancelar''.
+\end{enumerate}
+
+
+
+%login associados
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Efetuar \textit{login} no sistema de associados.}
+
+\noindent \textit{Pré-condição}: Inserir o e-mail ou nome de usuário e a senha.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item No portal, selecionar o item ``Associados'';
+    \item confirmar a ação;
+    \item inserir os dados de \textit{login};
+    \item ir em ``\textit{login}'';
+    \item o sistema verificará os dados de acesso;
+    \item a lista de associados será exibida.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Usuário não encontrado.
+
+\noindent \textit{Pré-condição}: dados de \textit{login} inválidos.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item O sistema informa que o usuário ou senha não estão corretos.
+\end{enumerate}
+
+
+
+%consultar associados
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Consultar associados.}
+
+\noindent \textit{Pré-condição}: preencher o campo ``Consultar''.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Na página inicial do sistema, inserir alguma informação sobre qualquer atributo do usuário;
+    \item a medida que o usuário digitar, o sistema retornará, em tempo real, os resultados para busca.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não se aplica.
+
+
+
+
+%cadastrar associado
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Cadastrar associado.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de registrar o associado.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Acionar o botão ``Adicionar Associado'';
+    \item preencher nome, identidade, telefone, rua, número e bairro;
+    \item selecionar o botão ``Registrar Associado''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento do cadastro.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Cancelar''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não preenchimento dos dados obrigatórios.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Salvar'' sem ter inserido os dados obrigatórios.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Salvar'';
+    \item os campos obrigatórios apresentam a seguinte mensagem: ``Preencha este campo''.
+\end{enumerate}
+
+
+
+
+%editar associado
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Alterar associado.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de atualizar o associado.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Selecionar o ícone de edição na linha do registro a ser atualizado;
+    \item editar os campos necessários;
+    \item selecionar o botão de atualizar o associado.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento da edição.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Cancelar''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não preenchimento dos dados obrigatórios.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Salvar'' sem ter inserido os dados obrigatórios.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Atualizar Associado'';
+    \item os campos obrigatórios apresentam a seguinte mensagem: ``Preencha este campo''.
+\end{enumerate}
+
+
+
+%excluir associado
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Excluir associado.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de excluir o associado.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Selecionar o ícone de exclusão na linha do registro a ser atualizado;
+    \item o sistema exibirá uma mensagem de confirmação de exclusão;
+    \item selecionar o botão ``OK''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento da exclusão.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Cancelar''.
+\end{enumerate}
+
+
+
+%gerar carteirinha
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Gerar carteirinha.}
+
+\noindent \textit{Pré-condição}: selecionar o ícone de geração de carteirinha para o associado.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Selecionar o ícone de geração de carteirinha para o associado;
+    \item realizar o \textit{download} ou impressão do documento gerado.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não se aplica.
+
+%Gerenciar usuários e dar manutenção
+
+
+%----Sprints------%
 \hspace{2.5cm}
 \subsection{Definição das \textit{sprints}}
 \label{subsec:sprints}
