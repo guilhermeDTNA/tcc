@@ -188,7 +188,7 @@ Em geral, os diagramas de casos de uso apresentam os seguintes elementos \citeon
 
 \end{itemize}
 
-Após a breve explicação sobre os diagramas de casos de uso, sua importância e seus elementos, fica representado na figura \ref{use-case} o diagrama referente ao sistema da associação Kuruatuba.
+Após a breve explicação sobre os diagramas de casos de uso, sua importância e seus elementos, fica representado na figura \ref{use-case} o diagrama referente ao sistema da associação Kuruatuba. Na referida figura está presente a seguinte sigla: CRUD, que, segundo o site \citeonline{devmedia}, é o acrônimo das palavras \textit{Create}, \textit{Read}, \textit{Update} e \textit{Delete} que significam, respectivamente, criar ou cadastrar, ler ou cunsultar, editar ou atualizar, e excluir ou remover.
 
 \begin{figure}[htb]
  \centering
@@ -235,9 +235,50 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 \end{enumerate}
 
 
-%alterar conteúdo das páginas
+%criar página
 \vspace{0.7cm}
-\leftline{ \textbf{Caso de uso}: Alterar conteúdo das páginas.}
+\leftline{ \textbf{Caso de uso}: Criar página.}
+
+\noindent \textit{Pré-condição}: selecionar o botão de salvar.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Selecionar no menu o item ``Conteúdo'';
+    \item selecionar no menu o item ``Adicionar item'';
+    \item selecionar o item ``Página'';
+    \item preencher obrigatoriamente o título;
+    \item selecionar a opção ``Salvar''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento do cadastro.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Cancelar'';
+    \item o sistema retorna a mensagem: ``Adicionar Novo Item operação cancelada''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não preenchimento do título.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Salvar'' sem ter inserido o título da página.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Salvar'';
+    \item o sistema retorna a mensagem: ``Existem alguns erros'';
+    \item o campo de título apresenta a seguinte mensagem: ``Dado obrigatório não informado''.
+\end{enumerate}
+
+
+
+%alterar página
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Alterar página.}
 
 \noindent \textit{Pré-condição}: selecionar a página.
 
@@ -259,6 +300,50 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 \begin{enumerate}
     \item Selecionar o botão ``Cancelar'';
     \item o sistema retorna a mensagem: ``Edição cancelada''.
+\end{enumerate}
+
+
+%consultar página
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Consultar página.}
+
+\noindent \textit{Pré-condição}: preencher o campo ``Filtrar''.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Selecionar no menu o item ``Conteúdo'';
+    \item pesquisar por qualquer elemento do portal pelo campo ``Filtrar''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não se aplica.
+
+
+
+%excluir página
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Excluir página.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de excluir a página.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Selecionar no menu o item ``Conteúdo'';
+    \item selecionar a página;
+    \item selecionar no ícone representado por uma lixeira no canto superior da tela;
+    \item o sistema emitirá a mensagem: ``Você tem certeza de que deseja excluir os itens selecionados?'';
+    \item selecionar o botão de confirmação da ação.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento da exclusão.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Não''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Não''.
 \end{enumerate}
 
 
@@ -695,12 +780,222 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 
 \begin{enumerate}
     \item Selecionar o ícone de geração de carteirinha para o associado;
-    \item realizar o \textit{download} ou impressão do documento gerado.
+    \item realizar o download ou impressão do documento gerado.
 \end{enumerate}
 
 \noindent \textit{Fluxo alternativo}: Não se aplica.
 
-%Gerenciar usuários e dar manutenção
+%Gerenciar usuários
+
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Consultar usuários.}
+
+\noindent \textit{Pré-condição}: estar na página de usuários.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Selecionar no menu o item ``Configuração de site'';
+    \item selecionar a opção ``Usuários e grupos''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não se aplica.
+
+
+
+%cadastrar usuário
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Cadastrar usuário.}
+
+\noindent \textit{Pré-condição}: selecionar o botão ``Registrar''.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Selecionar no menu o item ``Configuração de site'';
+    \item selecionar a opção ``Usuários e grupos'';
+    \item selecionar o botão ``Adicionar Novo Usuário'';
+    \item informar, obrigatoriamente, e-mail e nome de usuário;
+    \item selecionar o botão de registrar o usuário.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não preenchimento de e-mail ou nome de usuário.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Registrar'' sem ter inserido o e-mail ou nome de usuário.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Registrar'';
+    \item o sistema retorna a mensagem: ``Houve erros'';
+    \item os campos de e-mail e usuário apresentam a seguinte mensagem: ``Dado obrigatório não informado''.
+\end{enumerate}
+
+
+
+
+%alterar usuário
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Alterar usuário.}
+
+\noindent \textit{Pré-condição}: selecionar o botão ``Salvar''.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Selecionar no menu o item ``Configuração de site'';
+    \item selecionar a opção ``Usuários e grupos'';
+    \item preencher o campo ``Busca de Usuários'';
+    \item selecionar o nome do usuário requisitado;
+    \item preencher substituir as informações dos campos necessários;
+    \item acessar o botão de salvar as informações.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento da edição.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Cancelar'';
+    \item sistema exibe a mensagem: ``Alterações canceladas''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não preenchimento do e-mail.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Salvar'' sem ter haver um e-mail inserido.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item O sistema retorna a mensagem: ``Existem alguns erros'';
+    \item o campo de e-mail apresenta a seguinte mensagem: ``Dado obrigatório não informado''.
+\end{enumerate}
+
+
+
+%remover usuário
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Excluir usuário.}
+
+\noindent \textit{Pré-condição}: selecionar o botão ``Salvar''.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Selecionar no menu o item ``Configuração de site'';
+    \item selecionar a opção ``Usuários e grupos'';
+    \item preencher o campo ``Busca de Usuários'';
+    \item selecionar a caixa ``Remover'' na linha onde se encontra o nome do usuário requisitado;
+    \item selecionar o botão de salvar as informações.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não se aplica.
+
+
+
+%criar site plone
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Criar site \textit{Plone}.}
+
+\noindent \textit{Pré-condição}: acionar o botão ``Criar site \textit{Plone}''.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Entrar com usuário e senha no painel de administração do \textit{Zope};
+    \item selecionar o botão ``Criar um novo site \textit{Plone}'';
+    \item inserir o identificador do site, seu título, idioma e fuso horário;
+    \item selecionar o botão ``Criar site \textit{Plone}''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não preenchimento do identificador e do título.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão de criação do site sem ter inserido seu título e identificador.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Criar site \textit{Plone}'';
+    \item o sistema retorna a mensagem: ``Desculpe, mas parece haver um erro…''.
+\end{enumerate}
+
+
+%consultar site plone
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Consultar site \textit{Plone}.}
+
+\noindent \textit{Pré-condição}: entrar com um usuário e senha na plataforma do \textit{Zope}.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Entrar com usuário e senha no painel de administração do \textit{Zope}.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não se aplica.
+
+
+%alterar site plone
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Alterar site \textit{Plone}.}
+
+\noindent \textit{Pré-condição}: selecionar o nome do site.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Entrar com usuário e senha no painel de administração do \textit{Zope};
+    \item selecionar o nome do site ou ir em ``Ver seu site \textit{Plone}'' caso exista somente um.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não se aplica.
+
+
+%excluir site plone
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Excluir site \textit{Plone}.}
+
+\noindent \textit{Pré-condição}: selecionar o botão ``Delete''.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Entrar com usuário e senha no painel de administração do \textit{Zope};
+    \item selecionar o link ``Interface de Administração '';
+    \item marcar a \textit{checkbox} do site;
+    \item acionar o botão para deletá-lo.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não se aplica.
+
+
+
+%enviar mensagem
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Enviar mensagem para a associação.}
+
+\noindent \textit{Pré-condição}: selecionar o botão ``Enviar''.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item Acessar a aba contato;
+    \item inserir as informações para a mensagem;
+    \item selecionar o botão de envio.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não preenchimento do nome, e-mail, assunto ou corpo da mensagem.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Enviar'' sem ter preenchido nome, e-mail, assunto ou texto da mensagem.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Os campos obrigatórios vazios apresentam a seguinte mensagem: ``Preencha este campo''.
+\end{enumerate}
+
 
 
 %----Sprints------%
