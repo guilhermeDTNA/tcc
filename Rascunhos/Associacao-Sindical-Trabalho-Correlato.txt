@@ -1,0 +1,28 @@
+Sindicato: o Sindicato Nacional dos Trabalhadores da Industria e Comércio de Alimentação, Bebidas e Afins “SINTICABA” é uma associação sindical localizada na cidade de Porto, em Portugal, e surgiu no ano de 2000. Ela é financiada por cerca de 650 trabalhadores sindicalizados e suas principais atividades são: apoio jurídico aos sócios, formação profissional, fiscalizar e reclamar a aplicação das leis do trabalho e das convenções colectivas de trabalho, negociação da contratação colectiva dos diversos sectores de actividade que representa, prestar assistência jurídica e judiciária aos associados nos conflitos resultantes de relações de trabalho e intervir nos processos disciplinares instaurados aos associados. (Estatutos, 2003)
+
+Ele é composto por três órgãos principais: 
+
+a) Mesa da Assembleia Geral: órgão deliberativo, é responsável pela condução dos trabalhos e pela sua secretaria, sendo composta por um presidente, dois vice-presidentes e dois suplentes (Estatutos, 2003).
+
+b) Direção: órgão executivo do sindicato, compete-lhe entre outros deveres, executar as deliberações tomadas em Assembleia Geral, administrar os fundos do sindicato, apresentar anualmente à Assembleia Geral o relatório de contas, bem como o orçamento para o ano seguinte e representar o sindicato em juízo e fora dele, activa e passivamente. É composta por um Presidente, um Secretário, um Tesoureiro, um Vice-Presidente para as delegações, três vogais e dois suplentes.
+
+c) Conselho Fiscal: órgão fiscalizador, compete-lhe examinar documentos e contas e apresentar o seu parecer sobre o relatório e contas do sindicato, sendo composto pelo Presidente, Secretário e Relator (Estatutos, 2003).
+
+
+Número de associados: 650
+
+Domínio: sinticaba.com, por ser menos burocrático e mais barato
+
+CMS: Joomla, pois para além de ser simples e não ser necessário ter conhecimentos de programação é um dos melhores gestores de conteúdos 
+
+Divulgação:  site foi colocado on-line e divulgado por correio electrónico e carta a todos os associados, convidando-os a visitarem o site do Sinticaba e a darem a sua opinião através de um inquérito colocado na página principal ou através da funcionalidade Fale Connosco, concluindo-se desta forma um ciclo do Action Research.
+
+Coleta de requisitos: 1 entrevista e 1 questionário, com 250 respostas (150 questionário eletrônico e 100 em papel)
+
+Importância de se ter um site: estabelecer uma comunicação mais fluida entre ambos, mais rápida e com menos custos (deslocações, telefone, correio)
+
+Funcionalidades: Fazer inscrição de sócios;
+		 Actualização de dados pessoais;
+		 Colocar perguntas de carácter jurídico;
+		 Colocar perguntas de carácter geral;
+		 Dar sugestões ou fazer comentários.
