@@ -1,4 +1,6 @@
-Sindicato: o Sindicato Nacional dos Trabalhadores da Industria e Comércio de Alimentação, Bebidas e Afins “SINTICABA” é uma associação sindical localizada na cidade de Porto, em Portugal, e surgiu no ano de 2000. Ela é financiada por cerca de 650 trabalhadores sindicalizados e suas principais atividades são: apoio jurídico aos sócios, formação profissional, fiscalizar e reclamar a aplicação das leis do trabalho e das convenções colectivas de trabalho, negociação da contratação colectiva dos diversos sectores de actividade que representa, prestar assistência jurídica e judiciária aos associados nos conflitos resultantes de relações de trabalho e intervir nos processos disciplinares instaurados aos associados. (Estatutos, 2003)
+Introdução: o estudo tem como público alvo o Sindicato Nacional dos Trabalhadores da Industria e Comércio de Alimentação, Bebidas e Afins “SINTICABA”, localizado em Portugal, como será apresentado mais adiante. Para o projeto é esperado conceber uma ferramenta de comunicação que acompanhe as tecnologias de informação e comunicação, indo de encontro às necessidades dos associados e do próprio sindicato, ou seja, criar um meio de comunicação que possibilite a interatividade e que permita que a informação a ser difundida pelo sindicato, não esteja limitada a um suporte físico nem temporal.
+
+Sindicato: é uma associação sindical localizada na cidade de Porto, em Portugal, e surgiu no ano de 2000. Ela é financiada por cerca de 650 trabalhadores sindicalizados e suas principais atividades são: apoio jurídico aos sócios, formação profissional, fiscalizar e reclamar a aplicação das leis do trabalho e das convenções colectivas de trabalho, negociação da contratação colectiva dos diversos sectores de actividade que representa, prestar assistência jurídica e judiciária aos associados nos conflitos resultantes de relações de trabalho e intervir nos processos disciplinares instaurados aos associados. (Estatutos, 2003)
 
 Ele é composto por três órgãos principais: 
 
@@ -17,7 +19,7 @@ CMS: Joomla, pois para além de ser simples e não ser necessário ter conhecime
 
 Divulgação:  site foi colocado on-line e divulgado por correio electrónico e carta a todos os associados, convidando-os a visitarem o site do Sinticaba e a darem a sua opinião através de um inquérito colocado na página principal ou através da funcionalidade Fale Connosco, concluindo-se desta forma um ciclo do Action Research.
 
-Coleta de requisitos: 1 entrevista e 1 questionário, com 250 respostas (150 questionário eletrônico e 100 em papel)
+Coleta de requisitos: uma entrevista e um questionário, com 250 respostas (150 questionário eletrônico e 100 em papel)
 
 Importância de se ter um site: estabelecer uma comunicação mais fluida entre ambos, mais rápida e com menos custos (deslocações, telefone, correio)
 
@@ -26,3 +28,8 @@ Funcionalidades: Fazer inscrição de sócios;
 		 Colocar perguntas de carácter jurídico;
 		 Colocar perguntas de carácter geral;
 		 Dar sugestões ou fazer comentários.
+
+
+Conclusão: a autora conclui seu trabalho ressaltando a importância de manter o site sempre atualizado, já que a etapa concluída é somente o ponto de partida para a construção da ferramenta, que possivelmente, poderá ficar ainda mais completa e repleta de funcionalidades além das implementadas. 
+
+Como trabalhos futuros, segundo ela, a elaboração de um manual técnico que explique as funcionalidades do site para o presidente da associação, que é quem fará a manutenção e a atualização das informações, deve ser efetivada. Também está prevista a coleta de mais sugestões e questões levantadas pelos associados, visto que até o término do projeto a avaliação do site por parte dos associados ainda não havia sido efetuada, além da atualização do gerenciador de conteúdos textit{Joomla} sempre que for lançada uma nova versão do software.

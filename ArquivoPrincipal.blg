@@ -29,45 +29,45 @@ Warning--campo title vazio em vitalino2016descomplicando
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 61 entries,
+You've used 64 entries,
             6714 wiz_defined-function locations,
-            1496 strings with 20063 characters,
-and the built_in function-call counts, 54101 in all, are:
-= -- 4583
-> -- 1757
-< -- 525
-+ -- 1146
-- -- 530
-* -- 3809
-:= -- 7044
-add.period$ -- 201
-call.type$ -- 63
-change.case$ -- 613
-chr.to.int$ -- 132
-cite$ -- 57
-duplicate$ -- 3460
-empty$ -- 3497
-format.name$ -- 2557
-if$ -- 12154
+            1509 strings with 20580 characters,
+and the built_in function-call counts, 57240 in all, are:
+= -- 4917
+> -- 1819
+< -- 596
++ -- 1239
+- -- 550
+* -- 4003
+:= -- 7455
+add.period$ -- 212
+call.type$ -- 66
+change.case$ -- 636
+chr.to.int$ -- 135
+cite$ -- 60
+duplicate$ -- 3756
+empty$ -- 3644
+format.name$ -- 2650
+if$ -- 12783
 int.to.chr$ -- 4
 int.to.str$ -- 3
-missing$ -- 1051
-newline$ -- 278
-num.names$ -- 280
-pop$ -- 1305
+missing$ -- 1100
+newline$ -- 294
+num.names$ -- 295
+pop$ -- 1363
 preamble$ -- 1
-purify$ -- 234
+purify$ -- 244
 quote$ -- 0
-skip$ -- 3905
+skip$ -- 4212
 stack$ -- 1
-substring$ -- 2085
-swap$ -- 1446
-text.length$ -- 71
+substring$ -- 2208
+swap$ -- 1548
+text.length$ -- 72
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 10
+type$ -- 12
 warning$ -- 1
-while$ -- 415
+while$ -- 434
 width$ -- 0
-write$ -- 883
+write$ -- 927
 (There were 2 error messages)
