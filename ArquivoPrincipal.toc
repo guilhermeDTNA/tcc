@@ -27,30 +27,30 @@
 \contentsline {section}{\numberline {2.6}Ferramentas}{39}{section.2.6}
 \contentsline {section}{\numberline {2.7}Estado da Arte}{41}{section.2.7}
 \contentsline {subsection}{\numberline {2.7.1}Pesquisa correlata: Concep\IeC {\c c}\IeC {\~a}o e Implementa\IeC {\c c}\IeC {\~a}o de um Website de uma Associa\IeC {\c c}\IeC {\~a}o Sindical}{41}{subsection.2.7.1}
-\contentsline {subsection}{\numberline {2.7.2}Pesquisa correlata: Constru\IeC {\c c}\IeC {\~a}o Coletiva do Portal Educa\IeC {\c c}\IeC {\~a}o do Campo}{41}{subsection.2.7.2}
+\contentsline {subsection}{\numberline {2.7.2}Pesquisa correlata: Constru\IeC {\c c}\IeC {\~a}o Coletiva do Portal Educa\IeC {\c c}\IeC {\~a}o do Campo}{43}{subsection.2.7.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{45}{chapter.3}
-\contentsline {section}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~a}o do tipo de metodologia \IeC {\'a}gil de desenvolvimento}{45}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Sobre o \textit {Scrum}}{46}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Defini\IeC {\c c}\IeC {\~a}o do gerenciador de conte\IeC {\'u}do}{48}{section.3.2}
-\contentsline {section}{\numberline {3.3}Desenvolvimento}{48}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Hist\IeC {\'o}rias de usu\IeC {\'a}rio}{49}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Coleta de requisitos}{50}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Casos de uso e fluxos de eventos}{51}{subsection.3.3.3}
-\contentsline {subsubsection}{\numberline {3.3.3.1}Diagrama de casos de uso}{51}{subsubsection.3.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.3.2}Fluxos de eventos}{53}{subsubsection.3.3.3.2}
-\contentsline {subsection}{\numberline {3.3.4}Defini\IeC {\c c}\IeC {\~a}o das \textit {sprints}}{64}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Apresenta\IeC {\c c}\IeC {\~a}o das telas}{64}{subsection.3.3.5}
-\contentsline {subsection}{\numberline {3.3.6}Estrutura de \textit {containers} do sistema}{65}{subsection.3.3.6}
-\contentsline {section}{\numberline {3.4}Execu\IeC {\c c}\IeC {\~a}o de testes de desempenho}{65}{section.3.4}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{47}{chapter.3}
+\contentsline {section}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~a}o do tipo de metodologia \IeC {\'a}gil de desenvolvimento}{47}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Sobre o \textit {Scrum}}{48}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Defini\IeC {\c c}\IeC {\~a}o do gerenciador de conte\IeC {\'u}do}{50}{section.3.2}
+\contentsline {section}{\numberline {3.3}Desenvolvimento}{50}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Hist\IeC {\'o}rias de usu\IeC {\'a}rio}{51}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Coleta de requisitos}{52}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Casos de uso e fluxos de eventos}{53}{subsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.3.1}Diagrama de casos de uso}{53}{subsubsection.3.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.3.2}Fluxos de eventos}{55}{subsubsection.3.3.3.2}
+\contentsline {subsection}{\numberline {3.3.4}Defini\IeC {\c c}\IeC {\~a}o das \textit {sprints}}{66}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Apresenta\IeC {\c c}\IeC {\~a}o das telas}{66}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Estrutura de \textit {containers} do sistema}{67}{subsection.3.3.6}
+\contentsline {section}{\numberline {3.4}Execu\IeC {\c c}\IeC {\~a}o de testes de desempenho}{67}{section.3.4}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{67}{section*.27}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{69}{section*.27}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Pesquisa entre pessoas da comunidade}}{71}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Pesquisa entre pessoas da comunidade}}{73}{appendix.A}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Coleta de requisitos para o sistema}}{77}{appendix.B}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Coleta de requisitos para o sistema}}{79}{appendix.B}
