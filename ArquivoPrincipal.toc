@@ -19,8 +19,8 @@
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial Te\IeC {\'o}rico}}{23}{chapter.2}
 \contentsline {section}{\numberline {2.1}Engenharia Web}{23}{section.2.1}
 \contentsline {section}{\numberline {2.2}Metodologias \IeC {\'A}geis}{24}{section.2.2}
-\contentsline {section}{\numberline {2.3}Sistemas Gerenciadores de Conte\IeC {\'u}do (CMS)}{27}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Tipos de Sistemas Gerenciadores de Conte\IeC {\'u}do}{28}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.3}Sistemas de Gerenciamento de Conte\IeC {\'u}do (CMS)}{27}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Tipos de Sistemas de Gerenciamento de Conte\IeC {\'u}do}{28}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Comparativos entre os principais sistemas}{30}{subsection.2.3.2}
 \contentsline {section}{\numberline {2.4}Servidor Virtual Privado (VPS)}{38}{section.2.4}
 \contentsline {section}{\numberline {2.5}Testes de Software}{39}{section.2.5}
@@ -32,7 +32,7 @@
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{49}{chapter.3}
 \contentsline {section}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~a}o do tipo de metodologia \IeC {\'a}gil de desenvolvimento}{49}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Sobre o \textit {Scrum}}{50}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Defini\IeC {\c c}\IeC {\~a}o do gerenciador de conte\IeC {\'u}do}{52}{section.3.2}
+\contentsline {section}{\numberline {3.2}Defini\IeC {\c c}\IeC {\~a}o do Sistema de Gerenciamento de Conte\IeC {\'u}do}{52}{section.3.2}
 \contentsline {section}{\numberline {3.3}Desenvolvimento}{52}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Hist\IeC {\'o}rias de usu\IeC {\'a}rio}{53}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Coleta de requisitos}{54}{subsection.3.3.2}
