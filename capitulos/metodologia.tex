@@ -103,7 +103,7 @@ A seguir, no decorrer da seção, os temas levantados serão os que se seguem: a
 \label{subsec:historias}
 \hspace{2.5cm}
 
-Segundo \citeonline{longo2014utilizaccao} as histórias de usuário são muito importantes tanto para a criação de requisitos nos métodos ágeis \textit{Extreme Programming} e \textit{Scrum} quanto para provocar o envolvimento do cliente, porém não poderão substituir a comunicação entre clientes e equipe \citeonline{carvalho2014proposta}.
+Segundo \citeonline{longo2014utilizaccao} as histórias de usuário são muito importantes tanto para a criação de requisitos nos métodos ágeis \textit{Extreme Programming} e \textit{Scrum} quanto para provocar o envolvimento do cliente, porém \citeonline{carvalho2014proposta} ressaltam que elas não poderão substituir a comunicação entre clientes e equipe.
 
 Cada história de usuário deve conter três expressões: ``como um... '', que identifica o papel do usuário na história; ``eu quero...'', funcionalidades requisitadas; e ``de modo que...'', benefício conquistado ao realizar a tarefa \apud{cohn2004user}{longo2014utilizaccao}; além de seis atributos indispensáveis identificados pelo acrônimo inglês INVEST (\textit{Independent, Negotiable, Valuable to users or customers, Estimatable, Small and Testable}) \cite{cohn2004user} e explicados em \citeonline{carvalho2014proposta}:
 
@@ -152,7 +152,7 @@ O formulário, disponibilizado no apêndice \ref{ch:coleta-requisitos}, foi aces
  \item Sistema para gerar carteirinha para associados;
  \item Formulário para receber mensagens dos visitantes;
  \item Publicação de eventos organizados pela associação;
- \item \textit{Link} para baixar o estatuto da Kuruatuba.
+ \item \textit{Link} para baixar importantes documentos da Kuruatuba.
 \end{enumerate}
 
 
@@ -917,7 +917,7 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 \noindent \textit{Etapas}:
 
 \begin{enumerate}
-    \item selecionar o botão ``Criar site \textit{Plone}'';
+    \item Selecionar o botão ``Criar site \textit{Plone}'';
     \item o sistema retorna a mensagem: ``Desculpe, mas parece haver um erro…''.
 \end{enumerate}
 
@@ -1047,7 +1047,7 @@ Como o sistema deve gerenciar dois tipos de público, um de associados e outro d
 
 A criação e comunicação dos \textit{containers} compactua com as vantagens descritas na seção 2.6 do capítulo 2, principalmente no que diz respeito à portabilidade e disponibilidade dos recursos. Tais benefícios também se aplicam à segurança, visto que para uma possível invasão ao sistema, é necessário que o invasor conheça o endereço IP (Protocolo da Internet) e porta de cada \textit{container} e ainda os dados de acesso tanto ao \textit{website} no \textit{Plone} quanto à aplicação destinada a armazenar os dados sobre os associados.   
 
-Outra justificativa para a divisão das aplicações web está na complexidade de manipulação dos SGBDs - Sistema de Gerenciamento de Banco de Dados - não relacionais. Como já explicado na subseção 2.3.1, no capítulo 2, o \textit{Plone} utiliza o banco de dados não relacional \textit{ZODB}, e o mesmo é bastante complexo quando o desenvolvedor necessita realizar consultas ou inserções a seus objetos, sendo inviável a criação de páginas ou elementos para tal tarefa.  
+Outra justificativa para a divisão das aplicações web está na complexidade de manipulação dos SGBDs - Sistema de Gerenciamento de Banco de Dados - não relacionais. Como já apresentado na subseção 2.3.1, no capítulo 2, o \textit{Plone} utiliza o banco de dados não relacional \textit{ZODB}, e o mesmo é bastante complexo quando o desenvolvedor necessita realizar consultas ou inserções a seus objetos, sendo inviável a criação de páginas ou elementos para tal tarefa.  
 
 \hspace{2.5cm}
 \section{Execução de testes de desempenho}
