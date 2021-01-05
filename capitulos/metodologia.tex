@@ -7,7 +7,7 @@
 
 No capítulo de metodologia o objetivo é descrever como ocorreu o processo de construção do sistema, desde a justificativa para a escolha dos métodos de desenvolvimento até a completa entrega do software ao cliente. 
 
-O capítulo está dividido no seguinte escopo: as seções \ref{sec:defMetodologia} e \ref{sec:defCMS}, que justificam a escolha da metodologia e do Sistema de Gerenciamento de Conteúdo para a implementação do sistema; a seção \ref{sec:desenvolvimento} apresenta como todas as etapas de implementação e reuniões com o cliente foram estabelecidas; e, por último, a seção \ref{sec:testes} aborda como os testes de software foram feitos e o desempenho obtido pela aplicação web.
+O capítulo está dividido no seguinte escopo: as seções \ref{sec:defMetodologia} e \ref{sec:defCMS} justificam a escolha da metodologia de desenvolvimento e do Sistema de Gerenciamento de Conteúdo para a implementação do sistema, a seção \ref{sec:hospedagem-dominio} apresenta uma análise de custos para contratação de planos de hospedagem e registro de domínio, a seção \ref{sec:desenvolvimento} apresenta como todas as etapas de implementação e reuniões com o cliente foram estabelecidas, e, por último, a seção \ref{sec:testes} aborda como os testes de software foram feitos e o desempenho obtido pela aplicação web.
 
 \hspace{2.5cm}
 
@@ -84,7 +84,65 @@ O \textit{Plone} possui ferramentas personalizadas e de fácil manipulação que
 Outro ponto positivo do \textit{Plone} é que sua utilização não necessita da instalação de \textit{plug-ins}, extensões ou complementos, podendo ter seus elementos estáticos, como rodapé e cabeçalho, personalizados via \textit{Portlets}, que segundo \citeonline{UFRGS2012}, são aplicativos e ferramentas prontas para uso em qualquer instalação padrão, podendo ser usadas para calendário, notícias, eventos, menu de busca, enquetes, etc. 
 
 \hspace{2.5cm}
+\section{Análise de custos sobre hospedagem e domínio}
+\label{sec:hospedagem-dominio}
+\hspace{2.5cm}
 
+Uma etapa importante na construção de um ou mais sistemas para uma organização sem fins lucrativos é a contratação de serviços de hospedagem e registro de domínio, isto porque é essencial minimizar os custos mantendo, porém, a qualidade desses serviços. Com o propósito de escolher as empresas provedoras dos serviços de hospedagem e registro de domínio, esta seção apresentará um breve comparativo entre os planos de algumas empresas que atuam na prestação desses serviços.
+
+Para o registro de domínio, foram consultados os preços estipulados por quatro das empresas mais conhecidas nesse ramo, são elas: \textit{GoDaddy}, \textit{Hostgator}, \textit{Locaweb} e \textit{Hostinger}. Para o domínio \textit{www.kuruatuba.org}, os valores encontrados estão na tabela \ref{comparativo-dominio}. 
+
+\newpage
+
+\begin{table}[h]
+\centering
+\scalefont{1.1}
+\caption{Preços cobrados pelas empresas para registro do domínio}
+\vspace{0.5cm}
+\begin{tabular}{l|c}
+ 
+\textbf{Empresa} & \textbf{Valor (R\$/ano)} \\ % Note a separação de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+\textit{GoDaddy} & 49,99 \\
+\textit{Hostgator} & 49,99 \\
+\textit{Locaweb} & 36,90 \\
+\textit{Hostinger} & 59 \\
+
+\hline   
+\end{tabular}
+\fonte{Autor.}
+\label{comparativo-dominio}
+\end{table}
+
+Como a única variável a ser analisada para a escolha da empresa é o valor cobrado pelo registro, a empresa contratada para registrar o domínio do portal da Kuruatuba foi a \textit{Locaweb}, que elaborou um orçamento com custo inferior às demais. 
+
+A escolha da hospedagem a ser utilizada é possivelmente mais complexa e então necessita uma análise maior por parte do responsável pelo desenvolvimento. Tal complexidade se justifica pela quantidade de variáveis a serem consideradas, como: capacidade de armazenamento e tamanho da largura de banda, e pelo valor médio para contratação de uma VPS, que, por sua vez, é maior que o valor médio de uma hospedagem compartilhada.
+
+Embora haja maior complexidade na análise, algumas opções encontradas no mercado de hospedagem de \textit{websites} foram descartadas rapidamente porque seus planos se aproximam da realidade de empresas maiores, que necessitam utilizar muitos recursos e em alta velocidade tanto para clientes quanto para seus próprios funcionários e estão dispostas a pagar mais pelo serviço. 
+
+Após pesquisas de preços para hopedagem de VPS, foram encontradas duas empresas que possuem um plano básico que se adequa à realidade da Kuruatuba: a \textit{Hostinger} e a \textit{DokeHost}. As especificações ou variáveis consideradas que mais se diferem e importam para a hospedagem do portal e do sistema da Kuruatuba foram as seguintes: capacidade de armazenamento da memória RAM, capacidade de processamento, capacidade de armazenamento da memória secundária e o preço para contratação do serviço. O comparativo das empresas em relação a essas especificações está representada na tabela \ref{comparativo-hospedagem}.
+
+\begin{table}[h]
+\centering
+\scalefont{0.8}
+\caption{Comparativo entre os planos de hospedagem}
+\vspace{0.5cm}
+\begin{tabular}{l|c|c|c|c}
+ 
+\textbf{Empresa} & \textbf{Memória RAM} & \textbf{vCPU (Quantidade de núcleos)} & \textbf{Memória secundária} & \textbf{Valor (R\$/ano)} \\ % Note a separação de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+\textit{Hostinger} & 1GB & 1 & 20GB SSD & 203,88 \\
+\textit{DokeHost} & 1GB & 2 & 30GB SSD & 310,80  \\ 
+
+\hline   
+\end{tabular}
+\fonte{Autor.}
+\label{comparativo-hospedagem}
+\end{table}
+
+Com o auxílio de uma máquina virtual, foi realizada uma avaliação sobre os prováveis requerimentos mínimos dos sistemas e as especificações ofertadas em cada um dos planos. Após a avaliação, chegou-se à conclusão que provavelmente não será necessário mais que 20GB de armazenamento e muito menos de um processador de 2 núcleos, dada a simplicidade das aplicações a serem hospedadas, não compensando  investir mais de R\$105,00 por ano para tais recursos. Logo, a empresa contratada para a hospedagem das aplicações foi a \textit{Hostinger}.   
+
+\hspace{2.5cm}
 \section{Desenvolvimento}
 \label{sec:desenvolvimento}
 
@@ -94,7 +152,7 @@ Outro ponto positivo do \textit{Plone} é que sua utilização não necessita da
 
 A seção de desenvolvimento sinaliza o início, de fato, da realização das tarefas e demais atividades relacionadas à construção do sistema da Kuruatuba. É a partir desse momento que serão informados dados como domínio, hospedagem, requisitos, versões das tecnologias utilizadas e descrição das atividades desempenhadas.
 
-Para o projeto a VPS contratada é de posse da empresa \textit{Hostinger}, encontrada pelo endereço eletrônico \textsf{https://www.hostinger.com.br/}, com o sistema operacional \textit{Ubuntu} 16.04 e o seguinte domínio: \textsf{http://www.kuruatuba.org}. Também usadas as seguintes ferramentas e suas respectivas versões: \textit{Plone} 5.2.1, PHP 7.4.2, \textit{MySQL} 5.7, \textit{Docker} 19.03.5 e \textit{Git} 2.17.1, este utilizado para o versionamento de código do sistema para cadastro de associados uma vez que ele poderá ser necessário, futuramente, a outro desenvolvedor para atualizações. 
+Para o projeto, foram utilizadas as seguintes ferramentas e suas respectivas versões: \textit{Plone} 4.3.18, PHP 7.4.2, \textit{MySQL} 5.7, \textit{Docker} 19.03.5 e \textit{Git} 2.17.1, este utilizado para o versionamento de código do sistema para cadastro de associados uma vez que ele poderá ser necessário, futuramente, a outro desenvolvedor para atualizações. 
 
 A seguir, no decorrer da seção, os temas levantados serão os que se seguem: as subseções \ref{subsec:historias} e \ref{subsec:requisitos} tratarão da elaboração das histórias de usuário e da coleta de requisitos, respectivamente, a subseção \ref{subsec:usecase} apresentará os casos de uso e fluxos alternativos do sistema como forma de auxiliar no entendimento de seu funcionamento, a subseção \ref{subsec:sprints} apresentará como ficaram os elementos do \textit{Scrum} aplicados ao contexto do presente trabalho, algumas telas do software ficarão disponíveis na subseção \ref{subsec:telas} e de mesma maneira a estrutura de \textit{containers} do \textit{Docker} será ilustrada na subseção \ref{subsec:docker}.
 
