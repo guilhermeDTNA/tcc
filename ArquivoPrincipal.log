@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.1.6)  12 JAN 2021 12:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.1.6)  12 JAN 2021 12:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1946,7 +1946,7 @@ Package pdftex.def Info: figuras/use-case-2.png  used on input line 258.
 (pdftex.def)             Requested size: 364.00139pt x 353.06952pt.
  [53] [54 <./figuras/use-case-2.png>]
 [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65]
-Overfull \hbox (103.88254pt too wide) in paragraph at lines 1080--1093
+Overfull \hbox (52.91127pt too wide) in paragraph at lines 1080--1093
  [][] 
  []
 
@@ -2213,7 +2213,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ArquivoPrincipal.pdf (83 pages, 5144022 bytes).
+Output written on ArquivoPrincipal.pdf (83 pages, 5144065 bytes).
 PDF statistics:
  1404 PDF objects out of 1440 (max. 8388607)
  1232 compressed objects within 13 object streams
