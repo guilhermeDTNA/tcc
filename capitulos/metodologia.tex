@@ -7,7 +7,7 @@
 
 No capítulo de metodologia o objetivo é descrever como ocorreu o processo de construção do sistema, desde a justificativa para a escolha dos métodos de desenvolvimento até a completa entrega do software ao cliente. 
 
-O capítulo está dividido no seguinte escopo: as seções \ref{sec:defMetodologia} e \ref{sec:defCMS} justificam a escolha da metodologia de desenvolvimento e do Sistema de Gerenciamento de Conteúdo para a implementação do sistema, a seção \ref{sec:hospedagem-dominio} apresenta uma análise de custos para contratação de planos de hospedagem e registro de domínio, a seção \ref{sec:desenvolvimento} apresenta como todas as etapas de implementação e reuniões com o cliente foram estabelecidas, e, por último, a seção \ref{sec:testes} aborda como os testes de software foram feitos e o desempenho obtido pela aplicação web.
+O capítulo está dividido no seguinte escopo: as seções \ref{sec:defMetodologia} e \ref{sec:defCMS} justificam a escolha da metodologia de desenvolvimento e do Sistema de Gerenciamento de Conteúdo para a implementação do sistema, a seção \ref{sec:hospedagem-dominio} apresenta uma análise de custos para contratação de planos de hospedagem e registro de domínio e, por último, a seção \ref{sec:desenvolvimento} apresenta como todas as etapas de implementação e reuniões com o cliente foram estabelecidas.
 
 \hspace{2.5cm}
 
@@ -16,7 +16,7 @@ O capítulo está dividido no seguinte escopo: as seções \ref{sec:defMetodolog
 
 \hspace{2.5cm}
 
-A definição de uma metodologia ágil de desenvolvimento para o atual projeto é consequência das informações apresentadas na seção 2.2, principalmente em relação às informações levantadas nos quadros 1 e 2, que dizem respeito a características das metodologias ágeis e tradicionais, principalmente relativas a tempo, comunicação e riscos tendo em vista a baixa complexidade do projeto, o curto tempo para desenvolvimento e produção da documentação.
+A definição de uma metodologia ágil de desenvolvimento para o atual projeto é consequência das informações apresentadas na seção \ref{sec:metodologiaagil}, principalmente em relação às informações levantadas nos quadros 1 e 2, que dizem respeito a características das metodologias ágeis e tradicionais, principalmente relativas a tempo, comunicação e riscos tendo em vista a baixa complexidade do projeto, o curto tempo para desenvolvimento e produção da documentação.
 
 Após a certificação de que uma metodologia ágil deve ser empregada, pode-se dizer que vários são os motivos para a escolha do \textit{Scrum} como metodologia de desenvolvimento e \citeonline[~p. 560]{Vasconcelos2015} divulga diversos deles em seu trabalho. Pode-se citar a diminuição de reclamações \apud{mann2005case}{Vasconcelos2015}, o aumento do retorno do investimento em projetos de novos produtos \apud{sulaiman2006agileevm}{Vasconcelos2015}, a melhoria da qualidade do produto produzido e diminuição dos custos de produção \apud{sutherland2008fully}{Vasconcelos2015} e a diminuição no tempo gasto para terminar projetos de desenvolvimento de novos produtos \apud{sanders2007using}{Vasconcelos2015}.
 
@@ -77,7 +77,7 @@ Os resultados obtidos com a pesquisa identificam a importância de se conhecer a
 
 \hspace{2.5cm}
 
-Analisando as informações extraídas na subseção 2.3.2, no capítulo 2, o sistema para gerenciamento de conteúdo escolhido pelo autor foi o \textit{Plone}. Os principais fatores que influenciaram nesta decisão estão atrelados ao desempenho e segurança de \textit{websites} construídos com esse CMS. Também é importante destacar que o \textit{Plone} é bastante usado para criação de portais, por exemplo o portal da UFVJM, que possuem características semelhantes ao sistema da Kuruatuba, como a publicação de notícias e eventos. 
+Analisando as informações extraídas na subseção \ref{subsec:comparacao}, no capítulo \ref{ch:referencial}, o sistema para gerenciamento de conteúdo escolhido pelo autor foi o \textit{Plone}. Os principais fatores que influenciaram nesta decisão estão atrelados ao desempenho e segurança de \textit{websites} construídos com esse CMS. Também é importante destacar que o \textit{Plone} é bastante usado para criação de portais, por exemplo o portal da UFVJM, que possuem características semelhantes ao sistema da Kuruatuba, como a publicação de notícias e eventos. 
 
 O \textit{Plone} possui ferramentas personalizadas e de fácil manipulação que facilitam o gerenciamento de notícias e eventos, primeiramente por possuir campos e opções já pré definidos para o tipo de conteúdo que o usuário irá inserir, e por último por inserir automaticamente o conteúdo criado na lista de conteúdos, devido a uma configuração realizada somente uma vez ao criar o sistema. Sendo assim, basta que o usuário preencha os dados relacionados ao tipo de conteúdo (notícia ou evento) para que ele seja criado e já exibido na página web.
 
@@ -203,7 +203,7 @@ A seguir estão as histórias de usuário para o trabalho em questão já testad
 
 Uma etapa extremamente importante no desenvolvimento de produtos é a coleta de requisitos, pois é com base nela que artefato será construído, tendo em vista que este é o momento em que o cliente tenta exprimir o que deseja que o software tenha e seja capaz de processar, envolvendo também a abstração dessas informações pela equipe responsável por passá-las para o desenvolvimento. 
 
-Para que tudo ocorra da melhor maneira a qualidade na comunicação é essencial e uma abordagem superficial das ideias deve ser evitada a fim de eliminar falsas convicções, ideias distintas entre cliente e desenvolvedor e desperdício de tempo e demais recursos. Para isso existem as maneiras de extrair os requisitos de sistema do cliente e usuário, como explanado no tópico de especificação de software, na seção 2.1. Dentre as opções lá citadas e as histórias de usuário particularizadas na subseção \ref{subsec:historias}, a coleta de requisitos para a aplicação web da Kuruatuba consistiu-se em um formulário e em curtas reuniões com o atual presidente da associação, o professor Erinaldo. 
+Para que tudo ocorra da melhor maneira a qualidade na comunicação é essencial e uma abordagem superficial das ideias deve ser evitada a fim de eliminar falsas convicções, ideias distintas entre cliente e desenvolvedor e desperdício de tempo e demais recursos. Para isso existem as maneiras de extrair os requisitos de sistema do cliente e usuário, como explanado no tópico de especificação de software, na seção \ref{sec:engenhariaweb}. Dentre as opções lá citadas e as histórias de usuário particularizadas na subseção \ref{subsec:historias}, a coleta de requisitos para a aplicação web da Kuruatuba consistiu-se em um formulário e em curtas reuniões com o atual presidente da associação, o professor Erinaldo. 
 
 O formulário, disponibilizado no apêndice \ref{ch:coleta-requisitos}, foi acessível para os futuros utilizadores do sistema para que opinassem sobre o que deveria e o que não deveria estar no produto final, além do grau de importância de cada requisito de acordo com suas exigências e necessidades. De acordo com as respostas registradas no formulário, com reuniões anteriormente mencionadas e com as histórias de usuário descritas obteve-se os seguintes requisitos de sistema:
 
@@ -1066,7 +1066,47 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 \label{subsec:sprints}
 \hspace{2.5cm}
 
-A presente subseção irá apresentar os ciclos de desenvolvimento, cada um deles possui as funcionalidades a serem desenvolvidas, requisitos atendidos (vide a subseção \ref{subsec:requisitos}), seu nível de prioridade e o prazo para desenvolvê-las. É relevante saber que grande parte do desenvolvimento foi feita em máquina local para só depois ocorrer a migração da aplicação, mesmo que incompleta, para o servidor virtual. Considera-se o nível de prioridade em uma escala de 1 a 5, onde 1 representa pouquíssima prioridade e 5 altíssima prioridade. 
+A presente subseção irá apresentar os ciclos (\textit{sprints}) de desenvolvimento, que estão definidos na tabela \ref{lista-sprints}. É relevante saber que a interface inicial do portal da Kuruatuba e do sistema de associados foram implementados em máquina local para só depois ocorrer a migração da aplicação para o servidor virtual, sendo que para o primeiro foi realizada uma breve pesquisa por \textit{websites} de outras associações, o que auxiliou na definição de informações que devem constar nas páginas web. 
+
+A realização de todas as atividades contou com o apoio do cliente, que compreende todos os associados, presidente e secretários, de maneira indireta, visto que a troca de informações foi intermediada pelo presidente da Kuruatuba, Erinaldo Barbosa.
+
+A tabela \ref{lista-sprints} contém cada uma das tarefas e as organiza por: identificação da \textit{sprint}, tarefas a serem desenvolvidas, nível de prioridade e prazo para desenvolvimento. Para isso, considera-se o nível de prioridade em uma escala de 1 a 5, em que 1 representa pouquíssima prioridade e 5 altíssima prioridade. Após a tabela, encontram-se explicadas as atividades desenvolvidas.
+
+\begin{table}[h]
+\centering
+\scalefont{1}
+\caption{\textit{Product Backlog}}
+\vspace{0.5cm}
+\begin{tabular}{c|c|c|c}
+ 
+\textbf{Nome} & \textbf{Tarefas} & \textbf{Prioridade} & \textbf{Prazo (dias)} \\ % Note a separação de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+\textit{Sprint 1} & Criação da interface inicial & 5 & 14  \\
+\textit{Sprint 2} & Contratação e configuração do ambiente de desenvolvimento & 5 & 11  \\ %instalação de todos os softwares e criação dos containers
+\textit{Sprint 3} & Alteração de endereço IP (Protocolo da Internet) de imagens nos sistemas & 4 & 4  \\
+\textit{Sprint 4} & Configuração do banco de dados e sua conexão com o sistema & 4 & 5  \\
+\textit{Sprint 5} & Criação do sistema de autenticação com criptografia & 4 & 5  \\
+\textit{Sprint 6} & Organização da página inicial do portal & 5 & 7  \\
+\textit{Sprint 7} & Inserção de informações nas páginas informativas & 5 & 7  \\ %criação das páginas 'sobre', 'contato', 'equipe' 
+\hline
+\end{tabular}
+\fonte{Autor.}
+\label{lista-sprints}
+\end{table}
+
+\textbf{\textit{Sprint 1}}:
+
+\textbf{\textit{Sprint 2}}:
+
+\textbf{\textit{Sprint 3}}:
+
+\textbf{\textit{Sprint 4}}:
+
+\textbf{\textit{Sprint 5}}:
+
+\textbf{\textit{Sprint 6}}:
+
+\textbf{\textit{Sprint 7}}:
 
 %apresentação da interface -> prioridade: 5 -> prazo: 30 dias
 %criação das páginas de notícias e eventos -> prioridade: 4 -> prazo: 7 dias
@@ -1078,22 +1118,7 @@ A presente subseção irá apresentar os ciclos de desenvolvimento, cada um dele
 %criação do sistema de login na aplicação para associados -> prioridade: 4 -> prazo: 11 dias
 %testes de desempenho e segurança em todo o sistema -> prioridade: 5 -> prazo: 14 dias
 
-\begin{table}[h]
-\centering
-\scalefont{0.9}
-\caption{\textit{Sprint} 1}
-\vspace{0.5cm}
-\begin{tabular}{l|c|c|c}
- 
-\textbf{Nome} & \textbf{Prioridade} & \textbf{Prazo (dias)} & \textbf{Requisitos atendidos}  \\ % Note a separação de col. e a quebra de linhas
-\hline                               % para uma linha horizontal
-- & - & - & - \\
-- & - & - & - \\
-\hline
-\end{tabular}
-\fonte{Autor.}
-\label{sprint1}
-\end{table}
+
 
 \hspace{2.5cm}
 \subsection{Apresentação das telas}
@@ -1107,11 +1132,11 @@ A presente subseção irá apresentar os ciclos de desenvolvimento, cada um dele
 
 Como o sistema deve gerenciar dois tipos de público, um de associados e outro de usuários, resolveu-se criar três \textit{containers}: um responsável pelo \textit{Plone} que, por sua vez, apresenta o \textit{website} da Kuruatuba para os visitantes; um \textit{container} responsável por comportar o sistema de gerenciamento de associados, desenvolvido na linguagem PHP, que é conhecida como uma linguagem de programação da era da Web 2.0 que permite o desenvolvimento ágil de software do lado do servidor \citeonline{suzumura2008performance}; e um \textit{container} abrigando o banco de dados, construído com a ferramenta \textit{MySQL}, que possui as informações relacionadas aos associados e onde são realizadas as consultas por parte do sistema escrito em PHP.
 
-A criação e comunicação dos \textit{containers} compactua com as vantagens descritas na seção 2.6 do capítulo 2, principalmente no que diz respeito à portabilidade e disponibilidade dos recursos. Tais benefícios também se aplicam à segurança, visto que para uma possível invasão ao sistema, é necessário que o invasor conheça o endereço IP (Protocolo da Internet) e porta de cada \textit{container} e ainda os dados de acesso tanto ao \textit{website} no \textit{Plone} quanto à aplicação destinada a armazenar os dados sobre os associados.   
+A criação e comunicação dos \textit{containers} compactua com as vantagens descritas na seção \ref{sec:ferramentas} do capítulo \ref{ch:referencial}, principalmente no que diz respeito à portabilidade e disponibilidade dos recursos. Tais benefícios também se aplicam à segurança, visto que para uma possível invasão ao sistema, é necessário que o invasor conheça o endereço IP e porta de cada \textit{container} e ainda os dados de acesso tanto ao \textit{website} no \textit{Plone} quanto à aplicação destinada a armazenar os dados sobre os associados.   
 
-Outra justificativa para a divisão das aplicações web está na complexidade de manipulação dos SGBDs - Sistema de Gerenciamento de Banco de Dados - não relacionais. Como já apresentado na subseção 2.3.1, no capítulo 2, o \textit{Plone} utiliza o banco de dados não relacional \textit{ZODB}, e o mesmo é bastante complexo quando o desenvolvedor necessita realizar consultas ou inserções a seus objetos, sendo inviável a criação de páginas ou elementos para tal tarefa.  
+Outra justificativa para a divisão das aplicações web está na complexidade de manipulação dos SGBDs - Sistema de Gerenciamento de Banco de Dados - não relacionais. Como já apresentado na subseção \ref{subsec:tipos-cms}, no capítulo \ref{ch:referencial}, o \textit{Plone} utiliza o banco de dados não relacional \textit{ZODB}, e o mesmo é bastante complexo quando o desenvolvedor necessita realizar consultas ou inserções a seus objetos, sendo inviável a criação de páginas ou elementos para tal tarefa.  
 
-\hspace{2.5cm}
-\section{Execução de testes de desempenho}
-\label{sec:testes}
-\hspace{2.5cm}
+% \hspace{2.5cm}
+% \section{Execução de testes de desempenho}
+% \label{sec:testes}
+% \hspace{2.5cm}
