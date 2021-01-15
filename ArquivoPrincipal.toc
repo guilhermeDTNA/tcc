@@ -10,46 +10,52 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{17}{chapter.1}
-\contentsline {section}{\numberline {1.1}Apresenta\IeC {\c c}\IeC {\~a}o}{17}{section.1.1}
-\contentsline {section}{\numberline {1.2}Sobre a Kuruatuba}{18}{section.1.2}
-\contentsline {section}{\numberline {1.3}Justificativa}{18}{section.1.3}
-\contentsline {section}{\numberline {1.4}Objetivos}{19}{section.1.4}
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{19}{chapter.1}
+\contentsline {section}{\numberline {1.1}Apresenta\IeC {\c c}\IeC {\~a}o}{19}{section.1.1}
+\contentsline {section}{\numberline {1.2}Sobre a Kuruatuba}{20}{section.1.2}
+\contentsline {section}{\numberline {1.3}Justificativa}{20}{section.1.3}
+\contentsline {section}{\numberline {1.4}Objetivos}{21}{section.1.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial Te\IeC {\'o}rico}}{21}{chapter.2}
-\contentsline {section}{\numberline {2.1}Engenharia Web}{21}{section.2.1}
-\contentsline {section}{\numberline {2.2}Metodologias \IeC {\'A}geis}{22}{section.2.2}
-\contentsline {section}{\numberline {2.3}Sistemas de Gerenciamento de Conte\IeC {\'u}do (CMS)}{25}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Tipos de Sistemas de Gerenciamento de Conte\IeC {\'u}do}{26}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Comparativos entre os principais sistemas}{28}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Servidor Virtual Privado (VPS)}{36}{section.2.4}
-\contentsline {section}{\numberline {2.5}Ferramentas}{37}{section.2.5}
-\contentsline {section}{\numberline {2.6}Estado da Arte}{39}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Pesquisa correlata: Concep\IeC {\c c}\IeC {\~a}o e Implementa\IeC {\c c}\IeC {\~a}o de um Website de uma Associa\IeC {\c c}\IeC {\~a}o Sindical}{39}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Pesquisa correlata: Constru\IeC {\c c}\IeC {\~a}o Coletiva do Portal Educa\IeC {\c c}\IeC {\~a}o do Campo}{41}{subsection.2.6.2}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial Te\IeC {\'o}rico}}{23}{chapter.2}
+\contentsline {section}{\numberline {2.1}Engenharia Web}{23}{section.2.1}
+\contentsline {section}{\numberline {2.2}Metodologias \IeC {\'A}geis}{24}{section.2.2}
+\contentsline {section}{\numberline {2.3}Sistemas de Gerenciamento de Conte\IeC {\'u}do (CMS)}{26}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Tipos de Sistemas de Gerenciamento de Conte\IeC {\'u}do}{28}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Comparativos entre os principais sistemas}{29}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Servidor Virtual Privado (VPS)}{37}{section.2.4}
+\contentsline {section}{\numberline {2.5}Ferramentas}{38}{section.2.5}
+\contentsline {section}{\numberline {2.6}Estado da Arte}{40}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Pesquisa correlata: Concep\IeC {\c c}\IeC {\~a}o e Implementa\IeC {\c c}\IeC {\~a}o de um Website de uma Associa\IeC {\c c}\IeC {\~a}o Sindical}{40}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Pesquisa correlata: Constru\IeC {\c c}\IeC {\~a}o Coletiva do Portal Educa\IeC {\c c}\IeC {\~a}o do Campo}{43}{subsection.2.6.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{45}{chapter.3}
-\contentsline {section}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~a}o do tipo de metodologia \IeC {\'a}gil de desenvolvimento}{45}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Sobre o \textit {Scrum}}{46}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Defini\IeC {\c c}\IeC {\~a}o do Sistema de Gerenciamento de Conte\IeC {\'u}do}{48}{section.3.2}
-\contentsline {section}{\numberline {3.3}An\IeC {\'a}lise de custos sobre hospedagem e dom\IeC {\'\i }nio}{48}{section.3.3}
-\contentsline {section}{\numberline {3.4}Desenvolvimento}{50}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Hist\IeC {\'o}rias de usu\IeC {\'a}rio}{50}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Coleta de requisitos}{52}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Casos de uso e fluxos de eventos}{53}{subsection.3.4.3}
-\contentsline {subsubsection}{\numberline {3.4.3.1}Diagrama de casos de uso}{53}{subsubsection.3.4.3.1}
-\contentsline {subsubsection}{\numberline {3.4.3.2}Fluxos de eventos}{54}{subsubsection.3.4.3.2}
-\contentsline {subsection}{\numberline {3.4.4}Defini\IeC {\c c}\IeC {\~a}o das \textit {sprints}}{66}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}Apresenta\IeC {\c c}\IeC {\~a}o das telas}{67}{subsection.3.4.5}
-\contentsline {subsection}{\numberline {3.4.6}Estrutura de \textit {containers} do sistema}{67}{subsection.3.4.6}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{47}{chapter.3}
+\contentsline {section}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~a}o do tipo de metodologia \IeC {\'a}gil de desenvolvimento}{47}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Sobre o \textit {Scrum}}{48}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Defini\IeC {\c c}\IeC {\~a}o do Sistema de Gerenciamento de Conte\IeC {\'u}do}{50}{section.3.2}
+\contentsline {section}{\numberline {3.3}An\IeC {\'a}lise de custos sobre hospedagem e dom\IeC {\'\i }nio}{50}{section.3.3}
+\contentsline {section}{\numberline {3.4}Desenvolvimento}{52}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Hist\IeC {\'o}rias de usu\IeC {\'a}rio}{52}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Coleta de requisitos}{54}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Casos de uso e fluxos de eventos}{54}{subsection.3.4.3}
+\contentsline {subsubsection}{\numberline {3.4.3.1}Diagrama de casos de uso}{55}{subsubsection.3.4.3.1}
+\contentsline {subsubsection}{\numberline {3.4.3.2}Fluxos de eventos}{56}{subsubsection.3.4.3.2}
+\contentsline {subsection}{\numberline {3.4.4}Defini\IeC {\c c}\IeC {\~a}o das \textit {sprints}}{68}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Estrutura de \textit {containers} do sistema}{69}{subsection.3.4.5}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados e Discuss\IeC {\~a}o}}{71}{chapter.4}
+\contentsline {section}{\numberline {4.1}Apresenta\IeC {\c c}\IeC {\~a}o das telas}{71}{section.4.1}
+\contentsline {section}{\numberline {4.2}Discuss\IeC {\~a}o}{71}{section.4.2}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Considera\IeC {\c c}\IeC {\~o}es Finais}}{73}{chapter.5}
+\contentsline {section}{\numberline {5.1}Trabalhos futuros}{73}{section.5.1}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{69}{section*.29}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{75}{section*.29}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Pesquisa entre pessoas da comunidade}}{73}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Pesquisa entre pessoas da comunidade}}{79}{appendix.A}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Coleta de requisitos para o sistema}}{79}{appendix.B}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Coleta de requisitos para o sistema}}{85}{appendix.B}
