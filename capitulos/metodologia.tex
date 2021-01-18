@@ -1083,9 +1083,9 @@ A tabela \ref{lista-sprints} contém cada uma das tarefas e as organiza por: ide
 \hline                               % para uma linha horizontal
 \textit{Sprint 1} & Criação da interface inicial & 5 & 14  \\
 \textit{Sprint 2} & Contratação e configuração do ambiente de desenvolvimento & 5 & 11  \\ %instalação de todos os softwares e criação dos containers
-\textit{Sprint 3} & Alteração de endereço IP (Protocolo da Internet) de imagens nos sistemas & 4 & 4  \\
+\textit{Sprint 3} & Alteração de endereço IP (Protocolo da Internet) de imagens nos sistemas & 3 & 4  \\
 \textit{Sprint 4} & Configuração do banco de dados e sua conexão com o sistema & 4 & 5  \\
-\textit{Sprint 5} & Criação do sistema de autenticação com criptografia & 4 & 5  \\
+\textit{Sprint 5} & Criação do sistema de autenticação com criptografia & 2 & 5  \\
 \textit{Sprint 6} & Organização da página inicial do portal & 5 & 7  \\
 \textit{Sprint 7} & Inserção de informações nas páginas informativas & 5 & 7  \\ %criação das páginas 'sobre', 'contato', 'equipe' 
 \hline
@@ -1094,17 +1094,27 @@ A tabela \ref{lista-sprints} contém cada uma das tarefas e as organiza por: ide
 \label{lista-sprints}
 \end{table}
 
-\textbf{\textit{Sprint 1}}:
+\textbf{\textit{Sprint 1}}: as atividades inclusas neste ciclo são: criação dos elementos básicos das aplicações, tais como: cabeçalho, rodapé e itens de menu; inserção dos ícones de redes sociais vinculados à associação; e elaboração do design da página inicial, com áreas reservadas a notícias, eventos e \textit{banners} rotativos.
 
-\textbf{\textit{Sprint 2}}:
+Como há um número elevado de atividades a serem desenvolvidas, a estimativa do tempo para conclusão foi de 14 dias e sua prioridade foi pontuada como 5 devido à necessidade de se entregar algo concreto para o cliente, mesmo que seja um escopo inicial, embora seus elementos sejam passíveis de customização posteriormente. 
 
-\textbf{\textit{Sprint 3}}:
+\textbf{\textit{Sprint 2}}: nesta fase as atividades específicas desempenhadas estão divididas em duas atividades generalistas: instalação de todos os softwares necessários na VPS e criação dos \textit{containers} referentes ao banco de dados \textit{MySQL}, ao sistema de associados e ao portal desenvolvido no \textit{Plone}. 
 
-\textbf{\textit{Sprint 4}}:
+Os prazo e prioridade definidos se devem à importância das atividades especificadas, visto que é imprescindível a conclusão das mesmas para que o projeto siga adiante e a equipe de desenvolvimento possa iniciar a próxima \textit{sprint}. 
 
-\textbf{\textit{Sprint 5}}:
+\textbf{\textit{Sprint 3}}: como a \textit{sprint} 1 foi efetuada em ambiente local, as imagens destinadas à logo da Kuruatuba presente no cabeçalho, aos \textit{banners} rotatórios da página inicial e ao \textit{favicon} tiveram seus endereços IP associados ao ambiente de rede da máquina pessoal, e não da VPS. Portanto foi necessário alterar o caminho de cada uma delas para que fossem exibidas corretamente nos sistemas.
 
-\textbf{\textit{Sprint 6}}:
+O prazo de 3 dias foi considerado o suficiente para execução das tarefas do ciclo atual tendo visto o seu baixo grau de complexidade, e o grau 3 de prioridade se justifica pela ausência de urgência na realização das atividades. 
+
+\textbf{\textit{Sprint 4}}: as atividades destinadas a essa etapa se referem à disponibilização do sistema de associados funcional, integrado ao banco de dados, que por sua vez deve estar totalmente configurado. 
+
+O tempo destinado à execução das tarefas foi estipulado em somente 5 dias por conta de sua baixa complexidade, principalmente referente à estrutura simples da base de dados, e sua prioridade é considerada alta pois o sistema de associados também é muito importante e necessita de \textit{feedback} do cliente, mesmo que não tenha telas visíveis a visitantes não vinculados à associação. 
+
+\textbf{\textit{Sprint 5}}: a tarefa pertencente a essa \textit{sprint} está relacionada à segurança das informações dos associados e dos administradores do sistema, visto que dados confidenciais podem ser acessados por terceiros caso não exista algum método de criptografia no armazenamento de senhas e na realização de \textit{login} em uma aplicação web.
+
+A prioridade para realização das atividades é baixa, isto porque não existirão dados pessoais salvos na base de dados enquanto todo o projeto não estiver concluído, e o prazo para a implementação da criptografia é pequeno porque os métodos utilizados são simples e amplamente conhecidos pelo autor.
+
+\textbf{\textit{Sprint 6}}: as duas últimas \textit{sprints} necessitam de uma participação maior do cliente, por isso os prazos e níveis de prioridades são maiores que as anteriores. Na sexta \textit{sprint} as atividades a serem desempenhadas são.... 
 
 \textbf{\textit{Sprint 7}}:
 
