@@ -254,16 +254,35 @@ Em geral, os diagramas de casos de uso apresentam os seguintes elementos \citeon
 
 \end{itemize}
 
-Após a breve explicação sobre os diagramas de casos de uso, sua importância e seus elementos, fica representado na Figura \ref{use-case} o diagrama referente ao sistema da associação Kuruatuba. Na referida figura está presente a seguinte sigla: CRUD, que, segundo o site \citeonline{devmedia}, é o acrônimo das palavras \textit{Create}, \textit{Read}, \textit{Update} e \textit{Delete} que significam, respectivamente, criar ou cadastrar, ler ou cunsultar, editar ou atualizar, e excluir ou remover.
+Após a breve explicação sobre os diagramas de casos de uso, sua importância e seus elementos, ficam representados nas Figuras \ref{use-case-portal} e \ref{use-case-sistema} os diagramas referentes, respectivamente, ao portal e ao sistema de associados da associação Kuruatuba.
+
+\newpage
 
 \begin{figure}[htb]
  \centering
- \caption{Diagrama de casos de uso do sistema da Kuruatuba}
- \includegraphics[width=0.8\textwidth]{figuras/use-case-2.png}
+ \caption{Diagrama de casos de uso do portal da Kuruatuba}
+ \includegraphics[width=0.8\textwidth]{figuras/use-case-portal.png}
  
- \label{use-case}
+ \label{use-case-portal}
  \fonte{Autor.}
 \end{figure}
+
+Ao analisar o diagrama anterior, é possível entender que os elementos-chave dos casos de uso são: notícias, eventos, páginas, usuários, a aplicação ao todo e seus dados, informações que se diferem das presentes no diagrama apresentado na Figura \ref{use-case-sistema}, que se trata sobre o sistema de associados. 
+
+O que se deve absorver e compreender da Figura \ref{use-case-portal} é que os níveis de usuário são distintos de acordo com a importância dos dados a serem manipulados. Por exemplo: as informações gerenciadas pelo presidente e que não são pelos secretários, que são os dados dos usuários do portal, são de extrema importância e necessitam acesso restrito para consulta e modificação. Por isso somente o presidente e o administrador do portal podem gerenciá-los, dada a importância e representatividade de seu cargo na instituição. 
+
+Outra questão importante é a definição de quem exercerá o papel de super administrador. Considerando-se que a associação não possui um agente de Tecnologia da Informação para manipular configurações técnicas do sistema, tanto para a realização de \textit{backup} quanto para a customização do portal e do sistema, foi decidido que o próprio desenvolvedor de ambas aplicações seria responsável por executar tais funções e, por isso, exercerá o papel de super administrador, trabalhando de forma ética e profissional para o bem da instituição.
+
+\begin{figure}[htb]
+ \centering
+ \caption{Diagrama de casos de uso do sistema de associados da Kuruatuba}
+ \includegraphics[width=0.8\textwidth]{figuras/use-case-sistema.png}
+ 
+ \label{use-case-sistema}
+ \fonte{Autor.}
+\end{figure}
+
+Sendo consideravelmente mais simples que o visto anteriormente, o diagrama representado na Figura \ref{use-case-sistema} é de simples compreensão graças ao pequeno número de casos de uso presentes. Pode-se considerar que relação de atribuições entre os atores secretário,  presidente e super administrador é a mesma, visto que o que muda em relação ao nível de usuário é a autorização de cadastrar, editar e excluir usuário do sistema, que não é previsto para o secretário, e a edição (customização) do sistema e realização de \textit{backup}, por sua vez previsto somente para o super administrador, por envolver questões mais técnicas.
 
 \newpage
 

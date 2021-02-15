@@ -38,24 +38,24 @@
 \contentsline {subsection}{\numberline {3.4.2}Coleta de requisitos}{54}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}Casos de uso e fluxos de eventos}{54}{subsection.3.4.3}
 \contentsline {subsubsection}{\numberline {3.4.3.1}Diagrama de casos de uso}{55}{subsubsection.3.4.3.1}
-\contentsline {subsubsection}{\numberline {3.4.3.2}Fluxos de eventos}{56}{subsubsection.3.4.3.2}
-\contentsline {subsection}{\numberline {3.4.4}Defini\IeC {\c c}\IeC {\~a}o das \textit {sprints}}{68}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}Estrutura de \textit {containers} do sistema}{70}{subsection.3.4.5}
+\contentsline {subsubsection}{\numberline {3.4.3.2}Fluxos de eventos}{58}{subsubsection.3.4.3.2}
+\contentsline {subsection}{\numberline {3.4.4}Defini\IeC {\c c}\IeC {\~a}o das \textit {sprints}}{69}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Estrutura de \textit {containers} do sistema}{71}{subsection.3.4.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados e Discuss\IeC {\~a}o}}{71}{chapter.4}
-\contentsline {section}{\numberline {4.1}Apresenta\IeC {\c c}\IeC {\~a}o das telas}{71}{section.4.1}
-\contentsline {section}{\numberline {4.2}Discuss\IeC {\~a}o}{71}{section.4.2}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados e Discuss\IeC {\~a}o}}{73}{chapter.4}
+\contentsline {section}{\numberline {4.1}Apresenta\IeC {\c c}\IeC {\~a}o das telas}{73}{section.4.1}
+\contentsline {section}{\numberline {4.2}Discuss\IeC {\~a}o}{73}{section.4.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Considera\IeC {\c c}\IeC {\~o}es Finais}}{73}{chapter.5}
-\contentsline {section}{\numberline {5.1}Trabalhos futuros}{73}{section.5.1}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Considera\IeC {\c c}\IeC {\~o}es Finais}}{75}{chapter.5}
+\contentsline {section}{\numberline {5.1}Trabalhos futuros}{75}{section.5.1}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{75}{section*.28}
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{77}{section*.29}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Pesquisa entre pessoas da comunidade}}{79}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Pesquisa entre pessoas da comunidade}}{81}{appendix.A}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Coleta de requisitos para o sistema}}{85}{appendix.B}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Coleta de requisitos para o sistema}}{87}{appendix.B}
