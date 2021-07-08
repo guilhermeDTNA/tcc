@@ -160,7 +160,7 @@ A seção de desenvolvimento sinaliza o início, de fato, da realização das ta
 
 Para o projeto, foram utilizadas as seguintes ferramentas e suas respectivas versões: \textit{Plone} 4.3.18, PHP 7.4.2, \textit{MySQL} 5.7, \textit{Docker} 19.03.5 e \textit{Git} 2.17.1, este utilizado para o versionamento de código do sistema para cadastro de associados uma vez que ele poderá ser necessário, futuramente, a outro desenvolvedor para atualizações. 
 
-Também é importante mencionar a utilização do \textit{Google Analytics}, que, como já descrito na Seção \ref{sec:ferramentas}, possibilita contabilizar número de visitantes e obter informações sobre eles, como: origem, páginas visitadas e tempo por sessão. Outra informação relevante é a utilização das imagens do \textit{Docker}: \textit{robsonggade/lampp-server}, \textit{mysql} e \textit{lmatos/plonebr-zeo}, todas disponíveis no repositório oficial do \textit{Docker}, o \textit{Docker Hub}. 
+Também é importante mencionar a utilização do \textit{Google Analytics}, que, como já descrito na Seção \ref{sec:ferramentas}, possibilita contabilizar número de visitantes e obter informações sobre eles, como: origem, páginas visitadas e tempo por sessão. Outra informação relevante é a utilização das imagens do \textit{Docker}: \textit{ubuntu/apache2}, \textit{mysql:5.7} e \textit{lmatos/plonebr-zeo}, todas disponíveis no repositório oficial do \textit{Docker}, o \textit{Docker Hub}. 
 
 A escolha da última imagem citada se justifica pela grande customização dos complementos utilizados em portais do governo brasileiro que utilizam a Identidade Digital do Governo (IDG) 2.0, o que facilita muito o trabalho do gerenciador do portal, tornando o \textit{Plone} ainda mais amigável para usuários que desejem adicionar, editar ou excluir elementos rapidamente. Para exemplificar tais complementos pode-se mencionar a capa, que possibilita criar páginas compostas por vários tipos de elementos, sendo muito simples a definição de seu \textit{layout} e inserção dos elementos na mesma.  
 
@@ -1111,7 +1111,7 @@ A Tabela \ref{lista-sprints} contém cada uma das tarefas e as organiza por: ide
 \textit{Sprint 1} & Criação da interface inicial & 5 & 14  \\
 \textit{Sprint 2} & Contratação e configuração do ambiente de desenvolvimento & 5 & 11  \\ %instalação de todos os softwares e criação dos containers
 \textit{Sprint 3} & Migração do portal e do sistema de associados para o servidor & 5 & 6  \\
-\textit{Sprint 4} & Configuração do banco de dados e sua conexão com o sistema & 4 & 5  \\
+\textit{Sprint 4} & Configuração do banco de dados e sua conexão com o sistema & 4 & 3  \\
 \textit{Sprint 5} & Criação do sistema de autenticação com criptografia & 2 & 5  \\
 \textit{Sprint 6} & Organização da página inicial do portal & 5 & 7  \\
 \textit{Sprint 7} & Inserção de informações nas páginas informativas & 5 & 7  \\ %criação das páginas 'sobre', 'contato', 'equipe' 
@@ -1135,7 +1135,7 @@ O prazo de 6 dias foi considerado o suficiente para execução das tarefas do ci
 
 \textbf{\textit{Sprint 4}}: as atividades destinadas a essa etapa se referem à disponibilização do sistema de associados funcional, integrado ao banco de dados, que por sua vez deve estar totalmente configurado. 
 
-O tempo destinado à execução das tarefas foi estipulado em somente 5 dias por conta de sua baixa complexidade, principalmente referente à estrutura simples da base de dados, e sua prioridade é considerada alta pois o sistema de associados também é muito importante e necessita de \textit{feedback} do cliente, mesmo que não tenha telas visíveis a visitantes não vinculados à associação. 
+O tempo destinado à execução das tarefas foi estipulado em somente 3 dias por conta de sua baixa complexidade, principalmente referente à estrutura simples da base de dados, e sua prioridade é considerada alta pois o sistema de associados também é muito importante e necessita de \textit{feedback} do cliente, mesmo que não tenha telas visíveis a visitantes não vinculados à associação. 
 
 \textbf{\textit{Sprint 5}}: a tarefa pertencente a essa \textit{sprint} está relacionada à segurança das informações dos associados e dos administradores do sistema, visto que dados confidenciais podem ser acessados por terceiros caso não exista algum método de criptografia no armazenamento de senhas e na realização de \textit{login} em uma aplicação web.
 
