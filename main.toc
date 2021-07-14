@@ -39,8 +39,8 @@
 \contentsline {subsection}{\numberline {3.4.3}Casos de uso e fluxos de eventos}{55}{subsection.3.4.3}%
 \contentsline {subsubsection}{\numberline {3.4.3.1}Diagrama de casos de uso}{56}{subsubsection.3.4.3.1}%
 \contentsline {subsubsection}{\numberline {3.4.3.2}Fluxos de eventos}{59}{subsubsection.3.4.3.2}%
-\contentsline {subsection}{\numberline {3.4.4}Definição das \textit {sprints}}{70}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Estrutura de \textit {containers} do sistema}{72}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.4}Definição das \textit {sprints}}{71}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Estrutura de \textit {containers} do sistema}{73}{subsection.3.4.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados e Discussão}}{75}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Apresentação das telas}{75}{section.4.1}%

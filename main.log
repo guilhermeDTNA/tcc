@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.7.1)  7 JUL 2021 21:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.7.1)  13 JUL 2021 22:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1068,29 +1068,29 @@ LaTeX Warning: Label `subsec:telas' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
-4.
+8.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \AtBeginShipoutBox=\box106
-Package hyperref Info: Link coloring ON on input line 54.
+Package hyperref Info: Link coloring ON on input line 58.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1105,15 +1105,15 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 54.
-LaTeX Info: Redefining \ref on input line 54.
-LaTeX Info: Redefining \pageref on input line 54.
-LaTeX Info: Redefining \nameref on input line 54.
+LaTeX Info: Redefining \nameref on input line 58.
+LaTeX Info: Redefining \ref on input line 58.
+LaTeX Info: Redefining \pageref on input line 58.
+LaTeX Info: Redefining \nameref on input line 58.
 \myptabbox=\box107
 \myptabboxwidth=\skip304
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 54.
+(lastpage)             ! on input line 58.
 \c@minilofdepth=\count379
 \c@minilotdepth=\count380
 \c@partlofdepth=\count381
@@ -1193,14 +1193,14 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 54.
+LaTeX Info: Redefining \microtypecontext on input line 58.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 54.
+LaTeX Info: Redefining \showhyphens on input line 58.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1209,7 +1209,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 54.
+LaTeX Info: Redefining \selectfont on input line 58.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
@@ -1217,7 +1217,7 @@ LaTeX Info: Redefining \selectfont on input line 54.
 
 ]
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 60.
+ 64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -1227,29 +1227,29 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 60.
+ 64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 60.
+ 64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 60.
+ 64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -1260,7 +1260,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 
+l.64 
       [1
 
 
@@ -1269,7 +1269,7 @@ l.60
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 
+l.64 
       [2
 
 
@@ -1457,11 +1457,11 @@ e 68.
 (pdftex.def)             Requested size: 364.00139pt x 258.60883pt.
  [49] [50 <./figuras/diferentes-metodologias.png>] [51] [52] [53] [54] [55] [56
 ]
-<figuras/use-case-portal.png, id=804, 775.89874pt x 871.255pt>
+<figuras/use-case-portal.png, id=804, 815.045pt x 1018.80624pt>
 File: figuras/use-case-portal.png Graphic file (type png)
 <use figuras/use-case-portal.png>
 Package pdftex.def Info: figuras/use-case-portal.png  used on input line 266.
-(pdftex.def)             Requested size: 364.00139pt x 408.74544pt.
+(pdftex.def)             Requested size: 364.00139pt x 455.00743pt.
  [57 <./figuras/use-case-portal.png>]
 <figuras/use-case-sistema.png, id=812, 633.36626pt x 636.3775pt>
 File: figuras/use-case-sistema.png Graphic file (type png)
@@ -1469,18 +1469,21 @@ File: figuras/use-case-sistema.png Graphic file (type png)
 Package pdftex.def Info: figuras/use-case-sistema.png  used on input line 281.
 (pdftex.def)             Requested size: 364.00139pt x 365.73944pt.
  [58 <./figuras/use-case-sistema.png>] [59] [60] [61]
-[62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72])
-(./capitulos/resultados.tex [73] [74
+[62] [63] [64] [65] [66] [67] [68] [69] [70]
 
-]) (./capitulos/consideracoes-finais.tex
-[75] [76
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[71] [72] [73]) (./capitulos/resultados.tex [74])
+(./capitulos/consideracoes-finais.tex [75
+
+] [76
 
 ]) (./main.bbl [77] [78
 
 ]
 bibitemlist
 [79] [80] [81]) (./pos-textual/apendice.tex [82]
-<pos-textual/Pesquisa.pdf, id=1120, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=1135, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf  used on input line 4.
@@ -1489,7 +1492,7 @@ File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf  used on input line 4.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
-<pos-textual/Pesquisa.pdf, id=1123, page=1, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=1138, page=1, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf, page 1>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf , page1 used on input line 4.
@@ -1524,7 +1527,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
 >]
-<pos-textual/Pesquisa.pdf, id=1156, page=2, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=1172, page=2, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf, page 2>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf , page2 used on input line 4.
@@ -1546,7 +1549,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
 >]
-<pos-textual/Pesquisa.pdf, id=1161, page=3, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=1177, page=3, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf, page 3>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf , page3 used on input line 4.
@@ -1568,7 +1571,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
 >]
-<pos-textual/Pesquisa.pdf, id=1167, page=4, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=1182, page=4, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf, page 4>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf , page4 used on input line 4.
@@ -1590,7 +1593,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
 >]
-<pos-textual/Pesquisa.pdf, id=1172, page=5, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=1187, page=5, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf, page 5>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf , page5 used on input line 4.
@@ -1612,7 +1615,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
 >]
-<pos-textual/coleta-requisitos.pdf, id=1179, 597.19106pt x 845.07718pt>
+<pos-textual/coleta-requisitos.pdf, id=1194, 597.19106pt x 845.07718pt>
 File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos.pdf>
 Package pdftex.def Info: pos-textual/coleta-requisitos.pdf  used on input line 
@@ -1623,7 +1626,7 @@ File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 Package pdftex.def Info: pos-textual/coleta-requisitos.pdf  used on input line 
 9.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
-<pos-textual/coleta-requisitos.pdf, id=1182, page=1, 597.19106pt x 845.07718pt>
+<pos-textual/coleta-requisitos.pdf, id=1197, page=1, 597.19106pt x 845.07718pt>
 
 File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos.pdf, page 1>
@@ -1654,7 +1657,7 @@ Package pdftex.def Info: pos-textual/coleta-requisitos.pdf , page1 used on inpu
 t line 9.
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
  [90 <./pos-textual/coleta-requisitos.pdf>]
-<pos-textual/coleta-requisitos.pdf, id=1220, page=2, 597.19106pt x 845.07718pt>
+<pos-textual/coleta-requisitos.pdf, id=1235, page=2, 597.19106pt x 845.07718pt>
 
 File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos.pdf, page 2>
@@ -1709,23 +1712,23 @@ Package minitoc(hints) Warning: W0024
 \tf@toc=\write12
 \openout12 = `main.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 118.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 122.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
  ) 
 Here is how much of TeX's memory you used:
- 21690 strings out of 481239
- 328217 string characters out of 5920378
- 713952 words of memory out of 5000000
+ 21708 strings out of 481239
+ 328367 string characters out of 5920378
+ 713997 words of memory out of 5000000
  35618 multiletter control sequences out of 15000+600000
- 600921 words of font info for 312 fonts, out of 8000000 for 9000
+ 601122 words of font info for 314 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,18n,62p,1132b,585s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1734,10 +1737,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (93 pages, 5240814 bytes).
+Output written on main.pdf (93 pages, 5256994 bytes).
 PDF statistics:
- 1497 PDF objects out of 1728 (max. 8388607)
- 1312 compressed objects within 14 object streams
- 426 named destinations out of 1000 (max. 500000)
+ 1517 PDF objects out of 1728 (max. 8388607)
+ 1332 compressed objects within 14 object streams
+ 441 named destinations out of 1000 (max. 500000)
  45053 words of extra memory for PDF output out of 51595 (max. 10000000)
 

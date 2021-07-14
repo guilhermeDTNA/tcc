@@ -158,7 +158,7 @@ Com o auxílio de uma máquina virtual, foi realizada uma avaliação sobre os p
 
 A seção de desenvolvimento sinaliza o início, de fato, da realização das tarefas e demais atividades relacionadas à construção do sistema da Kuruatuba. É a partir desse momento que serão informados dados como domínio, hospedagem, requisitos, versões das tecnologias utilizadas e descrição das atividades desempenhadas.
 
-Para o projeto, foram utilizadas as seguintes ferramentas e suas respectivas versões: \textit{Plone} 4.3.18, PHP 7.4.2, \textit{MySQL} 5.7, \textit{Docker} 19.03.5 e \textit{Git} 2.17.1, este utilizado para o versionamento de código do sistema para cadastro de associados uma vez que ele poderá ser necessário, futuramente, a outro desenvolvedor para atualizações. 
+Para o projeto, foram utilizadas as seguintes ferramentas e suas respectivas versões: \textit{Plone} 4.3.18, PHP 8.0, \textit{MySQL} 5.7, \textit{Docker} 19.03.5 e \textit{Git} 2.17.1, este utilizado para o versionamento de código do sistema para cadastro de associados uma vez que ele poderá ser necessário, futuramente, a outro desenvolvedor para atualizações. 
 
 Também é importante mencionar a utilização do \textit{Google Analytics}, que, como já descrito na Seção \ref{sec:ferramentas}, possibilita contabilizar número de visitantes e obter informações sobre eles, como: origem, páginas visitadas e tempo por sessão. Outra informação relevante é a utilização das imagens do \textit{Docker}: \textit{ubuntu/apache2}, \textit{mysql:5.7} e \textit{lmatos/plonebr-zeo}, todas disponíveis no repositório oficial do \textit{Docker}, o \textit{Docker Hub}. 
 
@@ -269,7 +269,7 @@ Após a breve explicação sobre os diagramas de casos de uso, sua importância 
  \fonte{Autor.}
 \end{figure}
 
-Ao analisar o diagrama anterior, é possível entender que os elementos-chave dos casos de uso são: notícias, eventos, páginas, usuários, a aplicação ao todo e seus dados, informações que se diferem das presentes no diagrama apresentado na Figura \ref{use-case-sistema}, que se trata sobre o sistema de associados. 
+Ao analisar o diagrama anterior, é possível entender que os elementos-chave dos casos de uso são: notícias, eventos, páginas, arquivos de mídia e documentos, usuários, a aplicação ao todo e seus dados, informações que se diferem das presentes no diagrama apresentado na Figura \ref{use-case-sistema}, que se trata sobre o sistema de associados. 
 
 O que se deve absorver e compreender da Figura \ref{use-case-portal} é que os níveis de usuário são distintos de acordo com a importância dos dados a serem manipulados. Por exemplo: as informações gerenciadas pelo presidente e que não são pelos secretários, que são os dados dos usuários do portal, são de extrema importância e necessitam acesso restrito para consulta e modificação. Por isso somente o presidente e o administrador do portal podem gerenciá-los, dada a importância e representatividade de seu cargo na instituição. 
 
@@ -293,33 +293,7 @@ Sendo consideravelmente mais simples que o visto anteriormente, o diagrama repre
 \label{subsubsec:fluxos}
 \hspace{2.5cm}
 
-A seguir estão os fluxos de eventos para os casos de uso definidos anteriormente. Tais fluxos auxiliam ainda mais na compreensão de como o sistema se comportará após cada requisição do usuário e quais possibilidades de interação com a interface do software este terá ao navegar pelas telas.
-
-%login portal
-\vspace{0.7cm}
-\leftline{ \textbf{Caso de uso}: Efetuar \textit{login} no portal.}
-
-\noindent \textit{Pré-condição}: inserir o e-mail ou nome de usuário e a senha.
-
-\noindent \textit{Fluxo principal}:
-
-\begin{enumerate}
-    \item ir em ``Acessar'';
-    \item inserir os dados de \textit{login};
-    \item selecionar o botão ``Acessar'';
-    \item o sistema verificará os dados de acesso; e
-    \item as opções exclusivas ao usuário serão habilitadas.
-\end{enumerate}
-
-\noindent \textit{Fluxo alternativo}: Usuário não encontrado.
-
-\noindent \textit{Pré-condição}: dados de \textit{login} inválidos.
-
-\noindent \textit{Etapas}:
-
-\begin{enumerate}
-    \item o sistema informa que o usuário ou senha não estão corretos.
-\end{enumerate}
+A seguir estão os fluxos de eventos para os casos de uso definidos anteriormente. Tais fluxos auxiliam ainda mais na compreensão de como o sistema se comportará após cada requisição do usuário e quais possibilidades de interação com a interface do software este terá ao navegar pelas telas. Para o fluxo de eventos do caso de uso ''Gerenciar imagens, vídeos ou documentos``, o termo utilizado para representar todos os três tipos foi ''arquivo``, isto porque, diferentemente dos demais elementos, o \textit{Plone} os trata como arquivos, mesmo tendo suas peculiaridades.
 
 
 %criar página
@@ -390,23 +364,6 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 \end{enumerate}
 
 
-%consultar página
-\vspace{0.7cm}
-\leftline{ \textbf{Caso de uso}: Consultar página.}
-
-\noindent \textit{Pré-condição}: preencher o campo ``Filtrar''.
-
-\noindent \textit{Fluxo principal}:
-
-\begin{enumerate}
-    \item selecionar no menu o item ``Conteúdo''; e
-    \item pesquisar por qualquer elemento do portal pelo campo ``Filtrar''.
-\end{enumerate}
-
-\noindent \textit{Fluxo alternativo}: não se aplica.
-
-
-
 %excluir página
 \vspace{0.7cm}
 \leftline{ \textbf{Caso de uso}: Excluir página.}
@@ -432,25 +389,6 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 \begin{enumerate}
     \item selecionar o botão ``Não''.
 \end{enumerate}
-
-
-
-%consultar notícias
-\vspace{0.7cm}
-\leftline{ \textbf{Caso de uso}: Consultar notícias.}
-
-\noindent \textit{Pré-condição}: preencher o campo ``filtrar notícia''.
-
-\noindent \textit{Fluxo principal}:
-
-\begin{enumerate}
-    \item selecionar no menu o item ``Conteúdo'';
-    \item selecionar a pasta notícias;
-    \item selecionar a pasta do ano da notícia; e
-    \item pesquisar por notícia pelo campo ``filtrar notícia''.
-\end{enumerate}
-
-\noindent \textit{Fluxo alternativo}: não se aplica.
 
 
 %cadastrar notícia
@@ -571,27 +509,6 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 \end{enumerate}
 
 
-
-
-%consultar eventos
-\vspace{0.7cm}
-\leftline{ \textbf{Caso de uso}: Consultar eventos.}
-
-\noindent \textit{Pré-condição}: preencher o campo ``filtrar eventos''.
-
-\noindent \textit{Fluxo principal}:
-
-\begin{enumerate}
-    \item selecionar no menu o item ``Conteúdo'';
-    \item selecionar a pasta eventos;
-    \item selecionar a pasta do ano do evento; e
-    \item pesquisar por evento pelo campo ``filtrar evento''.
-\end{enumerate}
-
-\noindent \textit{Fluxo alternativo}: não se aplica.
-
-
-
 %cadastrar evento
 \vspace{0.7cm}
 \leftline{ \textbf{Caso de uso}: Publicar evento.}
@@ -709,40 +626,261 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 
 
 
-%login associados
+%cadastrar arquivo
 \vspace{0.7cm}
-\leftline{ \textbf{Caso de uso}: Efetuar \textit{login} no sistema de associados.}
+\leftline{ \textbf{Caso de uso}: Publicar arquivo.}
 
-\noindent \textit{Pré-condição}: Inserir o e-mail ou nome de usuário e a senha.
+\noindent \textit{Pré-condição}: selecionar a opção de salvar o evento.
 
 \noindent \textit{Fluxo principal}:
 
 \begin{enumerate}
-    \item no portal, selecionar o item ``Associados'';
-    \item confirmar a ação;
-    \item inserir os dados de \textit{login};
-    \item ir em ``\textit{login}'';
-    \item o sistema verificará os dados de acesso; e
-    \item a lista de associados será exibida.
+    \item selecionar no menu o item ``Conteúdo'';
+    \item selecionar a pasta eventos;
+    \item selecionar a pasta do ano do evento;
+    \item selecionar no menu o item ``Adicionar item'';
+    \item selecionar o item ``Evento'';
+    \item preencher obrigatoriamente o título;
+    \item selecionar a opção ``Salvar'';
+    \item selecionar no menu o item ``Estado''; e
+    \item selecionar a opção ``Publicar''.
 \end{enumerate}
 
-\noindent \textit{Fluxo alternativo}: Usuário não encontrado.
+\noindent \textit{Fluxo alternativo}: Cancelamento do cadastro.
 
-\noindent \textit{Pré-condição}: dados de \textit{login} inválidos.
+\noindent \textit{Pré-condição}:  usuário acionou o botão ``Cancelar''.
 
 \noindent \textit{Etapas}:
 
 \begin{enumerate}
-    \item o sistema informa que o usuário ou senha não estão corretos.
+    \item selecionar o botão ``Cancelar''; e
+    \item o sistema retorna a mensagem: ``Adicionar Novo Item operação cancelada''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não preenchimento do título.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Salvar'' sem ter inserido o título do evento.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Salvar'';
+    \item o sistema retorna a mensagem: ``Existem alguns erros''; e
+    \item o campo de título apresenta a seguinte mensagem: ``Dado obrigatório não informado''.
 \end{enumerate}
 
 
+
+%editar arquivo
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Alterar arquivo.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de salvar o evento.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item selecionar no menu o item ``Conteúdo'';
+    \item selecionar a pasta eventos;
+    \item selecionar a pasta do ano do evento;
+    \item selecionar o evento; e
+    \item selecionar no menu o item ``Edição''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento da edição.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Cancelar''; e
+    \item o sistema retorna a mensagem: ``Edição cancelada''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não preenchimento do título.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Salvar'' sem ter inserido o título do evento.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Salvar'';
+    \item o sistema retorna a mensagem: ``Existem alguns erros''; e
+    \item o campo de título apresenta a seguinte mensagem: ``Dado obrigatório não informado''.
+\end{enumerate}
+
+
+
+%excluir arquivo
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Excluir arquivo.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de excluir o evento.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item selecionar no menu o item ``Conteúdo'';
+    \item selecionar a pasta eventos;
+    \item selecionar a pasta do ano do evento;
+    \item selecionar o evento;
+    \item selecionar no menu o item ``Ações'';
+    \item ir em ``Excluir'';
+    \item o sistema emitirá a mensagem: ``Você realmente quer apagar este item?''; e
+    \item selecionar a opção de excluir.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento da exclusão.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Cancelar''.
+\end{enumerate}
+
+
+
+%Gerenciar usuários
+
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Consultar usuários.}
+
+\noindent \textit{Pré-condição}: estar na página de usuários.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item selecionar no menu o item ``Configuração de site''; e
+    \item selecionar a opção ``Usuários e grupos''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: não se aplica.
+
+
+
+%cadastrar usuário
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Cadastrar usuário.}
+
+\noindent \textit{Pré-condição}: selecionar o botão ``Registrar''.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item selecionar no menu o item ``Configuração de site'';
+    \item selecionar a opção ``Usuários e grupos'';
+    \item selecionar o botão ``Adicionar Novo Usuário'';
+    \item informar, obrigatoriamente, e-mail e nome de usuário; e
+    \item selecionar o botão de registrar o usuário.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não preenchimento de e-mail ou nome de usuário.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Registrar'' sem ter inserido o e-mail ou nome de usuário.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Registrar'';
+    \item o sistema retorna a mensagem: ``Houve erros''; e
+    \item os campos de e-mail e usuário apresentam a seguinte mensagem: ``Dado obrigatório não informado''.
+\end{enumerate}
+
+
+%alterar usuário
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Alterar usuário.}
+
+\noindent \textit{Pré-condição}: selecionar o botão ``Salvar''.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item selecionar no menu o item ``Configuração de site'';
+    \item selecionar a opção ``Usuários e grupos'';
+    \item preencher o campo ``Busca de Usuários'';
+    \item selecionar o nome do usuário requisitado;
+    \item preencher substituir as informações dos campos necessários; e
+    \item acessar o botão de salvar as informações.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento da edição.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Cancelar''; e
+    \item sistema exibe a mensagem: ``Alterações canceladas''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não preenchimento do e-mail.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Salvar'' sem ter haver um e-mail inserido.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item o sistema retorna a mensagem: ``Existem alguns erros''; e
+    \item o campo de e-mail apresenta a seguinte mensagem: ``Dado obrigatório não informado''.
+\end{enumerate}
+
+
+
+%remover usuário
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Excluir usuário.}
+
+\noindent \textit{Pré-condição}: selecionar o botão ``Salvar''.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item selecionar no menu o item ``Configuração de site'';
+    \item selecionar a opção ``Usuários e grupos'';
+    \item preencher o campo ``Busca de Usuários'';
+    \item selecionar a caixa ``Remover'' na linha onde se encontra o nome do usuário requisitado; e
+    \item selecionar o botão de salvar as informações.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: não se aplica.
+
+
+%enviar mensagem
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Enviar mensagem para a associação.}
+
+\noindent \textit{Pré-condição}: selecionar o botão ``Enviar''.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item acessar a aba contato;
+    \item inserir as informações para a mensagem; e
+    \item selecionar o botão de envio.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não preenchimento do nome, e-mail, assunto ou corpo da mensagem.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Enviar'' sem ter preenchido nome, e-mail, assunto ou texto da mensagem.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item os campos obrigatórios vazios apresentam a seguinte mensagem: ``Preencha este campo''.
+\end{enumerate}
+
+%SISTEMA DE ASSOCIADOS
 
 %consultar associados
 \vspace{0.7cm}
 \leftline{ \textbf{Caso de uso}: Consultar associados.}
 
-\noindent \textit{Pré-condição}: preencher o campo ``Consultar''.
+\noindent \textit{Pré-condição}: preencher o campo ``Pesquisar''.
 
 \noindent \textit{Fluxo principal}:
 
@@ -752,8 +890,6 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 \end{enumerate}
 
 \noindent \textit{Fluxo alternativo}: não se aplica.
-
-
 
 
 %cadastrar associado
@@ -790,7 +926,6 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
     \item selecionar o botão ``Salvar''; e
     \item os campos obrigatórios apresentam a seguinte mensagem: ``Preencha este campo''.
 \end{enumerate}
-
 
 
 
@@ -856,6 +991,122 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 \end{enumerate}
 
 
+%%Implementar e alterar fluxo
+%consultar usuário
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Consultar usuário.}
+
+\noindent \textit{Pré-condição}: preencher o campo ``Pesquisar''.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item na página inicial do sistema, inserir alguma informação sobre qualquer atributo do usuário; e
+    \item a medida que o usuário digitar, o sistema retornará, em tempo real, os resultados para busca.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: não se aplica.
+
+
+%cadastrar usuário
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Cadastrar usuário.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de registrar o associado.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item acionar o botão ``Adicionar Associado'';
+    \item preencher nome, identidade, telefone, rua, número e bairro; e
+    \item selecionar o botão ``Registrar Associado''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento do cadastro.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Cancelar''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não preenchimento dos dados obrigatórios.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Salvar'' sem ter inserido os dados obrigatórios.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Salvar''; e
+    \item os campos obrigatórios apresentam a seguinte mensagem: ``Preencha este campo''.
+\end{enumerate}
+
+
+
+%editar usuário
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Alterar usuário.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de atualizar o associado.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item selecionar o ícone de edição na linha do registro a ser atualizado;
+    \item editar os campos necessários; e
+    \item selecionar o botão de atualizar o associado.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento da edição.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Cancelar''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Não preenchimento dos dados obrigatórios.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Salvar'' sem ter inserido os dados obrigatórios.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Atualizar Associado''; e
+    \item os campos obrigatórios apresentam a seguinte mensagem: ``Preencha este campo''.
+\end{enumerate}
+
+
+
+%excluir usuário
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Excluir usuário.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de excluir o associado.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item selecionar o ícone de exclusão na linha do registro a ser atualizado;
+    \item o sistema exibirá uma mensagem de confirmação de exclusão; e
+    \item selecionar o botão ``OK''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento da exclusão.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item Selecionar o botão ``Cancelar''.
+\end{enumerate}
+
+
 
 %gerar carteirinha
 \vspace{0.7cm}
@@ -871,217 +1122,6 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 \end{enumerate}
 
 \noindent \textit{Fluxo alternativo}: não se aplica.
-
-%Gerenciar usuários
-
-\vspace{0.7cm}
-\leftline{ \textbf{Caso de uso}: Consultar usuários.}
-
-\noindent \textit{Pré-condição}: estar na página de usuários.
-
-\noindent \textit{Fluxo principal}:
-
-\begin{enumerate}
-    \item selecionar no menu o item ``Configuração de site''; e
-    \item selecionar a opção ``Usuários e grupos''.
-\end{enumerate}
-
-\noindent \textit{Fluxo alternativo}: não se aplica.
-
-
-
-%cadastrar usuário
-\vspace{0.7cm}
-\leftline{ \textbf{Caso de uso}: Cadastrar usuário.}
-
-\noindent \textit{Pré-condição}: selecionar o botão ``Registrar''.
-
-\noindent \textit{Fluxo principal}:
-
-\begin{enumerate}
-    \item selecionar no menu o item ``Configuração de site'';
-    \item selecionar a opção ``Usuários e grupos'';
-    \item selecionar o botão ``Adicionar Novo Usuário'';
-    \item informar, obrigatoriamente, e-mail e nome de usuário; e
-    \item selecionar o botão de registrar o usuário.
-\end{enumerate}
-
-\noindent \textit{Fluxo alternativo}: Não preenchimento de e-mail ou nome de usuário.
-
-\noindent \textit{Pré-condição}: usuário acionou o botão ``Registrar'' sem ter inserido o e-mail ou nome de usuário.
-
-\noindent \textit{Etapas}:
-
-\begin{enumerate}
-    \item selecionar o botão ``Registrar'';
-    \item o sistema retorna a mensagem: ``Houve erros''; e
-    \item os campos de e-mail e usuário apresentam a seguinte mensagem: ``Dado obrigatório não informado''.
-\end{enumerate}
-
-
-
-
-%alterar usuário
-\vspace{0.7cm}
-\leftline{ \textbf{Caso de uso}: Alterar usuário.}
-
-\noindent \textit{Pré-condição}: selecionar o botão ``Salvar''.
-
-\noindent \textit{Fluxo principal}:
-
-\begin{enumerate}
-    \item selecionar no menu o item ``Configuração de site'';
-    \item selecionar a opção ``Usuários e grupos'';
-    \item preencher o campo ``Busca de Usuários'';
-    \item selecionar o nome do usuário requisitado;
-    \item preencher substituir as informações dos campos necessários; e
-    \item acessar o botão de salvar as informações.
-\end{enumerate}
-
-\noindent \textit{Fluxo alternativo}: Cancelamento da edição.
-
-\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
-
-\noindent \textit{Etapas}:
-
-\begin{enumerate}
-    \item selecionar o botão ``Cancelar''; e
-    \item sistema exibe a mensagem: ``Alterações canceladas''.
-\end{enumerate}
-
-\noindent \textit{Fluxo alternativo}: Não preenchimento do e-mail.
-
-\noindent \textit{Pré-condição}: usuário acionou o botão ``Salvar'' sem ter haver um e-mail inserido.
-
-\noindent \textit{Etapas}:
-
-\begin{enumerate}
-    \item o sistema retorna a mensagem: ``Existem alguns erros''; e
-    \item o campo de e-mail apresenta a seguinte mensagem: ``Dado obrigatório não informado''.
-\end{enumerate}
-
-
-
-%remover usuário
-\vspace{0.7cm}
-\leftline{ \textbf{Caso de uso}: Excluir usuário.}
-
-\noindent \textit{Pré-condição}: selecionar o botão ``Salvar''.
-
-\noindent \textit{Fluxo principal}:
-
-\begin{enumerate}
-    \item selecionar no menu o item ``Configuração de site'';
-    \item selecionar a opção ``Usuários e grupos'';
-    \item preencher o campo ``Busca de Usuários'';
-    \item selecionar a caixa ``Remover'' na linha onde se encontra o nome do usuário requisitado; e
-    \item selecionar o botão de salvar as informações.
-\end{enumerate}
-
-\noindent \textit{Fluxo alternativo}: não se aplica.
-
-
-
-%criar site plone
-\vspace{0.7cm}
-\leftline{ \textbf{Caso de uso}: Criar site \textit{Plone}.}
-
-\noindent \textit{Pré-condição}: acionar o botão ``Criar site \textit{Plone}''.
-
-\noindent \textit{Fluxo principal}:
-
-\begin{enumerate}
-    \item entrar com usuário e senha no painel de administração do \textit{Zope};
-    \item selecionar o botão ``Criar um novo site \textit{Plone}'';
-    \item inserir o identificador do site, seu título, idioma e fuso horário; e
-    \item selecionar o botão ``Criar site \textit{Plone}''.
-\end{enumerate}
-
-\noindent \textit{Fluxo alternativo}: Não preenchimento do identificador e do título.
-
-\noindent \textit{Pré-condição}: usuário acionou o botão de criação do site sem ter inserido seu título e identificador.
-
-\noindent \textit{Etapas}:
-
-\begin{enumerate}
-    \item selecionar o botão ``Criar site \textit{Plone}''; e
-    \item o sistema retorna a mensagem: ``Desculpe, mas parece haver um erro…''.
-\end{enumerate}
-
-
-%consultar site plone
-\vspace{0.7cm}
-\leftline{ \textbf{Caso de uso}: Consultar site \textit{Plone}.}
-
-\noindent \textit{Pré-condição}: entrar com um usuário e senha na plataforma do \textit{Zope}.
-
-\noindent \textit{Fluxo principal}:
-
-\begin{enumerate}
-    \item entrar com usuário e senha no painel de administração do \textit{Zope}.
-\end{enumerate}
-
-\noindent \textit{Fluxo alternativo}: não se aplica.
-
-
-%alterar site plone
-\vspace{0.7cm}
-\leftline{ \textbf{Caso de uso}: Alterar site \textit{Plone}.}
-
-\noindent \textit{Pré-condição}: selecionar o nome do site.
-
-\noindent \textit{Fluxo principal}:
-
-\begin{enumerate}
-    \item entrar com usuário e senha no painel de administração do \textit{Zope}; e
-    \item selecionar o nome do site ou ir em ``Ver seu site \textit{Plone}'' caso exista somente um.
-\end{enumerate}
-
-\noindent \textit{Fluxo alternativo}: não se aplica.
-
-
-%excluir site plone
-\vspace{0.7cm}
-\leftline{ \textbf{Caso de uso}: Excluir site \textit{Plone}.}
-
-\noindent \textit{Pré-condição}: selecionar o botão ``Delete''.
-
-\noindent \textit{Fluxo principal}:
-
-\begin{enumerate}
-    \item entrar com usuário e senha no painel de administração do \textit{Zope};
-    \item selecionar o link ``Interface de Administração '';
-    \item marcar a \textit{checkbox} do site; e
-    \item acionar o botão para deletá-lo.
-\end{enumerate}
-
-\noindent \textit{Fluxo alternativo}: Não se aplica.
-
-
-
-%enviar mensagem
-\vspace{0.7cm}
-\leftline{ \textbf{Caso de uso}: Enviar mensagem para a associação.}
-
-\noindent \textit{Pré-condição}: selecionar o botão ``Enviar''.
-
-\noindent \textit{Fluxo principal}:
-
-\begin{enumerate}
-    \item acessar a aba contato;
-    \item inserir as informações para a mensagem; e
-    \item selecionar o botão de envio.
-\end{enumerate}
-
-\noindent \textit{Fluxo alternativo}: Não preenchimento do nome, e-mail, assunto ou corpo da mensagem.
-
-\noindent \textit{Pré-condição}: usuário acionou o botão ``Enviar'' sem ter preenchido nome, e-mail, assunto ou texto da mensagem.
-
-\noindent \textit{Etapas}:
-
-\begin{enumerate}
-    \item os campos obrigatórios vazios apresentam a seguinte mensagem: ``Preencha este campo''.
-\end{enumerate}
 
 
 
@@ -1113,8 +1153,9 @@ A Tabela \ref{lista-sprints} contém cada uma das tarefas e as organiza por: ide
 \textit{Sprint 3} & Migração do portal e do sistema de associados para o servidor & 5 & 6  \\
 \textit{Sprint 4} & Configuração do banco de dados e sua conexão com o sistema & 4 & 3  \\
 \textit{Sprint 5} & Criação do sistema de autenticação com criptografia & 2 & 5  \\
-\textit{Sprint 6} & Organização da página inicial do portal & 5 & 7  \\
-\textit{Sprint 7} & Inserção de informações nas páginas informativas & 5 & 7  \\ %criação das páginas 'sobre', 'contato', 'equipe' 
+\textit{Sprint 6} & Organização da página inicial do portal & 5 & 6  \\
+\textit{Sprint 7} & Inserção de informações nas páginas & 5 & 20  \\ %criação das páginas 'sobre', 'contato', 'equipe' 
+\textit{Sprint 8} & Configuração do \textit{Google Analytics} e ajustes gerais & 3 & 5 \\
 \hline
 \end{tabular}
 \fonte{Autor.}
@@ -1139,11 +1180,15 @@ O tempo destinado à execução das tarefas foi estipulado em somente 3 dias por
 
 \textbf{\textit{Sprint 5}}: a tarefa pertencente a essa \textit{sprint} está relacionada à segurança das informações dos associados e dos administradores do sistema, visto que dados confidenciais podem ser acessados por terceiros caso não exista algum método de criptografia no armazenamento de senhas e na realização de \textit{login} em uma aplicação web.
 
-A prioridade para realização das atividades é baixa, isto porque não existirão dados pessoais salvos na base de dados enquanto todo o projeto não estiver concluído, e o prazo para a implementação da criptografia é pequeno porque os métodos utilizados são simples e amplamente conhecidos pelo autor.
+A prioridade para realização das atividades é baixa, isto porque não existirão dados pessoais salvos na base de dados enquanto todo o projeto não estiver concluído, e o prazo para a implementação da criptografia de senha na base de dados é pequeno porque os métodos utilizados são simples e amplamente conhecidos pelo autor.
 
-\textbf{\textit{Sprint 6}}: as duas últimas \textit{sprints} necessitam de uma participação maior do cliente, por isso os prazos e níveis de prioridades são maiores que as anteriores. Na sexta \textit{sprint} as atividades a serem desempenhadas são.... 
+\textbf{\textit{Sprint 6}}: as \textit{sprints} 6 e 7 são voltadas exclusivamente para o portal e dependem que os responsáveis pela associação informem a estrutura e o conteúdo a ser implementado no sistema. Na referida \textit{sprint} o que será construído é a estrutura da página inicial, que pode ser considerada complexa pois deve haver a correta escolha do conteúdo a ser apresentado na mesma para que haja uma boa impressão ao visitante, tanto em relação à elegância quanto a disposição de elementos mais prováveis de serem acessados, como: notícias, eventos e redes sociais. 
 
-\textbf{\textit{Sprint 7}}:
+A justificativa para a escolha do prazo se dá em maior parte pela necessidade de atuação junto ao cliente e não pela complexidade da tarefa, enquanto que a prioridade foi definida tendo como base a importância de se ter esquematizado o \textit{layout} do portal.
+
+\textbf{\textit{Sprint 7}}: para a sétima \textit{sprint} existe a necessidade de uma participação por parte do cliente ainda maior que a anterior, por isso os prazos e níveis de prioridades são maiores que os anteriores. Nesta \textit{sprint} as atividades a serem desempenhadas se resumem no preenchimento de todas as páginas do portal com as informações passadas pelos responsáveis da associação. É importante ressaltar que a execução das atividades referentes à \textit{sprint} atual foi realizada concomitantemente com outras tarefas. 
+
+\textbf{\textit{Sprint 8}}: a oitava e última \textit{sprint} engloba a configuração do \textit{Google Analytics} nos sistemas web e a execução de ajustes visuais, referentes à reprodução de vídeos e imagens da galeria e à responsividade de alguns elementos, como o rodapé. Por serem poucos ajustes e que possuem finalidade de aprimorar o projeto, foram definidos uma baixa prioridade e um menor prazo para execução das atividades. 
 
 %apresentação da interface -> prioridade: 5 -> prazo: 30 dias
 %criação das páginas de notícias e eventos -> prioridade: 4 -> prazo: 7 dias
