@@ -293,7 +293,9 @@ Sendo consideravelmente mais simples que o visto anteriormente, o diagrama repre
 \label{subsubsec:fluxos}
 \hspace{2.5cm}
 
-A seguir estão os fluxos de eventos para os casos de uso definidos anteriormente. Tais fluxos auxiliam ainda mais na compreensão de como o sistema se comportará após cada requisição do usuário e quais possibilidades de interação com a interface do software este terá ao navegar pelas telas. Para o fluxo de eventos do caso de uso ''Gerenciar imagens, vídeos ou documentos``, o termo utilizado para representar todos os três tipos foi ''arquivo``, isto porque, diferentemente dos demais elementos, o \textit{Plone} os trata como arquivos, mesmo tendo suas peculiaridades.
+A seguir estão os fluxos de eventos para os casos de uso definidos anteriormente. Tais fluxos auxiliam ainda mais na compreensão de como o sistema se comportará após cada requisição do usuário e quais possibilidades de interação com a interface do software este terá ao navegar pelas telas. 
+
+Para o fluxo de eventos do caso de uso ``Gerenciar imagens, vídeos ou documentos'', o termo utilizado para representar todos os três tipos foi ``arquivo'', isto porque, diferentemente dos demais elementos, o \textit{Plone} os trata como arquivos, mesmo tendo suas peculiaridades. Já em relação aos casos de uso ``Dar manutenção'' e ``Fazer backup dos dados'', foi decidido que não serão apresentados seus fluxos de eventos por razões de segurança e complexidade, além de que são etapas só executadas pelo super administrador e com uma frequência ainda não estipulada, embora a ideia inicial é de que sejam executadas com grande intervalo de tempo.  
 
 
 %criar página
@@ -441,7 +443,7 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 \vspace{0.7cm}
 \leftline{ \textbf{Caso de uso}: Alterar notícia.}
 
-\noindent \textit{Pré-condição}: selecionar a opção de salvar a notícia.
+\noindent \textit{Pré-condição}: selecionar a opção de editar a notícia.
 
 \noindent \textit{Fluxo principal}:
 
@@ -558,7 +560,7 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 \vspace{0.7cm}
 \leftline{ \textbf{Caso de uso}: Alterar evento.}
 
-\noindent \textit{Pré-condição}: selecionar a opção de salvar o evento.
+\noindent \textit{Pré-condição}: selecionar a opção de editar o evento.
 
 \noindent \textit{Fluxo principal}:
 
@@ -628,22 +630,19 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 
 %cadastrar arquivo
 \vspace{0.7cm}
-\leftline{ \textbf{Caso de uso}: Publicar arquivo.}
+\leftline{ \textbf{Caso de uso}: Cadastrar arquivo.}
 
-\noindent \textit{Pré-condição}: selecionar a opção de salvar o evento.
+\noindent \textit{Pré-condição}: selecionar a opção de adicionar arquivo ou adicionar imagem.
 
 \noindent \textit{Fluxo principal}:
 
 \begin{enumerate}
     \item selecionar no menu o item ``Conteúdo'';
-    \item selecionar a pasta eventos;
-    \item selecionar a pasta do ano do evento;
-    \item selecionar no menu o item ``Adicionar item'';
-    \item selecionar o item ``Evento'';
-    \item preencher obrigatoriamente o título;
+    \item selecionar a pasta onde deseja adicionar o arquivo;
+    \item selecionar no menu o item ``Adicionar arquivo'';
+    \item anexar obrigatoriamente o arquivo;
     \item selecionar a opção ``Salvar'';
-    \item selecionar no menu o item ``Estado''; e
-    \item selecionar a opção ``Publicar''.
+    \item sistema retorna a mensagem: ``item criado''.
 \end{enumerate}
 
 \noindent \textit{Fluxo alternativo}: Cancelamento do cadastro.
@@ -654,19 +653,7 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 
 \begin{enumerate}
     \item selecionar o botão ``Cancelar''; e
-    \item o sistema retorna a mensagem: ``Adicionar Novo Item operação cancelada''.
-\end{enumerate}
-
-\noindent \textit{Fluxo alternativo}: Não preenchimento do título.
-
-\noindent \textit{Pré-condição}: usuário acionou o botão ``Salvar'' sem ter inserido o título do evento.
-
-\noindent \textit{Etapas}:
-
-\begin{enumerate}
-    \item selecionar o botão ``Salvar'';
-    \item o sistema retorna a mensagem: ``Existem alguns erros''; e
-    \item o campo de título apresenta a seguinte mensagem: ``Dado obrigatório não informado''.
+    \item o sistema leva o usuário até o diretório onde estava.
 \end{enumerate}
 
 
@@ -675,15 +662,14 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 \vspace{0.7cm}
 \leftline{ \textbf{Caso de uso}: Alterar arquivo.}
 
-\noindent \textit{Pré-condição}: selecionar a opção de salvar o evento.
+\noindent \textit{Pré-condição}: selecionar a opção de editar o arquivo.
 
 \noindent \textit{Fluxo principal}:
 
 \begin{enumerate}
     \item selecionar no menu o item ``Conteúdo'';
-    \item selecionar a pasta eventos;
-    \item selecionar a pasta do ano do evento;
-    \item selecionar o evento; e
+    \item selecionar a pasta do arquivo;
+    \item selecionar o arquivo; e
     \item selecionar no menu o item ``Edição''.
 \end{enumerate}
 
@@ -698,33 +684,19 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
     \item o sistema retorna a mensagem: ``Edição cancelada''.
 \end{enumerate}
 
-\noindent \textit{Fluxo alternativo}: Não preenchimento do título.
-
-\noindent \textit{Pré-condição}: usuário acionou o botão ``Salvar'' sem ter inserido o título do evento.
-
-\noindent \textit{Etapas}:
-
-\begin{enumerate}
-    \item selecionar o botão ``Salvar'';
-    \item o sistema retorna a mensagem: ``Existem alguns erros''; e
-    \item o campo de título apresenta a seguinte mensagem: ``Dado obrigatório não informado''.
-\end{enumerate}
-
-
 
 %excluir arquivo
 \vspace{0.7cm}
 \leftline{ \textbf{Caso de uso}: Excluir arquivo.}
 
-\noindent \textit{Pré-condição}: selecionar a opção de excluir o evento.
+\noindent \textit{Pré-condição}: selecionar a opção de excluir o arquivo.
 
 \noindent \textit{Fluxo principal}:
 
 \begin{enumerate}
     \item selecionar no menu o item ``Conteúdo'';
-    \item selecionar a pasta eventos;
-    \item selecionar a pasta do ano do evento;
-    \item selecionar o evento;
+    \item selecionar a pasta do arquivo;
+    \item selecionar o arquivo;
     \item selecionar no menu o item ``Ações'';
     \item ir em ``Excluir'';
     \item o sistema emitirá a mensagem: ``Você realmente quer apagar este item?''; e
@@ -744,7 +716,6 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 
 
 %Gerenciar usuários
-
 \vspace{0.7cm}
 \leftline{ \textbf{Caso de uso}: Consultar usuários.}
 
@@ -902,18 +873,18 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 
 \begin{enumerate}
     \item acionar o botão ``Adicionar Associado'';
-    \item preencher nome, identidade, telefone, rua, número e bairro; e
+    \item preencher obrigatoriamente nome, e-mail identidade, CPF, telefone, rua, número e bairro; e
     \item selecionar o botão ``Registrar Associado''.
 \end{enumerate}
 
 \noindent \textit{Fluxo alternativo}: Cancelamento do cadastro.
 
-\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Voltar''.
 
 \noindent \textit{Etapas}:
 
 \begin{enumerate}
-    \item selecionar o botão ``Cancelar''.
+    \item selecionar o botão ``Voltar''.
 \end{enumerate}
 
 \noindent \textit{Fluxo alternativo}: Não preenchimento dos dados obrigatórios.
@@ -945,12 +916,12 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 
 \noindent \textit{Fluxo alternativo}: Cancelamento da edição.
 
-\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Voltar''.
 
 \noindent \textit{Etapas}:
 
 \begin{enumerate}
-    \item Selecionar o botão ``Cancelar''.
+    \item Selecionar o botão ``Voltar''.
 \end{enumerate}
 
 \noindent \textit{Fluxo alternativo}: Não preenchimento dos dados obrigatórios.
@@ -1012,24 +983,24 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 \vspace{0.7cm}
 \leftline{ \textbf{Caso de uso}: Cadastrar usuário.}
 
-\noindent \textit{Pré-condição}: selecionar a opção de registrar o associado.
+\noindent \textit{Pré-condição}: selecionar a opção de registrar administrador.
 
 \noindent \textit{Fluxo principal}:
 
 \begin{enumerate}
-    \item acionar o botão ``Adicionar Associado'';
-    \item preencher nome, identidade, telefone, rua, número e bairro; e
-    \item selecionar o botão ``Registrar Associado''.
+    \item acionar o botão ``Adicionar Administrador'';
+    \item preencher nome, e-mail, senha e nível de permissão (secretário ou presidente); e
+    \item selecionar o botão ``Registrar Administrador''.
 \end{enumerate}
 
 \noindent \textit{Fluxo alternativo}: Cancelamento do cadastro.
 
-\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Voltar''.
 
 \noindent \textit{Etapas}:
 
 \begin{enumerate}
-    \item selecionar o botão ``Cancelar''.
+    \item selecionar o botão ``Voltar''.
 \end{enumerate}
 
 \noindent \textit{Fluxo alternativo}: Não preenchimento dos dados obrigatórios.
@@ -1044,29 +1015,41 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 \end{enumerate}
 
 
+\noindent \textit{Fluxo alternativo}: Nível de permissão de secretário.
+
+\noindent \textit{Pré-condição}: usuário do tipo ``secretário'' solicitou cadastrar administrador ao sistema.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Adicionar Administrador''; e
+    \item sistema retorna a seguinte mensagem: ``Você não tem permissão para realizar essa operação!''.
+\end{enumerate}
+
+
 
 %editar usuário
 \vspace{0.7cm}
 \leftline{ \textbf{Caso de uso}: Alterar usuário.}
 
-\noindent \textit{Pré-condição}: selecionar a opção de atualizar o associado.
+\noindent \textit{Pré-condição}: selecionar a opção de editar o usuário.
 
 \noindent \textit{Fluxo principal}:
 
 \begin{enumerate}
     \item selecionar o ícone de edição na linha do registro a ser atualizado;
     \item editar os campos necessários; e
-    \item selecionar o botão de atualizar o associado.
+    \item selecionar o botão de atualizar o administrador.
 \end{enumerate}
 
 \noindent \textit{Fluxo alternativo}: Cancelamento da edição.
 
-\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Voltar''.
 
 \noindent \textit{Etapas}:
 
 \begin{enumerate}
-    \item Selecionar o botão ``Cancelar''.
+    \item Selecionar o botão ``Voltar''.
 \end{enumerate}
 
 \noindent \textit{Fluxo alternativo}: Não preenchimento dos dados obrigatórios.
@@ -1076,9 +1059,23 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 \noindent \textit{Etapas}:
 
 \begin{enumerate}
-    \item selecionar o botão ``Atualizar Associado''; e
+    \item selecionar o botão ``Atualizar Administrador''; e
     \item os campos obrigatórios apresentam a seguinte mensagem: ``Preencha este campo''.
 \end{enumerate}
+
+
+
+\noindent \textit{Fluxo alternativo}: Secretário tenta editar dados de outro administrador.
+
+\noindent \textit{Pré-condição}: usuário do tipo ``secretário'' solicitou editar outro administrador do sistema.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Editar''; e
+    \item sistema retorna a seguinte mensagem: ``Você não tem permissão para realizar essa operação!''.
+\end{enumerate}
+
 
 
 
@@ -1086,7 +1083,7 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 \vspace{0.7cm}
 \leftline{ \textbf{Caso de uso}: Excluir usuário.}
 
-\noindent \textit{Pré-condição}: selecionar a opção de excluir o associado.
+\noindent \textit{Pré-condição}: selecionar a opção de excluir o usuário.
 
 \noindent \textit{Fluxo principal}:
 
@@ -1104,6 +1101,18 @@ A seguir estão os fluxos de eventos para os casos de uso definidos anteriorment
 
 \begin{enumerate}
     \item Selecionar o botão ``Cancelar''.
+\end{enumerate}
+
+
+\noindent \textit{Fluxo alternativo}: Secretário tenta excluir um administrador.
+
+\noindent \textit{Pré-condição}: usuário do tipo ``secretário'' solicitou editar algum administrador do sistema.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Excluir''; e
+    \item sistema retorna a seguinte mensagem: ``Você não tem permissão para realizar essa operação!''.
 \end{enumerate}
 
 
