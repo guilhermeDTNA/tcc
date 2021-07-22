@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -19,55 +19,55 @@ Repeated entry---line 109 of file referencias.bib
 I'm skipping whatever remains of this entry
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 You can't pop an empty literal stack for entry elias
 while executing---line 2146 of file abntex2-alf.bst
 Warning--campo title vazio em vitalino2016descomplicando
 +---------------------------------------------------------+
-| Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 66 entries,
+You've used 67 entries,
             6714 wiz_defined-function locations,
-            1517 strings with 20864 characters,
-and the built_in function-call counts, 57950 in all, are:
-= -- 4913
-> -- 1849
+            1520 strings with 21042 characters,
+and the built_in function-call counts, 58625 in all, are:
+= -- 4956
+> -- 1881
 < -- 569
-+ -- 1221
-- -- 560
-* -- 4050
-:= -- 7574
-add.period$ -- 219
-call.type$ -- 68
-change.case$ -- 650
-chr.to.int$ -- 137
-cite$ -- 62
-duplicate$ -- 3742
-empty$ -- 3765
-format.name$ -- 2696
-if$ -- 12995
++ -- 1233
+- -- 570
+* -- 4099
+:= -- 7669
+add.period$ -- 222
+call.type$ -- 69
+change.case$ -- 661
+chr.to.int$ -- 138
+cite$ -- 63
+duplicate$ -- 3774
+empty$ -- 3811
+format.name$ -- 2743
+if$ -- 13148
 int.to.chr$ -- 4
 int.to.str$ -- 3
-missing$ -- 1133
-newline$ -- 303
-num.names$ -- 305
-pop$ -- 1404
+missing$ -- 1150
+newline$ -- 308
+num.names$ -- 310
+pop$ -- 1430
 preamble$ -- 1
-purify$ -- 250
+purify$ -- 254
 quote$ -- 0
-skip$ -- 4204
+skip$ -- 4241
 stack$ -- 1
-substring$ -- 2234
-swap$ -- 1547
+substring$ -- 2251
+swap$ -- 1556
 text.length$ -- 73
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 13
 warning$ -- 1
-while$ -- 448
+while$ -- 454
 width$ -- 0
-write$ -- 956
+write$ -- 969
 (There were 2 error messages)

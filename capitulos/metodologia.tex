@@ -863,6 +863,22 @@ Para o fluxo de eventos do caso de uso ``Gerenciar imagens, vídeos ou documento
 \noindent \textit{Fluxo alternativo}: não se aplica.
 
 
+%consultar associados
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Ver detalhes.}
+
+\noindent \textit{Pré-condição}: selecionar o botão ``Exibir detalhes''.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item na página inicial do sistema, selecionar o botão ``Exibir detalhes'' de um associado; e
+    \item o sistema retorna as seguintes informações do associado: número de identificação, nome, apelido, rua, número, bairro, número de telefone/celular, e-mail, número do Registro Geral (RG) e número do Cadastro de Pessoas Físicas (CPF).
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: não se aplica.
+
+
 %cadastrar associado
 \vspace{0.7cm}
 \leftline{ \textbf{Caso de uso}: Cadastrar associado.}
@@ -898,6 +914,41 @@ Para o fluxo de eventos do caso de uso ``Gerenciar imagens, vídeos ou documento
     \item os campos obrigatórios apresentam a seguinte mensagem: ``Preencha este campo''.
 \end{enumerate}
 
+
+\noindent \textit{Fluxo alternativo}: Endereço de e-mail não é válido.
+
+\noindent \textit{Pré-condição}: usuário solicitou cadastrar associado com um e-mail inválido.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Salvar''; e
+    \item sistema retorna a seguinte mensagem: ``E-mail inválido!''.
+\end{enumerate}
+
+
+\noindent \textit{Fluxo alternativo}: CPF não é válido.
+
+\noindent \textit{Pré-condição}: usuário solicitou cadastrar associado com um CPF inválido.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Salvar''; e
+    \item sistema retorna a seguinte mensagem: ``CPF inválido!''.
+\end{enumerate}
+
+
+\noindent \textit{Fluxo alternativo}: Identidade ou CPF já existente na base de dados.
+
+\noindent \textit{Pré-condição}: usuário solicitou cadastrar associado com um número de identidade ou CPF já existente no banco de dados.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Salvar''; e
+    \item sistema retorna a seguinte mensagem: ``CPF ou identidade já existe no sistema!''.
+\end{enumerate}
 
 
 %editar associado
@@ -936,6 +987,42 @@ Para o fluxo de eventos do caso de uso ``Gerenciar imagens, vídeos ou documento
 \end{enumerate}
 
 
+\noindent \textit{Fluxo alternativo}: Endereço de e-mail não é válido.
+
+\noindent \textit{Pré-condição}: usuário solicitou atualizar associado com um e-mail inválido.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Atualizar Associado''; e
+    \item sistema retorna a seguinte mensagem: ``E-mail inválido!''.
+\end{enumerate}
+
+
+\noindent \textit{Fluxo alternativo}: CPF não é válido.
+
+\noindent \textit{Pré-condição}: usuário solicitou atualizar associado com um CPF inválido.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Atualizar Associado''; e
+    \item sistema retorna a seguinte mensagem: ``CPF inválido!''.
+\end{enumerate}
+
+
+\noindent \textit{Fluxo alternativo}: Identidade ou CPF já existente na base de dados.
+
+\noindent \textit{Pré-condição}: usuário solicitou atualizar associado com um número de identidade ou CPF já existente no banco de dados.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Atualizar Associado''; e
+    \item sistema retorna a seguinte mensagem: ``CPF ou identidade já existe no sistema!''.
+\end{enumerate}
+
+
 
 %excluir associado
 \vspace{0.7cm}
@@ -958,14 +1045,14 @@ Para o fluxo de eventos do caso de uso ``Gerenciar imagens, vídeos ou documento
 \noindent \textit{Etapas}:
 
 \begin{enumerate}
-    \item Selecionar o botão ``Cancelar''.
+    \item selecionar o botão ``Cancelar''.
 \end{enumerate}
 
 
 %%Implementar e alterar fluxo
 %consultar usuário
 \vspace{0.7cm}
-\leftline{ \textbf{Caso de uso}: Consultar usuário.}
+\leftline{ \textbf{Caso de uso}: Consultar usuários.}
 
 \noindent \textit{Pré-condição}: preencher o campo ``Pesquisar''.
 
@@ -988,7 +1075,7 @@ Para o fluxo de eventos do caso de uso ``Gerenciar imagens, vídeos ou documento
 \noindent \textit{Fluxo principal}:
 
 \begin{enumerate}
-    \item acionar o botão ``Adicionar Administrador'';
+    \item acionar o botão ``Registrar Administrador'';
     \item preencher nome, e-mail, senha e nível de permissão (secretário ou presidente); e
     \item selecionar o botão ``Registrar Administrador''.
 \end{enumerate}
@@ -1010,7 +1097,7 @@ Para o fluxo de eventos do caso de uso ``Gerenciar imagens, vídeos ou documento
 \noindent \textit{Etapas}:
 
 \begin{enumerate}
-    \item selecionar o botão ``Salvar''; e
+    \item selecionar o botão ``Registrar Administrador''; e
     \item os campos obrigatórios apresentam a seguinte mensagem: ``Preencha este campo''.
 \end{enumerate}
 
@@ -1026,6 +1113,29 @@ Para o fluxo de eventos do caso de uso ``Gerenciar imagens, vídeos ou documento
     \item sistema retorna a seguinte mensagem: ``Você não tem permissão para realizar essa operação!''.
 \end{enumerate}
 
+
+\noindent \textit{Fluxo alternativo}: Endereço de e-mail não é válido.
+
+\noindent \textit{Pré-condição}: usuário solicitou cadastrar usuário com um e-mail inválido.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Registrar Administrador''; e
+    \item sistema retorna a seguinte mensagem: ``E-mail inválido!''.
+\end{enumerate}
+
+
+\noindent \textit{Fluxo alternativo}: E-mail já existente na base de dados.
+
+\noindent \textit{Pré-condição}: usuário solicitou cadastrar usuário com um endereço de e-mail já existente no banco de dados.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Registrar Administrador''; e
+    \item sistema retorna a seguinte mensagem: ``E-mail já existe no sistema!''.
+\end{enumerate}
 
 
 %editar usuário
@@ -1077,6 +1187,28 @@ Para o fluxo de eventos do caso de uso ``Gerenciar imagens, vídeos ou documento
 \end{enumerate}
 
 
+\noindent \textit{Fluxo alternativo}: Endereço de e-mail não é válido.
+
+\noindent \textit{Pré-condição}: usuário solicitou alterar administrador com um e-mail inválido.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Atualizar Administrador'; e
+    \item sistema retorna a seguinte mensagem: ``E-mail inválido!''.
+\end{enumerate}
+
+
+\noindent \textit{Fluxo alternativo}: E-mail já existente na base de dados.
+
+\noindent \textit{Pré-condição}: usuário solicitou atualizar administrador com um endereço de e-mail já existente no banco de dados.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Atualizar Administrador''; e
+    \item sistema retorna a seguinte mensagem: ``E-mail já existe no sistema!''.
+\end{enumerate}
 
 
 %excluir usuário
@@ -1100,7 +1232,7 @@ Para o fluxo de eventos do caso de uso ``Gerenciar imagens, vídeos ou documento
 \noindent \textit{Etapas}:
 
 \begin{enumerate}
-    \item Selecionar o botão ``Cancelar''.
+    \item selecionar o botão ``Cancelar''.
 \end{enumerate}
 
 
@@ -1113,6 +1245,56 @@ Para o fluxo de eventos do caso de uso ``Gerenciar imagens, vídeos ou documento
 \begin{enumerate}
     \item selecionar o botão ``Excluir''; e
     \item sistema retorna a seguinte mensagem: ``Você não tem permissão para realizar essa operação!''.
+\end{enumerate}
+
+
+
+%recuperar senha
+\vspace{0.7cm}
+\leftline{ \textbf{Caso de uso}: Recuperar senha.}
+
+\noindent \textit{Pré-condição}: selecionar o botão de enviar e-mail.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item selecionar o botão: ``Esqueci a senha'';
+    \item digitar o e-mail; e
+    \item selecionar o botão ``Enviar''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento da recuperação.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Voltar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Voltar''.
+\end{enumerate}
+
+
+\noindent \textit{Fluxo alternativo}: E-mail não existente na base de dados.
+
+\noindent \textit{Pré-condição}: usuário solicitou recuperação de senha para um e-mail inexistente no banco de dados do sistema.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Enviar''; e
+    \item sistema retorna a seguinte mensagem: ``E-mail não existe no sistema!''.
+\end{enumerate}
+
+
+\noindent \textit{Fluxo alternativo}: Endereço de e-mail não é válido.
+
+\noindent \textit{Pré-condição}: usuário solicitou recuperação de senha para um e-mail inválido.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Enviar''; e
+    \item sistema retorna a seguinte mensagem: ``E-mail inválido!''.
 \end{enumerate}
 
 
