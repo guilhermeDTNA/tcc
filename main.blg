@@ -17,6 +17,8 @@ Repeated entry---line 109 of file referencias.bib
  : @article{ginige2001web
  :                       ,
 I'm skipping whatever remains of this entry
+Warning--entry type for "sslpage" isn't style-file defined
+--line 584 of file referencias.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -29,45 +31,45 @@ Warning--campo title vazio em vitalino2016descomplicando
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 67 entries,
+You've used 68 entries,
             6714 wiz_defined-function locations,
-            1520 strings with 21042 characters,
-and the built_in function-call counts, 58625 in all, are:
-= -- 4956
-> -- 1881
-< -- 569
-+ -- 1233
-- -- 570
-* -- 4099
-:= -- 7669
-add.period$ -- 222
-call.type$ -- 69
-change.case$ -- 661
-chr.to.int$ -- 138
-cite$ -- 63
-duplicate$ -- 3774
-empty$ -- 3811
-format.name$ -- 2743
-if$ -- 13148
+            1525 strings with 21178 characters,
+and the built_in function-call counts, 60646 in all, are:
+= -- 5227
+> -- 1896
+< -- 644
++ -- 1313
+- -- 575
+* -- 4211
+:= -- 7909
+add.period$ -- 227
+call.type$ -- 70
+change.case$ -- 667
+chr.to.int$ -- 139
+cite$ -- 64
+duplicate$ -- 4024
+empty$ -- 3869
+format.name$ -- 2766
+if$ -- 13520
 int.to.chr$ -- 4
 int.to.str$ -- 3
-missing$ -- 1150
-newline$ -- 308
-num.names$ -- 310
-pop$ -- 1430
+missing$ -- 1166
+newline$ -- 313
+num.names$ -- 315
+pop$ -- 1449
 preamble$ -- 1
-purify$ -- 254
+purify$ -- 257
 quote$ -- 0
-skip$ -- 4241
+skip$ -- 4497
 stack$ -- 1
-substring$ -- 2251
-swap$ -- 1556
-text.length$ -- 73
+substring$ -- 2344
+swap$ -- 1642
+text.length$ -- 74
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 13
 warning$ -- 1
-while$ -- 454
+while$ -- 461
 width$ -- 0
-write$ -- 969
+write$ -- 984
 (There were 2 error messages)
