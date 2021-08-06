@@ -33,23 +33,76 @@ As metodologias de desenvolvimento de software, estudadas em subáreas da engenh
 %metodologia ágil
 \hspace{2.5cm}
 
-Os métodos ágeis surgiram na década de 90 para alterar a mentalidade das equipes de desenvolvimento da época, contradizendo os métodos tradicionais eliminando gasto com documentação excessiva, enfatizando a comunicação e aumentando a proximidade com o cliente para produzir software de qualidade \citeonline{sato2007uso}.
+Os métodos ágeis surgiram na década de 90 para alterar a mentalidade das equipes de desenvolvimento da época, contradizendo os métodos tradicionais eliminando gasto com documentação excessiva, enfatizando a comunicação e aumentandoí a proximidade com o cliente para produzir software de qualidade \citeonline{sato2007uso}.
 
 Segundo \citeonline{conforto2009gerenciamento}, a assinatura do manifesto ágil \footnote{Disponível em: \textsf{http://agilemanifesto.org/}} foi um marco para o nascimento das metodologias ágeis. O manifesto se trata de um documento em que a eficácia das metodologias tradicionais é questionada em cenários que envolvam incertezas e constantes mudanças no ambiente empresarial. 
 
 É importante ressaltar que tais metodologias podem ser aplicadas tanto em equipes menores, de desenvolvimento, por exemplo, quanto em projetos inteiros através do Gerenciamento Ágil de Projetos (GAP), constituídos por várias equipes. Também é interessante saber que um dos fundamentos do processo ágil é a construção de ciclos, cujo objetivo é adaptar e avaliar constantemente o produto antes que chegue no estado final, objetivando atribuí-lo qualidade perante os requisitos estipulados e a satisfação do cliente.
 
-A título de conhecimento dos diferentes métodos ágeis, o artigo de \citeonline{sato2007uso} emerge sobre os seguintes métodos:
+A seguir, estão descritos alguns dos principais métodos de desenvolvimento de software existentes. Para o primeiro deles, \textit{Scrum}, foram descritos mais detalhes em relação aos demais por dois motivos principais: além de ser uma das metodologias, ou \textit{framework}, mais conhecidas e utilizadas atualmente, como demonstra a Figura \ref{ageis-microsoft}, ela também possui aspectos em comum com outras, tais como conceitos referentes a coleta de requisitos, retrospectivas, reuniões em pé e duração das \textit{sprints}, podendo esta ser nomeada como ciclos, o que varia de método para método.
 
-\begin{itemize}
- \item \textbf{\textit{Scrum}}: desenvolvido nas décadas de 80 e 90. Este modelo propõe interações (\textit{sprints}) de 2 semanas a um mês com acompanhamento de reuniões em pé. O líder da equipe é denominado \textit{Scrum master} e as tarefas e funcionalidades, que são incluídas em uma lista, são chamadas de ``\textit{Product Backlog}'';   
- \item \textbf{\textit{Lean Software Development}}: baseado no sistema de produção da Toyota, este método revolucionou a manufatura, o desenvolvimento de produtos e o gerenciamento da cadeia de suprimentos. Sustentado sobre sete princípios: ``Elimine Desperdícios'', ``Inclua a Qualidade no Processo'', ``Crie Conhecimento'', ``Adie comprometimentos'', ``Entregue rápido'', ``Respeite as pessoas'' e ``Otimize o Todo'' \cite{sato2007uso};
- \item \textbf{Metodologia da família \textit{Crystal}}: possui uma peculiaridade, a ``habitabilidade'', que significa ``o mínimo de processo necessário para que a equipe consiga ter sucesso'' \cite{sato2007uso}. Além disso, seus métodos compartilham propriedades como: entrega frequente, reflexão e comunicação;
- \item \textbf{\textit{Feature Driven Development} (FDD)}: criada na década de 90, ele se aproveita de diagramas UML para representar classes de diferentes responsabilidades e é constituído por duas fases: a de concepção e planejamento e a iterativa de construção, compostas por 5 processos internos ao todo;
- \item \textbf{\textit{Adaptive Software Development}}: método que propõe três fases possivelmente sobrepostas: especulação, colaboração e aprendizado. Aqui, o conhecimento sobre falhas, oriundas de falsas premissas, é adquirido por meio de curtas iterações, sendo corrigidas vagarosamente;
- \item \textbf{\textit{Dynamic systems development method} (DSDM)}: seu desenvolvimento se iniciou em 1994 e possui duas fases primárias, uma de viabilidade, cujo objetivo é verificar se é viável a execução deste método na situação decorrente, e um estudo de negócio para definir os requisitos iniciais e a arquitetura de software. No decorrer do processo ainda são previstas etapas para prototipação, construção do sistema e entrega do produto. O DSDM ainda possui princípios básicos relacionados à frequência de entregas e de testes, e participação direta do usuário durante todo o processo; e
- \item \textbf{\textit{Extreme programming} (XP)}: juntamente com o \textit{Scrum} é o mais utilizado. Busca ``a excelência no desenvolvimento de software, visando baixo custo, poucos defeitos, alta produtividade e alto retorno de investimento'' \cite{sato2007uso}.
-\end{itemize}
+
+\textbf{\textit{Scrum}}: O \textit{Scrum} é um processo para construção incremental de softwares em ambientes complexos e provê o desenvolvimento de softwares em curtas iterações, denominadas \textit{sprints} \citeonline{rising2000scrum}.
+
+\textit{Sprints}: cada \textit{sprint} inclui todas as fases de um software modelo de ciclo de vida de desenvolvimento, como design, implementação, testes, revisão de clientes, etc \cite[~p. 2, tradução nossa]{matharu2015empirical}. Elas têm duração de até 30 dias e também compreendem o procedimento de adaptação a mudança de variáveis (requisitos, tempo, recursos, tecnologia), pois em seu término há sempre uma reflexão sobre as tarefas, definidas antes do início do ciclo, que foram realizadas com sucesso e os próximos incrementos ou revisões as serem executados nas próximas \textit{sprints}, de acordo com o \textit{feedback} passado na reunião com o cliente \citeonline{awad2005comparison}. 
+
+Existem cinco características únicas para o desenvolvimento baseado em \textit{Scrum} \citeonline{matharu2015empirical}, são eles:
+
+\begin{enumerate}
+ \item Colaboração: a promoção da colaboração se dá pelo fato do desenvolvimento ser conduzido por equipes compostas por pessoas multifuncionais, envolvendo programadores, arquitetos de software e especialistas em qualidade de software.
+ 
+ \item Encontros diários: são reuniões de curta duração, comandadas pelo \textit{Scrum Master}, onde as equipes de desenvolvimento se comunicam e discutem o progresso com que os requisitos encontrados no \textit{product backlog} estão sendo implementados. \citeonline{rising2000scrum} afirma que esses encontros podem ser realizados três ou quatro vezes na semana e neles os assuntos mais frequentes se baseiam nas dificuldades encontradas e como vencer os obstáculos até a próxima reunião.
+ 
+ \item \textit{Product Backlog}: o \textit{product backlog} captura os requisitos que devem ser implementados, sendo ordenados por nível prioridade. Ele ainda contém erros resolvidos, características gerais e requisitos não funcionais do software.
+ 
+ \item \textit{Sprint Backlog}: este item registra a lista de tarefas que deverão ser realizadas durante a próxima \textit{sprint}. Logicamente a lista de tarefas deve ser baseada no rendimento das equipes para que não haja um planejamento de quantidade de itens exorbitante que dificilmente serão cumpridos. 
+ 
+ \item Regras: são regras fundamentais da metodologia segundo \citeonline{matharu2015empirical}:
+ \begin{itemize}
+  \item PO \textit{(Product Owner)}: ``responsável pela definição, priorização e comunicação dos requisitos de produto e guias do processo de desenvolvimento'' \cite[~p. 3, tradução nossa]{matharu2015empirical}.
+  
+  \item Time de desenvolvimento: equipes compostas de 3 a 9 indivíduos responsáveis por executar as tarefas previstas pelo PO.
+ 
+  \item \textit{Scrum Master}: responsável por guiar as equipes no respeito às regras e princípios do \textit{Scrum}. Ele remove impedimentos e auxilia no processo de desenvolvimento.
+  
+ \end{itemize}
+ 
+\end{enumerate}
+
+
+Em pesquisa realizada pelo \textit{State of Agile Report} (Estado de Relatório Rápido, em português), em 2019, 72\% das empresas que participaram responderam praticar com \textit{Scrum} ou uma metodologia híbrida que o utiliza como metodologia de desenvolvimento. Tal pesquisa, encontrada em \citeonline{relatorioAnual2019}, foi realizada pela décima terceira vez em 2019 e coletou informações sobre metodologias de processos e desenvolvimento de empresas e organizações da Europa, Ásia, América do Sul e África dos mais variados ramos, tais como de tecnologia, de transporte, industrial, governamental e energético.
+
+Os resultados obtidos com a pesquisa identificam a importância de se conhecer a metodologia estudada nesta seção e como ela ainda é usada por empresas do mundo inteiro. Com o objetivo de assegurar e dar ainda mais veracidade a esta conclusão, outra pesquisa, esta realizada em funcionários da empresa de tecnologia \textit{Microsoft} e via web, detalhada em \citeonline{begel2007usage}, aponta que, das 192 respostas recebidas, a maioria das pessoas que trabalham com desenvolvimento, testes e funções de gerenciamento diretamente ligadas a produção de software aplicam o \textit{Scrum} como a metodologia padrão para construir seus produtos, como representado na Figura \ref{ageis-microsoft}. 
+
+\begin{figure}[htb]
+ \centering
+ \caption{Diferentes metodologias utilizadas pelos funcionários}
+ \includegraphics[width=0.8\textwidth]{figuras/diferentes-metodologias}
+ \fonte{\citeonline{begel2007usage}. Adaptado.}
+ \label{ageis-microsoft}
+\end{figure}
+
+
+A título de conhecimento sobre demais métodos ágeis, o artigo de \citeonline{sato2007uso} emerge sobre os seguintes métodos:
+
+
+\textbf{\textit{Extreme Programming} (XP)}: juntamente com o \textit{Scrum} é o mais utilizado. Busca ``a excelência no desenvolvimento de software, visando baixo custo, poucos defeitos, alta produtividade e alto retorno de investimento'' \cite{sato2007uso}.
+
+
+\textbf{\textit{Lean Software Development}}: baseado no sistema de produção da Toyota, este método revolucionou a manufatura, o desenvolvimento de produtos e o gerenciamento da cadeia de suprimentos. Sustentado sobre sete princípios: ``Elimine Desperdícios'', ``Inclua a Qualidade no Processo'', ``Crie Conhecimento'', ``Adie comprometimentos'', ``Entregue rápido'', ``Respeite as pessoas'' e ``Otimize o Todo'' \cite{sato2007uso};
+ 
+ 
+\textbf{Metodologia da família \textit{Crystal}}: possui uma peculiaridade, a ``habitabilidade'', que significa ``o mínimo de processo necessário para que a equipe consiga ter sucesso'' \cite{sato2007uso}. Além disso, seus métodos compartilham propriedades como: entrega frequente, reflexão e comunicação;
+
+
+\textbf{\textit{Feature Driven Development} (FDD)}: criada na década de 90, ele se aproveita de diagramas UML para representar classes de diferentes responsabilidades e é constituído por duas fases: a de concepção e planejamento e a iterativa de construção, compostas por 5 processos internos ao todo;
+
+
+\textbf{\textit{Adaptive Software Development}}: método que propõe três fases possivelmente sobrepostas: especulação, colaboração e aprendizado. Aqui, o conhecimento sobre falhas, oriundas de falsas premissas, é adquirido por meio de curtas iterações, sendo corrigidas vagarosamente;
+
+
+\textbf{\textit{Dynamic systems development method} (DSDM)}: seu desenvolvimento se iniciou em 1994 e possui duas fases primárias, uma de viabilidade, cujo objetivo é verificar se é viável a execução deste método na situação decorrente, e um estudo de negócio para definir os requisitos iniciais e a arquitetura de software. No decorrer do processo ainda são previstas etapas para prototipação, construção do sistema e entrega do produto. O DSDM ainda possui princípios básicos relacionados à frequência de entregas e de testes, e participação direta do usuário durante todo o processo; e
+
 
 Concluindo o tema, é aconselhável exibir as diferenças entre os dois tipos de metodologias, para isso o Quadro \ref{comparativo-metodologias} foi criado.
 
