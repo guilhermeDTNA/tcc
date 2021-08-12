@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.1)  11 AUG 2021 09:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.1)  12 AUG 2021 09:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1341,7 +1341,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  [24] [25]
-<figuras/diferentes-metodologias.png, id=342, 1199.48125pt x 852.18375pt>
+<figuras/diferentes-metodologias.png, id=348, 1199.48125pt x 852.18375pt>
 File: figuras/diferentes-metodologias.png Graphic file (type png)
 <use figuras/diferentes-metodologias.png>
 Package pdftex.def Info: figuras/diferentes-metodologias.png  used on input lin
@@ -1367,7 +1367,7 @@ Overfull \hbox (17.12766pt too wide) in paragraph at lines 156--169
  []
 
 [27]
-<figuras/linguagens-cms-1.png, id=386, 493.845pt x 283.0575pt>
+<figuras/linguagens-cms-1.png, id=392, 493.845pt x 283.0575pt>
 File: figuras/linguagens-cms-1.png Graphic file (type png)
 <use figuras/linguagens-cms-1.png>
 Package pdftex.def Info: figuras/linguagens-cms-1.png  used on input line 195.
@@ -1377,18 +1377,18 @@ Package pdftex.def Info: figuras/linguagens-cms-1.png  used on input line 195.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [29 <./figuras/linguagens-cms-1.png>] [30]
-<figuras/adocao-de-cms.png, id=451, 749.80125pt x 453.695pt>
+<figuras/adocao-de-cms.png, id=457, 749.80125pt x 453.695pt>
 File: figuras/adocao-de-cms.png Graphic file (type png)
 <use figuras/adocao-de-cms.png>
 Package pdftex.def Info: figuras/adocao-de-cms.png  used on input line 270.
 (pdftex.def)             Requested size: 318.49861pt x 192.71744pt.
-<figuras/tipos-de-cms.png, id=454, 752.8125pt x 453.695pt>
+<figuras/tipos-de-cms.png, id=460, 752.8125pt x 453.695pt>
 File: figuras/tipos-de-cms.png Graphic file (type png)
 <use figuras/tipos-de-cms.png>
 Package pdftex.def Info: figuras/tipos-de-cms.png  used on input line 279.
 (pdftex.def)             Requested size: 318.49861pt x 191.95593pt.
  [31 <./figuras/adocao-de-cms.png>]
-<figuras/desempenho-drupal.png, id=468, 750.805pt x 743.77875pt>
+<figuras/desempenho-drupal.png, id=474, 750.805pt x 743.77875pt>
 File: figuras/desempenho-drupal.png Graphic file (type png)
 <use figuras/desempenho-drupal.png>
 Package pdftex.def Info: figuras/desempenho-drupal.png  used on input line 293.
@@ -1396,34 +1396,34 @@ Package pdftex.def Info: figuras/desempenho-drupal.png  used on input line 293.
 (pdftex.def)             Requested size: 318.49861pt x 315.5173pt.
 
 [32 <./figuras/tipos-de-cms.png>]
-<figuras/desempenho-joomla.png, id=477, 751.80875pt x 744.7825pt>
+<figuras/desempenho-joomla.png, id=483, 751.80875pt x 744.7825pt>
 File: figuras/desempenho-joomla.png Graphic file (type png)
 <use figuras/desempenho-joomla.png>
 Package pdftex.def Info: figuras/desempenho-joomla.png  used on input line 304.
 
 (pdftex.def)             Requested size: 318.49861pt x 315.52261pt.
  [33 <./figuras/desempenho-drupal.png>]
-<figuras/desempenho-plone.png, id=486, 749.80125pt x 743.77875pt>
+<figuras/desempenho-plone.png, id=492, 749.80125pt x 743.77875pt>
 File: figuras/desempenho-plone.png Graphic file (type png)
 <use figuras/desempenho-plone.png>
 Package pdftex.def Info: figuras/desempenho-plone.png  used on input line 314.
 (pdftex.def)             Requested size: 318.49861pt x 315.93723pt.
 
 [34 <./figuras/desempenho-joomla.png>]
-<figuras/desempenho-wordpress.png, id=495, 750.805pt x 743.77875pt>
+<figuras/desempenho-wordpress.png, id=501, 750.805pt x 743.77875pt>
 File: figuras/desempenho-wordpress.png Graphic file (type png)
 <use figuras/desempenho-wordpress.png>
 Package pdftex.def Info: figuras/desempenho-wordpress.png  used on input line 3
 25.
 (pdftex.def)             Requested size: 318.49861pt x 315.5173pt.
  [35 <./figuras/desempenho-plone.png>]
-<figuras/desempenho-geral-cms.png, id=507, 754.82pt x 453.695pt>
+<figuras/desempenho-geral-cms.png, id=513, 754.82pt x 453.695pt>
 File: figuras/desempenho-geral-cms.png Graphic file (type png)
 <use figuras/desempenho-geral-cms.png>
 Package pdftex.def Info: figuras/desempenho-geral-cms.png  used on input line 3
 36.
 (pdftex.def)             Requested size: 318.49861pt x 191.43672pt.
-<figuras/cms_mercado.png, id=512, 590.205pt x 581.17125pt>
+<figuras/cms_mercado.png, id=518, 590.205pt x 581.17125pt>
 File: figuras/cms_mercado.png Graphic file (type png)
 <use figuras/cms_mercado.png>
 Package pdftex.def Info: figuras/cms_mercado.png  used on input line 349.
@@ -1435,21 +1435,21 @@ ng>]
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [38 <./figuras/cms_mercado.png>] [39] [40]
-<figuras/containers.png, id=562, 565.11125pt x 289.08pt>
+<figuras/containers.png, id=568, 565.11125pt x 289.08pt>
 File: figuras/containers.png Graphic file (type png)
 <use figuras/containers.png>
 Package pdftex.def Info: figuras/containers.png  used on input line 465.
 (pdftex.def)             Requested size: 339.06937pt x 173.44933pt.
  [41 <./figuras/containers.png>]
 [42] [43]
-<figuras/pInicial-Sindicato.png, id=620, 725.71124pt x 708.6475pt>
+<figuras/pInicial-Sindicato.png, id=626, 725.71124pt x 708.6475pt>
 File: figuras/pInicial-Sindicato.png Graphic file (type png)
 <use figuras/pInicial-Sindicato.png>
 Package pdftex.def Info: figuras/pInicial-Sindicato.png  used on input line 542
 .
 (pdftex.def)             Requested size: 318.49861pt x 311.01651pt.
  [44 <./figuras/pInicial-Sindicato.png>] [45]
-<figuras/pInicial-Centro.png, id=646, 1425.325pt x 2366.8425pt>
+<figuras/pInicial-Centro.png, id=652, 1425.325pt x 2366.8425pt>
 File: figuras/pInicial-Centro.png Graphic file (type png)
 <use figuras/pInicial-Centro.png>
 Package pdftex.def Info: figuras/pInicial-Centro.png  used on input line 588.
@@ -1459,13 +1459,13 @@ Package pdftex.def Info: figuras/pInicial-Centro.png  used on input line 588.
 
 ] [50] [51] [52]
 [53] [54] [55] [56]
-<figuras/use-case-portal.png, id=803, 815.045pt x 1018.80624pt>
+<figuras/use-case-portal.png, id=809, 815.045pt x 1018.80624pt>
 File: figuras/use-case-portal.png Graphic file (type png)
 <use figuras/use-case-portal.png>
 Package pdftex.def Info: figuras/use-case-portal.png  used on input line 222.
 (pdftex.def)             Requested size: 364.00139pt x 455.00743pt.
  [57 <./figuras/use-case-portal.png>]
-<figuras/use-case-sistema.png, id=811, 627.34375pt x 656.4525pt>
+<figuras/use-case-sistema.png, id=817, 627.34375pt x 656.4525pt>
 File: figuras/use-case-sistema.png Graphic file (type png)
 <use figuras/use-case-sistema.png>
 Package pdftex.def Info: figuras/use-case-sistema.png  used on input line 237.
@@ -1478,15 +1478,36 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [74] [75] [76]) (./capitulos/resultados.tex [77] [78
 
-] [79])
-(./capitulos/consideracoes-finais.tex [80]) (./main.bbl [81
+]
+<figuras/kuruatuba_portal_login.png, id=1133, 1356.06625pt x 841.1425pt>
+File: figuras/kuruatuba_portal_login.png Graphic file (type png)
+<use figuras/kuruatuba_portal_login.png>
+Package pdftex.def Info: figuras/kuruatuba_portal_login.png  used on input line
+ 17.
+(pdftex.def)             Requested size: 455.0pt x 282.22408pt.
+<figuras/kuruatuba_sistema_login.png, id=1134, 1356.06625pt x 529.98pt>
+File: figuras/kuruatuba_sistema_login.png Graphic file (type png)
+<use figuras/kuruatuba_sistema_login.png>
+Package pdftex.def Info: figuras/kuruatuba_sistema_login.png  used on input lin
+e 25.
+(pdftex.def)             Requested size: 455.0pt x 177.82137pt.
+<figuras/kuruatuba_sistema_home.png, id=1136, 1356.06625pt x 816.04875pt>
+File: figuras/kuruatuba_sistema_home.png Graphic file (type png)
+<use figuras/kuruatuba_sistema_home.png>
+Package pdftex.def Info: figuras/kuruatuba_sistema_home.png  used on input line
+ 35.
+(pdftex.def)             Requested size: 455.0pt x 273.8045pt.
+ [79 <./figuras/kuruatuba_portal_login.png>] [80 <./figuras/kuruatuba_sistema_l
+ogin.png> <./figuras/kuruatuba_sistema_home.png>] [81]) (./capitulos/considerac
+oes-finais.tex [82])
+(./main.bbl [83
 
-] [82
+] [84
 
 ]
 bibitemlist
-[83] [84] [85]) (./pos-textual/apendice.tex [86]
-<pos-textual/Pesquisa.pdf, id=1190, 597.19106pt x 845.07718pt>
+[85] [86] [87]) (./pos-textual/apendice.tex [88]
+<pos-textual/Pesquisa.pdf, id=1213, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf  used on input line 4.
@@ -1495,7 +1516,7 @@ File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf  used on input line 4.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
-<pos-textual/Pesquisa.pdf, id=1193, page=1, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=1216, page=1, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf, page 1>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf , page1 used on input line 4.
@@ -1506,7 +1527,7 @@ File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 Package pdftex.def Info: pos-textual/Pesquisa.pdf , page1 used on input line 4.
 
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
- [87
+ [89
 
 ]
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
@@ -1522,50 +1543,6 @@ Package pdftex.def Info: pos-textual/Pesquisa.pdf , page1 used on input line 4.
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf, page 1>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf , page1 used on input line 4.
-
-(pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
- [88 <./pos-textual/Pesquisa.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
-ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
-nored.
->]
-<pos-textual/Pesquisa.pdf, id=1225, page=2, 597.19106pt x 845.07718pt>
-File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
-<use pos-textual/Pesquisa.pdf, page 2>
-Package pdftex.def Info: pos-textual/Pesquisa.pdf , page2 used on input line 4.
-
-(pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
-File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
-<use pos-textual/Pesquisa.pdf, page 2>
-Package pdftex.def Info: pos-textual/Pesquisa.pdf , page2 used on input line 4.
-
-(pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
-File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
-<use pos-textual/Pesquisa.pdf, page 2>
-Package pdftex.def Info: pos-textual/Pesquisa.pdf , page2 used on input line 4.
-
-(pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
- [89 <./pos-textual/Pesquisa.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
-ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
-nored.
->]
-<pos-textual/Pesquisa.pdf, id=1231, page=3, 597.19106pt x 845.07718pt>
-File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
-<use pos-textual/Pesquisa.pdf, page 3>
-Package pdftex.def Info: pos-textual/Pesquisa.pdf , page3 used on input line 4.
-
-(pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
-File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
-<use pos-textual/Pesquisa.pdf, page 3>
-Package pdftex.def Info: pos-textual/Pesquisa.pdf , page3 used on input line 4.
-
-(pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
-File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
-<use pos-textual/Pesquisa.pdf, page 3>
-Package pdftex.def Info: pos-textual/Pesquisa.pdf , page3 used on input line 4.
 
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
  [90 <./pos-textual/Pesquisa.pdf
@@ -1574,20 +1551,20 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
 >]
-<pos-textual/Pesquisa.pdf, id=1236, page=4, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=1249, page=2, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
-<use pos-textual/Pesquisa.pdf, page 4>
-Package pdftex.def Info: pos-textual/Pesquisa.pdf , page4 used on input line 4.
+<use pos-textual/Pesquisa.pdf, page 2>
+Package pdftex.def Info: pos-textual/Pesquisa.pdf , page2 used on input line 4.
 
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
-<use pos-textual/Pesquisa.pdf, page 4>
-Package pdftex.def Info: pos-textual/Pesquisa.pdf , page4 used on input line 4.
+<use pos-textual/Pesquisa.pdf, page 2>
+Package pdftex.def Info: pos-textual/Pesquisa.pdf , page2 used on input line 4.
 
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
-<use pos-textual/Pesquisa.pdf, page 4>
-Package pdftex.def Info: pos-textual/Pesquisa.pdf , page4 used on input line 4.
+<use pos-textual/Pesquisa.pdf, page 2>
+Package pdftex.def Info: pos-textual/Pesquisa.pdf , page2 used on input line 4.
 
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
  [91 <./pos-textual/Pesquisa.pdf
@@ -1596,20 +1573,20 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
 >]
-<pos-textual/Pesquisa.pdf, id=1241, page=5, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=1254, page=3, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
-<use pos-textual/Pesquisa.pdf, page 5>
-Package pdftex.def Info: pos-textual/Pesquisa.pdf , page5 used on input line 4.
+<use pos-textual/Pesquisa.pdf, page 3>
+Package pdftex.def Info: pos-textual/Pesquisa.pdf , page3 used on input line 4.
 
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
-<use pos-textual/Pesquisa.pdf, page 5>
-Package pdftex.def Info: pos-textual/Pesquisa.pdf , page5 used on input line 4.
+<use pos-textual/Pesquisa.pdf, page 3>
+Package pdftex.def Info: pos-textual/Pesquisa.pdf , page3 used on input line 4.
 
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
-<use pos-textual/Pesquisa.pdf, page 5>
-Package pdftex.def Info: pos-textual/Pesquisa.pdf , page5 used on input line 4.
+<use pos-textual/Pesquisa.pdf, page 3>
+Package pdftex.def Info: pos-textual/Pesquisa.pdf , page3 used on input line 4.
 
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
  [92 <./pos-textual/Pesquisa.pdf
@@ -1618,7 +1595,51 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
 >]
-<pos-textual/coleta-requisitos.pdf, id=1248, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=1259, page=4, 597.19106pt x 845.07718pt>
+File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
+<use pos-textual/Pesquisa.pdf, page 4>
+Package pdftex.def Info: pos-textual/Pesquisa.pdf , page4 used on input line 4.
+
+(pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
+File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
+<use pos-textual/Pesquisa.pdf, page 4>
+Package pdftex.def Info: pos-textual/Pesquisa.pdf , page4 used on input line 4.
+
+(pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
+File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
+<use pos-textual/Pesquisa.pdf, page 4>
+Package pdftex.def Info: pos-textual/Pesquisa.pdf , page4 used on input line 4.
+
+(pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
+ [93 <./pos-textual/Pesquisa.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
+ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
+nored.
+>]
+<pos-textual/Pesquisa.pdf, id=1264, page=5, 597.19106pt x 845.07718pt>
+File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
+<use pos-textual/Pesquisa.pdf, page 5>
+Package pdftex.def Info: pos-textual/Pesquisa.pdf , page5 used on input line 4.
+
+(pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
+File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
+<use pos-textual/Pesquisa.pdf, page 5>
+Package pdftex.def Info: pos-textual/Pesquisa.pdf , page5 used on input line 4.
+
+(pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
+File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
+<use pos-textual/Pesquisa.pdf, page 5>
+Package pdftex.def Info: pos-textual/Pesquisa.pdf , page5 used on input line 4.
+
+(pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
+ [94 <./pos-textual/Pesquisa.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
+ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
+nored.
+>]
+<pos-textual/coleta-requisitos.pdf, id=1271, 597.19106pt x 845.07718pt>
 File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos.pdf>
 Package pdftex.def Info: pos-textual/coleta-requisitos.pdf  used on input line 
@@ -1629,7 +1650,7 @@ File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 Package pdftex.def Info: pos-textual/coleta-requisitos.pdf  used on input line 
 9.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
-<pos-textual/coleta-requisitos.pdf, id=1251, page=1, 597.19106pt x 845.07718pt>
+<pos-textual/coleta-requisitos.pdf, id=1274, page=1, 597.19106pt x 845.07718pt>
 
 File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos.pdf, page 1>
@@ -1641,7 +1662,7 @@ File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 Package pdftex.def Info: pos-textual/coleta-requisitos.pdf , page1 used on inpu
 t line 9.
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
- [93
+ [95
 
 ]
 File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
@@ -1659,8 +1680,8 @@ File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 Package pdftex.def Info: pos-textual/coleta-requisitos.pdf , page1 used on inpu
 t line 9.
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
- [94 <./pos-textual/coleta-requisitos.pdf>]
-<pos-textual/coleta-requisitos.pdf, id=1288, page=2, 597.19106pt x 845.07718pt>
+ [96 <./pos-textual/coleta-requisitos.pdf>]
+<pos-textual/coleta-requisitos.pdf, id=1313, page=2, 597.19106pt x 845.07718pt>
 
 File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos.pdf, page 2>
@@ -1677,7 +1698,7 @@ File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 Package pdftex.def Info: pos-textual/coleta-requisitos.pdf , page2 used on inpu
 t line 9.
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
- [95 <./pos-textual/coleta-requisitos.pdf>]) 
+ [97 <./pos-textual/coleta-requisitos.pdf>]) 
 AED: lastpage setting LastPage
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
@@ -1723,10 +1744,10 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 122.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
  ) 
 Here is how much of TeX's memory you used:
- 21751 strings out of 481239
- 328798 string characters out of 5920378
- 718360 words of memory out of 5000000
- 35626 multiletter control sequences out of 15000+600000
+ 21777 strings out of 481239
+ 329569 string characters out of 5920378
+ 718623 words of memory out of 5000000
+ 35644 multiletter control sequences out of 15000+600000
  601323 words of font info for 316 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,18n,62p,1132b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1736,10 +1757,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (97 pages, 5285661 bytes).
+Output written on main.pdf (99 pages, 5501859 bytes).
 PDF statistics:
- 1574 PDF objects out of 1728 (max. 8388607)
- 1385 compressed objects within 14 object streams
- 473 named destinations out of 1000 (max. 500000)
- 45045 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1599 PDF objects out of 1728 (max. 8388607)
+ 1401 compressed objects within 15 object streams
+ 478 named destinations out of 1000 (max. 500000)
+ 45060 words of extra memory for PDF output out of 51595 (max. 10000000)
 
