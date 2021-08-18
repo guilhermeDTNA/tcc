@@ -1,0 +1,45 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.45.2.1 }
+
+\bibitem[Almeida 2003]{de2003educaccao}
+\abntrefinfo{Almeida}{ALMEIDA}{2003}
+{ALMEIDA, M. E.~B. de. Educa{\c{c}}{\~a}o a dist{\^a}ncia na internet:
+  abordagens e contribui{\c{c}}{\~o}es dos ambientes digitais de aprendizagem.
+\emph{Educa{\c{c}}{\~a}o e pesquisa}, SciELO Brasil, v.~29, n.~2, p. 327--340,
+  2003.}
+
+
+\bibitem[Alves 2017]{elias}
+\abntrefinfo{Alves}{ALVES}{2017}
+{ALVES, E. d.~C.
+
+\emph{Reconstru\c c\~ao do portal institucional da UFVJM: ado\c c\~ao da
+  Identidade Digital do Governo Federal e implementa\c c\~ao do PloneGov-BR
+  como novo Sistema de Gerenciamento de Conte\'udo} --- Universidade dos Vales
+  do Jequitinhonha e Mucuri, Diamantina, MG, Brasil, 2017.}
+
+
+\bibitem[Gon{\c{c}}alves et al. 2005]{gonccalves2005proposta}
+\abntrefinfo{Gon{\c{c}}alves et al.}{GON{\c{C}}ALVES et al.}{2005}
+{GON{\c{C}}ALVES, R.~F. et al. Uma proposta de processo de produ{\c{c}}{\~a}o
+  de aplica{\c{c}}{\~o}es web.
+\emph{Production}, SciELO Brasil, v.~15, n.~3, p. 376--389, 2005.}
+
+
+\bibitem[Kuruatuba 2011]{Kuruatuba2011}
+\abntrefinfo{Kuruatuba}{KURUATUBA}{2011}
+{KURUATUBA. \emph{{Hist{\'{o}}rico da ONG KURUATUBA}}. 2011.
+Dispon{\'\i}vel em: <\url{http://ongkuruatuba.blogspot.com/}>. Acesso em:
+  3-10-2019.}
+
+
+\bibitem[Sommerville 2003]{Sommerville}
+\abntrefinfo{Sommerville}{SOMMERVILLE}{2003}
+{SOMMERVILLE, I. \emph{Engenharia de Software}. [S.l.]: Addison-Wesley, 2003.}
+
+
+\end{thebibliography}
