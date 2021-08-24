@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.1)  19 AUG 2021 21:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.1)  24 AUG 2021 19:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1317,10 +1317,13 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.8 \pdfbookmark[0]{\listofquadrosname}{lot}
-                                             (./main.loq) [15]) (./main.toc
-[16]) [17] (./capitulos/introducao.tex [18
+                                             (./main.loq) [15]) [16
 
-] [19]
+
+]
+(./main.toc [17]) [18] (./capitulos/introducao.tex [19
+
+]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
 6.
 
@@ -1440,14 +1443,14 @@ Package pdftex.def Info: figuras/containers.png  used on input line 468.
 <figuras/pInicial-Sindicato.png, id=628, 725.71124pt x 708.6475pt>
 File: figuras/pInicial-Sindicato.png Graphic file (type png)
 <use figuras/pInicial-Sindicato.png>
-Package pdftex.def Info: figuras/pInicial-Sindicato.png  used on input line 545
+Package pdftex.def Info: figuras/pInicial-Sindicato.png  used on input line 543
 .
 (pdftex.def)             Requested size: 318.49861pt x 311.01651pt.
  [44 <./figuras/pInicial-Sindicato.png>] [45]
 <figuras/pInicial-Centro.png, id=654, 1425.325pt x 2366.8425pt>
 File: figuras/pInicial-Centro.png Graphic file (type png)
 <use figuras/pInicial-Centro.png>
-Package pdftex.def Info: figuras/pInicial-Centro.png  used on input line 591.
+Package pdftex.def Info: figuras/pInicial-Centro.png  used on input line 589.
 (pdftex.def)             Requested size: 273.00278pt x 453.31625pt.
  [46] [47 <./figuras/pInicial-Centro.png>]) (./capitulos/metodologia.tex [48] [
 49
@@ -1756,28 +1759,28 @@ Package minitoc(hints) Warning: W0024
 \tf@toc=\write12
 \openout12 = `main.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 122.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 123.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 123.
  ) 
 Here is how much of TeX's memory you used:
- 21847 strings out of 481239
- 331172 string characters out of 5920378
+ 21850 strings out of 481239
+ 331202 string characters out of 5920378
  718707 words of memory out of 5000000
  35705 multiletter control sequences out of 15000+600000
- 614505 words of font info for 344 fonts, out of 8000000 for 9000
+ 614706 words of font info for 346 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,18n,62p,1132b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,18n,62p,1139b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (103 pages, 6178426 bytes).
+Output written on main.pdf (103 pages, 6178479 bytes).
 PDF statistics:
  1623 PDF objects out of 1728 (max. 8388607)
  1419 compressed objects within 15 object streams
