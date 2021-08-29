@@ -53,4 +53,4 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Coleta de requisitos para o sistema}}{93}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Questionário para coleta de requisitos do sistema}}{93}{appendix.A}%
