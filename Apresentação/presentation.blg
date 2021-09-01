@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: presentation.aux
 The style file: abnt-alf.bst
-Illegal, another \bibstyle command---line 173 of file presentation.aux
+Illegal, another \bibstyle command---line 128 of file presentation.aux
  : \bibstyle
  :          {abntex2-alf}
 I'm skipping whatever remains of this command
@@ -21,52 +21,50 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-You can't pop an empty literal stack for entry elias
-while executing---line 2151 of file abnt-alf.bst
 +---------------------------------------------------------+
 | Estilo bibliográfico abnt-alf.bst versão 1.45.2.1           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 6 entries,
+You've used 2 entries,
             6481 wiz_defined-function locations,
-            1191 strings with 10133 characters,
-and the built_in function-call counts, 4389 in all, are:
-= -- 448
-> -- 103
-< -- 8
-+ -- 83
-- -- 32
-* -- 280
-:= -- 664
-add.period$ -- 17
-call.type$ -- 6
-change.case$ -- 42
-chr.to.int$ -- 12
-cite$ -- 5
-duplicate$ -- 184
-empty$ -- 325
-format.name$ -- 153
-if$ -- 1027
+            1163 strings with 9270 characters,
+and the built_in function-call counts, 1416 in all, are:
+= -- 222
+> -- 15
+< -- 0
++ -- 52
+- -- 5
+* -- 68
+:= -- 257
+add.period$ -- 3
+call.type$ -- 2
+change.case$ -- 10
+chr.to.int$ -- 2
+cite$ -- 1
+duplicate$ -- 33
+empty$ -- 86
+format.name$ -- 23
+if$ -- 320
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 95
-newline$ -- 38
-num.names$ -- 25
-pop$ -- 120
+missing$ -- 26
+newline$ -- 14
+num.names$ -- 5
+pop$ -- 49
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 6
 quote$ -- 0
-skip$ -- 271
+skip$ -- 110
 stack$ -- 1
-substring$ -- 202
-swap$ -- 89
-text.length$ -- 6
+substring$ -- 67
+swap$ -- 8
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 5
+type$ -- 0
 warning$ -- 0
-while$ -- 38
+while$ -- 8
 width$ -- 0
-write$ -- 89
-(There were 2 error messages)
+write$ -- 22
+(There was 1 error message)
