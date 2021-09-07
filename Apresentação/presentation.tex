@@ -169,49 +169,123 @@
 %Pra que CMS e Metodologias de desenvolvimento
 \section{Desenvolvimento}
 \begin{frame}
-    \frametitle{Escolha das Ferramentas}
+    \frametitle{Escolha de Métodos e Ferramentas}
+    \textbf{Motivos para usar alguma metodologia ágil:} \cite{dos2013metodologias}
     \begin{itemize}
-        \item pra 
+        \item Tempo: Cronograma orientado a produto com entregas incrementais (entregas por partes);
+        \item Custo: Maior controle em função da rapidez em alterações; %alterações realizadas em tempo real de acordo com o feedback do cliente
+        \item Definição inicial: tempo em \textit{sprints}.
+    \end{itemize}
+    
+\end{frame}
+
+\begin{frame}
+ \frametitle{Escolha de Métodos e Ferramentas}
+ %pag 41
+    \textbf{Motivos para a escolha do \textit{Scrum}:} \cite{anwer2017comparative}
+    \begin{itemize}
+        \item Elicitação de requisitos: Não definido (à escolha da equipe); %fica a critério da equipe como coletar os requisitos
+        \item Ordem de desenvolvimento definida pela equipe \textit{Scrum}; %a equipe tem liberdade de definir quais serão as etapas de desenvolvimento e o prazo para cada uma
+        \item Tamanho da equipe: de 1 a 10 indivíduos. %ficando possível ser realizado com 1 indivíduo
     \end{itemize}
 \end{frame}
 
 
-%pag 49
+
 \begin{frame}
-    \frametitle{Escolha do Gerenciador de Conteúdos}
+    \frametitle{Escolha de Métodos e Ferramentas}
+    \textbf{Motivos para usar algum Sistema de Gerenciamento de Conteúdo (CMS):} (\citeonline{meike2009security}; \citeonline{chagas2018estudo})
     \begin{itemize}
-        \item Surgiu...
+        \item Possibilidade de múltiplos usuários gerenciarem um website ou portal simultaneamente;
+        \item Redução de erros de publicação; %O CMS contém os campos necessários que devem ser preenchidos para uma publicação qualquer 
+        \item Sem necessidade de conhecimento em programação; %usuários podem manusear sem precisar saber programar
+        \item Possibilidade de se definir nı́veis de acesso a usuários por grupo. %é possível definir quais partes do sistema cada usuário poderá gerenciar
     \end{itemize}
-\end{frame} 
+\end{frame}
 
-
-%pag 41
 \begin{frame}
-    \frametitle{Escolha da Metodologia de Desenvolvimento}
+    \frametitle{Escolha de Métodos e Ferramentas}
+    %pag 49
+    \textbf{Motivos para a escolha do Plone:}
     \begin{itemize}
-        \item \textbf{Docker}
-        \item \textbf{Git}
+        \item Apropriado para construção de portais (a exemplo do portal da UFVJM e do portal do governo federal);
+        \item Sem necessidade de instalação de \textit{plug-ins} adicionais; %que, inclusive, podem afetar o desempenho e a manutenibilidade de um sistema por alta quantidade de plug-ins
+        \item Segurança fornecida pela combinação do \textit{Plone} com o \textit{Zope}. %que é o servidor de banco de dados que o Plone utiliza
     \end{itemize}
 \end{frame}
 
 
-%pag 50
 \begin{frame}
-    \frametitle{Escolha da Metodologia de Desenvolvimento}
-    \begin{itemize}
-        \item \textbf{Docker}
-        \item \textbf{Git}
-    \end{itemize}
+    \frametitle{Escolha de Métodos e Ferramentas}
+    
+    \begin{figure}[htb]
+        \centering
+        \caption{Desempenho obtido pelo \textit{Plone}. Fonte: \cite{elias}.}
+        \includegraphics[width=0.5\textwidth]{../figuras/desempenho-plone}
+        \label{plone}
+    
+    \end{figure}
+    
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{Escolha de Métodos e Ferramentas}
+    
+    %A título de comparação com um CMS conhecido...
+    \begin{figure}[htb]
+        \centering
+        \caption{Desempenho obtido pelo \textit{WordPress}. Fonte: \cite{elias}.}
+        \includegraphics[width=0.5\textwidth]{../figuras/desempenho-wordpress}
+        \label{wordpress}
+    \end{figure}
+        
 \end{frame}
 
 
 %pag 40
 \begin{frame}
     \frametitle{Outras Ferramentas Utilizadas}
+    \textbf{\textit{Docker}:} 
     \begin{itemize}
-        \item 
+        \item Surgimento em 2013;
+        \item Estrutura em imagens, camadas e ``containers'';
+        \item Vantagens: escalabilidade (fragmentação de todo o sistema em partes), indepedência entre ``containers'', portabilidade (facilidade em executar o sistema em ambientes diferentes) e verificação de erros via relatório de \textit{logs}. 
+    \end{itemize}
+    
+\end{frame}
+
+\begin{frame}
+    \frametitle{Outras Ferramentas Utilizadas}
+    \textbf{\textit{Git}:} 
+    \begin{itemize}
+        \item Surgimento em 2005;
+        \item Utilizado para versionamento de código; %consegue acompanhar e retornar à versões anteriores
+        \item Vantagens: gerenciar versionamento de código, desenvolver aplicações em colaboração e possibilidade de manter código privado quando manuseado com um site de hospedagem de códigos.
     \end{itemize}
 \end{frame}
+
+
+\begin{frame}
+    \frametitle{Outras Ferramentas Utilizadas}
+    \textbf{\textit{Google Analytics}:} 
+    \begin{itemize}
+        \item Objetivo: obtenção de relatório com dados sobre visitantes de um website;
+        \item Vantagens: identificação de padrões relacionados a visitantes, como origem e número de acessos, conteúdos acessados e tempo de duração de cada sessão. %sendo um grande medidor do impacto dos conteúdos publicados e seu alcance
+    \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{Outras Ferramentas Utilizadas}
+    \textbf{MySQL:} 
+    \begin{itemize}
+        \item Tipo de Sistema Gerenciador de Bancos de Dados (SGBD) que atua com bancos de dados relacionais; %bancos que atuam com relacionamentos entre tabelas
+        \item Vantagens: possui todos os atributos necessários a um banco de dados de grande porte \cite{milani2007mysql}, possui código aberto e de fácil utilização. 
+    \end{itemize}
+    
+\end{frame}
+
 
 
 %pag 54
@@ -219,53 +293,85 @@
     \frametitle{Coleta de Requisitos}
     \textbf{Recursos utilizados:}
     \begin{itemize}
-        \item \textbf{Reuniões e questionários}
-        \item \textbf{Histórias de usuário}
-        \item \textbf{Diagramas de casos de uso}
-        \item \textbf{Fluxos de eventos}
+        \item Reuniões e questionários;
+        \item Histórias de usuário;
+        \item Diagramas de casos de uso;
+        \item Fluxos de eventos.
     \end{itemize}
 \end{frame}
 
 
 %pag 56
 \begin{frame}
-    \frametitle{Diagramas de Casos de Uso}
-    \begin{itemize}
-        \item \textbf{Docker}
-        \item \textbf{Git}
-    \end{itemize}
+    \frametitle{Diagrama de casos de uso do portal da Kuruatuba}
+    \begin{figure}[htb]
+        \centering
+        
+        \includegraphics[width=0.5\textwidth]{../figuras/use-case-portal.png}
+        
+        \label{use-case-portal}
+    \end{figure}
 \end{frame}
+
+\begin{frame}
+    \frametitle{Diagrama de casos de uso do sistema de associados da Kuruatuba}
+    \begin{figure}[htb]
+        \centering
+        \includegraphics[width=0.6\textwidth]{../figuras/use-case-sistema.png}
+        
+        \label{use-case-sistema}
+    \end{figure}
+\end{frame}
+
 
 
 %pag 74
 \begin{frame}
     \frametitle{\textit{Product Backlog}}
-    \begin{itemize}
-        \item \textbf{Docker}
-        \item \textbf{Git}
-    \end{itemize}
+    
 \end{frame}
 
 
+%Só se achar que tem tempo pra falar:
 %pag 76
-\begin{frame}
-    \frametitle{Estrutura de \textit{containers} do sistema}
-    \begin{itemize}
-        \item \textbf{Docker}
-        \item \textbf{Git}
-    \end{itemize}
-\end{frame}
+% \begin{frame}
+%     \frametitle{Estrutura de \textit{containers} do sistema}
+%     \begin{itemize}
+%         \item \textbf{Docker}
+%         \item \textbf{Git}
+%     \end{itemize}
+% \end{frame}
 
 
 %pag 79
 \section{Resultados}
 \begin{frame}
-    \frametitle{Apresentação das telas}
-    \begin{itemize}
-        \item \textbf{Docker}
-        \item \textbf{Git}
-    \end{itemize}
+    \frametitle{Apresentação das Telas: Tela de Login do Portal}
+    \begin{figure}[htb]
+        \centering
+        \includegraphics[width=0.9\textwidth]{../figuras/kuruatuba_portal_login.png}
+        \label{fig:login-portal}
+    \end{figure}
 \end{frame}
+
+\begin{frame}
+    \frametitle{Apresentação das Telas: Tela de Login do Sistema de Associados}
+    \begin{figure}[htb]
+        \centering
+        \includegraphics[width=0.9\textwidth]{../figuras/kuruatuba_sistema_login.png}
+        \label{fig:login-sistema}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Apresentação das Telas: Página Inicial do Sistema de Associados}
+    \begin{figure}[htb]
+        \centering
+        \includegraphics[width=0.9\textwidth]{../figuras/kuruatuba_sistema_home.png}
+        \label{fig:home-sistema}
+    \end{figure}
+\end{frame}
+
 
 
 %pag 84
@@ -284,8 +390,9 @@
 \begin{frame}
     \frametitle{Trabalhos futuros}
     \begin{itemize}
-        \item \textbf{Docker}
-        \item \textbf{Git}
+        \item Criar manual de utilização do sistema e executar treinamento com futuros usuários;
+        \item Instalar um certificado digital (SSL); %em pelo menos as telas de login
+        \item Executar testes de software a fim de se obter feedback sobre integridade, disponibilidade e acessibilidade. %Isso é opcional
     \end{itemize}
 
     
@@ -297,7 +404,7 @@
 
 \begin{frame}
     \frametitle{Referências Bibliográficas}
-    \scriptsize{  
+    \tiny{  
         \bibliographystyle{abnt-alf}
         \bibliography{referencias}
     }
