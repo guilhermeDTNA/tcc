@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.1)  7 SEP 2021 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.1)  7 SEP 2021 18:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -897,7 +897,11 @@ File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count341
 \l__pdf_internal_box=\box84
-) (./presentation.aux)
+) (./presentation.aux
+
+LaTeX Warning: Label `use-case-portal' multiply defined.
+
+)
 \openout1 = `presentation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
@@ -1197,7 +1201,7 @@ Package pdftex.def Info: logo-ufvjm.jpg  used on input line 215.
  [11
 
 ]
-<../figuras/desempenho-plone.png, id=755, 749.80125pt x 743.77875pt>
+<../figuras/desempenho-plone.png, id=766, 749.80125pt x 743.77875pt>
 File: ../figuras/desempenho-plone.png Graphic file (type png)
 <use ../figuras/desempenho-plone.png>
 Package pdftex.def Info: ../figuras/desempenho-plone.png  used on input line 22
@@ -1210,7 +1214,7 @@ Package pdftex.def Info: logo-ufvjm.jpg  used on input line 229.
  [12
 
  <../figuras/desempenho-plone.png>]
-<../figuras/desempenho-wordpress.png, id=823, 750.805pt x 743.77875pt>
+<../figuras/desempenho-wordpress.png, id=835, 750.805pt x 743.77875pt>
 File: ../figuras/desempenho-wordpress.png Graphic file (type png)
 <use ../figuras/desempenho-wordpress.png>
 Package pdftex.def Info: ../figuras/desempenho-wordpress.png  used on input lin
@@ -1258,135 +1262,150 @@ Package pdftex.def Info: logo-ufvjm.jpg  used on input line 301.
  [18
 
 ]
-<../figuras/use-case-portal.png, id=1194, 815.045pt x 1018.80624pt>
-File: ../figuras/use-case-portal.png Graphic file (type png)
-<use ../figuras/use-case-portal.png>
-Package pdftex.def Info: ../figuras/use-case-portal.png  used on input line 314
-.
-(pdftex.def)             Requested size: 153.64493pt x 192.05171pt.
+<figuras/use-case-portal-1.png, id=1212, 787.94376pt x 663.47874pt>
+File: figuras/use-case-portal-1.png Graphic file (type png)
+<use figuras/use-case-portal-1.png>
+Package pdftex.def Info: figuras/use-case-portal-1.png  used on input line 314.
 
-Overfull \vbox (8.574pt too high) detected at line 314
- []
-
+(pdftex.def)             Requested size: 215.10196pt x 181.1158pt.
 File: logo-ufvjm.jpg Graphic file (type jpg)
 <use logo-ufvjm.jpg>
 Package pdftex.def Info: logo-ufvjm.jpg  used on input line 314.
 (pdftex.def)             Requested size: 23.68988pt x 19.97578pt.
-[19
+ [19
 
- <../figuras/use-case-portal.png>]
-<../figuras/use-case-sistema.png, id=1258, 627.34375pt x 656.4525pt>
+ <./figuras/use-case-portal-1.png>]
+<figuras/use-case-portal-2.png, id=1277, 625.33624pt x 533.995pt>
+File: figuras/use-case-portal-2.png Graphic file (type png)
+<use figuras/use-case-portal-2.png>
+Package pdftex.def Info: figuras/use-case-portal-2.png  used on input line 326.
+
+(pdftex.def)             Requested size: 184.3758pt x 157.44568pt.
+pdfTeX warning (ext4): destination with the same identifier (name{use-case-port
+al}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.326 \end{frame}
+                 
+File: logo-ufvjm.jpg Graphic file (type jpg)
+<use logo-ufvjm.jpg>
+Package pdftex.def Info: logo-ufvjm.jpg  used on input line 326.
+(pdftex.def)             Requested size: 23.68988pt x 19.97578pt.
+ [20
+
+ <./figuras/use-case-portal-2.png>]
+<../figuras/use-case-sistema.png, id=1341, 627.34375pt x 656.4525pt>
 File: ../figuras/use-case-sistema.png Graphic file (type png)
 <use ../figuras/use-case-sistema.png>
-Package pdftex.def Info: ../figuras/use-case-sistema.png  used on input line 32
-4.
-(pdftex.def)             Requested size: 184.3758pt x 192.9306pt.
+Package pdftex.def Info: ../figuras/use-case-sistema.png  used on input line 33
+6.
+(pdftex.def)             Requested size: 172.08157pt x 180.06923pt.
 
-Overfull \vbox (22.05284pt too high) detected at line 324
+Overfull \vbox (9.19147pt too high) detected at line 336
  []
 
 File: logo-ufvjm.jpg Graphic file (type jpg)
 <use logo-ufvjm.jpg>
-Package pdftex.def Info: logo-ufvjm.jpg  used on input line 324.
+Package pdftex.def Info: logo-ufvjm.jpg  used on input line 336.
 (pdftex.def)             Requested size: 23.68988pt x 19.97578pt.
-[20
+[21
 
  <../figuras/use-case-sistema.png>]
 File: logo-ufvjm.jpg Graphic file (type jpg)
 <use logo-ufvjm.jpg>
-Package pdftex.def Info: logo-ufvjm.jpg  used on input line 332.
+Package pdftex.def Info: logo-ufvjm.jpg  used on input line 378.
 (pdftex.def)             Requested size: 23.68988pt x 19.97578pt.
- [21
+ [22
 
 ] (./presentation.toc)
 File: logo-ufvjm.jpg Graphic file (type jpg)
 <use logo-ufvjm.jpg>
-Package pdftex.def Info: logo-ufvjm.jpg  used on input line 347.
-(pdftex.def)             Requested size: 23.68988pt x 19.97578pt.
- [22
-
-]
-<../figuras/kuruatuba_portal_login.png, id=1450, 1356.06625pt x 841.1425pt>
-File: ../figuras/kuruatuba_portal_login.png Graphic file (type png)
-<use ../figuras/kuruatuba_portal_login.png>
-Package pdftex.def Info: ../figuras/kuruatuba_portal_login.png  used on input l
-ine 355.
-(pdftex.def)             Requested size: 276.559pt x 171.5369pt.
-File: logo-ufvjm.jpg Graphic file (type jpg)
-<use logo-ufvjm.jpg>
-Package pdftex.def Info: logo-ufvjm.jpg  used on input line 355.
+Package pdftex.def Info: logo-ufvjm.jpg  used on input line 393.
 (pdftex.def)             Requested size: 23.68988pt x 19.97578pt.
  [23
 
- <../figuras/kuruatuba_portal_login.png>]
-<../figuras/kuruatuba_sistema_login.png, id=1514, 1356.06625pt x 529.98pt>
-File: ../figuras/kuruatuba_sistema_login.png Graphic file (type png)
-<use ../figuras/kuruatuba_sistema_login.png>
-Package pdftex.def Info: ../figuras/kuruatuba_sistema_login.png  used on input 
-line 364.
-(pdftex.def)             Requested size: 276.559pt x 108.08052pt.
+]
+<../figuras/kuruatuba_portal_login.png, id=1537, 1356.06625pt x 841.1425pt>
+File: ../figuras/kuruatuba_portal_login.png Graphic file (type png)
+<use ../figuras/kuruatuba_portal_login.png>
+Package pdftex.def Info: ../figuras/kuruatuba_portal_login.png  used on input l
+ine 401.
+(pdftex.def)             Requested size: 276.559pt x 171.5369pt.
 File: logo-ufvjm.jpg Graphic file (type jpg)
 <use logo-ufvjm.jpg>
-Package pdftex.def Info: logo-ufvjm.jpg  used on input line 364.
+Package pdftex.def Info: logo-ufvjm.jpg  used on input line 401.
 (pdftex.def)             Requested size: 23.68988pt x 19.97578pt.
  [24
 
+ <../figuras/kuruatuba_portal_login.png>]
+<../figuras/kuruatuba_sistema_login.png, id=1601, 1356.06625pt x 529.98pt>
+File: ../figuras/kuruatuba_sistema_login.png Graphic file (type png)
+<use ../figuras/kuruatuba_sistema_login.png>
+Package pdftex.def Info: ../figuras/kuruatuba_sistema_login.png  used on input 
+line 410.
+(pdftex.def)             Requested size: 276.559pt x 108.08052pt.
+File: logo-ufvjm.jpg Graphic file (type jpg)
+<use logo-ufvjm.jpg>
+Package pdftex.def Info: logo-ufvjm.jpg  used on input line 410.
+(pdftex.def)             Requested size: 23.68988pt x 19.97578pt.
+ [25
+
  <../figuras/kuruatuba_sistema_login.png>]
-<../figuras/kuruatuba_sistema_home.png, id=1577, 1356.06625pt x 816.04875pt>
+<../figuras/kuruatuba_sistema_home.png, id=1667, 1356.06625pt x 816.04875pt>
 File: ../figuras/kuruatuba_sistema_home.png Graphic file (type png)
 <use ../figuras/kuruatuba_sistema_home.png>
 Package pdftex.def Info: ../figuras/kuruatuba_sistema_home.png  used on input l
-ine 373.
+ine 419.
 (pdftex.def)             Requested size: 276.559pt x 166.41945pt.
 File: logo-ufvjm.jpg Graphic file (type jpg)
 <use logo-ufvjm.jpg>
-Package pdftex.def Info: logo-ufvjm.jpg  used on input line 373.
+Package pdftex.def Info: logo-ufvjm.jpg  used on input line 419.
 (pdftex.def)             Requested size: 23.68988pt x 19.97578pt.
- [25
+ [26
 
  <../figuras/kuruatuba_sistema_home.png>] (./presentation.toc)
 File: logo-ufvjm.jpg Graphic file (type jpg)
 <use logo-ufvjm.jpg>
-Package pdftex.def Info: logo-ufvjm.jpg  used on input line 378.
+Package pdftex.def Info: logo-ufvjm.jpg  used on input line 424.
 (pdftex.def)             Requested size: 23.68988pt x 19.97578pt.
- [26
+ [27
 
 ]
 File: logo-ufvjm.jpg Graphic file (type jpg)
 <use logo-ufvjm.jpg>
-Package pdftex.def Info: logo-ufvjm.jpg  used on input line 385.
+Package pdftex.def Info: logo-ufvjm.jpg  used on input line 431.
 (pdftex.def)             Requested size: 23.68988pt x 19.97578pt.
 
-[27
+[28
 
 ] (./presentation.toc)
 File: logo-ufvjm.jpg Graphic file (type jpg)
 <use logo-ufvjm.jpg>
-Package pdftex.def Info: logo-ufvjm.jpg  used on input line 389.
-(pdftex.def)             Requested size: 23.68988pt x 19.97578pt.
- [28
-
-]
-File: logo-ufvjm.jpg Graphic file (type jpg)
-<use logo-ufvjm.jpg>
-Package pdftex.def Info: logo-ufvjm.jpg  used on input line 399.
+Package pdftex.def Info: logo-ufvjm.jpg  used on input line 435.
 (pdftex.def)             Requested size: 23.68988pt x 19.97578pt.
  [29
 
+]
+File: logo-ufvjm.jpg Graphic file (type jpg)
+<use logo-ufvjm.jpg>
+Package pdftex.def Info: logo-ufvjm.jpg  used on input line 445.
+(pdftex.def)             Requested size: 23.68988pt x 19.97578pt.
+ [30
+
 ] (./presentation.toc)
 File: logo-ufvjm.jpg Graphic file (type jpg)
 <use logo-ufvjm.jpg>
-Package pdftex.def Info: logo-ufvjm.jpg  used on input line 403.
+Package pdftex.def Info: logo-ufvjm.jpg  used on input line 449.
 (pdftex.def)             Requested size: 23.68988pt x 19.97578pt.
- [30
+ [31
 
 ]
 (./presentation.bbl)
 File: logo-ufvjm.jpg Graphic file (type jpg)
 <use logo-ufvjm.jpg>
-Package pdftex.def Info: logo-ufvjm.jpg  used on input line 412.
+Package pdftex.def Info: logo-ufvjm.jpg  used on input line 458.
 (pdftex.def)             Requested size: 23.68988pt x 19.97578pt.
- [31
+ [32
 
  </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
 \tf@nav=\write7
@@ -1398,24 +1417,27 @@ Package pdftex.def Info: logo-ufvjm.jpg  used on input line 412.
 \tf@snm=\write9
 \openout9 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 414.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 414.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 460.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 460.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 414.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 414.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 460.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 460.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: B7D758C72A8D9C8D5DD47AEAA26D29CA;405.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 23615 strings out of 481239
- 463196 string characters out of 5920378
- 727428 words of memory out of 5000000
- 38175 multiletter control sequences out of 15000+600000
- 541141 words of font info for 54 fonts, out of 8000000 for 9000
+ 23636 strings out of 481239
+ 463589 string characters out of 5920378
+ 730506 words of memory out of 5000000
+ 38190 multiletter control sequences out of 15000+600000
+ 542789 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,67p,799b,777s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
@@ -1427,10 +1449,10 @@ e1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmssi8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0800.p
 fb>
-Output written on presentation.pdf (31 pages, 659904 bytes).
+Output written on presentation.pdf (32 pages, 667093 bytes).
 PDF statistics:
- 2081 PDF objects out of 2487 (max. 8388607)
- 1992 compressed objects within 20 object streams
- 84 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2178 PDF objects out of 2487 (max. 8388607)
+ 2085 compressed objects within 21 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 
