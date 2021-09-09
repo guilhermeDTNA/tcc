@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.1)  9 SEP 2021 18:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.1)  9 SEP 2021 19:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1478,17 +1478,17 @@ Package pdftex.def Info: figuras/use-case-sistema.png  used on input line 235.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[73] [74] [75]) (./capitulos/resultados.tex [76]
-<figuras/kuruatuba_portal_login.png, id=1123, 1356.06625pt x 841.1425pt>
+[73] [74] [75] [76]) (./capitulos/resultados.tex [77] [78
+
+]
+<figuras/kuruatuba_portal_login.png, id=1132, 1356.06625pt x 841.1425pt>
 File: figuras/kuruatuba_portal_login.png Graphic file (type png)
 <use figuras/kuruatuba_portal_login.png>
 Package pdftex.def Info: figuras/kuruatuba_portal_login.png  used on input line
  17.
 (pdftex.def)             Requested size: 455.0pt x 282.22408pt.
- [77
-
- <./figuras/kuruatuba_portal_login.png>] [78]
-<figuras/kuruatuba_portal_home.png, id=1135, 1356.06625pt x 2895.81876pt>
+ [79 <./figuras/kuruatuba_portal_login.png>] [80]
+<figuras/kuruatuba_portal_home.png, id=1143, 1356.06625pt x 2895.81876pt>
 File: figuras/kuruatuba_portal_home.png Graphic file (type png)
 <use figuras/kuruatuba_portal_home.png>
 Package pdftex.def Info: figuras/kuruatuba_portal_home.png  used on input line 
@@ -1498,34 +1498,34 @@ Package pdftex.def Info: figuras/kuruatuba_portal_home.png  used on input line
 
 LaTeX Warning: Float too large for page by 20.31982pt on input line 34.
 
-[79 <./figuras/kuruatuba_portal_home.png>]
-<figuras/kuruatuba_sistema_login.png, id=1142, 1356.06625pt x 529.98pt>
+[81 <./figuras/kuruatuba_portal_home.png>]
+<figuras/kuruatuba_sistema_login.png, id=1150, 1356.06625pt x 529.98pt>
 File: figuras/kuruatuba_sistema_login.png Graphic file (type png)
 <use figuras/kuruatuba_sistema_login.png>
 Package pdftex.def Info: figuras/kuruatuba_sistema_login.png  used on input lin
 e 45.
 (pdftex.def)             Requested size: 455.0pt x 177.82137pt.
- [80
+ [82
 
 
  <./figuras/kuruatuba_sistema_login.png>]
-<figuras/kuruatuba_sistema_home.png, id=1150, 1356.06625pt x 816.04875pt>
+<figuras/kuruatuba_sistema_home.png, id=1158, 1356.06625pt x 816.04875pt>
 File: figuras/kuruatuba_sistema_home.png Graphic file (type png)
 <use figuras/kuruatuba_sistema_home.png>
 Package pdftex.def Info: figuras/kuruatuba_sistema_home.png  used on input line
  58.
 (pdftex.def)             Requested size: 455.0pt x 273.8045pt.
- [81 <./figuras/kuruatuba_sistema_home.png>] [82
+ [83 <./figuras/kuruatuba_sistema_home.png>] [84
 
 ])
-(./capitulos/consideracoes-finais.tex [83] [84
+(./capitulos/consideracoes-finais.tex [85] [86
 
-]) (./main.bbl [85] [86
+]) (./main.bbl [87] [88
 
 ]
 bibitemlist
-[87] [88] [89]) (./pos-textual/apendice.tex [90]
-<pos-textual/coleta-requisitos.pdf, id=1224, 597.19106pt x 845.07718pt>
+[89] [90] [91]) (./pos-textual/apendice.tex [92]
+<pos-textual/coleta-requisitos.pdf, id=1232, 597.19106pt x 845.07718pt>
 File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos.pdf>
 Package pdftex.def Info: pos-textual/coleta-requisitos.pdf  used on input line 
@@ -1536,7 +1536,7 @@ File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 Package pdftex.def Info: pos-textual/coleta-requisitos.pdf  used on input line 
 9.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
-<pos-textual/coleta-requisitos.pdf, id=1227, page=1, 597.19106pt x 845.07718pt>
+<pos-textual/coleta-requisitos.pdf, id=1235, page=1, 597.19106pt x 845.07718pt>
 
 File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos.pdf, page 1>
@@ -1548,7 +1548,7 @@ File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 Package pdftex.def Info: pos-textual/coleta-requisitos.pdf , page1 used on inpu
 t line 9.
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
- [91
+ [93
 
 ]
 File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
@@ -1566,8 +1566,8 @@ File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 Package pdftex.def Info: pos-textual/coleta-requisitos.pdf , page1 used on inpu
 t line 9.
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
- [92 <./pos-textual/coleta-requisitos.pdf>]
-<pos-textual/coleta-requisitos.pdf, id=1264, page=2, 597.19106pt x 845.07718pt>
+ [94 <./pos-textual/coleta-requisitos.pdf>]
+<pos-textual/coleta-requisitos.pdf, id=1272, page=2, 597.19106pt x 845.07718pt>
 
 File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos.pdf, page 2>
@@ -1584,7 +1584,7 @@ File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 Package pdftex.def Info: pos-textual/coleta-requisitos.pdf , page2 used on inpu
 t line 9.
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
- [93 <./pos-textual/coleta-requisitos.pdf>])
+ [95 <./pos-textual/coleta-requisitos.pdf>])
 
 AED: lastpage setting LastPage
 Package minitoc Info: I0009
@@ -1631,9 +1631,9 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 125.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  ) 
 Here is how much of TeX's memory you used:
- 21809 strings out of 481239
- 330230 string characters out of 5920378
- 718645 words of memory out of 5000000
+ 21811 strings out of 481239
+ 330244 string characters out of 5920378
+ 718659 words of memory out of 5000000
  35679 multiletter control sequences out of 15000+600000
  614706 words of font info for 346 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1644,10 +1644,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (95 pages, 6060274 bytes).
+Output written on main.pdf (97 pages, 6061893 bytes).
 PDF statistics:
- 1546 PDF objects out of 1728 (max. 8388607)
- 1369 compressed objects within 14 object streams
- 473 named destinations out of 1000 (max. 500000)
+ 1556 PDF objects out of 1728 (max. 8388607)
+ 1377 compressed objects within 14 object streams
+ 475 named destinations out of 1000 (max. 500000)
  50137 words of extra memory for PDF output out of 51595 (max. 10000000)
 

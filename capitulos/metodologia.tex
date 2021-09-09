@@ -114,7 +114,7 @@ Com o auxílio de uma máquina virtual, foi realizada uma avaliação sobre os p
 
 A seção de desenvolvimento sinaliza o início, de fato, da realização das tarefas e demais atividades relacionadas à construção do sistema da Kuruatuba. É a partir desse momento que serão informados dados como domínio, hospedagem, requisitos, versões das tecnologias utilizadas e descrição das atividades desempenhadas.
 
-Para o projeto, foram utilizadas as seguintes ferramentas e suas respectivas versões: \textit{Plone} 4.3.18, PHP 8.0, \textit{MySQL} 5.7, \textit{Docker} 19.03.5 e \textit{Git} 2.17.1, este utilizado para o versionamento de código do sistema para cadastro de associados uma vez que ele poderá ser necessário, futuramente, a outro desenvolvedor para atualizações. 
+Para o projeto, foram utilizadas as seguintes ferramentas e suas respectivas versões: \textit{Plone} 4.3.18, PHP 8.0, MySQL 5.7, \textit{Docker} 19.03.5 e \textit{Git} 2.17.1, este utilizado para o versionamento de código do sistema para cadastro de associados uma vez que ele poderá ser necessário, futuramente, a outro desenvolvedor para atualizações. 
 
 Também é importante mencionar a utilização do \textit{Google Analytics}, que, como já descrito na Seção \ref{sec:ferramentas}, possibilita contabilizar número de visitantes e obter informações sobre eles, como: origem, páginas visitadas e tempo por sessão. Outra informação relevante é a utilização das imagens do \textit{Docker}: \textit{ubuntu/apache2}, \textit{mysql:5.7} e \textit{lmatos/plonebr-zeo}, todas disponíveis no repositório oficial do \textit{Docker}, o \textit{Docker Hub}. 
 
@@ -1311,7 +1311,7 @@ A Tabela \ref{lista-sprints} contém cada uma das tarefas e as organiza por: ide
 
 Como há um número elevado de atividades a serem desenvolvidas, a estimativa do tempo para conclusão foi de 14 dias e sua prioridade foi pontuada como 5 devido à necessidade de se entregar algo concreto para o cliente, mesmo que seja um escopo inicial, embora seus elementos sejam passíveis de customização posteriormente. 
 
-\textbf{\textit{Sprint 2}}: nesta fase as atividades específicas desempenhadas estão divididas em duas atividades generalistas: instalação de todos os softwares necessários na VPS e criação dos \textit{containers} referentes ao banco de dados \textit{MySQL}, ao sistema de associados e ao portal desenvolvido no \textit{Plone}. 
+\textbf{\textit{Sprint 2}}: nesta fase as atividades específicas desempenhadas estão divididas em duas atividades generalistas: instalação de todos os softwares necessários na VPS e criação dos \textit{containers} referentes ao banco de dados MySQL, ao sistema de associados e ao portal desenvolvido no \textit{Plone}. 
 
 Os prazo e prioridade definidos se devem à importância das atividades especificadas, visto que é imprescindível a conclusão das mesmas para que o projeto siga adiante e a equipe de desenvolvimento possa iniciar a próxima \textit{sprint}. 
 
@@ -1359,15 +1359,17 @@ A média prioridade se justifica por não serem tarefas cruciais e necessárias 
 
 
 \hspace{2.5cm}
-\subsection{Estrutura de \textit{containers} do sistema}
+\subsection{Estrutura de \textit{containers Docker} do sistema}
 \label{subsec:docker}
 \hspace{2.5cm}
 
-Como o sistema deve gerenciar dois tipos de público, um de associados e outro de usuários, resolveu-se criar três \textit{containers}: um responsável pelo \textit{Plone} que, por sua vez, apresenta o \textit{website} da Kuruatuba para os visitantes; um \textit{container} responsável por comportar o sistema de gerenciamento de associados, desenvolvido na linguagem de programação PHP, que é conhecida como uma linguagem da era da Web 2.0 que permite o desenvolvimento ágil de software do lado do servidor \cite{suzumura2008performance}; e um \textit{container} abrigando o banco de dados, construído com a ferramenta \textit{MySQL}, que possui as informações relacionadas aos associados e onde são realizadas as consultas por parte do sistema escrito em PHP.
+Como o sistema deve gerenciar dois tipos de público, um de associados e outro de usuários, resolveu-se criar três \textit{containers}: um responsável pelo \textit{Plone} que, por sua vez, apresenta o \textit{website} da Kuruatuba para os visitantes; um \textit{container} responsável por comportar o sistema de gerenciamento de associados, desenvolvido na linguagem de programação PHP, que é conhecida como uma linguagem da era da Web 2.0 que permite o desenvolvimento ágil de software do lado do servidor \cite{suzumura2008performance}; e um \textit{container} abrigando o banco de dados, construído com a ferramenta MySQL, que possui as informações relacionadas aos associados e onde são realizadas as consultas por parte do sistema escrito em PHP.
+
+Embora não exista um arquivo de configuração e criação de \textit{containers} automatizado próprio do \textit{Docker}, como o \textit{Dockerfile} e o \textit{Docker Compose}, os \textit{scripts} para criação e inicialização de todo o sistema existem e estão armazenados em nuvem pelo autor. Em relação à documentação das tabelas do sistema de gestão de associados, optou-se por não criar um Diagrama Entidade-Relacionamento (DER), dada a simplicidade da estrutura, visto que só existem duas tabelas (para associados e administradores) e que as mesmas não possuem relação de interdependência.
 
 A criação e comunicação dos \textit{containers} compactua com as vantagens descritas na Seção \ref{sec:ferramentas} do Capítulo \ref{ch:referencial}, principalmente no que diz respeito à portabilidade e disponibilidade dos recursos. Tais benefícios também se aplicam à segurança, visto que para uma possível invasão ao sistema, é necessário que o invasor conheça o endereço IP e porta de cada \textit{container} e ainda os dados de acesso tanto ao \textit{website} no \textit{Plone} quanto à aplicação destinada a armazenar os dados sobre os associados.   
 
-Outra justificativa para a divisão das aplicações web está na complexidade de manipulação dos SGBDs - Sistema de Gerenciamento de Banco de Dados - não relacionais. Como já apresentado na Subseção \ref{subsec:tipos-cms}, no Capítulo \ref{ch:referencial}, o \textit{Plone} utiliza o banco de dados não relacional \textit{ZODB}, e o mesmo é bastante complexo quando o desenvolvedor necessita realizar consultas ou inserções a seus objetos, sendo inviável a criação de elementos para tal tarefa.  
+Outra justificativa para a divisão das aplicações web está na complexidade de manipulação dos SGBDs - Sistema de Gerenciamento de Banco de Dados - não relacionais. Como já apresentado na Subseção \ref{subsec:tipos-cms}, no Capítulo \ref{ch:referencial}, o \textit{Plone} utiliza o banco de dados não relacional \textit{ZODB}, e o mesmo é bastante complexo quando o desenvolvedor necessita realizar consultas ou inserções a seus objetos via linha de comando, sendo inviável a criação de páginas e elementos para tal tarefa.  
 
 
 % \hspace{2.5cm}
