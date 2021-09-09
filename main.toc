@@ -41,16 +41,16 @@
 \contentsline {subsection}{\numberline {3.4.4}Definição das \textit {sprints}}{73}{subsection.3.4.4}%
 \contentsline {subsection}{\numberline {3.4.5}Estrutura de \textit {containers} do sistema}{76}{subsection.3.4.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados e Discussão}}{79}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Apresentação das telas}{79}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Discussão}{84}{section.4.2}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados e Discussão}}{77}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Apresentação das telas}{77}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Discussão}{82}{section.4.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Considerações Finais}}{87}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Trabalhos futuros}{87}{section.5.1}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Considerações Finais}}{85}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Trabalhos futuros}{85}{section.5.1}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{89}{section*.40}%
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{87}{section*.40}%
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Questionário para coleta de requisitos do sistema}}{93}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Questionário para coleta de requisitos do sistema}}{91}{appendix.A}%
