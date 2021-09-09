@@ -169,7 +169,7 @@
 %Pra que CMS e Metodologias de desenvolvimento
 \section{Desenvolvimento}
 \begin{frame}
-    \frametitle{Escolha de Métodos e Ferramentas}
+    \frametitle{Escolha de métodos e ferramentas}
     \textbf{Motivos para usar alguma metodologia ágil:} \cite{dos2013metodologias}
     \begin{itemize}
         \item Tempo: Cronograma orientado a produto com entregas incrementais (entregas por partes);
@@ -180,7 +180,7 @@
 \end{frame}
 
 \begin{frame}
- \frametitle{Escolha de Métodos e Ferramentas}
+ \frametitle{Escolha de métodos e ferramentas}
  %pag 41
     \textbf{Motivos para a escolha do \textit{Scrum}:} \cite{anwer2017comparative}
     \begin{itemize}
@@ -193,7 +193,7 @@
 
 
 \begin{frame}
-    \frametitle{Escolha de Métodos e Ferramentas}
+    \frametitle{Escolha de métodos e ferramentas}
     \textbf{Motivos para usar algum Sistema de Gerenciamento de Conteúdo (CMS):} (\citeonline{meike2009security}; \citeonline{chagas2018estudo})
     \begin{itemize}
         \item Possibilidade de múltiplos usuários gerenciarem um website ou portal simultaneamente;
@@ -204,7 +204,7 @@
 \end{frame}
 
 \begin{frame}
-    \frametitle{Escolha de Métodos e Ferramentas}
+    \frametitle{Escolha de métodos e ferramentas}
     %pag 49
     \textbf{Motivos para a escolha do Plone:}
     \begin{itemize}
@@ -216,7 +216,7 @@
 
 
 \begin{frame}
-    \frametitle{Escolha de Métodos e Ferramentas}
+    \frametitle{Escolha de métodos e ferramentas}
     
     \begin{figure}[htb]
         \centering
@@ -230,7 +230,7 @@
 
 
 \begin{frame}
-    \frametitle{Escolha de Métodos e Ferramentas}
+    \frametitle{Escolha de métodos e ferramentas}
     
     %A título de comparação com um CMS conhecido...
     \begin{figure}[htb]
@@ -245,18 +245,26 @@
 
 %pag 40
 \begin{frame}
-    \frametitle{Outras Ferramentas Utilizadas}
+    \frametitle{Outras ferramentas utilizadas}
     \textbf{\textit{Docker}:} 
     \begin{itemize}
         \item Surgimento em 2013;
         \item Estrutura em imagens, camadas e ``containers'';
-        \item Vantagens: escalabilidade (fragmentação de todo o sistema em partes), indepedência entre ``containers'', portabilidade (facilidade em executar o sistema em ambientes diferentes) e verificação de erros via relatório de \textit{logs}. 
+        \item Vantagens: escalabilidade (fragmentação de todo o sistema em partes), alto desempenho, portabilidade (facilidade em executar o sistema em ambientes diferentes) e verificação de erros via relatório de \textit{logs}. 
+        
+%         O container do MySQL fica mais seguro
+% 
+%         o processo de migração para outra VPS é muito mais fácil por causa dos comandos (inclusive pra pegar imagens que eu criei)
+% 
+%         Com docker a aplicação tem um desempenho melhor que em VMs porque eu consigo pegar uma imagem muito específica e adicionar só o que eu quero, além 
+%         de que o Docker usar recursos (hardware e software) da própria máquina hospedeira, e na VM ela tem recursos próprios dela
+
     \end{itemize}
     
 \end{frame}
 
 \begin{frame}
-    \frametitle{Outras Ferramentas Utilizadas}
+    \frametitle{Outras ferramentas utilizadas}
     \textbf{\textit{Git}:} 
     \begin{itemize}
         \item Surgimento em 2005;
@@ -267,7 +275,7 @@
 
 
 \begin{frame}
-    \frametitle{Outras Ferramentas Utilizadas}
+    \frametitle{Outras ferramentas utilizadas}
     \textbf{\textit{Google Analytics}:} 
     \begin{itemize}
         \item Objetivo: obtenção de relatório com dados sobre visitantes de um website;
@@ -277,7 +285,7 @@
 
 
 \begin{frame}
-    \frametitle{Outras Ferramentas Utilizadas}
+    \frametitle{Outras ferramentas utilizadas}
     \textbf{MySQL:} 
     \begin{itemize}
         \item Tipo de Sistema Gerenciador de Bancos de Dados (SGBD) que atua com bancos de dados relacionais; %bancos que atuam com relacionamentos entre tabelas
@@ -290,7 +298,7 @@
 
 %pag 54
 \begin{frame}
-    \frametitle{Coleta de Requisitos}
+    \frametitle{Coleta e documentação de requisitos}
     \textbf{Recursos utilizados:}
     \begin{itemize}
         \item Reuniões e questionários;
@@ -298,6 +306,19 @@
         \item Diagramas de casos de uso;
         \item Fluxos de eventos.
     \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Requisitos obtidos via questionário} %importante mencionar que como foi usado o Scrum, outras solicitações foram feitas ao entrar em contato com o cliente
+    \begin{enumerate}
+     \item Sistema de \textit{login} para os usuário;
+     \item Área para publicação de notícias, eventos e mais informações sobre a associação;
+     \item Cadastro, atualização e remoção de associados;
+     \item Sistema para gerar carteirinha de vínculo para associados;
+     \item Formulário para recebimento de mensagens dos visitantes;
+     \item \textit{Link} para \textit{download} de documentos importantes da Kuruatuba.
+    \end{enumerate}
+
 \end{frame}
 
 
@@ -425,10 +446,25 @@
 \begin{frame}
     \frametitle{Discussão}
     \begin{itemize}
-        \item \textbf{Docker}
-        \item \textbf{Git}
+        \item Cumprimento de todos os objetivos;
+        \item Cumprimento das exigências definidas nos requisitos;
+        \item Implementação de métodos contra ataques de SQL Injection e Sequestro de Sessão; %não que enibem totalmente, mas dificultam ações dessa natureza
+        \item Implementação de métodos que previnem ações danosas e involuntárias. %como: duplicidade de registros em banco de dados, cadastro de informações pessoais inválidas e exclusão involuntária.
     \end{itemize}
 \end{frame}
+
+
+\begin{frame}
+    \frametitle{Dificuldades Encontradas}
+    \begin{itemize}
+     \item Coleta de informações para preenchimento de páginas;
+     \item Escolha dos arquivos a serem enviados para a galeria do portal;
+     \item Desempenho dos papéis do \textit{Scrum}; %difícil analisar em tempo real quais atividades estão atribuídas a qual papel e seguir os ritos comuns, como: cunsulta constante ao cliente, análise de impedimentos para realizar as funções
+     \item Configuração da VPS e do apontamento domínio/hospedagem.
+    \end{itemize}
+
+\end{frame}
+
 
 
 %pag 87
