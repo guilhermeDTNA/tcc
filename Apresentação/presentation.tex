@@ -134,8 +134,8 @@
     \frametitle{Motivação}
     \textbf{Principais dificuldades:}
     \begin{itemize}
-     \item Impulsionar publicações e atrair apoiadores;
-     \item Gerenciar pessoas e arquivos digitais relacionadas à associação.
+     \item Impulsionar publicações e atrair apoiadores; %baixo nível de indexação do Google
+     \item Gerenciar pessoas e arquivos digitais relacionadas à associação. %uma espécie de acervo digital e público
     \end{itemize}
 
     
@@ -144,7 +144,7 @@
         \item Informalidade em utilização de blog: opiniões pessoais para assuntos específicos \cite{centeno2017pampatur};
         \item Baixos controle de usuários e personalização visual de um blog; %não tem tanto nível hierárquico entre administradores
         \item Baixa capacidade de atingir o público alvo em publicações; %apenas 7,1% recebem notícias via site ou blog e 56,3% gostariam
-        \item Dificuldade em manter membros e associados registrados e atualizados.
+        \item Dificuldade em manter arquivos, membros e associados registrados e atualizados.
     \end{itemize}
 
 \end{frame}
@@ -173,7 +173,7 @@
     \textbf{Motivos para usar alguma metodologia ágil:} \cite{dos2013metodologias}
     \begin{itemize}
         \item Tempo: Cronograma orientado a produto com entregas incrementais (entregas por partes);
-        \item Custo: Maior controle em função da rapidez em alterações; %alterações realizadas em tempo real de acordo com o feedback do cliente
+        \item Custo: Maior controle em função da rapidez em alterações; %vc mostra o cliente em partes, recebe um feedback mais rápido e aplica as alterações a serem apresentadas na próxima sprint
         \item Definição inicial: tempo em \textit{sprints}.
     \end{itemize}
     
@@ -186,7 +186,9 @@
     \begin{itemize}
         \item Elicitação de requisitos: Não definido (à escolha da equipe); %fica a critério da equipe como coletar os requisitos
         \item Ordem de desenvolvimento definida pela equipe \textit{Scrum}; %a equipe tem liberdade de definir quais serão as etapas de desenvolvimento e o prazo para cada uma
-        \item Tamanho da equipe: de 1 a 10 indivíduos. %ficando possível ser realizado com 1 indivíduo
+        \item Tamanho da equipe: de 1 a 10 indivíduos; %ficando possível ser realizado com 1 indivíduo
+        \item Maioria dos produtores de software aplicam o \textit{Scrum} como metodologia padrão \cite{begel2007usage};
+        \item \textit{Framework} muito adaptável em relação a coleta de requisitos, documentação do software, tamanho e prioridade de \textit{sprints}, ritos, etc.  
     \end{itemize}
 \end{frame}
 
@@ -199,7 +201,7 @@
         \item Possibilidade de múltiplos usuários gerenciarem um website ou portal simultaneamente;
         \item Redução de erros de publicação; %O CMS contém os campos necessários que devem ser preenchidos para uma publicação qualquer 
         \item Sem necessidade de conhecimento em programação; %usuários podem manusear sem precisar saber programar
-        \item Possibilidade de se definir nı́veis de acesso a usuários por grupo. %é possível definir quais partes do sistema cada usuário poderá gerenciar
+        \item Possibilidade de se definir níveis de acesso a usuários por grupo. %é possível definir quais partes do sistema cada usuário poderá gerenciar
     \end{itemize}
 \end{frame}
 
@@ -208,9 +210,9 @@
     %pag 49
     \textbf{Motivos para a escolha do Plone:}
     \begin{itemize}
-        \item Apropriado para construção de portais (a exemplo do portal da UFVJM e do portal do governo federal);
+        \item Apropriado para construção de portais (OPENLEGIS, 2020); %a exemplo do portal da UFVJM e do portal do governo federal
         \item Sem necessidade de instalação de \textit{plug-ins} adicionais; %que, inclusive, podem afetar o desempenho e a manutenibilidade de um sistema por alta quantidade de plug-ins
-        \item Segurança fornecida pela combinação do \textit{Plone} com o \textit{Zope}. %que é o servidor de banco de dados que o Plone utiliza
+        \item Familiaridade do autor com o CMS.
     \end{itemize}
 \end{frame}
 
@@ -228,6 +230,7 @@
     
 \end{frame}
 
+% DESTACAR A DIFERENÇA NA SEGURANÇA E NA PERFORMANCE ENTRE OS DOIS
 
 \begin{frame}
     \frametitle{Escolha de métodos e ferramentas}
@@ -289,7 +292,7 @@
     \textbf{MySQL:} 
     \begin{itemize}
         \item Tipo de Sistema Gerenciador de Bancos de Dados (SGBD) que atua com bancos de dados relacionais; %bancos que atuam com relacionamentos entre tabelas
-        \item Vantagens: possui todos os atributos necessários a um banco de dados de grande porte \cite{milani2007mysql}, possui código aberto e de fácil utilização. 
+        \item Vantagens: possui todos os atributos necessários a um banco de dados de grande porte \cite{milani2007mysql}, possui código aberto e de fácil aprendizagem e utilização. 
     \end{itemize}
     
 \end{frame}
@@ -309,7 +312,7 @@
 \end{frame}
 
 \begin{frame}
-    \frametitle{Requisitos obtidos via questionário} %importante mencionar que como foi usado o Scrum, outras solicitações foram feitas ao entrar em contato com o cliente
+    \frametitle{Requisitos obtidos} %importante mencionar que como foi usado o Scrum, outras solicitações foram feitas ao entrar em contato com o cliente
     \begin{enumerate}
      \item Sistema de \textit{login} para os usuário;
      \item Área para publicação de notícias, eventos e mais informações sobre a associação;
@@ -492,5 +495,13 @@
     }
   
 \end{frame}
+
+\begin{frame}
+    \frametitle{Referências Bibliográficas}
+    \tiny{ 
+        OpenLegis. Portal Legislativo — OpenLegis. Disponível em: https://www.openlegis.com.br/servicos/portal-legislativo/. Acesso em: 11 de set. de 2021.
+    }
+\end{frame}
+
 
 \end{document}

@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: presentation.aux
 The style file: abnt-alf.bst
-Illegal, another \bibstyle command---line 166 of file presentation.aux
+Illegal, another \bibstyle command---line 181 of file presentation.aux
  : \bibstyle
  :          {abntex2-alf}
 I'm skipping whatever remains of this command
@@ -28,45 +28,45 @@ while executing---line 2151 of file abnt-alf.bst
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 8 entries,
+You've used 9 entries,
             6481 wiz_defined-function locations,
-            1197 strings with 10567 characters,
-and the built_in function-call counts, 6399 in all, are:
-= -- 563
-> -- 243
-< -- 15
-+ -- 135
-- -- 72
-* -- 472
-:= -- 923
-add.period$ -- 21
-call.type$ -- 8
-change.case$ -- 81
-chr.to.int$ -- 20
-cite$ -- 7
-duplicate$ -- 270
-empty$ -- 411
-format.name$ -- 340
-if$ -- 1473
+            1202 strings with 10816 characters,
+and the built_in function-call counts, 7399 in all, are:
+= -- 652
+> -- 275
+< -- 16
++ -- 147
+- -- 82
+* -- 541
+:= -- 1046
+add.period$ -- 27
+call.type$ -- 9
+change.case$ -- 93
+chr.to.int$ -- 21
+cite$ -- 8
+duplicate$ -- 317
+empty$ -- 497
+format.name$ -- 387
+if$ -- 1723
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 135
-newline$ -- 50
-num.names$ -- 35
-pop$ -- 187
+missing$ -- 153
+newline$ -- 55
+num.names$ -- 40
+pop$ -- 214
 preamble$ -- 1
-purify$ -- 32
+purify$ -- 36
 quote$ -- 0
-skip$ -- 350
+skip$ -- 403
 stack$ -- 1
-substring$ -- 237
-swap$ -- 128
-text.length$ -- 11
+substring$ -- 286
+swap$ -- 153
+text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 5
 warning$ -- 0
-while$ -- 53
+while$ -- 62
 width$ -- 0
-write$ -- 120
+write$ -- 137
 (There were 2 error messages)
