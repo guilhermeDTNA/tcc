@@ -1,9 +1,7 @@
-\beamer@slide {plone}{12}
-\beamer@slide {wordpress}{13}
+\beamer@slide {comaparacao-cms}{12}
+\beamer@slide {use-case-portal}{19}
 \beamer@slide {use-case-portal}{20}
-\beamer@slide {use-case-portal}{21}
-\beamer@slide {use-case-sistema}{22}
-\beamer@slide {lista-sprints}{23}
-\beamer@slide {fig:login-portal}{25}
-\beamer@slide {fig:login-sistema}{26}
-\beamer@slide {fig:home-sistema}{27}
+\beamer@slide {use-case-sistema}{21}
+\beamer@slide {fig:login-portal}{23}
+\beamer@slide {fig:login-sistema}{24}
+\beamer@slide {fig:home-sistema}{25}

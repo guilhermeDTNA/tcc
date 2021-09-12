@@ -1,4 +1,4 @@
-\documentclass{beamer}
+\documentclass[xcolor=table]{beamer}
 % \usepackage[utf8]{inputenc}
 \usepackage{default}
 \mode<presentation>{
@@ -24,6 +24,9 @@
     %\usepackage{beamerthemeLuebeck} 
     \usepackage{pgf,pgfarrows,pgfnodes,pgfautomata,pgfheaps,pgfshade}
     \usepackage{clrscode3e}
+    
+%     \usepackage[table,xcdraw]{xcolor}
+
     \beamertemplatetransparentcovereddynamic
     \beamertemplateballitem
     %\beamertemplatefootpagenumber
@@ -220,30 +223,36 @@
 \begin{frame}
     \frametitle{Escolha de métodos e ferramentas}
     
-    \begin{figure}[htb]
-        \centering
-        \caption{Desempenho obtido pelo \textit{Plone}. Fonte: (ALVES, 2017).}
-        \includegraphics[width=0.5\textwidth]{../figuras/desempenho-plone}
-        \label{plone}
-    
-    \end{figure}
-    
-\end{frame}
-
-% DESTACAR A DIFERENÇA NA SEGURANÇA E NA PERFORMANCE ENTRE OS DOIS
-
-\begin{frame}
-    \frametitle{Escolha de métodos e ferramentas}
-    
-    %A título de comparação com um CMS conhecido...
-    \begin{figure}[htb]
-        \centering
-        \caption{Desempenho obtido pelo \textit{WordPress}. Fonte: (ALVES, 2017).}
-        \includegraphics[width=0.5\textwidth]{../figuras/desempenho-wordpress}
-        \label{wordpress}
-    \end{figure}
+    % Please add the following required packages to your document preamble:
+    % \usepackage[table,xcdraw]{xcolor}
+    % If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+    \begin{table}[h]
+    \centering
+    \caption{Comparativo entre o \textit{Plone} e o \textit{WordPress}. Fonte: (ALVES, 2017). Adaptado.}
+    \resizebox{8cm}{!}{ %coloca toda a tabela dentro do slide
+        \begin{tabular}{l|c|c}
+        \multicolumn{1}{c|}{\textbf{Característica}}  & \textit{\textbf{Plone}} & \textit{\textbf{WordPress}} \\
+        \hline 
+        Desempenho Geral      & 83,33\%                 & 68,14\%                     \\
+        Comércio Eletrônico   & 51,85\%                 & 66,67\%                     \\
+        Aplicações Integradas & 75,83\%                 & 66,67\%                     \\
+        Flexibilidade         & 100,00\%                & 77,78\%                     \\
+        Interoperabilidade    & 95,24\%                 & 66,67\%                     \\
+        Gerenciamento         & 91,11\%                 & 53,33\%                     \\
+        \rowcolor[HTML]{C0C0C0}
+        Performance           & 93,33\%                 & 73,33\%                     \\
+        Facilidade de Uso     & 86,27\%                 & 68,63\%                     \\
+        Suporte               & 93,33\%                 & 95,56\%                     \\
+        \rowcolor[HTML]{C0C0C0}
+        Segurança             & 82,46\%                 & 56,14\%              \\  
         
+        \hline 
+        \end{tabular}
+    }
+    \label{comaparacao-cms}
+    \end{table}
 \end{frame}
+
 
 
 %pag 40
@@ -359,46 +368,46 @@
 \end{frame}
 
 
-
+%Só se achar que tem tempo pra falar:
 %pag 74
-\begin{frame}
-    \frametitle{\textit{Product Backlog}}
-    \begin{table}[h]
-        \centering
-        \caption{\textit{Product Backlog}. Fonte: Autor.}
-        
-        \resizebox{\columnwidth}{!}{ %coloca toda a tabela dentro do slide
-            \begin{tabular}{c|c|c|c}
-                
-                \textbf{Nome} & \textbf{Tarefas} & \textbf{Prioridade} & \textbf{Prazo (dias)} \\ % Note a separação de col. e a quebra de linhas
-                \hline                               % para uma linha horizontal
-                
-                \textit{Sprint 1} & Criação da interface inicial & 5 & 14  \\
-                \rule{0pt}{13pt}
-                \textit{Sprint 2} & Contratação e configuração do ambiente de desenvolvimento & 5 & 11  \\ 
-                \rule{0pt}{13pt}
-                \textit{Sprint 3} & Migração do portal e do sistema de associados para o servidor & 5 & 6  \\
-                \rule{0pt}{13pt}
-                \textit{Sprint 4} & Configuração do banco de dados e sua conexão com o sistema & 4 & 3  \\
-                \rule{0pt}{13pt}
-                \textit{Sprint 5} & Criação do sistema de autenticação com criptografia & 2 & 5  \\
-                \rule{0pt}{13pt}
-                \textit{Sprint 6} & Organização da página inicial do portal & 5 & 6  \\
-                \rule{0pt}{13pt}
-                \textit{Sprint 7} & Inserção de informações nas páginas & 5 & 20  \\ 
-                \rule{0pt}{13pt}
-                \textit{Sprint 8} & Ajustes no CRUD de associados e administradores & 3 & 6  \\
-                \rule{0pt}{13pt}
-                \textit{Sprint 9} & Criação do sistema de recuperação de senha e do \textit{slider} da galeria & 3 & 5  \\
-                \rule{0pt}{13pt}
-                \textit{Sprint 10} & Configuração do \textit{Google Analytics} e ajustes gerais & 2 & 6 \\
-                
-                \hline
-            \end{tabular}
-        }
-        \label{lista-sprints}
-    \end{table}
-\end{frame}
+% \begin{frame}
+%     \frametitle{\textit{Product Backlog}}
+%     \begin{table}[h]
+%         \centering
+%         \caption{\textit{Product Backlog}. Fonte: Autor.}
+%         
+%         \resizebox{\columnwidth}{!}{ %coloca toda a tabela dentro do slide
+%             \begin{tabular}{c|c|c|c}
+%                 
+%                 \textbf{Nome} & \textbf{Tarefas} & \textbf{Prioridade} & \textbf{Prazo (dias)} \\ % Note a separação de col. e a quebra de linhas
+%                 \hline                               % para uma linha horizontal
+%                 
+%                 \textit{Sprint 1} & Criação da interface inicial & 5 & 14  \\
+%                 \rule{0pt}{13pt}
+%                 \textit{Sprint 2} & Contratação e configuração do ambiente de desenvolvimento & 5 & 11  \\ 
+%                 \rule{0pt}{13pt}
+%                 \textit{Sprint 3} & Migração do portal e do sistema de associados para o servidor & 5 & 6  \\
+%                 \rule{0pt}{13pt}
+%                 \textit{Sprint 4} & Configuração do banco de dados e sua conexão com o sistema & 4 & 3  \\
+%                 \rule{0pt}{13pt}
+%                 \textit{Sprint 5} & Criação do sistema de autenticação com criptografia & 2 & 5  \\
+%                 \rule{0pt}{13pt}
+%                 \textit{Sprint 6} & Organização da página inicial do portal & 5 & 6  \\
+%                 \rule{0pt}{13pt}
+%                 \textit{Sprint 7} & Inserção de informações nas páginas & 5 & 20  \\ 
+%                 \rule{0pt}{13pt}
+%                 \textit{Sprint 8} & Ajustes no CRUD de associados e administradores & 3 & 6  \\
+%                 \rule{0pt}{13pt}
+%                 \textit{Sprint 9} & Criação do sistema de recuperação de senha e do \textit{slider} da galeria & 3 & 5  \\
+%                 \rule{0pt}{13pt}
+%                 \textit{Sprint 10} & Configuração do \textit{Google Analytics} e ajustes gerais & 2 & 6 \\
+%                 
+%                 \hline
+%             \end{tabular}
+%         }
+%         \label{lista-sprints}
+%     \end{table}
+% \end{frame}
 
 
 %Só se achar que tem tempo pra falar:
