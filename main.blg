@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -19,57 +19,61 @@ Repeated entry---line 109 of file referencias.bib
 I'm skipping whatever remains of this entry
 Warning--entry type for "sslpage" isn't style-file defined
 --line 584 of file referencias.bib
+Warning--entry type for "PAHUJA2015" isn't style-file defined
+--line 592 of file referencias.bib
+Warning--entry type for "OpenLegis2020" isn't style-file defined
+--line 599 of file referencias.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 You can't pop an empty literal stack for entry elias
 while executing---line 2146 of file abntex2-alf.bst
 Warning--campo title vazio em vitalino2016descomplicando
 +---------------------------------------------------------+
-| Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 68 entries,
+You've used 70 entries,
             6714 wiz_defined-function locations,
-            1525 strings with 21178 characters,
-and the built_in function-call counts, 60646 in all, are:
-= -- 5227
-> -- 1896
-< -- 644
-+ -- 1313
-- -- 575
-* -- 4211
-:= -- 7909
-add.period$ -- 227
-call.type$ -- 70
-change.case$ -- 667
-chr.to.int$ -- 139
-cite$ -- 64
-duplicate$ -- 4024
-empty$ -- 3869
-format.name$ -- 2766
-if$ -- 13520
+            1536 strings with 21400 characters,
+and the built_in function-call counts, 63765 in all, are:
+= -- 5622
+> -- 1926
+< -- 747
++ -- 1426
+- -- 585
+* -- 4384
+:= -- 8291
+add.period$ -- 235
+call.type$ -- 72
+change.case$ -- 679
+chr.to.int$ -- 141
+cite$ -- 66
+duplicate$ -- 4381
+empty$ -- 3983
+format.name$ -- 2812
+if$ -- 14113
 int.to.chr$ -- 4
 int.to.str$ -- 3
-missing$ -- 1166
-newline$ -- 313
-num.names$ -- 315
-pop$ -- 1449
+missing$ -- 1198
+newline$ -- 323
+num.names$ -- 325
+pop$ -- 1491
 preamble$ -- 1
-purify$ -- 257
+purify$ -- 263
 quote$ -- 0
-skip$ -- 4497
+skip$ -- 4870
 stack$ -- 1
-substring$ -- 2344
-swap$ -- 1642
-text.length$ -- 74
+substring$ -- 2483
+swap$ -- 1763
+text.length$ -- 76
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 13
 warning$ -- 1
-while$ -- 461
+while$ -- 475
 width$ -- 0
-write$ -- 984
+write$ -- 1012
 (There were 2 error messages)

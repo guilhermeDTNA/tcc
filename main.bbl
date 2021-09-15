@@ -3,7 +3,7 @@
 \setlength{\labelsep}{0pt}\begin{thebibliography}{}
 \providecommand{\abntrefinfo}[3]{}
 \providecommand{\abntbstabout}[1]{}
-\abntbstabout{v-1.9.6 }
+\abntbstabout{v-1.9.7 }
 
 \bibitem[Agile 2019]{relatorioAnual2019}
 \abntrefinfo{Agile}{AGILE}{2019}
@@ -232,6 +232,11 @@ Tese (Doutorado) --- Instituto Polit{\'e}cnico do Porto. Instituto Superior de
   \emph{et al.} Reposit{\'o}rios digitais utilizando wordpress e mysql.
 \textbf{BiblioCanto}, v.~3, n.~1, p. 144--157, 2017.}
 
+\bibitem[OpenLegis 2020]{OpenLegis2020}
+\abntrefinfo{OpenLegis}{OPENLEGIS}{2020}
+{OPENLEGIS. \textbf{Apresentação — OpenLegis}. 2020.
+Dispon{\'\i}vel em: \url{https://www.openlegis.com.br/a-empresa/apresentacao}.}
+
 \bibitem[Othman, Ismail e Raus 2009]{othman2009development}
 \abntrefinfo{Othman, Ismail e Raus}{OTHMAN; ISMAIL; RAUS}{2009}
 {OTHMAN, M.; ISMAIL, S.~N.; RAUS, M. I.~M. The development of the web-based
@@ -239,6 +244,11 @@ Tese (Doutorado) --- Instituto Polit{\'e}cnico do Porto. Instituto Superior de
   feasibility study to the design phase.
 \textbf{International Journal of Computer Science and Network Security}, v.~9,
   n.~10, p. 203--208, 2009.}
+
+\bibitem[PAHUJA 2015]{PAHUJA2015}
+\abntrefinfo{PAHUJA}{PAHUJA}{2015}
+{PAHUJA, S. \textbf{Scrum for Individuals}. 2015.
+Dispon{\'\i}vel em: \url{https://www.infoq.com/news/2015/02/personal-scrum/}.}
 
 \bibitem[Painka$^1$ e Marchi$^1$ 2013]{painka12013utilizaccao}
 \abntrefinfo{Painka$^1$ e Marchi$^1$}{PAINKA$^1$; MARCHI$^1$}{2013}

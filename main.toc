@@ -20,47 +20,47 @@
 \contentsline {section}{\numberline {2.1}Engenharia Web}{23}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Metodologias Ágeis}{24}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Sistemas de Gerenciamento de Conteúdo}{28}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Tipos de Sistemas de Gerenciamento de Conteúdo}{29}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}Tipos de Sistemas de Gerenciamento de Conteúdo}{30}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Comparativos entre os principais sistemas}{31}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Servidor Virtual Privado}{39}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Ferramentas}{40}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Estado da Arte}{42}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Pesquisa correlata: Concepção e Implementação de um Website de uma Associação Sindical}{42}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Pesquisa correlata: Construção Coletiva do Portal Educação do Campo}{45}{subsection.2.6.2}%
+\contentsline {section}{\numberline {2.4}Servidor Virtual Privado}{40}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Ferramentas}{41}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Estado da Arte}{43}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Pesquisa correlata: Concepção e Implementação de um Website de uma Associação Sindical}{43}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Pesquisa correlata: Construção Coletiva do Portal Educação do Campo}{46}{subsection.2.6.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{49}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Definição do tipo de metodologia ágil de desenvolvimento}{49}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Definição do Sistema de Gerenciamento de Conteúdo}{50}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Análise de custos sobre hospedagem e domínio}{50}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Desenvolvimento}{52}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Histórias de usuário}{53}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Coleta de requisitos}{54}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Casos de uso e fluxos de eventos}{55}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Definição das \textit {sprints}}{58}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Estrutura de \textit {containers Docker} do sistema}{61}{subsection.3.4.5}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{51}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Definição do tipo de metodologia ágil de desenvolvimento}{51}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Definição do Sistema de Gerenciamento de Conteúdo}{52}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Análise de custos sobre hospedagem e domínio}{52}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Desenvolvimento}{54}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Histórias de usuário}{55}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Coleta de requisitos}{56}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Casos de uso e fluxos de eventos}{57}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Definição das \textit {sprints}}{60}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Estrutura de \textit {containers Docker} do sistema}{63}{subsection.3.4.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados e Discussão}}{63}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Apresentação das telas}{63}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Discussão}{67}{section.4.2}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados e Discussão}}{65}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Apresentação das telas}{65}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Discussão}{69}{section.4.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Considerações Finais}}{69}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Trabalhos futuros}{69}{section.5.1}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Considerações Finais}}{71}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Trabalhos futuros}{71}{section.5.1}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{71}{section*.40}%
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{73}{section*.40}%
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Pesquisa entre pessoas da comunidade}}{75}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Pesquisa entre pessoas da comunidade}}{79}{appendix.A}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Questionário para coleta de requisitos do sistema}}{81}{appendix.B}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Questionário para coleta de requisitos do sistema}}{85}{appendix.B}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Questionário para coleta de requisitos do sistema}}{85}{appendix.C}%
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Questionário para coleta de requisitos do sistema}}{89}{appendix.C}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {D}\MakeTextUppercase {Fluxos de eventos para os casos de uso do sistema}}{93}{appendix.D}%
+\contentsline {appendix}{\chapternumberline {D}\MakeTextUppercase {Fluxos de eventos para os casos de uso do sistema}}{97}{appendix.D}%
