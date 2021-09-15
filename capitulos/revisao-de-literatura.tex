@@ -21,7 +21,7 @@ As metodologias de desenvolvimento de software, estudadas em subáreas da engenh
 
 \begin{itemize}
  \item \textbf{Especificação de Software}: etapa em que ocorre um contato maior da equipe com os clientes, com o intuito de determinar os requisitos e funcionalidades do programa. Para tal, existem diversas formas de coletar essas informações, como por exemplo realização de entrevistas, questionários, observação naturalista, entre outras;
- \item \textbf{Projeto e Implementação de Software}: etapa de construção de diagramas para gerar modelos que serão posteriormente implementados;
+ \item \textbf{Projeto e Implementação de Software}: etapa de construção de diagramas para gerar modelos que serão implementados;
  \item \textbf{Validação de Software}: é a fase de verificação dos requisitos. Nesta etapa acontece uma análise de requisitos atendidos e não atendidos; e
  \item \textbf{Evolução do Software}: diferentemente das demais, esta fase é posterior à entrega do produto ao cliente. Ela corresponde basicamente às manutenções e atualizações de software que serão produzidas com o passar do tempo para que ele possa continuar sendo utilizado pelos usuários.
 \end{itemize}
@@ -33,13 +33,13 @@ As metodologias de desenvolvimento de software, estudadas em subáreas da engenh
 %metodologia ágil
 \hspace{2.5cm}
 
-Os métodos ágeis surgiram na década de 90 para alterar a mentalidade das equipes de desenvolvimento da época, contradizendo os métodos tradicionais eliminando gasto com documentação excessiva, enfatizando a comunicação e aumentandoí a proximidade com o cliente para produzir software de qualidade \cite{sato2007uso}.
+Os métodos ágeis surgiram na década de 90 para alterar a mentalidade das equipes de desenvolvimento da época, contradizendo os métodos tradicionais eliminando gasto com documentação excessiva, enfatizando a comunicação e aumentando a proximidade com o cliente para produzir software de qualidade \cite{sato2007uso}.
 
 Segundo \citeonline{conforto2009gerenciamento}, a assinatura do manifesto ágil \footnote{Disponível em: \textsf{http://agilemanifesto.org/}} foi um marco para o nascimento das metodologias ágeis. O manifesto se trata de um documento em que a eficácia das metodologias tradicionais é questionada em cenários que envolvam incertezas e constantes mudanças no ambiente empresarial. 
 
 É importante ressaltar que tais metodologias podem ser aplicadas tanto em equipes menores, de desenvolvimento, por exemplo, quanto em projetos inteiros através do Gerenciamento Ágil de Projetos (GAP), constituídos por várias equipes. Também é interessante saber que um dos fundamentos do processo ágil é a construção de ciclos, cujo objetivo é adaptar e avaliar constantemente o produto antes que chegue no estado final, objetivando atribuí-lo qualidade perante os requisitos estipulados e a satisfação do cliente.
 
-A seguir, estão descritos alguns dos principais métodos de desenvolvimento de software existentes. Para o primeiro deles, \textit{Scrum}, foram descritos mais detalhes em relação aos demais por dois motivos principais: além de ser uma das metodologias, ou \textit{framework}, mais conhecidas e utilizadas atualmente, como demonstra a Figura \ref{ageis-microsoft}, ela também possui aspectos em comum com outras, tais como conceitos referentes a coleta de requisitos, retrospectivas, reuniões em pé e duração das \textit{sprints}, podendo esta ser nomeada como ciclos, o que varia de método para método.
+A seguir, estão descritos algumas das principais metodologias de desenvolvimento de software existentes. Para o primeiro deles, \textit{Scrum}, foram descritos mais detalhes em relação aos demais por dois motivos principais: além de ser uma das metodologias, ou \textit{framework}, mais conhecidas e utilizadas atualmente, como demonstra a Figura \ref{ageis-microsoft}, ela também possui aspectos em comum com outras, tais como conceitos referentes a coleta de requisitos, retrospectivas, reuniões em pé e duração das \textit{sprints}, podendo esta ser nomeada como ciclos, o que varia de método para método.
 
 
 \textbf{\textit{Scrum}}: O \textit{Scrum} é um processo para construção incremental de softwares em ambientes complexos e provê o desenvolvimento de softwares em curtas iterações, denominadas \textit{sprints} \cite{rising2000scrum}.
@@ -51,9 +51,9 @@ Existem cinco características únicas para o desenvolvimento baseado em \textit
 \begin{enumerate}
  \item Colaboração: a promoção da colaboração se dá pelo fato do desenvolvimento ser conduzido por equipes compostas por pessoas multifuncionais, envolvendo programadores, arquitetos de software e especialistas em qualidade de software.
  
- \item Encontros diários: são reuniões de curta duração, comandadas pelo \textit{Scrum Master}, onde as equipes de desenvolvimento se comunicam e discutem o progresso com que os requisitos encontrados no \textit{product backlog} estão sendo implementados \cite{rising2000scrum} afirma que esses encontros podem ser realizados três ou quatro vezes na semana e neles os assuntos mais frequentes se baseiam nas dificuldades encontradas e como vencer os obstáculos até a próxima reunião.
+ \item Encontros diários: são reuniões de curta duração, comandadas pelo \textit{Scrum Master}, onde as equipes de desenvolvimento se comunicam e discutem o progresso com que os requisitos encontrados no \textit{product backlog} estão sendo implementados \citeonline{rising2000scrum} afirma que esses encontros podem ser realizados três ou quatro vezes na semana e neles os assuntos mais frequentes se baseiam nas dificuldades encontradas e como vencer os obstáculos até a próxima reunião.
  
- \item \textit{Product Backlog}: o \textit{product backlog} captura os requisitos que devem ser implementados, sendo ordenados por nível prioridade. Ele ainda contém erros resolvidos, características gerais e requisitos não funcionais do software.
+ \item \textit{Product Backlog}: o \textit{product backlog} captura os requisitos que devem ser implementados, sendo ordenados por nível prioridade. Ele ainda contém problemas já resolvidos, características gerais e requisitos não funcionais do software.
  
  \item \textit{Sprint Backlog}: este item registra a lista de tarefas que deverão ser realizadas durante a próxima \textit{sprint}. Logicamente a lista de tarefas deve ser baseada no rendimento das equipes para que não haja um planejamento de quantidade de itens exorbitante que dificilmente serão cumpridos. 
  
@@ -61,7 +61,7 @@ Existem cinco características únicas para o desenvolvimento baseado em \textit
  \begin{itemize}
   \item PO \textit{(Product Owner)}: ``responsável pela definição, priorização e comunicação dos requisitos de produto e guias do processo de desenvolvimento'' \cite[~p. 3, tradução nossa]{matharu2015empirical}.
   
-  \item Time de desenvolvimento: equipes compostas de 3 a 9 indivíduos responsáveis por executar as tarefas previstas pelo PO.
+  \item Time de desenvolvimento: equipes responsáveis por executar as tarefas previstas pelo PO.
  
   \item \textit{Scrum Master}: responsável por guiar as equipes no respeito às regras e princípios do \textit{Scrum}. Ele remove impedimentos e auxilia no processo de desenvolvimento.
   
@@ -116,11 +116,11 @@ Concluindo o tema, é aconselhável exibir as diferenças entre os dois tipos de
 \setlength{\extrarowheight}{0.25cm}
 \begin{tabular}{|L|L|L|}
 \hline
-\textbf{Características} & \textbf{Gerenciamento Tradicional} & \textbf{Gerenciamento Ágil} \\ % Note a separação de col. e a quebra de linhas
+\textbf{Características} & \textbf{Metodologia Tradicional} & \textbf{Metodologia Ágil} \\ % Note a separação de col. e a quebra de linhas
 \hline
-Ter definido a priori & Escopo & Tempo (\textit{sprints})\\
+Ter definido a priori & Escopo & Tempo (\textit{Sprints})\\
 \hline
-Responsável pela organização para \ atingir os objetivos do projeto & Gerente de projeto & \textit{Scrum master}\\
+Responsável pela organização para \ atingir os objetivos do projeto & Gerente de projeto & \textit{Scrum Master}\\
 \hline
 Frequência de reuniões de status & Dependendo da complexidade/necessidade do projeto & Diárias\\
 \hline
@@ -242,7 +242,7 @@ No relatório \textit{Open Source CMS Market Share Report} divulgado pela agênc
 A relevância das páginas é proporcional ao ranking e indica que quanto maior ele seja, mais chance a página tem de aparecer
 no topo da lista dos resultados de uma pesquisa do mecanismo de busca da Google.
 
-Por conveniência, os quatro sistemas mais bem colocados serão os escolhidos para dar início ao processo de comparação entre os principais. Tal processo se encontra na Subseção \ref{subsec:comparacao}, desenvolvida adiante. Porém, antes de iniciá-la, é importante haver uma apresentação dos sistemas escolhidos para deixar claro as distinções básicas entre eles antes de adentrar em seus detalhes e especificidades.
+Por conveniência, os quatro sistemas mais bem colocados serão os escolhidos para dar início ao processo de comparação. Tal processo se encontra na Subseção \ref{subsec:comparacao}, apresentada adiante. Porém, antes de iniciá-la, é importante haver uma apresentação dos sistemas escolhidos para deixar claro as distinções básicas entre eles antes de adentrar em seus detalhes e especificidades.
 
 \textbf{\textit{Drupal}}: o CMS é derivado de um projeto escrito por um universitário holandês que tinha como objetivo fornecer meios de compartilhar notícias e eventos \cite{menezes2016processo}. Seu projeto foi considerado \textit{open source} (código aberto) em 2001 e baseou-se na linguagem de programação PHP. Para empregá-lo é necessário possui uma máquina que suporte um servidor web do PHP com versão de 5.2 ou superior, exemplos: \textit{Apache, nginx} e \textit{IIS}, além de um banco de dados, exemplos: MySQL, \textit{SQLite} e \textit{PostgreSQL} \cite{tomlinson2010beginning}. 
 
@@ -255,7 +255,7 @@ Por conveniência, os quatro sistemas mais bem colocados serão os escolhidos pa
 
 \hspace{2.5cm}
 
-\subsection{Comparativos entre os principais sistemas}
+\subsection{Comparativos entre os principais gerenciadores de conteúdo}
 \label{subsec:comparacao}
 
 \hspace{2.5cm}
@@ -472,6 +472,8 @@ Compreender o conceito de \textit{containers} é fundamental para entender o con
  \fonte{\cite{prada4docker}.}
 \end{figure}
 
+A Figura \ref{containers} representa o seguinte esquema: cada \textit{container}, representado pelos \textit{apps} A, B e C, são executados sobre um \textit{kernel} e um sistema operacional, ambos da máquina hospedeira. Os \textit{apps} B e C estão sendo utilizados para simular um compartilhamento de camadas, mesmo ambos tendo suas respectivas camadas e alterações próprias.
+
 Entre as diversas vantagens que o \textit{Docker} proporciona podemos citar a teoria da escalabilidade, que corresponde à segmentação de todo um sistema, sua divisão em partes realiza o carregamento parcial dos \textit{websites} contribuindo para a diminuição do tempo de acesso do visitante à página web. Tal modularização também auxilia na manutenção e disponibilidade das partes, isto porque, dependendo da situação, \textit{containers} podem estar funcionando normalmente mesmo que um deles esteja em manutenção ou tenha sido derrubado, possibilitando ao usuário acessar um componente desde que o mesmo não dependa do inacessível. 
 
 Também é importante mencionar que com a correta orquestração dos \textit{containers}, os mesmos poderão ser inseridos em uma imagem, através do recurso do \textit{Docker Compose}, e carregados em qualquer ambiente, desde que ele possua o \textit{Docker}. Esta funcionalidade garante o princípio de portabilidade e faz com que um sistema inteiro funcione em várias máquinas e sistemas operacionais com apenas os comandos de importar a imagem e iniciar um \textit{container} da mesma.
@@ -488,7 +490,7 @@ Para hospedar códigos do \textit{Git} existem diversos sites, porém o mais usa
 \textbf{\textit{Google Analytics}}: é uma ferramenta da Google utilizada para obtenção de relatórios sobre número, origem, tempo de duração e muitas outras informações sobre as visitas que um sistema recebe. Com ela é possível identificar padrões relacionados a essas visitas, taxa de aumento ou diminuição no número de visitantes, páginas da aplicação mais acessadas, entre outros dados. 
 
 %MySQL
-\textbf{MySQL}: a SQL (Linguagem de Consulta Estruturada, em português) é um tipo de programação especializada em trabalhar com bancos de dados relacionais \cite[~p. 7, tradução nossa]{mysql2001mysql}. Um dos diversos bancos de dados relacionais existentes é o MySQL, desenvolvido pela empresa Microsoft e considerado um servidor e gerenciador de banco de dados (SGBD) relacional de código aberto (\textit{open source}). O MySQL possui todos os atributos necessários a um banco de dados de grande porte e é reconhecido por muitos como o \textit{open source} mais concorrente de SGBDs de código fechado \cite{milani2007mysql}.
+\textbf{MySQL}: a SQL (Linguagem de Consulta Estruturada, em português) é um tipo de programação especializada em trabalhar com bancos de dados relacionais \cite[~p. 7, tradução nossa]{mysql2001mysql}. Um dos diversos bancos de dados relacionais existentes é o MySQL, desenvolvido pela empresa MySQL AB e considerado um servidor e gerenciador de banco de dados (SGBD) relacional de código aberto (\textit{open source}). O MySQL possui todos os atributos necessários a um banco de dados de grande porte e é reconhecido por muitos como o \textit{open source} mais concorrente de SGBDs de código fechado \cite{milani2007mysql}.
 
 
 \hspace{2.5cm}
