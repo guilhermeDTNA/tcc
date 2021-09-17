@@ -78,7 +78,7 @@ A escolha da hospedagem a ser utilizada é possivelmente mais complexa e então 
 
 Embora haja maior complexidade na análise, algumas opções encontradas no mercado de hospedagem de \textit{websites} foram descartadas rapidamente porque seus planos se aproximam da realidade de empresas maiores, que necessitam utilizar muitos recursos e em alta velocidade tanto para clientes quanto para seus próprios funcionários e estão dispostas a pagar mais pelo serviço. 
 
-Após pesquisas de preços para hopedagem de VPS, foram encontradas duas empresas que possuem um plano básico que se adequa à realidade da Kuruatuba: a Hostinger e a DokeHost. As especificações ou variáveis consideradas que mais se diferem e importam para a hospedagem do portal e do sistema da Kuruatuba foram as seguintes: capacidade de aórmazenamento da memória RAM, capacidade de processamento, capacidade de armazenamento da memória secundária e o preço para contratação do serviço. O comparativo das empresas em relação a essas especificações está representada na Tabela \ref{comparativo-hospedagem}.
+Após pesquisas de preços para hopedagem de VPS, foram encontradas duas empresas que possuem um plano básico que se adequa à realidade da Kuruatuba: a Hostinger e a DokeHost. As especificações ou variáveis consideradas que mais se diferem e importam para a hospedagem do portal e do sistema da Kuruatuba foram as seguintes: capacidade de armazenamento da memória RAM, capacidade de processamento, capacidade de armazenamento da memória secundária e o preço para contratação do serviço. O comparativo das empresas em relação a essas especificações está representada na Tabela \ref{comparativo-hospedagem}.
 
 \newpage
 
@@ -167,7 +167,7 @@ Uma etapa extremamente importante no desenvolvimento de produtos é a coleta de 
 
 Para que tudo ocorra da melhor maneira a qualidade na comunicação é essencial e uma abordagem superficial das ideias deve ser evitada a fim de eliminar falsas convicções, ideias distintas entre cliente e desenvolvedor e desperdício de tempo e demais recursos. Para isso existem as maneiras de extrair os requisitos de sistema do cliente e usuário, como explanado no tópico de especificação de software, na Seção \ref{sec:engenhariaweb}. Dentre as opções lá citadas e as histórias de usuário particularizadas na Subseção \ref{subsec:historias}, a coleta de requisitos para a aplicação web da Kuruatuba consistiu-se em um formulário e em curtas reuniões com o atual presidente da associação, o professor Erinaldo. 
 
-O formulário, disponibilizado no apêndice \ref{ch:coleta-requisitos}, foi acessível para os futuros utilizadores do sistema para que opinassem sobre o que deveria e o que não deveria estar no produto final, além do grau de importância de cada requisito de acordo com suas exigências e necessidades. De acordo com as respostas registradas no formulário, disponíveis no Apêndice \ref{ch:coleta-requisitos-respostas}, com reuniões anteriormente mencionadas e com as histórias de usuário descritas obteve-se os seguintes requisitos de sistema:
+O formulário, disponibilizado no apêndice \ref{ch:coleta-requisitos}, foi acessível a futuros utilizadores do sistema para que opinassem sobre o que deveria e o que não deveria estar no produto final, além do grau de importância de cada requisito de acordo com suas exigências e necessidades. De acordo com as respostas registradas no formulário, disponíveis no Apêndice \ref{ch:coleta-requisitos-respostas}, com reuniões anteriormente mencionadas e com as histórias de usuário descritas obteve-se os seguintes requisitos de sistema:
 
 \begin{enumerate}
  \item sistema de \textit{login} e cadastro para os usuários;
@@ -177,6 +177,8 @@ O formulário, disponibilizado no apêndice \ref{ch:coleta-requisitos}, foi aces
  \item formulário para receber mensagens dos visitantes; e
  \item \textit{link} para baixar importantes documentos da Kuruatuba.
 \end{enumerate}
+
+É essencial assinalar que as especificações listadas acima foram adquiridas antes do início da implementação do sistema. Por utilizar o \textit{Scrum}, outros requisitos podem ser coletados no decorrer do projeto e serão devidamente citados, bem como a maneira empregada para realizar tal coleta. 
 
 
 \hspace{2.5cm}
@@ -216,6 +218,8 @@ Após a breve explicação sobre os diagramas de casos de uso, sua importância 
  \fonte{Autor.}
 \end{figure}
 
+\clearpage
+
 Ao analisar o diagrama anterior, é possível entender que os elementos-chave dos casos de uso são: notícias, eventos, páginas, arquivos de mídia e documentos, usuários, a aplicação ao todo e seus dados, informações que se diferem das presentes no diagrama apresentado na Figura \ref{use-case-sistema}, que se trata sobre o sistema de associados. 
 
 O que se deve absorver e compreender da Figura \ref{use-case-portal} é que os níveis de usuário são distintos de acordo com a importância dos dados a serem manipulados. Por exemplo: as informações gerenciadas pelo presidente e que não são pelos secretários, que são os dados dos usuários do portal, são de extrema importância e necessitam acesso restrito para consulta e modificação. Por isso somente o presidente e o administrador do portal podem gerenciá-los, dada a importância e representatividade de seu cargo na instituição. 
@@ -230,6 +234,8 @@ Outra questão importante é a definição de quem exercerá o papel de super ad
  \label{use-case-sistema}
  \fonte{Autor.}
 \end{figure}
+
+\newpage
 
 Sendo consideravelmente mais simples que o visto anteriormente, o diagrama representado na Figura \ref{use-case-sistema} é de simples compreensão graças ao pequeno número de casos de uso presentes. Pode-se considerar que relação de atribuições entre os atores secretário,  presidente e super administrador é a mesma, visto que o que muda em relação ao nível de usuário é a autorização de cadastrar, editar e excluir usuário do sistema, que não é previsto para o secretário, e a edição (customização) do sistema e realização de \textit{backup}, por sua vez previsto somente para o super administrador, por envolver questões mais técnicas.
 
@@ -248,13 +254,19 @@ A presente subseção irá apresentar os ciclos (\textit{sprints}) de desenvolvi
 
 A realização de todas as atividades contou com o apoio do cliente, que compreende todos os associados, presidente e secretários, de maneira indireta, visto que a troca de informações foi intermediada pelo presidente da Kuruatuba, Erinaldo Barbosa.
 
-A Tabela \ref{lista-sprints} contém cada uma das tarefas e as organiza por: identificação da \textit{sprint}, tarefas a serem desenvolvidas, nível de prioridade e prazo para desenvolvimento. Para isso, considera-se o nível de prioridade em uma escala de 1 a 5, em que 1 representa pouquíssima prioridade e 5 altíssima prioridade. Após a tabela, encontram-se explicadas as atividades desenvolvidas.
+A Tabela \ref{lista-sprints} contém cada uma das tarefas e as organiza por: identificação da \textit{sprint}, tarefas a serem desenvolvidas, nível de prioridade e prazo para desenvolvimento. Para isso, considera-se o nível de prioridade em uma escala de 1 a 5, em que 1 representa pouquíssima prioridade e 5 altíssima prioridade.
+
+As tarefas definidas na referida tabela correspondem na implementação de diversos requisitos além dos requisitos mencionados na Subseção \ref{subsec:requisitos}. A elicitação das demais especificações ocorreu de maneira informal e em consequência de conversas com o cliente via rede social, aproveitando-se de uma das qualidades do \textit{Scrum} que é o contato frequente com o cliente para entregas incrementais e obtenção de \textit{feedback}. Esse contato permitiu a atualização em tempo real das \textit{sprints} contidas na Tabela \ref{lista-sprints}, tanto em criação quanto em alteração das mesmas. Após a tabela, encontram-se explicadas as atividades desenvolvidas.
+
+\clearpage
 
 \begin{table}[h]
 \centering
 \scalefont{0.8}
 \caption{\textit{Product Backlog}}
 \vspace{0.5cm}
+
+
 
 \setlength{\extrarowheight}{0.15cm}
 \begin{tabular}{c|c|c|c}

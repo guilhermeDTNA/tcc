@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.1)  15 SEP 2021 18:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.1)  17 SEP 2021 20:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1316,7 +1316,12 @@ l.8 \pdfbookmark[0]{\listofquadrosname}{lot}
 
 
 ]
-(./main.toc [17]) [18] (./capitulos/introducao.tex [19
+(./main.toc [17]
+Underfull \hbox (badness 1281) in paragraph at lines 62--62
+ [][] [][][]\OT1/ptm/b/n/12 RESPOSTAS DO QUES-TION[]ARIO UTI-LI-ZADO 
+ []
+
+) [18] (./capitulos/introducao.tex [19
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
@@ -1324,10 +1329,10 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [20] [21])
-(./capitulos/revisao-de-literatura.tex [22] [23
+) [20])
+(./capitulos/revisao-de-literatura.tex [21] [22
 
-]
+] [23]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
@@ -1338,14 +1343,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [24] [25]
-<figuras/diferentes-metodologias.png, id=353, 1199.48125pt x 852.18375pt>
+ [24]
+<figuras/diferentes-metodologias.png, id=336, 1199.48125pt x 852.18375pt>
 File: figuras/diferentes-metodologias.png Graphic file (type png)
 <use figuras/diferentes-metodologias.png>
 Package pdftex.def Info: figuras/diferentes-metodologias.png  used on input lin
 e 80.
 (pdftex.def)             Requested size: 364.00139pt x 258.60883pt.
- [26 <./figuras/diferentes-metodologias.png>]
+ [25] [26 <./figuras/diferentes-metodologias.png>]
 LaTeX Font Info:    Calculating math sizes for size <8.39996> on input line 117
 .
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.39996> not available
@@ -1359,90 +1364,98 @@ Overfull \hbox (17.92764pt too wide) in paragraph at lines 117--141
  [][] 
  []
 
-[27]
+
 Overfull \hbox (17.12766pt too wide) in paragraph at lines 157--170
  [][] 
  []
 
-<figuras/linguagens-cms-1.png, id=400, 493.845pt x 283.0575pt>
+[27]
+<figuras/linguagens-cms-1.png, id=393, 493.845pt x 283.0575pt>
 File: figuras/linguagens-cms-1.png Graphic file (type png)
 <use figuras/linguagens-cms-1.png>
 Package pdftex.def Info: figuras/linguagens-cms-1.png  used on input line 196.
 (pdftex.def)             Requested size: 318.49861pt x 182.55124pt.
-[28] [29 <./figuras/linguagens-cms-1.png>] [30] [31]
-<figuras/adocao-de-cms.png, id=470, 749.80125pt x 453.695pt>
+ [28]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29 <./figuras/linguagens-cms-1.png>] [30]
+<figuras/adocao-de-cms.png, id=458, 749.80125pt x 453.695pt>
 File: figuras/adocao-de-cms.png Graphic file (type png)
 <use figuras/adocao-de-cms.png>
 Package pdftex.def Info: figuras/adocao-de-cms.png  used on input line 273.
 (pdftex.def)             Requested size: 318.49861pt x 192.71744pt.
-<figuras/tipos-de-cms.png, id=473, 752.8125pt x 453.695pt>
+<figuras/tipos-de-cms.png, id=461, 752.8125pt x 453.695pt>
 File: figuras/tipos-de-cms.png Graphic file (type png)
 <use figuras/tipos-de-cms.png>
 Package pdftex.def Info: figuras/tipos-de-cms.png  used on input line 282.
 (pdftex.def)             Requested size: 318.49861pt x 191.95593pt.
- [32 <./figuras/adocao-de-cms.png>] [33 <./figuras/tipos-de-cms.png>]
-<figuras/desempenho-drupal.png, id=491, 750.805pt x 743.77875pt>
+ [31 <./figuras/adocao-de-cms.png>]
+[32 <./figuras/tipos-de-cms.png>]
+<figuras/desempenho-drupal.png, id=480, 750.805pt x 743.77875pt>
 File: figuras/desempenho-drupal.png Graphic file (type png)
 <use figuras/desempenho-drupal.png>
 Package pdftex.def Info: figuras/desempenho-drupal.png  used on input line 297.
 
 (pdftex.def)             Requested size: 318.49861pt x 315.5173pt.
- [34 <./figuras/desempenho-drupal.png>]
-<figuras/desempenho-joomla.png, id=500, 751.80875pt x 744.7825pt>
+ [33 <./figuras/desempenho-drupal.png>]
+<figuras/desempenho-joomla.png, id=489, 751.80875pt x 744.7825pt>
 File: figuras/desempenho-joomla.png Graphic file (type png)
 <use figuras/desempenho-joomla.png>
 Package pdftex.def Info: figuras/desempenho-joomla.png  used on input line 308.
 
 (pdftex.def)             Requested size: 318.49861pt x 315.52261pt.
- [35 <./figuras/desempenho-joomla.png>]
-<figuras/desempenho-plone.png, id=510, 749.80125pt x 743.77875pt>
+
+[34 <./figuras/desempenho-joomla.png>]
+<figuras/desempenho-plone.png, id=498, 749.80125pt x 743.77875pt>
 File: figuras/desempenho-plone.png Graphic file (type png)
 <use figuras/desempenho-plone.png>
 Package pdftex.def Info: figuras/desempenho-plone.png  used on input line 318.
 (pdftex.def)             Requested size: 318.49861pt x 315.93723pt.
- [36 <./figuras/desempenho-plone.png>]
-<figuras/desempenho-wordpress.png, id=519, 750.805pt x 743.77875pt>
+ [35 <./figuras/desempenho-plone.png>]
+<figuras/desempenho-wordpress.png, id=508, 750.805pt x 743.77875pt>
 File: figuras/desempenho-wordpress.png Graphic file (type png)
 <use figuras/desempenho-wordpress.png>
 Package pdftex.def Info: figuras/desempenho-wordpress.png  used on input line 3
 29.
 (pdftex.def)             Requested size: 318.49861pt x 315.5173pt.
-[37 <./figuras/desempenho-wordpress.png>]
-<figuras/desempenho-geral-cms.png, id=530, 754.82pt x 453.695pt>
+
+[36 <./figuras/desempenho-wordpress.png>]
+<figuras/desempenho-geral-cms.png, id=519, 754.82pt x 453.695pt>
 File: figuras/desempenho-geral-cms.png Graphic file (type png)
 <use figuras/desempenho-geral-cms.png>
 Package pdftex.def Info: figuras/desempenho-geral-cms.png  used on input line 3
 40.
 (pdftex.def)             Requested size: 318.49861pt x 191.43672pt.
-<figuras/cms_mercado.png, id=535, 590.205pt x 581.17125pt>
+<figuras/cms_mercado.png, id=524, 590.205pt x 581.17125pt>
 File: figuras/cms_mercado.png Graphic file (type png)
 <use figuras/cms_mercado.png>
 Package pdftex.def Info: figuras/cms_mercado.png  used on input line 353.
 (pdftex.def)             Requested size: 318.49861pt x 313.62384pt.
- [38 <./figuras/desempenho-geral-cms.png>] [39 <./figuras/cms_mercado.png>] [40
-] [41]
-<figuras/containers.png, id=581, 565.11125pt x 289.08pt>
+ [37 <./figuras/desempenho-geral-cms.png>] [38 <./figuras/cms_mercado.png>] [39
+] [40]
+<figuras/containers.png, id=568, 565.11125pt x 289.08pt>
 File: figuras/containers.png Graphic file (type png)
 <use figuras/containers.png>
 Package pdftex.def Info: figuras/containers.png  used on input line 469.
 (pdftex.def)             Requested size: 339.06937pt x 173.44933pt.
- [42 <./figuras/containers.png>] [43] [44]
-<figuras/pInicial-Sindicato.png, id=640, 725.71124pt x 708.6475pt>
+ [41 <./figuras/containers.png>] [42] [43]
+<figuras/pInicial-Sindicato.png, id=629, 725.71124pt x 708.6475pt>
 File: figuras/pInicial-Sindicato.png Graphic file (type png)
 <use figuras/pInicial-Sindicato.png>
-Package pdftex.def Info: figuras/pInicial-Sindicato.png  used on input line 544
+Package pdftex.def Info: figuras/pInicial-Sindicato.png  used on input line 546
 .
 (pdftex.def)             Requested size: 318.49861pt x 311.01651pt.
- [45 <./figuras/pInicial-Sindicato.png>] [46]
-<figuras/pInicial-Centro.png, id=664, 1425.325pt x 2366.8425pt>
+ [44 <./figuras/pInicial-Sindicato.png>] [45]
+<figuras/pInicial-Centro.png, id=653, 1425.325pt x 2366.8425pt>
 File: figuras/pInicial-Centro.png Graphic file (type png)
 <use figuras/pInicial-Centro.png>
-Package pdftex.def Info: figuras/pInicial-Centro.png  used on input line 590.
+Package pdftex.def Info: figuras/pInicial-Centro.png  used on input line 592.
 (pdftex.def)             Requested size: 273.00278pt x 453.31625pt.
- [47] [48 <./figuras/pInicial-Centro.png>]) (./capitulos/metodologia.tex [49] [
-50
+ [46] [47 <./figuras/pInicial-Centro.png>]) (./capitulos/metodologia.tex [48] [
+49
 
-] [51] [52]
+] [50]
 LaTeX Font Info:    Calculating math sizes for size <9.60004> on input line 60.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.60004> not available
@@ -1451,34 +1464,35 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.10406> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.76007> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
- [53]
-[54] [55] [56]
-<figuras/use-case-portal.png, id=806, 815.045pt x 1018.80624pt>
+ [51] [52]
+[53] [54]
+<figuras/use-case-portal.png, id=790, 815.045pt x 1450.41875pt>
 File: figuras/use-case-portal.png Graphic file (type png)
 <use figuras/use-case-portal.png>
-Package pdftex.def Info: figuras/use-case-portal.png  used on input line 213.
-(pdftex.def)             Requested size: 364.00139pt x 455.00743pt.
- [57] [58 <./figuras/use-case-portal.png>]
-<figuras/use-case-sistema.png, id=830, 627.34375pt x 656.4525pt>
+Package pdftex.def Info: figuras/use-case-portal.png  used on input line 215.
+(pdftex.def)             Requested size: 364.00139pt x 647.76921pt.
+ [55] [56] [57 <./figuras/use-case-portal.png>]
+<figuras/use-case-sistema.png, id=819, 627.34375pt x 656.4525pt>
 File: figuras/use-case-sistema.png Graphic file (type png)
 <use figuras/use-case-sistema.png>
-Package pdftex.def Info: figuras/use-case-sistema.png  used on input line 228.
+Package pdftex.def Info: figuras/use-case-sistema.png  used on input line 232.
 (pdftex.def)             Requested size: 364.00139pt x 380.90298pt.
- [59 <./figuras/use-case-sistema.png>]
+ [58
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+] [59 <./figuras/use-case-sistema.png>] [60] [61
 
-[60] [61] [62]) (./capitulos/resultados.tex [63] [64
-
-]
-<figuras/kuruatuba_portal_login.png, id=869, 1356.06625pt x 841.1425pt>
+] [62] [63]) (./capitulos/resultados.tex [64]
+<figuras/kuruatuba_portal_login.png, id=864, 1356.06625pt x 841.1425pt>
 File: figuras/kuruatuba_portal_login.png Graphic file (type png)
 <use figuras/kuruatuba_portal_login.png>
 Package pdftex.def Info: figuras/kuruatuba_portal_login.png  used on input line
  17.
 (pdftex.def)             Requested size: 455.0pt x 282.22408pt.
- [65 <./figuras/kuruatuba_portal_login.png>]
-<figuras/kuruatuba_portal_home.png, id=877, 1356.06625pt x 2895.81876pt>
+
+[65
+
+ <./figuras/kuruatuba_portal_login.png>]
+<figuras/kuruatuba_portal_home.png, id=872, 1356.06625pt x 2895.81876pt>
 File: figuras/kuruatuba_portal_home.png Graphic file (type png)
 <use figuras/kuruatuba_portal_home.png>
 Package pdftex.def Info: figuras/kuruatuba_portal_home.png  used on input line 
@@ -1489,7 +1503,7 @@ Package pdftex.def Info: figuras/kuruatuba_portal_home.png  used on input line
 LaTeX Warning: Float too large for page by 20.31982pt on input line 34.
 
 [66 <./figuras/kuruatuba_portal_home.png>]
-<figuras/kuruatuba_sistema_login.png, id=884, 1356.06625pt x 529.98pt>
+<figuras/kuruatuba_sistema_login.png, id=879, 1356.06625pt x 529.98pt>
 File: figuras/kuruatuba_sistema_login.png Graphic file (type png)
 <use figuras/kuruatuba_sistema_login.png>
 Package pdftex.def Info: figuras/kuruatuba_sistema_login.png  used on input lin
@@ -1499,7 +1513,7 @@ e 45.
 
 
  <./figuras/kuruatuba_sistema_login.png>]
-<figuras/kuruatuba_sistema_home.png, id=892, 1356.06625pt x 816.04875pt>
+<figuras/kuruatuba_sistema_home.png, id=887, 1356.06625pt x 816.04875pt>
 File: figuras/kuruatuba_sistema_home.png Graphic file (type png)
 <use figuras/kuruatuba_sistema_home.png>
 Package pdftex.def Info: figuras/kuruatuba_sistema_home.png  used on input line
@@ -1517,7 +1531,7 @@ bibitemlist
 [73] [74] [75] [76]) (./pos-textual/apendice.tex [77] [78
 
 ]
-<pos-textual/Pesquisa.pdf, id=975, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=970, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf  used on input line 4.
@@ -1526,7 +1540,7 @@ File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf  used on input line 4.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
-<pos-textual/Pesquisa.pdf, id=978, page=1, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=973, page=1, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf, page 1>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf , page1 used on input line 4.
@@ -1559,7 +1573,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
 >]
-<pos-textual/Pesquisa.pdf, id=1010, page=2, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=1005, page=2, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf, page 2>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf , page2 used on input line 4.
@@ -1581,7 +1595,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
 >]
-<pos-textual/Pesquisa.pdf, id=1015, page=3, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=1010, page=3, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf, page 3>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf , page3 used on input line 4.
@@ -1603,7 +1617,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
 >]
-<pos-textual/Pesquisa.pdf, id=1020, page=4, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=1015, page=4, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf, page 4>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf , page4 used on input line 4.
@@ -1625,7 +1639,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
 >]
-<pos-textual/Pesquisa.pdf, id=1026, page=5, 597.19106pt x 845.07718pt>
+<pos-textual/Pesquisa.pdf, id=1021, page=5, 597.19106pt x 845.07718pt>
 File: pos-textual/Pesquisa.pdf Graphic file (type pdf)
 <use pos-textual/Pesquisa.pdf, page 5>
 Package pdftex.def Info: pos-textual/Pesquisa.pdf , page5 used on input line 4.
@@ -1647,7 +1661,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pos-textual/Pesquisa.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
 >]
-<pos-textual/coleta-requisitos.pdf, id=1033, 597.19106pt x 845.07718pt>
+<pos-textual/coleta-requisitos.pdf, id=1028, 597.19106pt x 845.07718pt>
 File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos.pdf>
 Package pdftex.def Info: pos-textual/coleta-requisitos.pdf  used on input line 
@@ -1658,7 +1672,7 @@ File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 Package pdftex.def Info: pos-textual/coleta-requisitos.pdf  used on input line 
 10.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
-<pos-textual/coleta-requisitos.pdf, id=1036, page=1, 597.19106pt x 845.07718pt>
+<pos-textual/coleta-requisitos.pdf, id=1031, page=1, 597.19106pt x 845.07718pt>
 
 File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos.pdf, page 1>
@@ -1689,7 +1703,7 @@ Package pdftex.def Info: pos-textual/coleta-requisitos.pdf , page1 used on inpu
 t line 10.
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
  [86 <./pos-textual/coleta-requisitos.pdf>]
-<pos-textual/coleta-requisitos.pdf, id=1073, page=2, 597.19106pt x 845.07718pt>
+<pos-textual/coleta-requisitos.pdf, id=1068, page=2, 597.19106pt x 845.07718pt>
 
 File: pos-textual/coleta-requisitos.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos.pdf, page 2>
@@ -1709,7 +1723,7 @@ t line 10.
  [87 <./pos-textual/coleta-requisitos.pdf>] [88
 
 ]
-<pos-textual/coleta-requisitos-Respostas.pdf, id=1100, 597.19106pt x 845.07718p
+<pos-textual/coleta-requisitos-Respostas.pdf, id=1095, 597.19106pt x 845.07718p
 t>
 File: pos-textual/coleta-requisitos-Respostas.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos-Respostas.pdf>
@@ -1721,7 +1735,7 @@ File: pos-textual/coleta-requisitos-Respostas.pdf Graphic file (type pdf)
 Package pdftex.def Info: pos-textual/coleta-requisitos-Respostas.pdf  used on i
 nput line 16.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
-<pos-textual/coleta-requisitos-Respostas.pdf, id=1103, page=1, 597.19106pt x 84
+<pos-textual/coleta-requisitos-Respostas.pdf, id=1098, page=1, 597.19106pt x 84
 5.07718pt>
 File: pos-textual/coleta-requisitos-Respostas.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos-Respostas.pdf, page 1>
@@ -1750,7 +1764,7 @@ Package pdftex.def Info: pos-textual/coleta-requisitos-Respostas.pdf , page1 us
 ed on input line 16.
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
  [90 <./pos-textual/coleta-requisitos-Respostas.pdf>]
-<pos-textual/coleta-requisitos-Respostas.pdf, id=1139, page=2, 597.19106pt x 84
+<pos-textual/coleta-requisitos-Respostas.pdf, id=1134, page=2, 597.19106pt x 84
 5.07718pt>
 File: pos-textual/coleta-requisitos-Respostas.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos-Respostas.pdf, page 2>
@@ -1769,7 +1783,7 @@ ed on input line 16.
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
 
 [91 <./pos-textual/coleta-requisitos-Respostas.pdf>]
-<pos-textual/coleta-requisitos-Respostas.pdf, id=1152, page=3, 597.19106pt x 84
+<pos-textual/coleta-requisitos-Respostas.pdf, id=1147, page=3, 597.19106pt x 84
 5.07718pt>
 File: pos-textual/coleta-requisitos-Respostas.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos-Respostas.pdf, page 3>
@@ -1787,7 +1801,7 @@ Package pdftex.def Info: pos-textual/coleta-requisitos-Respostas.pdf , page3 us
 ed on input line 16.
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
  [92 <./pos-textual/coleta-requisitos-Respostas.pdf>]
-<pos-textual/coleta-requisitos-Respostas.pdf, id=1157, page=4, 597.19106pt x 84
+<pos-textual/coleta-requisitos-Respostas.pdf, id=1152, page=4, 597.19106pt x 84
 5.07718pt>
 File: pos-textual/coleta-requisitos-Respostas.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos-Respostas.pdf, page 4>
@@ -1805,7 +1819,7 @@ Package pdftex.def Info: pos-textual/coleta-requisitos-Respostas.pdf , page4 us
 ed on input line 16.
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
  [93 <./pos-textual/coleta-requisitos-Respostas.pdf>]
-<pos-textual/coleta-requisitos-Respostas.pdf, id=1163, page=5, 597.19106pt x 84
+<pos-textual/coleta-requisitos-Respostas.pdf, id=1158, page=5, 597.19106pt x 84
 5.07718pt>
 File: pos-textual/coleta-requisitos-Respostas.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos-Respostas.pdf, page 5>
@@ -1823,7 +1837,7 @@ Package pdftex.def Info: pos-textual/coleta-requisitos-Respostas.pdf , page5 us
 ed on input line 16.
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
 [94 <./pos-textual/coleta-requisitos-Respostas.pdf>]
-<pos-textual/coleta-requisitos-Respostas.pdf, id=1168, page=6, 597.19106pt x 84
+<pos-textual/coleta-requisitos-Respostas.pdf, id=1163, page=6, 597.19106pt x 84
 5.07718pt>
 File: pos-textual/coleta-requisitos-Respostas.pdf Graphic file (type pdf)
 <use pos-textual/coleta-requisitos-Respostas.pdf, page 6>
@@ -1843,7 +1857,7 @@ ed on input line 16.
  [95 <./pos-textual/coleta-requisitos-Respostas.pdf>] [96
 
 ]
-<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1179, 597.50829pt x 845.04
+<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1174, 597.50829pt x 845.04
 71pt>
 File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 <use pos-textual/Fluxos de Eventos/fluxo-eventos.pdf>
@@ -1855,7 +1869,7 @@ File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 Package pdftex.def Info: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf  used 
 on input line 22.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1182, page=1, 597.50829pt 
+<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1177, page=1, 597.50829pt 
 x 845.0471pt>
 File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 <use pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, page 1>
@@ -1884,7 +1898,7 @@ Package pdftex.def Info: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf , page
 1 used on input line 22.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [98 <./pos-textual/Fluxos de Eventos/fluxo-eventos.pdf>]
-<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1207, page=2, 597.50829pt 
+<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1202, page=2, 597.50829pt 
 x 845.0471pt>
 File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 <use pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, page 2>
@@ -1902,7 +1916,7 @@ Package pdftex.def Info: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf , page
 2 used on input line 22.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [99 <./pos-textual/Fluxos de Eventos/fluxo-eventos.pdf>]
-<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1212, page=3, 597.50829pt 
+<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1207, page=3, 597.50829pt 
 x 845.0471pt>
 File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 <use pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, page 3>
@@ -1921,7 +1935,7 @@ Package pdftex.def Info: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf , page
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
 [100 <./pos-textual/Fluxos de Eventos/fluxo-eventos.pdf>]
-<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1217, page=4, 597.50829pt 
+<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1212, page=4, 597.50829pt 
 x 845.0471pt>
 File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 <use pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, page 4>
@@ -1939,7 +1953,7 @@ Package pdftex.def Info: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf , page
 4 used on input line 22.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [101 <./pos-textual/Fluxos de Eventos/fluxo-eventos.pdf>]
-<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1223, page=5, 597.50829pt 
+<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1218, page=5, 597.50829pt 
 x 845.0471pt>
 File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 <use pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, page 5>
@@ -1957,7 +1971,7 @@ Package pdftex.def Info: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf , page
 5 used on input line 22.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [102 <./pos-textual/Fluxos de Eventos/fluxo-eventos.pdf>]
-<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1228, page=6, 597.50829pt 
+<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1223, page=6, 597.50829pt 
 x 845.0471pt>
 File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 <use pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, page 6>
@@ -1975,7 +1989,7 @@ Package pdftex.def Info: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf , page
 6 used on input line 22.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [103 <./pos-textual/Fluxos de Eventos/fluxo-eventos.pdf>]
-<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1233, page=7, 597.50829pt 
+<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1228, page=7, 597.50829pt 
 x 845.0471pt>
 File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 <use pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, page 7>
@@ -1994,7 +2008,7 @@ Package pdftex.def Info: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf , page
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
 [104 <./pos-textual/Fluxos de Eventos/fluxo-eventos.pdf>]
-<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1238, page=8, 597.50829pt 
+<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1233, page=8, 597.50829pt 
 x 845.0471pt>
 File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 <use pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, page 8>
@@ -2012,7 +2026,7 @@ Package pdftex.def Info: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf , page
 8 used on input line 22.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [105 <./pos-textual/Fluxos de Eventos/fluxo-eventos.pdf>]
-<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1243, page=9, 597.50829pt 
+<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1238, page=9, 597.50829pt 
 x 845.0471pt>
 File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 <use pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, page 9>
@@ -2030,7 +2044,7 @@ Package pdftex.def Info: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf , page
 9 used on input line 22.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [106 <./pos-textual/Fluxos de Eventos/fluxo-eventos.pdf>]
-<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1248, page=10, 597.50829pt
+<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1243, page=10, 597.50829pt
  x 845.0471pt>
 File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 <use pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, page 10>
@@ -2048,7 +2062,7 @@ Package pdftex.def Info: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf , page
 10 used on input line 22.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [107 <./pos-textual/Fluxos de Eventos/fluxo-eventos.pdf>]
-<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1254, page=11, 597.50829pt
+<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1249, page=11, 597.50829pt
  x 845.0471pt>
 File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 <use pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, page 11>
@@ -2067,7 +2081,7 @@ Package pdftex.def Info: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf , page
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
 [108 <./pos-textual/Fluxos de Eventos/fluxo-eventos.pdf>]
-<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1259, page=12, 597.50829pt
+<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1254, page=12, 597.50829pt
  x 845.0471pt>
 File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 <use pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, page 12>
@@ -2085,7 +2099,7 @@ Package pdftex.def Info: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf , page
 12 used on input line 22.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [109 <./pos-textual/Fluxos de Eventos/fluxo-eventos.pdf>]
-<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1264, page=13, 597.50829pt
+<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1259, page=13, 597.50829pt
  x 845.0471pt>
 File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 <use pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, page 13>
@@ -2103,7 +2117,7 @@ Package pdftex.def Info: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf , page
 13 used on input line 22.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [110 <./pos-textual/Fluxos de Eventos/fluxo-eventos.pdf>]
-<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1269, page=14, 597.50829pt
+<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1264, page=14, 597.50829pt
  x 845.0471pt>
 File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 <use pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, page 14>
@@ -2121,7 +2135,7 @@ Package pdftex.def Info: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf , page
 14 used on input line 22.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [111 <./pos-textual/Fluxos de Eventos/fluxo-eventos.pdf>]
-<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1275, page=15, 597.50829pt
+<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1269, page=15, 597.50829pt
  x 845.0471pt>
 File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 <use pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, page 15>
@@ -2140,7 +2154,7 @@ Package pdftex.def Info: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf , page
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
 [112 <./pos-textual/Fluxos de Eventos/fluxo-eventos.pdf>]
-<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1280, page=16, 597.50829pt
+<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1274, page=16, 597.50829pt
  x 845.0471pt>
 File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 <use pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, page 16>
@@ -2158,7 +2172,7 @@ Package pdftex.def Info: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf , page
 16 used on input line 22.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [113 <./pos-textual/Fluxos de Eventos/fluxo-eventos.pdf>]
-<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1286, page=17, 597.50829pt
+<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1281, page=17, 597.50829pt
  x 845.0471pt>
 File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 <use pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, page 17>
@@ -2176,7 +2190,7 @@ Package pdftex.def Info: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf , page
 17 used on input line 22.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [114 <./pos-textual/Fluxos de Eventos/fluxo-eventos.pdf>]
-<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1291, page=18, 597.50829pt
+<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1286, page=18, 597.50829pt
  x 845.0471pt>
 File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 <use pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, page 18>
@@ -2194,7 +2208,7 @@ Package pdftex.def Info: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf , page
 18 used on input line 22.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [115 <./pos-textual/Fluxos de Eventos/fluxo-eventos.pdf>]
-<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1296, page=19, 597.50829pt
+<pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, id=1291, page=19, 597.50829pt
  x 845.0471pt>
 File: pos-textual/Fluxos de Eventos/fluxo-eventos.pdf Graphic file (type pdf)
 <use pos-textual/Fluxos de Eventos/fluxo-eventos.pdf, page 19>
@@ -2259,11 +2273,11 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 125.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  ) 
 Here is how much of TeX's memory you used:
- 21767 strings out of 481239
- 335499 string characters out of 5920378
- 717151 words of memory out of 5000000
+ 21770 strings out of 481239
+ 335529 string characters out of 5920378
+ 719202 words of memory out of 5000000
  35805 multiletter control sequences out of 15000+600000
- 614907 words of font info for 348 fonts, out of 8000000 for 9000
+ 615108 words of font info for 350 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,18n,62p,1139b,585s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -2275,10 +2289,10 @@ public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (118 pages, 6188599 bytes).
+Output written on main.pdf (118 pages, 6222452 bytes).
 PDF statistics:
- 1528 PDF objects out of 1728 (max. 8388607)
- 1264 compressed objects within 13 object streams
+ 1523 PDF objects out of 1728 (max. 8388607)
+ 1259 compressed objects within 13 object streams
  286 named destinations out of 1000 (max. 500000)
  50340 words of extra memory for PDF output out of 51595 (max. 10000000)
 

@@ -4,7 +4,7 @@
 
 Este capítulo objetiva a apresentar os principais conceitos que serão utilizados na metodologia. Tais conceitos são referentes ao desenvolvimento web e serão cruciais para o entendimento do trabalho essencialmente porque tais informações servirão de bases fundamentais para o disposto no Capítulo \ref{ch:metodologia}.
 
-Na Seção \ref{sec:engenhariaweb} será revisado o significado de Engenharia Web e sua importância. Na Seção \ref{sec:metodologiaagil} o conteúdo terá enfoque nas metodologias ágeis, ocorrendo, posteriormente, uma breve comparação entre as mais conhecidas. A Seção \ref{sec:cms}, por sua vez, irá explanar sobre a utilização de Sistemas de Gerenciamento ou Gestão de Conteúdo na construção de aplicações na internet. A Seção \ref{sec:vps} fará uma sucinto resumo sobre os Servidores Virtuais Privados e os benefícios do seu emprego. Os conceitos referentes às ferramentas e tecnologias empregadas entre os materiais e métodos do trabalho serão brevemente tratados na Seção \ref{sec:ferramentas}, a fim de proporcionar ao leitor uma compreensão antecipada sobre tais assuntos. Por fim, a Seção \ref{sec:trabalhoscorrelatos} revelará alguns trabalhos desenvolvidos com enfoque na implementação de sites e/ou sistemas organizacionais. 
+% Na Seção \ref{sec:engenhariaweb} será revisado o significado de Engenharia Web e sua importância. Na Seção \ref{sec:metodologiaagil} o conteúdo terá enfoque nas metodologias ágeis, ocorrendo, posteriormente, uma breve comparação entre as mais conhecidas. A Seção \ref{sec:cms}, por sua vez, irá explanar sobre a utilização de Sistemas de Gerenciamento ou Gestão de Conteúdo na construção de aplicações na internet. A Seção \ref{sec:vps} fará uma sucinto resumo sobre os Servidores Virtuais Privados e os benefícios do seu emprego. Os conceitos referentes às ferramentas e tecnologias empregadas entre os materiais e métodos do trabalho serão brevemente tratados na Seção \ref{sec:ferramentas}, a fim de proporcionar ao leitor uma compreensão antecipada sobre tais assuntos. Por fim, a Seção \ref{sec:trabalhoscorrelatos} revelará alguns trabalhos desenvolvidos com enfoque na implementação de sites e/ou sistemas organizacionais. 
 
 \hspace{2.5cm}
 
@@ -42,16 +42,16 @@ Segundo \citeonline{conforto2009gerenciamento}, a assinatura do manifesto ágil 
 A seguir, estão descritos algumas das principais metodologias de desenvolvimento de software existentes. Para o primeiro deles, \textit{Scrum}, foram descritos mais detalhes em relação aos demais por dois motivos principais: além de ser uma das metodologias, ou \textit{framework}, mais conhecidas e utilizadas atualmente, como demonstra a Figura \ref{ageis-microsoft}, ela também possui aspectos em comum com outras, tais como conceitos referentes a coleta de requisitos, retrospectivas, reuniões em pé e duração das \textit{sprints}, podendo esta ser nomeada como ciclos, o que varia de método para método.
 
 
-\textbf{\textit{Scrum}}: O \textit{Scrum} é um processo para construção incremental de softwares em ambientes complexos e provê o desenvolvimento de softwares em curtas iterações, denominadas \textit{sprints} \cite{rising2000scrum}.
+\textbf{\textit{Scrum}}: O \textit{Scrum} é um processo para construção incremental de softwares em ambientes complexos e provê o desenvolvimento de softwares em curtas iterações, denominadas \textit{sprints} \cite{rising2000scrum}. Embora não seja exatamente uma metodologia ágil de desenvolvimento, mas sim um \textit{framework} de gerenciamento de projetos, ele pode ser empregado com a finalidade de se desenvolver um software. Seus métodos e ritos são flexíveis e podem ser aplicados da maneira que a equipe \textit{Scrum} concordar desde que haja consenso e organização, a fim de se obter eficiência no processo e satisfação por parte do cliente em relação ao produto final e aos prazos estipulados.
 
-\textit{Sprints}: cada \textit{sprint} inclui todas as fases de um software modelo de ciclo de vida de desenvolvimento, como design, implementação, testes, revisão de clientes, etc \cite[~p. 2, tradução nossa]{matharu2015empirical}. Elas têm duração de até 30 dias e também compreendem o procedimento de adaptação a mudança de variáveis (requisitos, tempo, recursos, tecnologia), pois em seu término há sempre uma reflexão sobre as tarefas, definidas antes do início do ciclo, que foram realizadas com sucesso e os próximos incrementos ou revisões as serem executados nas próximas \textit{sprints}, de acordo com o \textit{feedback} passado na reunião com o cliente \citeonline{awad2005comparison}. 
+\textit{Sprints}: cada \textit{sprint} inclui todas as fases pertencentes à implementação de um ou mais requisitos funcionais ou não funcionais de um software, como: design, implementação, testes, revisão de clientes, etc \cite[~p. 2, tradução nossa]{matharu2015empirical}. Elas têm duração de até 30 dias e também compreendem o procedimento de adaptação a mudança de variáveis (requisitos, tempo, recursos, tecnologia), pois em seu término há sempre uma reflexão sobre as tarefas, definidas antes do início do ciclo, que foram realizadas com sucesso e os próximos incrementos ou revisões as serem executados nas próximas \textit{sprints}, de acordo com o \textit{feedback} passado na reunião com o cliente \citeonline{awad2005comparison}. 
 
-Existem cinco características únicas para o desenvolvimento baseado em \textit{Scrum} \cite{matharu2015empirical}, são eles:
+Existem cinco características únicas para o desenvolvimento baseado em \textit{Scrum} \cite{matharu2015empirical}, são elas:
 
 \begin{enumerate}
  \item Colaboração: a promoção da colaboração se dá pelo fato do desenvolvimento ser conduzido por equipes compostas por pessoas multifuncionais, envolvendo programadores, arquitetos de software e especialistas em qualidade de software.
  
- \item Encontros diários: são reuniões de curta duração, comandadas pelo \textit{Scrum Master}, onde as equipes de desenvolvimento se comunicam e discutem o progresso com que os requisitos encontrados no \textit{product backlog} estão sendo implementados \citeonline{rising2000scrum} afirma que esses encontros podem ser realizados três ou quatro vezes na semana e neles os assuntos mais frequentes se baseiam nas dificuldades encontradas e como vencer os obstáculos até a próxima reunião.
+ \item Encontros diários: são reuniões de curta duração, comandadas pelo \textit{Scrum Master}, onde as equipes de desenvolvimento se comunicam e discutem o progresso com que os requisitos encontrados no \textit{product backlog} estão sendo implementados. \citeonline{rising2000scrum} afirmam que esses encontros podem ser realizados três ou quatro vezes na semana e neles os assuntos mais frequentes se baseiam nas dificuldades encontradas e como vencer os obstáculos até a próxima reunião.
  
  \item \textit{Product Backlog}: o \textit{product backlog} captura os requisitos que devem ser implementados, sendo ordenados por nível prioridade. Ele ainda contém problemas já resolvidos, características gerais e requisitos não funcionais do software.
  
@@ -110,13 +110,13 @@ Concluindo o tema, é aconselhável exibir as diferenças entre os dois tipos de
 \begin{quadro}[h]
 \centering
 \scalefont{0.7}
-\caption{Diferenças básicas entre metodologias tradicionais e metodologias ágeis}
+\caption{Diferenças entre gerenciamento de projetos}
 \vspace{0.5cm}
 
 \setlength{\extrarowheight}{0.25cm}
 \begin{tabular}{|L|L|L|}
 \hline
-\textbf{Características} & \textbf{Metodologia Tradicional} & \textbf{Metodologia Ágil} \\ % Note a separação de col. e a quebra de linhas
+\textbf{Características} & \textbf{Gerenciamento Tradicional} & \textbf{Gerenciamento Ágil} \\ % Note a separação de col. e a quebra de linhas
 \hline
 Ter definido a priori & Escopo & Tempo (\textit{Sprints})\\
 \hline
@@ -345,7 +345,7 @@ Com uma regularidade aproximada à do \textit{Joomla!}, a Figura \ref{wordpress}
 
 Então pode-se considerar, diante do desempenho geral apresentado na Figura \ref{desempenho-geral} e dos testes executados cujos resultados estão exibidos nas figuras de desempenhos individuais, que o \textit{Plone} é o mais balanceado em termos de aspectos negativos e positivos, fornecendo uma maior confiança aos desenvolvedores de sistemas web que precisam de sistemas que reajam bem a módulos mais robustos, que sejam seguros e com grande comunidade virtual para auxílio ao desenvolvimento.
 
-A Figura \ref{uso-plone-mercado} mostra uma análise de posicionamento de mercado dos CMSs mais usados no mundo:
+A Figura \ref{uso-plone-mercado} mostra uma análise de posicionamento de mercado dos CMSs mais usados no mundo. O eixo X representa a quantidade de \textit{websites} que utilizam os gerenciadores presentes no gráfico de maneira crescente, ou seja, os softwares mais à direita são mais utilizados que os demais. O eixo Y, por sua vez, representa o tamanho do tráfego que cada gerenciador costuma suportar, ou seja, quanto mais acima o software estiver situado, mais ele é escolhido em casos em que exista alta demanda em requisições feitas pela internet em relação aos outros.
 
 \begin{figure}[htb]
  \centering
@@ -457,7 +457,7 @@ Nesta seção, o objetivo será a junção e uma explicação sucinta das ferram
 %Plone
 \textbf{\textit{Docker}}: é uma tecnologia ligada à infraestrutura de máquinas. Surgiu em 2013 após a mudança do nome \textit{dotCloud} para o atual. O \textit{Docker} usa a ideia de ``camadas'' e \textit{containers}. \textit{Containers} são aplicações que utilizam o mesmo \textit{kernel} do sistema operacional onde está rodando. Uma aplicação pode ser praticamente qualquer software, inclusive outro sistema operacional, desde que tenha uma ``imagem'' para ela, porque um \textit{container} é executado a partir de uma imagem.
 
-Alguns podem confundí-lo com Máquinas Virtuais (VMs), mas no livro de \citeonline{vitalino2016descomplicando}, os autores deixam claro as suas diferenças. Na Máquina Virtual, o sistema operacional a ser virtualizado é inicializado carregando todo o seu hardware e mais recursos que os da máquina \textit{host}, diferentemente dos \textit{containers}, que utilizam os mesmos recursos da máquina hospedeira, havendo, assim, um ganho em desempenho em relação à VM.
+Alguns podem confundí-lo com Máquinas Virtuais (VMs), mas \citeonline{vitalino2016descomplicando} deixam claro as suas diferenças. Na Máquina Virtual, o sistema operacional a ser virtualizado é inicializado carregando todo o seu hardware e mais recursos que os da máquina \textit{host}, diferentemente dos \textit{containers}, que utilizam os mesmos recursos da máquina hospedeira, havendo, assim, um ganho em desempenho em relação à VM.
 
 Compreender o conceito de \textit{containers} é fundamental para entender o conceito de camadas, isto porque eles são formados por \textit{layers} (camadas). Essa ideia parte do princípio de compartilhamento e reutilização, visto que vários \textit{containers} podem compartilhar camadas subjacentes, diminuindo o uso de recursos \cite{prada4docker}. A Figura \ref{containers} esquematiza a estrutura da arquitetura de \textit{containers} e camadas.
 
@@ -490,7 +490,7 @@ Para hospedar códigos do \textit{Git} existem diversos sites, porém o mais usa
 \textbf{\textit{Google Analytics}}: é uma ferramenta da Google utilizada para obtenção de relatórios sobre número, origem, tempo de duração e muitas outras informações sobre as visitas que um sistema recebe. Com ela é possível identificar padrões relacionados a essas visitas, taxa de aumento ou diminuição no número de visitantes, páginas da aplicação mais acessadas, entre outros dados. 
 
 %MySQL
-\textbf{MySQL}: a SQL (Linguagem de Consulta Estruturada, em português) é um tipo de programação especializada em trabalhar com bancos de dados relacionais \cite[~p. 7, tradução nossa]{mysql2001mysql}. Um dos diversos bancos de dados relacionais existentes é o MySQL, desenvolvido pela empresa MySQL AB e considerado um servidor e gerenciador de banco de dados (SGBD) relacional de código aberto (\textit{open source}). O MySQL possui todos os atributos necessários a um banco de dados de grande porte e é reconhecido por muitos como o \textit{open source} mais concorrente de SGBDs de código fechado \cite{milani2007mysql}.
+\textbf{MySQL}: a SQL (Linguagem de Consulta Estruturada, em português) é um tipo de programação especializada em trabalhar com bancos de dados relacionais \cite[~p. 7, tradução nossa]{mysql2001mysql}. Um dos diversos bancos de dados relacionais existentes é o MySQL, que é considerado um servidor e gerenciador de banco de dados (SGBD) relacional de código aberto (\textit{open source}). O MySQL possui todos os atributos necessários a um banco de dados de grande porte e é reconhecido por muitos como o \textit{open source} mais concorrente de SGBDs de código fechado \cite{milani2007mysql}.
 
 
 \hspace{2.5cm}
@@ -520,7 +520,7 @@ O sindicato é composto por três órgãos principais, como se segue:
 
 \begin{enumerate}
  \item \textbf{Mesa da Assembleia Geral}: ``órgão deliberativo, é responsável pela condução dos trabalhos e pela sua secretaria, sendo composta por um presidente, dois vice-presidentes e dois suplentes'' \apud[~p. 33]{estatutos}{moreno2012concepccao};
- \item \textbf{Direção}: dentre outros deveres, este órgão é responsável pela execução das deliberações tomadas pela Assembleia Geral, apresentação à esta do relatório de contas e orçamento para o ano subsequente, e representação do sindicato em eventos de natureza jurídica ou social. Fazem parte dele um presidente e seu vice, um secretário, um tesoureiro, três vogais e dois suplentes \apud[~p. 33]{estatutos}{moreno2012concepccao}; e
+ \item \textbf{Direção}: dentre outros deveres, este órgão é responsável pela execução das deliberações tomadas pela Assembleia Geral, apresentação à esta do relatório de contas e orçamento para o ano subsequente, e representação do sindicato em eventos de natureza jurídica ou social \apud[~p. 33]{estatutos}{moreno2012concepccao}; e
  \item \textbf{Conselho Fiscal}: por ser um órgão fiscalizador a ele se compete: examinar documentos, contas e relatórios, além de se posicionar sobre tais objetos analisados. Ele é composto por um presidente, um secretário e um relator \apud[~p. 34]{estatutos}{moreno2012concepccao}. 
 \end{enumerate}
 
