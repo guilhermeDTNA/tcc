@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.1)  15 SEP 2021 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.1)  20 SEP 2021 09:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -53,25 +53,25 @@ LaTeX Font Info:    ... okay on input line 4.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3] [4] [5] [6] [7] [8] [9] [10]
-Overfull \hbox (3.5862pt too wide) in paragraph at lines 554--555
+[2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13]
+Overfull \hbox (3.5862pt too wide) in paragraph at lines 725--726
 []\OT1/cmr/m/n/12 os cam-pos obri-gat^^Sorios vazios ap-re-sen-tam a seguinte m
 en-sagem: ``Preen-
  []
 
-[11] [12] [13] [14] [15] [16]
-Overfull \hbox (1.61668pt too wide) in paragraph at lines 901--902
+[14] [15] [16] [17] [18] [19]
+Overfull \hbox (1.61668pt too wide) in paragraph at lines 1072--1073
 \OT1/cmr/m/it/12 Pr^^Se-condi^^Xc~ao\OT1/cmr/m/n/12 : usu^^Sario so-lic-i-tou a
 l-terar ad-min-istrador com um e-mail inv^^Salido. 
  []
 
-[17] [18]
-Overfull \hbox (1.94307pt too wide) in paragraph at lines 1000--1001
+[20] [21]
+Overfull \hbox (1.94307pt too wide) in paragraph at lines 1171--1172
 \OT1/cmr/m/it/12 Pr^^Se-condi^^Xc~ao\OT1/cmr/m/n/12 : usu^^Sario so-lic-i-tou r
 e-cu-pera^^Xc~ao de senha para um e-mail inv^^Salido. 
  []
 
-[19] (./fluxo-eventos.aux) ) 
+[22] (./fluxo-eventos.aux) ) 
 Here is how much of TeX's memory you used:
  397 strings out of 481239
  6758 string characters out of 5920378
@@ -84,10 +84,10 @@ Here is how much of TeX's memory you used:
 msfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti12.pfb>
-Output written on fluxo-eventos.pdf (19 pages, 63009 bytes).
+Output written on fluxo-eventos.pdf (22 pages, 65758 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 87 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

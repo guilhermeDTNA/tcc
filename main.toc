@@ -55,12 +55,16 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Questionário para coleta de requisitos do sistema}}{85}{appendix.B}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Respostas da eesquisa entre pessoas da comunidade}}{85}{appendix.B}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Respostas do questionário utilizado para coleta de requisitos do sistema}}{89}{appendix.C}%
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Questionário para coleta de requisitos do sistema}}{97}{appendix.C}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {D}\MakeTextUppercase {Fluxos de eventos para os casos de uso do sistema}}{97}{appendix.D}%
+\contentsline {appendix}{\chapternumberline {D}\MakeTextUppercase {Respostas do questionário utilizado para coleta de requisitos do sistema}}{101}{appendix.D}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {E}\MakeTextUppercase {Fluxos de eventos para os casos de uso do sistema}}{109}{appendix.E}%

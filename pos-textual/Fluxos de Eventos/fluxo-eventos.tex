@@ -337,19 +337,19 @@
 
 
 
-%cadastrar arquivo
+%cadastrar documento
 \vspace{0.7cm}
-\leftline{ \textbf{10. Caso de uso}: Cadastrar arquivo.}
+\leftline{ \textbf{10. Caso de uso}: Cadastrar documento.}
 
-\noindent \textit{Pré-condição}: selecionar a opção de adicionar arquivo ou adicionar imagem.
+\noindent \textit{Pré-condição}: selecionar a opção de adicionar arquivo.
 
 \noindent \textit{Fluxo principal}:
 
 \begin{enumerate}
     \item selecionar no menu o item ``Conteúdo'';
-    \item selecionar a pasta onde deseja adicionar o arquivo;
+    \item selecionar a pasta onde deseja adicionar o documento;
     \item selecionar no menu o item ``Adicionar arquivo'';
-    \item anexar obrigatoriamente o arquivo;
+    \item anexar obrigatoriamente o documento;
     \item selecionar a opção ``Salvar'';
     \item sistema retorna a mensagem: ``item criado''.
 \end{enumerate}
@@ -367,18 +367,18 @@
 
 
 
-%editar arquivo
+%editar documento
 \vspace{0.7cm}
-\leftline{ \textbf{11. Caso de uso}: Alterar arquivo.}
+\leftline{ \textbf{11. Caso de uso}: Alterar documento.}
 
-\noindent \textit{Pré-condição}: selecionar a opção de editar o arquivo.
+\noindent \textit{Pré-condição}: selecionar a opção de editar o documento.
 
 \noindent \textit{Fluxo principal}:
 
 \begin{enumerate}
     \item selecionar no menu o item ``Conteúdo'';
-    \item selecionar a pasta do arquivo;
-    \item selecionar o arquivo; e
+    \item selecionar a pasta do documento;
+    \item selecionar o documento; e
     \item selecionar no menu o item ``Edição''.
 \end{enumerate}
 
@@ -394,18 +394,18 @@
 \end{enumerate}
 
 
-%excluir arquivo
+%excluir documento
 \vspace{0.7cm}
-\leftline{ \textbf{11. Caso de uso}: Excluir arquivo.}
+\leftline{ \textbf{11. Caso de uso}: Excluir documento.}
 
-\noindent \textit{Pré-condição}: selecionar a opção de excluir o arquivo.
+\noindent \textit{Pré-condição}: selecionar a opção de excluir o documento.
 
 \noindent \textit{Fluxo principal}:
 
 \begin{enumerate}
     \item selecionar no menu o item ``Conteúdo'';
-    \item selecionar a pasta do arquivo;
-    \item selecionar o arquivo;
+    \item selecionar a pasta do documento;
+    \item selecionar o documento;
     \item selecionar no menu o item ``Ações'';
     \item ir em ``Excluir'';
     \item o sistema emitirá a mensagem: ``Você realmente quer apagar este item?''; e
@@ -422,6 +422,177 @@
     \item selecionar o botão ``Cancelar''.
 \end{enumerate}
 
+
+%cadastrar imagem
+\vspace{0.7cm}
+\leftline{ \textbf{10. Caso de uso}: Cadastrar imagem.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de adicionar imagem.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item selecionar no menu o item ``Conteúdo'';
+    \item selecionar a pasta onde deseja adicionar a imagem;
+    \item selecionar no menu o item ``Adicionar imagem'';
+    \item anexar obrigatoriamente a imagem;
+    \item selecionar a opção ``Salvar'';
+    \item sistema retorna a mensagem: ``item criado''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento do cadastro.
+
+\noindent \textit{Pré-condição}:  usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Cancelar''; e
+    \item o sistema leva o usuário até o diretório onde estava.
+\end{enumerate}
+
+
+
+%editar imagem
+\vspace{0.7cm}
+\leftline{ \textbf{11. Caso de uso}: Alterar imagem.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de editar a imagem.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item selecionar no menu o item ``Conteúdo'';
+    \item selecionar a pasta da imagem;
+    \item selecionar a imagem; e
+    \item selecionar no menu o item ``Edição''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento da edição.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Cancelar''; e
+    \item o sistema retorna a mensagem: ``Edição cancelada''.
+\end{enumerate}
+
+
+%excluir imagem
+\vspace{0.7cm}
+\leftline{ \textbf{11. Caso de uso}: Excluir imagem.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de excluir a imagem.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item selecionar no menu o item ``Conteúdo'';
+    \item selecionar a pasta da imagem;
+    \item selecionar a imagem;
+    \item selecionar no menu o item ``Ações'';
+    \item ir em ``Excluir'';
+    \item o sistema emitirá a mensagem: ``Você realmente quer apagar este item?''; e
+    \item selecionar a opção de excluir.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento da exclusão.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Cancelar''.
+\end{enumerate}
+
+
+%cadastrar vídeo
+\vspace{0.7cm}
+\leftline{ \textbf{10. Caso de uso}: Cadastrar vídeo.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de adicionar vídeo.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item selecionar no menu o item ``Conteúdo'';
+    \item selecionar a pasta onde deseja adicionar o vídeo;
+    \item selecionar no menu o item ``Adicionar vídeo'';
+    \item anexar obrigatoriamente o vídeo;
+    \item selecionar a opção ``Salvar'';
+    \item sistema retorna a mensagem: ``item criado''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento do cadastro.
+
+\noindent \textit{Pré-condição}:  usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Cancelar''; e
+    \item o sistema leva o usuário até o diretório onde estava.
+\end{enumerate}
+
+
+
+%editar vídeo
+\vspace{0.7cm}
+\leftline{ \textbf{11. Caso de uso}: Alterar vídeo.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de editar o vídeo.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item selecionar no menu o item ``Conteúdo'';
+    \item selecionar a pasta do vídeo;
+    \item selecionar o vídeo; e
+    \item selecionar no menu o item ``Edição''.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento da edição.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Cancelar''; e
+    \item o sistema retorna a mensagem: ``Edição cancelada''.
+\end{enumerate}
+
+
+%excluir vídeo
+\vspace{0.7cm}
+\leftline{ \textbf{11. Caso de uso}: Excluir vídeo.}
+
+\noindent \textit{Pré-condição}: selecionar a opção de excluir o vídeo.
+
+\noindent \textit{Fluxo principal}:
+
+\begin{enumerate}
+    \item selecionar no menu o item ``Conteúdo'';
+    \item selecionar a pasta do vídeo;
+    \item selecionar o vídeo;
+    \item selecionar no menu o item ``Ações'';
+    \item ir em ``Excluir'';
+    \item o sistema emitirá a mensagem: ``Você realmente quer apagar este item?''; e
+    \item selecionar a opção de excluir.
+\end{enumerate}
+
+\noindent \textit{Fluxo alternativo}: Cancelamento da exclusão.
+
+\noindent \textit{Pré-condição}: usuário acionou o botão ``Cancelar''.
+
+\noindent \textit{Etapas}:
+
+\begin{enumerate}
+    \item selecionar o botão ``Cancelar''.
+\end{enumerate}
 
 
 %Gerenciar usuários
