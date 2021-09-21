@@ -46,7 +46,7 @@
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Considerações Finais}}{71}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Trabalhos futuros}{71}{section.5.1}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{73}{section*.40}%
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{73}{section*.39}%
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}

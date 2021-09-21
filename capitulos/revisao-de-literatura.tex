@@ -72,7 +72,7 @@ Existem cinco características únicas para o desenvolvimento baseado em \textit
 
 Em pesquisa realizada pelo \textit{State of Agile Report} (Estado de Relatório Rápido, em português), em 2019, 72\% das empresas que participaram responderam praticar com \textit{Scrum} ou uma metodologia híbrida que o utiliza como metodologia de desenvolvimento. Tal pesquisa, encontrada em \citeonline{relatorioAnual2019}, foi realizada pela décima terceira vez em 2019 e coletou informações sobre metodologias de processos e desenvolvimento de empresas e organizações da Europa, Ásia, América do Sul e África dos mais variados ramos, tais como de tecnologia, de transporte, industrial, governamental e energético.
 
-Os resultados obtidos com a pesquisa identificam a importância de se conhecer a metodologia estudada nesta seção e como ela ainda é usada por empresas do mundo inteiro. Com o objetivo de assegurar e dar ainda mais veracidade a esta conclusão, outra pesquisa, esta realizada em funcionários da empresa de tecnologia \textit{Microsoft} e via web, detalhada em \citeonline{begel2007usage}, aponta que, das 192 respostas recebidas, a maioria das pessoas que trabalham com desenvolvimento, testes e funções de gerenciamento diretamente ligadas a produção de software aplicam o \textit{Scrum} como a metodologia padrão para construir seus produtos, como representado na Figura \ref{ageis-microsoft}. 
+Os resultados obtidos com a pesquisa identificam a importância de se conhecer a metodologia estudada nesta seção e como ela ainda é usada por empresas do mundo inteiro. Com o objetivo de assegurar e dar ainda mais veracidade a esta conclusão, outra pesquisa, esta realizada em funcionários da empresa de tecnologia Microsoft e via web, detalhada em \citeonline{begel2007usage}, aponta que, das 192 respostas recebidas, a maioria das pessoas que trabalham com desenvolvimento, testes e funções de gerenciamento diretamente ligadas a produção de software aplicam o \textit{Scrum} como a metodologia padrão para construir seus produtos, como representado na Figura \ref{ageis-microsoft}. 
 
 \begin{figure}[htb]
  \centering
@@ -406,6 +406,8 @@ A Tabela \ref{nivel-cms} expressa uma informação importante: o \textit{Plone} 
 
 Essas desvantagens se tornam pouco relevantes ao se considerar que a pessoa responsável pela implantação do sistema é capacitada para desempenhar a tarefa, além de que a aplicação poderá ou não ser complexa. Logo, é necessária a realização de um estudo de caso para avaliar se realmente compensa a utilização do \textit{Plone} para a construção de um sistema web, observando as vantagens e desvantagens anteriormente mencionadas. 
 
+Tal estudo de caso pode ser decisivo na escolha do CMS ideal, sendo importante mencionar que não existe o melhor sistema para todas as ocasiões, inclusive porque todos eles possuem vantagens e desvantagens. Portanto as informações levantadas nesta revisão bibliográfica podem auxiliar na escolha de um software, porém não foi desenvolvida com o objetivo de apontar qual é o ideal para toda e qualquer situação.
+
 \hspace{2.5cm}
 
 \section{Servidor Virtual Privado}
@@ -460,8 +462,6 @@ Nesta seção, o objetivo será a junção e uma explicação sucinta das ferram
 Alguns podem confundí-lo com Máquinas Virtuais (VMs), mas \citeonline{vitalino2016descomplicando} deixam claro as suas diferenças. Na Máquina Virtual, o sistema operacional a ser virtualizado é inicializado carregando todo o seu hardware e mais recursos que os da máquina \textit{host}, diferentemente dos \textit{containers}, que utilizam os mesmos recursos da máquina hospedeira, havendo, assim, um ganho em desempenho em relação à VM.
 
 Compreender o conceito de \textit{containers} é fundamental para entender o conceito de camadas, isto porque eles são formados por \textit{layers} (camadas). Essa ideia parte do princípio de compartilhamento e reutilização, visto que vários \textit{containers} podem compartilhar camadas subjacentes, diminuindo o uso de recursos \cite{prada4docker}. A Figura \ref{containers} esquematiza a estrutura da arquitetura de \textit{containers} e camadas.
-
-\newpage
 
 \begin{figure}[htb]
  \centering
